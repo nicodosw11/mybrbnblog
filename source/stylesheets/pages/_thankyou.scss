@@ -1,0 +1,27 @@
+.thankyou {
+  @include clearfix;
+  @include pad(0 default);
+  clear: both;
+  // margin: 0 auto;
+  height: 100vh;
+  @media only screen and (max-height: 20em) {
+    height: auto;
+  }
+  @include media($large) {
+    @include span-columns(8 of 10);
+    @include shift(1);
+    @include pad(0);
+  }
+  @include media($xlarge) {
+    @include span-columns(10 of 12);
+    @include shift(1);
+  }
+}
+
+.thankyou {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}

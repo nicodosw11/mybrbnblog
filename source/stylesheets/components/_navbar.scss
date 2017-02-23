@@ -1,0 +1,71 @@
+.nav {
+  position: absolute;
+  @media only screen and (min-height: 320px) {
+    position: fixed;
+  }
+  top: 0;
+  width: 100%;
+  background-color: white;
+  margin-bottom: modular-scale(2)*2;
+  @include pad(0 default);
+  @include media($large) {
+    @include pad(.5em default);
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    float: right;
+    margin: modular-scale(-5) 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin: 0 modular-scale(0);
+      &:last-child {
+        margin: 0;
+      }
+      a {
+        display: inline-block;
+        height: 44px;
+        line-height: 44px;
+      }
+    }
+  }
+  #nav-logo {
+    float: left;
+    @include clearfix;
+    padding: modular-scale(-5) 0;
+    img {
+      width: modular-scale(5);
+      height: modular-scale(5);
+      float: left;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

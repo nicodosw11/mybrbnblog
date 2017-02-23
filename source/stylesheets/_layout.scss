@@ -1,0 +1,55 @@
+body {
+  @include outer-container;
+  @include clearfix;
+}
+
+body {
+  margin-top: 3.75em;
+  @include media($xlarge) {
+    margin-top: 4.75em;
+  }
+}
+
+body.index {
+  margin-top: 0;
+}
+
+//Using modularscale.com Bases: 1.125 (18px), 1.375 (22px) and ratio of 1.414 (Augmented 4th)
+$modular-scale-ratio: $augmented-fourth;
+$modular-scale-base: 1.125em 1.375em;
+
+html {
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 1.414;
+  color: #333;
+  color: rgba(0, 0, 0, 0.80);
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+      display: table;
+      clear: both;
+  }
+
+}
+
+footer {
+  background-color: #ECF0F1;
+  padding: 0 2em;
+}
+img#footer-logo {
+  width: 112px;
+  width: 7rem;
+  margin: 0em auto;
+  padding: 0 0 1em;
+  display: block;
+  @media only screen and (max-height: 20em) {
+    width: 2.75rem;
+  }
+  @media only screen and (max-width: 40em) {
+    width: 2.75rem;
+  }
+}
