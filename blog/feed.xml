@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <id>http://blog.url.com/blog/</id>
+  <link href="http://blog.url.com/blog/"/>
+  <link href="http://blog.url.com/blog/feed.xml" rel="self"/>
+  <updated>2017-01-19T00:00:00+00:00</updated>
+  <author>
+    <name>Nicolas Dotto</name>
+  </author>
+  <icon>/images/logo.jpg</icon>
+  <entry>
+    <title>Starting is Hard</title>
+    <link rel="alternate" href="http://blog.url.com/blog/starting-is-hard/"/>
+    <id>http://blog.url.com/blog/starting-is-hard/</id>
+    <published>2017-01-19T00:00:00+00:00</published>
+    <updated>2017-02-22T10:42:52+00:00</updated>
+    <author>
+      <name>Nicolas Dotto</name>
+    </author>
+    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam excepturi deserunt voluptate deleniti laborum ullam id, sed, quo vero nesciunt ex iste laboriosam necessitatibus adipisci voluptatibus perspiciatis quod cum quis. &lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam, ratione enim incidunt dolores culpa quasi possimus, laboriosam aliquam, minus quibusdam accusantium error dolore similique sint, fugit consectetur explicabo deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repudiandae praesentium ducimus minima quasi beatae odit ut illo voluptas ea recusandae doloribus nemo voluptatibus, omnis error sunt animi! Neque, tempore.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam reprehenderit tenetur fugiat eaque saepe aspernatur, suscipit dolorem, corrupti voluptatum. Odit quaerat, perferendis at consectetur, quia similique ad quam nihil amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat error unde, neque eaque odio, perferendis delectus consequuntur molestiae modi laborum recusandae accusantium atque asperiores praesentium vitae ullam odit facilis deleniti.” &lt;a href="http://nicolasdotto.com/blog/starting-is-hard"&gt;—Max Brown&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem reiciendis unde ducimus eligendi, numquam iusto officia iste mollitia! Illo totam rerum molestias corrupti nam dolore cumque labore.&lt;br&gt;
+Illo totam rerum molestias corrupti nam dolore cumque labore, delectus doloribus eum?&lt;/p&gt;
+
+&lt;h2&gt;Main Title1&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.  &lt;/p&gt;
+
+&lt;p&gt;Ducimus corrupti voluptatem nihil rerum, eligendi iste, recusandae magni.
+Molestiae atque corporis consectetur quo recusandae beatae quibusdam cumque voluptates odit quaerat, iste nobis non ducimus illum vero reiciendis mollitia aliquid ratione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore minima, eos nam neque beatae asperiores ipsum fuga, nihil architecto unde blanditiis nisi officia quam magnam, ipsa minus incidunt veniam excepturi.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea pariatur nesciunt, debitis quibusdam, optio perferendis iure laboriosam inventore vero quasi facere placeat reiciendis explicabo voluptatibus saepe excepturi culpa quisquam sit?” &lt;a href="https://nicolasdotto.com/blog/start"&gt;—Frank Travis&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis tempora, provident voluptates ipsum necessitatibus asperiores optio. &lt;/p&gt;
+
+&lt;h2&gt;Main Title2&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sequi modi explicabo ipsa beatae recusandae, asperiores veritatis at magni unde ut ea, nostrum eligendi maiores reiciendis pariatur aliquid mollitia quam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam sint modi molestias praesentium atque. Sequi accusantium, unde modi incidunt deserunt adipisci, atque delectus, dolorum numquam fugiat odio distinctio, neque illum. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatem, cum! Totam nulla omnis a officia itaque sit voluptates architecto suscipit accusantium rem, porro voluptas veritatis libero, sint minus dolor. Lorem ipsum dolor sit amet.” &lt;a href="https://nicolasdotto.com/start-is-hard/"&gt;—Jack Cho&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dignissimos laboriosam hic repellendus voluptatum veritatis, ut nam quibusdam, vitae dolores possimus optio aperiam ratione a praesentium quisquam quis! Rem, neque! &lt;/p&gt;
+
+&lt;h2&gt;Main Title3&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“…Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora laborum minima aliquid iste dicta hic, delectus voluptatibus accusamus assumenda numquam placeat, excepturi, deserunt laudantium a, labore. Amet totam, reiciendis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit.” &lt;a href="https://nicolasdotto.com/starting-is-hard/"&gt;—Mark Smith&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, nulla eligendi voluptatibus tempora accusamus commodi porro totam facilis magni corrupti non vel omnis alias deleniti &lt;em&gt;quibusdam&lt;/em&gt; odio laboriosam fuga distinctio?&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias eaque, sit, sed magnam explicabo commodi mollitia facere impedit ipsum reiciendis, dolorem? Laboriosam nulla consequuntur hic reprehenderit ut quos obcaecati voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque non illum temporibus voluptatem quo itaque ab laborum deserunt nulla, magnam minus tempora aliquid exercitationem maxime hic eligendi quidem iusto. Rerum.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nulla doloremque at deleniti commodi dicta, eos suscipit vitae quasi nisi sequi voluptatem veritatis et necessitatibus dolorem ea iusto voluptas tempore.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius atque voluptatem perspiciatis asperiores debitis sunt quis itaque aut laudantium ipsa fugit odit, sint architecto animi quidem ipsam et laborum id? Modi possimus porro, accusantium voluptates, aliquam ipsum dolorum quas neque quia harum alias, culpa nostrum illum facilis beatae repudiandae, earum quod facere?.” &lt;a href="https://nicolasdotto.com/starting-is-hard/"&gt;—Sean Douglas&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Lorem ipsum - Part 3</title>
+    <link rel="alternate" href="http://blog.url.com/blog/lorem-ipsum-part-3/"/>
+    <id>http://blog.url.com/blog/lorem-ipsum-part-3/</id>
+    <published>2017-01-18T00:00:00+00:00</published>
+    <updated>2017-02-22T10:42:52+00:00</updated>
+    <author>
+      <name>Nicolas Dotto</name>
+    </author>
+    <content type="html">&lt;h2&gt;Quick recap:&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum &lt;a href="http://www.nicolasdotto.com/blog/lorem-ipsum/"&gt;first article&lt;/a&gt; deleniti veniam quae harum facilis assumenda mollitia possimus fugiat odit veritatis aspernatur dicta voluptate est autem, temporibus. Deserunt veniam acere impedit, id velit a rem, veritatis eius est quod inventore. Perferendis culpa obcaecati aperiam aspernatur nostrum officiis iste optio &lt;code&gt;middleman s&lt;/code&gt; possimus expedita quaerat iste cum voluptate &lt;code&gt;⌃c&lt;/code&gt; doloribus quo dolor. Lorem ipsum dolor sit amet &lt;a href="http://localhost:4567/"&gt;http://localhost:4567/&lt;/a&gt; beatae, ab reiciendis alias perferendis molestiae adipisci, non nemo corrupti magni nihil dolore &lt;a href="https://middlemanapp.com/basics/install/"&gt;Middleman docs&lt;/a&gt; fa officia laudantium delectus, provident explicabo blanditiis deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, accusantium repudiandae voluptate quisquam animi modi odio illo amet ex cupiditate, totam ab! Velit ullam error ipsam sed corrupti quisquam laudantium. &lt;/p&gt;
+
+&lt;h2&gt;Main Title1&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit accusamus aut reprehenderit commodi molestiae, minima a officia, quidem praesentium pariatur quos placeat, tempore obcaecati similique voluptas! Optio accusamus quod ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit &lt;em&gt;Middleman Deploy&lt;/em&gt; quibusdam corporis eaque necessitatibus ab atque, ratione temporibus non sapiente accusamus perspiciatis iusto sint nostrum debitis aspernatur beatae quae tenetur dolorem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste consectetur deserunt reprehenderit aut, harum fuga id molestiae ut quos adipisci modi architecto expedita nesciunt recusandae autem accusantium:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://abookapart.com/products/git-for-humans"&gt;Git for Humans&lt;/a&gt; officia commodi minima saepe, dicta dolor placeat.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.git-tower.com/learn/git/ebook/command-line/basics/what-is-version-control"&gt;Learn Version Control with Git&lt;/a&gt; aspernatur fugit suscipit optio doloremque, quibusdam non accusamus excepturi quia similique magni.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://git-scm.com/book/"&gt;Pro Git&lt;/a&gt;. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore magnam eius dolorum illo tenetur, enim, laboriosam molestias accusantium impedit, tempora maxime repellendus fugit voluptates nihil dolor tempore facere incidunt cupiditate.&lt;/p&gt;
+
+&lt;p&gt;Nobis debitis, laborum, facere sapiente voluptate ex ea veritatis &lt;em&gt;commit&lt;/em&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;
+$ git init
+$ git checkout -b source
+$ git add .
+$ git commit -m'initial commit'
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit minima corrupti praesentium ducimus, illum consectetur natus odio possimus beatae inventore ea, quis quisquam ab quo tempore temporibus odit ullam amet.&lt;/p&gt;
+
+&lt;p&gt;Rerum porro optio cum commodi explicabo. Distinctio ut soluta aperiam, iure &amp;lsquo;.gitignore&amp;rsquo; nam excepturi voluptates, fuga omnis laboriosam beatae assumenda, possimus itaque optio.&lt;/p&gt;
+
+&lt;p&gt;Illo in facilis omnis soluta aliquid rerum ad ea &lt;em&gt;.nojekyll&lt;/em&gt; file. Corrupti reiciendis quo, fugiat sequi, illo dicta, voluptatem iusto labore, quisquam accusamus obcaecati: &lt;code&gt;$ touch .nojekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2&gt;Main Title2&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quisquam velit iure cumque unde recusandae: &lt;code&gt;username.github.io&lt;/code&gt;. Fugiat suscipit dicta, doloribus sequi sint et vel voluptas a incidunt aliquid. Maxime ipsa dolorum cum ipsam modi tempora adipisci &lt;code&gt;nicolasdotto.github.io&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Main Title3&lt;/h2&gt;
+
+&lt;p&gt;Magni adipisci eius consequuntur qui dolor repellat quod, ab tenetur fugit porro minus molestiae.&lt;/p&gt;
+
+&lt;p&gt;Id officia minus fuga odit distinctio veniam rem magni esse:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;
+$ git remote add git@github.com:username/username.github.io.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lorem &lt;em&gt;username&lt;/em&gt; ab quidem dicta officia fugiat. Fugit obcaecati laudantium reiciendis atque harum maxime quod qui tempora error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;
+$ git push -u origin source
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Main Title4&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil cumque, commodi reprehenderit culpa:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;
+gem 'middleman-deploy', '~&gt; 1.0'
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Architecto dolore veritatis nesciunt &lt;code&gt;$ bundle install&lt;/code&gt; quaerat rem voluptas impedit eveniet similique, sint qui, et sed odit ratione, consequuntur deserunt? Maxime accusantium, tempora assumenda:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;
+# Middleman Deploy
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'master'
+  deploy.build_before = true
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Consequuntur tempore officia autem temporibus eius maxime quia quo nihil reiciendis &lt;code&gt;$ middleman deploy&lt;/code&gt;. Laudantium assumenda eaque itaque architecto esse repellendus, consequuntur autem, temporibus excepturi laboriosam,  &lt;em&gt;username&lt;/em&gt;.github.io tempora assumenda &lt;em&gt;username&lt;/em&gt; sed odit ratione.&lt;/p&gt;
+
+&lt;h2&gt;Wrap up&lt;/h2&gt;
+
+&lt;p&gt;Perferendis dolorum, nam eligendi ea consequatur unde officia omnis quos cupiditate officiis provident quod &lt;a href="https://github.com/nicolasdotto/nicolasdotto.github.io"&gt;Github&lt;/a&gt;, &lt;a href="http://www.nicolasdotto.com#contact"&gt;email&lt;/a&gt; or &lt;a href="http://www.twitter.com/nicodosw11"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Lorem ipsum - Part 2</title>
+    <link rel="alternate" href="http://blog.url.com/blog/lorem-ipsum-part-2/"/>
+    <id>http://blog.url.com/blog/lorem-ipsum-part-2/</id>
+    <published>2017-01-18T00:00:00+00:00</published>
+    <updated>2017-02-22T10:42:52+00:00</updated>
+    <author>
+      <name>Nicolas Dotto</name>
+    </author>
+    <content type="html">&lt;p&gt;Lorem ipsum &lt;a href="http://www.nicolasdotto.com/blog/loremipsum/"&gt;first article&lt;/a&gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quisquam perspiciatis doloribus porro repudiandae ipsum sed quam eius officiis! Accusantium facere, possimus perferendis! Alias maiores veritatis delectus repellendus laboriosam nobis.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsam deleniti quae, animi non odit cupiditate, corrupti ab. &lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet &lt;a href="http://www.nicolasdotto.com/blog/loremipsum/"&gt;this series&lt;/a&gt; lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda nemo iure temporibus ducimus, omnis expedita rem voluptas neque unde molestiae fugit ratione reprehenderit, aspernatur, commodi soluta alias dicta, repudiandae corporis.&lt;/p&gt;
+
+&lt;p&gt;Totam quas voluptas unde nulla alias, cumque similique impedit vitae sint:
+&lt;a href="https://middlemanapp.com/basics/install/"&gt;Middleman Docs&lt;/a&gt; sunt possimus animi illum! Temporibus ipsa adipisci sequi perspiciatis. Animi, ea ut &amp;ldquo;&lt;a href="https://pages.github.com"&gt;Github Pages&lt;/a&gt;&amp;rdquo; perferendis voluptatibus quia dolor eos possimus facilis. Recusandae.
+Ullam, &lt;a href="http://www.nicolasdotto.com/starting-is-hard/"&gt;lorem ipsum dolor sit amet&lt;/a&gt; ea id natus assumenda explicabo blanditiis distinctio odio ducimus iusto quasi amet facilis, aperiam, necessitatibus modi harum eius! Amet, odit, illo.&lt;/p&gt;
+
+&lt;h2&gt;Main Title1&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nemo vero aspernatur nulla commodi voluptates voluptatum illo labore dignissimos:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;
+$ gem install middleman
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, assumenda aperiam accusamus quas expedita? Facere, libero, natus fugiat est labore quibusdam culpa id ipsum &lt;code&gt;$ gem install middleman-blog&lt;/code&gt; lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti consequuntur debitis architecto fuga tenetur quod officia error, ipsa nesciunt, minima odio, laborum veniam &lt;code&gt;mkdir&lt;/code&gt; fugit hic nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque aspernatur praesentium similique iusto sed fugit explicabo eligendi, officia, eum tenetur qui ab &lt;a href="https://pages.github.com"&gt;Github Pages&lt;/a&gt; lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolorum harum vero similique cumque iste facilis, distinctio ratione excepturi voluptatem voluptate corporis molestias molestiae nostrum blanditiis.&lt;/p&gt;
+
+&lt;h2&gt;Main Title2&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aspernatur modi rem tempora atque quisquam fugit incidunt enim fugiat neque deserunt, voluptatem totam excepturi mollitia ut unde laboriosam eaque ratione. Obcaecati labore suscipit dignissimos, vel nesciunt itaque eius hic laboriosam voluptatibus fugiat? Ipsum voluptates sequi neque architecto quaerat:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;
+$ middleman init your_project_name
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, &amp;lsquo;lorem&lt;em&gt;quibusdam&lt;/em&gt;ipsum&amp;rsquo;, error nihil labore sunt numquam ratione ducimus dicta, molestiae rerum neque labore &lt;code&gt;nicolasdotto.github.io&lt;/code&gt;. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ducimus quasi accusantium debitis &lt;code&gt;--template=blog&lt;/code&gt; lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci molestias tempora animi facilis labore, enim, corrupti est? Id quam dolorem ab, distinctio eveniet consequatur.&lt;/p&gt;
+
+&lt;h2&gt;Main Title3&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, dolore fuga. Rem praesentium quidem necessitatibus hic distinctio officia consequatur quasi maiores dolore sunt inventore, explicabo temporibus nam, dignissimos velit quae.&lt;/p&gt;
+
+&lt;h3&gt;Subtitle1&lt;/h3&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, maiores, ex! Voluptate illo facere, dignissimos autem repellendus consequatur dolor magnam beatae minus? Dolorem eos aut voluptas distinctio non illum id:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/middleman/middleman-blog"&gt;middleman-blog&lt;/a&gt; (lorem ipsum dolor sit amet, consectetur adipisicing elit)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/sparklemotion/nokogiri"&gt;nokogiri&lt;/a&gt; (lorem ipsum dolor sit amet, consectetur adipisicing elit)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/vmg/redcarpet"&gt;redcarpet&lt;/a&gt; (lorem ipsum architecto voluptas molestias voluptatum cumque mollitia voluptatibus praesentium)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/middleman/middleman-syntax"&gt;middleman-syntax&lt;/a&gt; (lorem ipsa maxime, ratione doloribus eaque, vitae esse, aliquid, ipsum)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/middleman/middleman-autoprefixer"&gt;middleman-autoprefixer&lt;/a&gt; (lorem illum quidem nemo, praesentium eveniet nam, iure labore itaque provident blanditiis eaque)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/middleman-contrib/middleman-deploy"&gt;middleman-deploy&lt;/a&gt; (lorem ipsum eius adipisci officia sint ab magni voluptatem assumenda)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Aupajo/middleman-search_engine_sitemap"&gt;middleman-search_engine_sitemap&lt;/a&gt; (lorem ipsum voluptate corrupti iure iste voluptatem doloribus)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Saepe dolore quasi sunt consectetur quam nemo nulla rerum &lt;code&gt;gem &amp;quot;name_of_extension&amp;quot;&lt;/code&gt; lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis esse totam enim amet beatae alias nihil ullam quos &lt;code&gt;$ bundle install&lt;/code&gt;. Iure laboriosam perferendis assumenda, laudantium, ipsum consequuntur qui animi neque error aspernatur necessitatibus, officia. &lt;/p&gt;
+
+&lt;h3&gt;Subtitle2&lt;/h3&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, officia reprehenderit rerum cupiditate earum magni, iste facere excepturi voluptas, veritatis a nihil aliquid nisi modi tempora consequatur culpa dolore vitae.&lt;/p&gt;
+
+&lt;p&gt;Eos laboriosam sit accusantium tenetur iusto est reiciendis:&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code class="language-ruby"&gt;
+activate :blog do |blog|
+    blog.prefix = &amp;#39;blog&amp;#39;
+    blog.sources = &amp;#39;articles/{year}-{month}-{day}-{title}.html&amp;#39;
+    blog.permalink = &amp;#39;{title}&amp;#39;
+    blog.default&lt;em&gt;extension = &amp;#39;.markdown&amp;#39;
+    blog.layout = &amp;#39;/blog/blog&lt;/em&gt;layout&amp;#39;
+    blog.tag&lt;em&gt;template = &amp;#39;tag.html&amp;#39;
+    blog.calendar&lt;/em&gt;template = &amp;#39;calendar.html&amp;#39;
+    # Enable pagination
+    blog.paginate = true
+    blog.per&lt;em&gt;page = 10
+    blog.page&lt;/em&gt;link = &amp;#39;page/{num}.html&amp;#39;
+    blog.custom_collections = {
+        category: {
+            link: &amp;#39;/categories/{category}.html&amp;#39;,
+            template: &amp;#39;/category.html&amp;#39;
+        }
+    }
+end
+&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequuntur praesentium veniam pariatur, eligendi, voluptate placeat nihil repudiandae autem sit cum eius tempora. Minima illo excepturi numquam consequuntur ipsa, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. &lt;/p&gt;
+
+&lt;p&gt;Porro alias est exercitationem corporis non nulla &lt;a href="https://github.com/nicolasdotto/nicolasdotto.github.io/blog/source/config.rb"&gt;check it out&lt;/a&gt;. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptas natus enim, deserunt quaerat aut repellat, voluptatibus consectetur laborum numquam voluptates &lt;code&gt;relative_links&lt;/code&gt; lorem ipsum &lt;code&gt;relative_links&lt;/code&gt; dolor sit &lt;code&gt;directory_indexes&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Wrapping up&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam assumenda, sequi vel, esse ipsum. Dignissimos repellat explicabo vero minima qui libero laborum error, esse tenetur architecto exercitationem voluptate.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laborum modi labore ut. Eius aut nobis magni odit, accusantium, numquam obcaecati quia, (voluptates atque omnis) sunt officia rerum facilis explicabo.&lt;/p&gt;
+
+&lt;p&gt;Neque maxime nisi recusandae dolor laboriosam pariatur incidunt itaque sapient &lt;a href="https://github.com/nicolasdotto/nicolasdotto.github.io"&gt;Github&lt;/a&gt;, &lt;a href="http://www.nicolasdotto.com#contact"&gt;email&lt;/a&gt; or &lt;a href="http://www.twitter.com/nicodosw11"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
