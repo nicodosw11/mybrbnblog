@@ -14,11 +14,45 @@
     <link rel="alternate" href="http://blog.url.com/blog/starting-is-hard/"/>
     <id>http://blog.url.com/blog/starting-is-hard/</id>
     <published>2017-01-19T00:00:00+00:00</published>
-    <updated>2017-02-22T10:42:52+00:00</updated>
+    <updated>2017-06-30T21:43:40+01:00</updated>
     <author>
       <name>Nicolas Dotto</name>
     </author>
     <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam excepturi deserunt voluptate deleniti laborum ullam id, sed, quo vero nesciunt ex iste laboriosam necessitatibus adipisci voluptatibus perspiciatis quod cum quis. &lt;/p&gt;
+&lt;pre class="highlight ruby"&gt;&lt;code&gt;&lt;span class="c1"&gt;#config.rb&lt;/span&gt;
+&lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="ss"&gt;:markdown_engine&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:redcarpet&lt;/span&gt;
+&lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="ss"&gt;:markdown&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:fenced_code_blocks&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="kp"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+               &lt;span class="ss"&gt;:tables&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="kp"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+               &lt;span class="ss"&gt;:smartypants&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="kp"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+               &lt;span class="ss"&gt;:autolink&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="kp"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+               &lt;span class="ss"&gt;:highlight&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="kp"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+               &lt;span class="ss"&gt;:with_toc_data&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="kp"&gt;true&lt;/span&gt;
+
+&lt;span class="n"&gt;activate&lt;/span&gt; &lt;span class="ss"&gt;:syntax&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;header 1&lt;/th&gt;
+&lt;th&gt;header 2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;cell 1&lt;/td&gt;
+&lt;td&gt;cell 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cell 3&lt;/td&gt;
+&lt;td&gt;cell 4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cell 5&lt;/td&gt;
+&lt;td&gt;cell 6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cell 7&lt;/td&gt;
+&lt;td&gt;cell 8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam, ratione enim incidunt dolores culpa quasi possimus, laboriosam aliquam, minus quibusdam accusantium error dolore similique sint, fugit consectetur explicabo deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repudiandae praesentium ducimus minima quasi beatae odit ut illo voluptas ea recusandae doloribus nemo voluptatibus, omnis error sunt animi! Neque, tempore.&lt;/p&gt;
 
@@ -26,14 +60,14 @@
 &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam reprehenderit tenetur fugiat eaque saepe aspernatur, suscipit dolorem, corrupti voluptatum. Odit quaerat, perferendis at consectetur, quia similique ad quam nihil amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat error unde, neque eaque odio, perferendis delectus consequuntur molestiae modi laborum recusandae accusantium atque asperiores praesentium vitae ullam odit facilis deleniti.” &lt;a href="http://nicolasdotto.com/blog/starting-is-hard"&gt;—Max Brown&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem reiciendis unde ducimus eligendi, numquam iusto officia iste mollitia! Illo totam rerum molestias corrupti nam dolore cumque labore.&lt;br&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem reiciendis unde ducimus eligendi, numquam iusto officia iste mollitia! Illo totam rerum molestias corrupti nam dolore cumque labore.&lt;br&gt;&lt;br&gt;
 Illo totam rerum molestias corrupti nam dolore cumque labore, delectus doloribus eum?&lt;/p&gt;
 
 &lt;h2&gt;Main Title1&lt;/h2&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.  &lt;/p&gt;
 
-&lt;p&gt;Ducimus corrupti voluptatem nihil rerum, eligendi iste, recusandae magni.
+&lt;p&gt;Ducimus corrupti voluptatem nihil rerum, eligendi iste, recusandae magni.&lt;br&gt;
 Molestiae atque corporis consectetur quo recusandae beatae quibusdam cumque voluptates odit quaerat, iste nobis non ducimus illum vero reiciendis mollitia aliquid ratione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore minima, eos nam neque beatae asperiores ipsum fuga, nihil architecto unde blanditiis nisi officia quam magnam, ipsa minus incidunt veniam excepturi.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -74,7 +108,7 @@ Molestiae atque corporis consectetur quo recusandae beatae quibusdam cumque volu
     <link rel="alternate" href="http://blog.url.com/blog/lorem-ipsum-part-3/"/>
     <id>http://blog.url.com/blog/lorem-ipsum-part-3/</id>
     <published>2017-01-18T00:00:00+00:00</published>
-    <updated>2017-02-22T10:42:52+00:00</updated>
+    <updated>2017-06-30T21:43:40+01:00</updated>
     <author>
       <name>Nicolas Dotto</name>
     </author>
@@ -158,7 +192,7 @@ end
     <link rel="alternate" href="http://blog.url.com/blog/lorem-ipsum-part-2/"/>
     <id>http://blog.url.com/blog/lorem-ipsum-part-2/</id>
     <published>2017-01-18T00:00:00+00:00</published>
-    <updated>2017-02-22T10:42:52+00:00</updated>
+    <updated>2017-06-30T21:43:40+01:00</updated>
     <author>
       <name>Nicolas Dotto</name>
     </author>
@@ -168,8 +202,8 @@ end
 
 &lt;p&gt;Lorem ipsum dolor sit amet &lt;a href="http://www.nicolasdotto.com/blog/loremipsum/"&gt;this series&lt;/a&gt; lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda nemo iure temporibus ducimus, omnis expedita rem voluptas neque unde molestiae fugit ratione reprehenderit, aspernatur, commodi soluta alias dicta, repudiandae corporis.&lt;/p&gt;
 
-&lt;p&gt;Totam quas voluptas unde nulla alias, cumque similique impedit vitae sint:
-&lt;a href="https://middlemanapp.com/basics/install/"&gt;Middleman Docs&lt;/a&gt; sunt possimus animi illum! Temporibus ipsa adipisci sequi perspiciatis. Animi, ea ut &amp;ldquo;&lt;a href="https://pages.github.com"&gt;Github Pages&lt;/a&gt;&amp;rdquo; perferendis voluptatibus quia dolor eos possimus facilis. Recusandae.
+&lt;p&gt;Totam quas voluptas unde nulla alias, cumque similique impedit vitae sint:&lt;br&gt;
+&lt;a href="https://middlemanapp.com/basics/install/"&gt;Middleman Docs&lt;/a&gt; sunt possimus animi illum! Temporibus ipsa adipisci sequi perspiciatis. Animi, ea ut &amp;ldquo;&lt;a href="https://pages.github.com"&gt;Github Pages&lt;/a&gt;&amp;rdquo; perferendis voluptatibus quia dolor eos possimus facilis. Recusandae.&lt;br&gt;
 Ullam, &lt;a href="http://www.nicolasdotto.com/starting-is-hard/"&gt;lorem ipsum dolor sit amet&lt;/a&gt; ea id natus assumenda explicabo blanditiis distinctio odio ducimus iusto quasi amet facilis, aperiam, necessitatibus modi harum eius! Amet, odit, illo.&lt;/p&gt;
 
 &lt;h2&gt;Main Title1&lt;/h2&gt;
@@ -220,26 +254,26 @@ $ middleman init your_project_name
 
 &lt;p&gt;Eos laboriosam sit accusantium tenetur iusto est reiciendis:&lt;/p&gt;
 
-&lt;p&gt;&lt;pre&gt;&lt;code class="language-ruby"&gt;
-activate :blog do |blog|
-    blog.prefix = &amp;#39;blog&amp;#39;
-    blog.sources = &amp;#39;articles/{year}-{month}-{day}-{title}.html&amp;#39;
-    blog.permalink = &amp;#39;{title}&amp;#39;
-    blog.default&lt;em&gt;extension = &amp;#39;.markdown&amp;#39;
-    blog.layout = &amp;#39;/blog/blog&lt;/em&gt;layout&amp;#39;
-    blog.tag&lt;em&gt;template = &amp;#39;tag.html&amp;#39;
-    blog.calendar&lt;/em&gt;template = &amp;#39;calendar.html&amp;#39;
-    # Enable pagination
-    blog.paginate = true
-    blog.per&lt;em&gt;page = 10
-    blog.page&lt;/em&gt;link = &amp;#39;page/{num}.html&amp;#39;
-    blog.custom_collections = {
-        category: {
-            link: &amp;#39;/categories/{category}.html&amp;#39;,
-            template: &amp;#39;/category.html&amp;#39;
-        }
-    }
-end
+&lt;p&gt;&lt;pre&gt;&lt;code class="language-ruby"&gt;&lt;br&gt;
+activate :blog do |blog|&lt;br&gt;
+    blog.prefix = &amp;#39;blog&amp;#39;&lt;br&gt;
+    blog.sources = &amp;#39;articles/{year}-{month}-{day}-{title}.html&amp;#39;&lt;br&gt;
+    blog.permalink = &amp;#39;{title}&amp;#39;&lt;br&gt;
+    blog.default&lt;em&gt;extension = &amp;#39;.markdown&amp;#39;&lt;br&gt;
+    blog.layout = &amp;#39;/blog/blog&lt;/em&gt;layout&amp;#39;&lt;br&gt;
+    blog.tag&lt;em&gt;template = &amp;#39;tag.html&amp;#39;&lt;br&gt;
+    blog.calendar&lt;/em&gt;template = &amp;#39;calendar.html&amp;#39;&lt;br&gt;
+    # Enable pagination&lt;br&gt;
+    blog.paginate = true&lt;br&gt;
+    blog.per&lt;em&gt;page = 10&lt;br&gt;
+    blog.page&lt;/em&gt;link = &amp;#39;page/{num}.html&amp;#39;&lt;br&gt;
+    blog.custom_collections = {&lt;br&gt;
+        category: {&lt;br&gt;
+            link: &amp;#39;/categories/{category}.html&amp;#39;,&lt;br&gt;
+            template: &amp;#39;/category.html&amp;#39;&lt;br&gt;
+        }&lt;br&gt;
+    }&lt;br&gt;
+end&lt;br&gt;
 &lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequuntur praesentium veniam pariatur, eligendi, voluptate placeat nihil repudiandae autem sit cum eius tempora. Minima illo excepturi numquam consequuntur ipsa, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. &lt;/p&gt;
@@ -248,7 +282,7 @@ end
 
 &lt;h2&gt;Wrapping up&lt;/h2&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam assumenda, sequi vel, esse ipsum. Dignissimos repellat explicabo vero minima qui libero laborum error, esse tenetur architecto exercitationem voluptate.
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam assumenda, sequi vel, esse ipsum. Dignissimos repellat explicabo vero minima qui libero laborum error, esse tenetur architecto exercitationem voluptate.&lt;br&gt;
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laborum modi labore ut. Eius aut nobis magni odit, accusantium, numquam obcaecati quia, (voluptates atque omnis) sunt officia rerum facilis explicabo.&lt;/p&gt;
 
 &lt;p&gt;Neque maxime nisi recusandae dolor laboriosam pariatur incidunt itaque sapient &lt;a href="https://github.com/nicolasdotto/nicolasdotto.github.io"&gt;Github&lt;/a&gt;, &lt;a href="http://www.nicolasdotto.com#contact"&gt;email&lt;/a&gt; or &lt;a href="http://www.twitter.com/nicodosw11"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;

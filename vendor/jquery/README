@@ -4,7 +4,7 @@
 <p>jQuery is a fast, small, and feature-rich JavaScript library.</p>
 </blockquote>
 
-<p>For information on how to get started and how to use jQuery, please see <a href="http://api.jquery.com/">jQuery&rsquo;s documentation</a>.
+<p>For information on how to get started and how to use jQuery, please see <a href="http://api.jquery.com/">jQuery&rsquo;s documentation</a>.<br>
 For source files and issues, please visit the <a href="https://github.com/jquery/jquery">jQuery repo</a>.</p>
 
 <h2>Including jQuery</h2>
@@ -14,48 +14,37 @@ For source files and issues, please visit the <a href="https://github.com/jquery
 <h3>Browser</h3>
 
 <h4>Script tag</h4>
-
-<pre><code class="html">&lt;script src=&quot;https://code.jquery.com/jquery-2.2.0.min.js&quot;&gt;&lt;/script&gt;
+<pre class="highlight html"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-2.2.0.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 </code></pre>
-
 <h4>Babel</h4>
 
 <p><a href="http://babeljs.io/">Babel</a> is a next generation JavaScript compiler. One of the features is the ability to use ES6/ES2015 modules now, even though browsers do not yet support this feature natively.</p>
-
-<pre><code class="js">import $ from &quot;jquery&quot;;
+<pre class="highlight javascript"><code><span class="kr">import</span> <span class="nx">$</span> <span class="nx">from</span> <span class="s2">"jquery"</span><span class="p">;</span>
 </code></pre>
-
 <h4>Browserify/Webpack</h4>
 
 <p>There are several ways to use <a href="http://browserify.org/">Browserify</a> and <a href="https://webpack.github.io/">Webpack</a>. For more information on using these tools, please refer to the corresponding project&rsquo;s documention. In the script, including jQuery will usually look like this&hellip;</p>
-
-<pre><code class="js">var $ = require(&quot;jquery&quot;);
+<pre class="highlight javascript"><code><span class="kd">var</span> <span class="nx">$</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">"jquery"</span><span class="p">);</span>
 </code></pre>
-
 <h4>AMD (Asynchronous Module Definition)</h4>
 
 <p>AMD is a module format built for the browser. For more information, we recommend <a href="http://requirejs.org/docs/whyamd.html">require.js&rsquo; documentation</a>.</p>
+<pre class="highlight javascript"><code><span class="nx">define</span><span class="p">([</span><span class="s2">"jquery"</span><span class="p">],</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$</span><span class="p">)</span> <span class="p">{</span>
 
-<pre><code class="js">define([&quot;jquery&quot;], function($) {
-
-});
+<span class="p">});</span>
 </code></pre>
-
 <h3>Node</h3>
 
 <p>To include jQuery in <a href="nodejs.org">Node</a>, first install with npm.</p>
-
-<pre><code class="sh">npm install jquery
+<pre class="highlight shell"><code>npm install jquery
 </code></pre>
-
 <p>For jQuery to work in Node, a window with a document is required. Since no such window exists natively in Node, one can be mocked by tools such as <a href="https://github.com/tmpvar/jsdom">jsdom</a>. This can be useful for testing purposes.</p>
+<pre class="highlight javascript"><code><span class="nx">require</span><span class="p">(</span><span class="s2">"jsdom"</span><span class="p">).</span><span class="nx">env</span><span class="p">(</span><span class="s2">""</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nb">window</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
+        <span class="k">return</span><span class="p">;</span>
+    <span class="p">}</span>
 
-<pre><code class="js">require(&quot;jsdom&quot;).env(&quot;&quot;, function(err, window) {
-    if (err) {
-        console.error(err);
-        return;
-    }
-
-    var $ = require(&quot;jquery&quot;)(window);
-});
+    <span class="kd">var</span> <span class="nx">$</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">"jquery"</span><span class="p">)(</span><span class="nb">window</span><span class="p">);</span>
+<span class="p">});</span>
 </code></pre>

@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.nicolasdotto.com/blog/lorem-ipsum-part-2/</loc>
-    <lastmod>2017-02-22T10:42:52+00:00</lastmod>
+    <lastmod>2017-06-30T21:43:40+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/blog/lorem-ipsum-part-3/</loc>
-    <lastmod>2017-02-22T10:42:52+00:00</lastmod>
+    <lastmod>2017-06-30T21:43:40+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/blog/starting-is-hard/</loc>
-    <lastmod>2017-02-22T10:42:52+00:00</lastmod>
+    <lastmod>2017-06-30T21:43:40+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/blog/</loc>
-    <lastmod>2017-02-22T10:42:52+00:00</lastmod>
+    <lastmod>2017-06-30T21:43:40+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/</loc>
-    <lastmod>2017-02-22T10:42:52+00:00</lastmod>
+    <lastmod>2017-06-30T21:43:40+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -39,6 +39,36 @@
   <url>
     <loc>http://www.nicolasdotto.com/vendor/neat/contrib/</loc>
     <lastmod>2016-06-21T14:26:44+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/blog/tags/art/</loc>
+    <lastmod>2017-02-22T10:42:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/blog/tags/programming/</loc>
+    <lastmod>2017-02-22T10:42:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/blog/tags/ruby/</loc>
+    <lastmod>2017-02-22T10:42:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/blog/tags/travel/</loc>
+    <lastmod>2017-02-22T10:42:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/blog/tags/food/</loc>
+    <lastmod>2017-02-22T10:42:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
