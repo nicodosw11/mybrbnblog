@@ -1,0 +1,10 @@
+article {
+  // @include clearfix;
+  @include fadein-keyframes;
+  @include animation(fadeIn 0.3s);
+  @include material-shadow(1);
+}
+#full-article {
+  @include fadein-keyframes;
+  @include animate-children(fadeIn)
+}

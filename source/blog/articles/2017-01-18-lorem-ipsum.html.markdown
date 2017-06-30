@@ -6,6 +6,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ve
 category: Code
 header_image:
 published: false
+tags: travel, programming, style
 ---
 
 Update: Added blog to portfolio website Lorem ipsum dolor sit amet

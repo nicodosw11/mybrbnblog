@@ -1,0 +1,84 @@
+body {
+  margin-top: 3.75em;
+  @include media($xlarge) {
+    margin-top: 4.75em;
+  }
+}
+
+body.index {
+  @include outer-container;
+  @include clearfix;
+  margin-top: 0;
+}
+
+.outer-container {
+  @include outer-container;
+}
+
+// Blog index page
+.article-listing {
+  @include pad(0 default);
+  @include media($medium) {
+    @include span-columns(4 of 6);
+    // @include shift(1);
+    @include pad(0);
+  }
+  @include media($large) {
+    @include span-columns(6 of 10);
+    // @include shift(2);
+    @include shift(1);
+    @include pad(0);
+  }
+  @include media($xlarge) {
+    @include span-columns(6 of 12);
+    // @include shift(3);
+    @include shift(2);
+  }
+  h1 {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #777;
+  }
+}
+
+
+// Article Layout Without Sidebars
+article {
+  @include pad(0 default);
+  @include media($medium) {
+    @include span-columns(4 of 6);
+    @include shift(1);
+    @include pad(0);
+  }
+  @include media($large) {
+    @include span-columns(6 of 10);
+    @include shift(2);
+    @include pad(0);
+  }
+  @include media($xlarge) {
+    @include span-columns(6 of 12);
+    @include shift(3);
+  }
+}
+
+footer {
+  background-color: #ECF0F1;
+  padding: 0 2em;
+}
+img#footer-logo {
+  width: 112px;
+  width: 7rem;
+  margin: 0em auto;
+  padding: 0 0 1em;
+  display: block;
+  @media only screen and (max-height: 20em) {
+    width: 2.75rem;
+  }
+  @media only screen and (max-width: 40em) {
+    width: 2.75rem;
+  }
+}
+
+
+
+
+

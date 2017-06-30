@@ -1,0 +1,6 @@
+<ul class="meta">
+  <i class="fa fa-clock-o"></i> <span class="posted-date">Posted on <%= current_article.date.strftime('%b %e, %Y') %></span>
+  <i class="fa fa-tags"></i> <% current_article.tags.each do |tag| %>
+  <li class="tags"><%= link_to tag, tag_path(tag) %></li>
+  <% end %>
+</ul>

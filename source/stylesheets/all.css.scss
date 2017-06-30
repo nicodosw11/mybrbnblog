@@ -1,20 +1,30 @@
 @charset "utf-8";
+// @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
+// @import url('http://fonts.googleapis.com/css?family=Oxygen:400,300,700');
+// @import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+// $sans-serif: 'Oxygen', $helvetica;
 @import "bourbon/app/assets/stylesheets/bourbon";
 // Bitters needs to be imported before Neat
 @import "base/base";
 @import "neat/app/assets/stylesheets/neat";
 @import "components-font-awesome/scss/font-awesome.scss";
+@import "highlights/solarized-light";
+@import "mixins";
 @import "normalize";
+// @import "layout-plain-listing";
 @import "layout";
-@import "prism";
-@import "pages/homepage";
-@import "pages/thankyou";
-@import "pages/blog-article-listing";
-@import "pages/blog-layout";
+// @import "layouts/layout-standard12";
+// @import "layouts/layout-screenup";
+// @import "prism";
+// @import "highlights/syntax";
+@import "custom-typography";
+@import "homepage/index";
 @import "components/navbar";
-@import "components/contact-form";
-@import "components/home-recent-posts";
-@import "components/blog-article";
+@import "blog-listing/blog-articles-listing";
+@import "blog-article/article";
+@import "blog-article/header-image";
+
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 
@@ -28,27 +38,4 @@
 //   box-sizing: inherit;
 // }
 
-// body {
-//   background-color: #fbc547;
-//   color: #333;
-//   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-//     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-//     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-//     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-//   padding: 18vh 1rem;
-//   text-align: center;
-// }
 
-// a {
-//   color: rgba(#000, 0.7);
-
-//   &:focus,
-//   &:hover {
-//     color: rgba(#000, 0.6);
-//   }
-// }
-
-// .middleman-logo {
-//   margin-bottom: 1rem;
-//   width: 10rem;
-// }

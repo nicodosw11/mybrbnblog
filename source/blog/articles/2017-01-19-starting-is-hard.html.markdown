@@ -5,9 +5,31 @@ description: Dignissimos numquam, ratione enim incidunt dolores culpa quasi poss
 category: Currencies
 header_image: parisquai-panorama.jpg
 blog: articles
+tags: travel, programming, ruby
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam excepturi deserunt voluptate deleniti laborum ullam id, sed, quo vero nesciunt ex iste laboriosam necessitatibus adipisci voluptatibus perspiciatis quod cum quis. 
+
+```ruby
+#config.rb
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true,
+               :tables => true,
+               :smartypants => true,
+               :autolink => true,
+               :highlight => true,
+               :with_toc_data => true
+
+activate :syntax
+```
+
+| header 1 | header 2 |
+| -------- | -------- |
+| cell 1   | cell 2   |
+| cell 3   | cell 4   |
+| cell 5   | cell 6   |
+| cell 7   | cell 8   |
+
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam, ratione enim incidunt dolores culpa quasi possimus, laboriosam aliquam, minus quibusdam accusantium error dolore similique sint, fugit consectetur explicabo deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repudiandae praesentium ducimus minima quasi beatae odit ut illo voluptas ea recusandae doloribus nemo voluptatibus, omnis error sunt animi! Neque, tempore.
 

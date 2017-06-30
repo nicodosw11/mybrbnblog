@@ -1,0 +1,3 @@
+<% if article.data['category'] != nil %>
+<h4 class="article-category">| <%= link_to article.data['category'], category_path(article.data['category']) %></h4>
+<% end %>

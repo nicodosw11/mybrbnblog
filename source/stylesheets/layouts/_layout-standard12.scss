@@ -1,0 +1,62 @@
+// Based on a standard 12 column grid only throughout
+$little: new-breakpoint(min-width $small-screen);
+$nottoobig: new-breakpoint(min-width $medium-screen);
+$big: new-breakpoint(min-width $large-screen);
+$xxl: new-breakpoint(min-width $xlarge-screen);
+
+body {
+  margin-top: 3.75em;
+  @include media($xlarge) {
+    margin-top: 4.75em;
+  }
+}
+
+body.index {
+  @include outer-container;
+  @include clearfix;
+  margin-top: 0;
+}
+
+.outer-container {
+  @include outer-container;
+}
+
+
+// Based on a standard 12 column grid
+// Article Layout
+article {
+  @include span-columns(8);
+  @include media($little) {
+   @include span-columns(12);
+ }
+ @include media($nottoobig) {
+   @include span-columns(10);
+ }
+}
+aside {
+  @include span-columns(4);
+  @include media($little) {
+   @include span-columns(12);
+ }
+ @include media($nottoobig) {
+   @include span-columns(2);
+ }
+}
+
+footer {
+  background-color: #ECF0F1;
+  padding: 0 2em;
+}
+img#footer-logo {
+  width: 112px;
+  width: 7rem;
+  margin: 0em auto;
+  padding: 0 0 1em;
+  display: block;
+  @media only screen and (max-height: 20em) {
+    width: 2.75rem;
+  }
+  @media only screen and (max-width: 40em) {
+    width: 2.75rem;
+  }
+}

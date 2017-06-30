@@ -1,0 +1,41 @@
+aside {
+
+  $sidebar-headline-font-size: 1em;
+  $sidebar-list-font-size: 0.9em;
+
+  fieldset {
+    // margin: 24px 12px 0 12px;
+  // }
+
+// .sidebar {
+    @include fadein-keyframes;
+    @include animate-children(fadeIn);
+    @include material-shadow(1);
+    background-color: $aside-background-color;
+
+    margin-bottom: $base-spacing;
+    padding: $small-spacing;
+
+
+  // responsiveness
+    // @include clearfix;
+
+      h2 {
+        font-size: $sidebar-headline-font-size;
+        margin-bottom: 0.5em;
+      }
+      li {
+        font-size: $sidebar-list-font-size;
+        margin-left: 0.5em;
+        /////////////////////////////
+        margin-bottom: $tiny-spacing;
+        /////////////////////////////
+      }
+      ol {
+        font-size: $small-font-size;
+        list-style-position: outside;
+        margin-bottom: $tiny-spacing;
+        padding-left: $small-spacing;
+      }
+  }
+}

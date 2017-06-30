@@ -1,0 +1,67 @@
+$base-line-height: 1.5;
+$base-spacing: $base-line-height * 1em;
+
+@mixin clearfix {
+  &:after {
+    content: "";
+      display: table;
+      clear: both;
+  }
+
+}
+
+@mixin animation-helper($delay, $type) {
+  @include animation($type 0.4s ease-in-out);
+  @include animation-iteration-count(1);
+  @include animation-fill-mode(both);
+  @include animation-delay(#{$delay}s);
+}
+
+@mixin material-shadow($depth) {
+  @if $depth < 1 {
+    box-shadow: none;
+  } @else if $depth > 5 {
+    @warn "Invalid $depth `#{$depth}` for mixin `card`.";
+  } @else {
+    box-shadow: bottom-shadow($depth), top-shadow($depth);
+  }
+}
+
+
+@mixin animate-children($type) {
+  @for $i from 1 through 5 {
+    &:nth-child(#{$i}) {
+      @include animation-helper($i/10, $type);
+    }
+  }
+}
+
+@mixin fadein-keyframes {
+  @include keyframes(fadeIn) {
+    from {
+      opacity: 0.0;
+      @include transform(translateY(-10px))
+    }
+    to {
+      opacity: 1.0;
+      @include transform(translateY(0px))
+    }
+  }
+}
+
+@mixin bouncein-keyframes {
+  @include keyframes(bounceIn) {
+    0% {
+      opacity: 0.0;
+      @include transform(scale(1.05) translateY($base-spacing));
+    }
+    // 70% {
+    //   opacity: 0.7;
+    //   @include transform(scale(0.95));
+    // }
+    100% {
+      opacity: 1.0;
+      @include transform(scale(1) translateY(0px));
+    }
+  }
+}

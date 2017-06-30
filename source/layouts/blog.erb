@@ -1,0 +1,37 @@
+<% wrap_layout :layout do %>
+  <%= partial "partials/navbar" %>
+
+  <div class="outer-container">
+    <section class="blog-content">
+
+      <!-- unless current_article.nil? -->
+      <article>
+      <% unless current_article.nil? %>
+
+        <div id="header-article">
+          <%= partial "partials/blog-current_article/blog-current_article-header-image" %>
+          <%= partial "partials/blog-current_article/blog-current_article-title" %>
+          <%= partial "partials/blog-current_article/blog-current_article-date" %>
+          <%= partial "partials/blog-current_article/blog-current_article-tags" %>
+        </div>
+        <% end %>
+      <!-- </article> -->
+        <!-- <div id="article-content"> -->
+         <%= yield %>
+        <!-- </div> -->
+      </article>
+
+    </section>
+    <!-- <aside> -->
+    <aside class="blog-sidebars">
+      <%= partial "partials/sidebar" %>
+    </aside>
+  </div>
+
+  <%= partial "partials/footer" %>
+  <!--  -->
+
+<% end %>
+
+
+

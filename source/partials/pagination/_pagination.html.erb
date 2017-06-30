@@ -1,0 +1,22 @@
+<% if paginate && num_pages > 1 %>
+  <div class="pagination">
+
+    <div class="prev">
+      <% if prev_page %>
+        <%= link_to 'Previous page', prev_page %>
+      <% else %>
+        <p> </p>
+      <% end %>
+    </div>
+
+    <p class="page-num">Page <%= page_number %> of <%= num_pages %></p>
+
+    <div class="next">
+      <% if next_page %>
+        <%= link_to 'Next page', next_page %>
+      <% else %>
+        <p> </p>
+      <% end %>
+    </div>
+  </div>
+<% end %>

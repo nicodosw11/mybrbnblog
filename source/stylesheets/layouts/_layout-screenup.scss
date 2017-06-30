@@ -1,0 +1,63 @@
+// $medium-screen: em(640);
+// $large-screen: em(860);
+$medium-screen-up: new-breakpoint(min-width $medium-screen 4);
+$large-screen-up: new-breakpoint(min-width $large-screen 8);
+
+body {
+  margin-top: 3.75em;
+  @include media($xlarge) {
+    margin-top: 4.75em;
+  }
+}
+
+body.index {
+  @include outer-container;
+  @include clearfix;
+  margin-top: 0;
+}
+
+.outer-container {
+  @include outer-container;
+}
+
+
+// Based on a standard 12 column grid
+// Article Layout
+article {
+  @include media($medium-screen-up) {
+    @include span-columns(3);
+  }
+  // 3 of 4 columns
+  @include media($large-screen-up) {
+    @include span-columns(6);
+  }
+  // 6 of 8 columns
+}
+aside {
+  @include media($medium-screen-up) {
+    @include span-columns(1);
+  }
+  // 1 of 4 columns
+  @include media($large-screen-up) {
+    @include span-columns(2);
+  }
+  // 2 of 8 columns
+}
+
+footer {
+  background-color: #ECF0F1;
+  padding: 0 2em;
+}
+img#footer-logo {
+  width: 112px;
+  width: 7rem;
+  margin: 0em auto;
+  padding: 0 0 1em;
+  display: block;
+  @media only screen and (max-height: 20em) {
+    width: 2.75rem;
+  }
+  @media only screen and (max-width: 40em) {
+    width: 2.75rem;
+  }
+}

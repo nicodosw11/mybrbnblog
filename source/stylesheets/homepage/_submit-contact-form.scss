@@ -1,5 +1,6 @@
 .contact {
-  @include span-columns(4);
+  // @include span-columns(4);
+  @include span-columns(12);
   background-color: white;
 }
 .contact-form {
@@ -79,3 +80,5 @@ button {
     margin: 2em 0;
   }
 }
+
+

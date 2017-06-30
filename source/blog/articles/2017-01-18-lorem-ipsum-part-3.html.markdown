@@ -6,6 +6,7 @@ description: Part 3 itaque quos obcaecati laudantium ipsum aut voluptate ea debi
 category: Code
 header_image:
 published: true
+tags: travel, food, ruby
 ---
 
 ## Quick recap:

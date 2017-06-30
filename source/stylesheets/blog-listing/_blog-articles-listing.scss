@@ -1,0 +1,21 @@
+#preview {
+  @include bouncein-keyframes;
+  // @include animate-children(bounceIn);
+}
+
+.article-post {
+  margin: modular-scale(4) 0;
+  @include media($medium) {
+    margin: modular-scale(7) 0;
+  }
+}
+.article-date, .article-category {
+  display: inline-block;
+}
+
+#read-more {
+  // @include clearfix;
+  a {
+    float: right;
+  }
+}

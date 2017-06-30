@@ -5,6 +5,7 @@ summary: Part 2 nisi maxime eius, vitae commodi explicabo omnis consectetur, ex 
 description: Part 2 totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
 category: Code
 header_image:
+tags: art, programming, ruby
 ---
 
 Lorem ipsum [first article](http://www.nicolasdotto.com/blog/loremipsum/) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quisquam perspiciatis doloribus porro repudiandae ipsum sed quam eius officiis! Accusantium facere, possimus perferendis! Alias maiores veritatis delectus repellendus laboriosam nobis.

@@ -5,7 +5,8 @@
   background-color: #ECF0F1;
   @include clearfix;
   @include pad(modular-scale(3) default);
-  @include span-columns (4);
+  // @include span-columns (4);
+  @include span-columns (12);
   @include media($medium) {
     @include pad(modular-scale(3) 0);
   }

@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Pygments.rb syntax highlighting
+   ========================================================================== */
+
+// .highlight {
+//   background-color: #efefef;
+//   font-family: $code-font;
+//   @include font(12);
+//   color: #333332;
+//   margin-bottom: 1.5em;
+//   @include rounded(4px);
+//   pre {
+//     position: relative;
+//     margin: 0;
+//     padding: 1em;
+//   }
+// }
+
+// To be used with pygments
+.highlight {
+  overflow-x: auto;
+}
+pre {
+  // border: solid 1px #ddd;
+  // background: #fff;
+  // padding: 0;
+  // line-height: 23px;
+  // margin-bottom: 30px;
+  white-space: pre;
+  overflow-x: auto;
+  word-break: inherit;
+  word-wrap: inherit;
+}
+
+.highlight td {
+    padding: 8px 15px;
+}
+
+.gl {
+  background: #fafafa;
+  border-right: 1px solid #ddd;
+  color: #999;
+
+  /* Stop line numbers being visually selected */
+  user-select: none;
+}
+
+// To be used with solarized-light
+pre {
+  border-radius: $base-border-radius;
+  line-height: 25px;
+  margin-bottom: 30px;
+  white-space: pre;
+  overflow-x: auto;
+  // overflow-x: scroll;
+  // white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: $small-spacing;
+}
+
+code {
+  font-family: Consolas, Menlo, Monaco, "Courier 10 Pitch", Courier, monospace;
+  background-color: #fdf6e3;
+  color: #586e75;
+  font-size: 90%;
+  padding: 5px;
+  // white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto;
+  // overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}

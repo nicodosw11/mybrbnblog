@@ -19,7 +19,7 @@ activate :blog do |blog|
   blog.sources = 'articles/{year}-{month}-{day}-{title}.html'
   blog.permalink = '{title}'
   blog.default_extension = '.markdown'
-  blog.layout = 'blog_layout'
+  blog.layout = 'blog'
   blog.tag_template = 'tag.html'
   blog.calendar_template = 'calendar.html'
   # Enable pagination
@@ -41,8 +41,13 @@ set :markdown, :layout_engine => :erb
 set :markdown,
   :fenced_code_blocks => true ,
   :smartypants => true ,
-  :autolink => true
-#activate :syntax, css_class: 'language'#, line_numbers: true
+  :autolink => true,
+  :tables => true,
+  :strikethrough => true,
+  :hard_wrap => true,
+  :highlight => true
+activate :syntax
+# activate :syntax, css_class: 'language'#, line_numbers: true
 #See more at: http://oscarfunes.com/2013/04/11/middleman-pt2/#sthash.cY3f6ofl.dpuf
 
 # Automatically add vendor prefixes to CSS rules in stylesheets served by Middleman
@@ -65,6 +70,9 @@ activate :directory_indexes
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page "/blog/*", layout: "blog"
+# page "index.html", layout: false
+# page "/about.html", layout: "blog"
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
