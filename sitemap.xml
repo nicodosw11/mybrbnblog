@@ -25,12 +25,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.nicolasdotto.com/</loc>
-    <lastmod>2017-06-30T21:43:40+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://www.nicolasdotto.com/thankyou/</loc>
     <lastmod>2017-02-22T10:42:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -39,6 +33,30 @@
   <url>
     <loc>http://www.nicolasdotto.com/vendor/neat/contrib/</loc>
     <lastmod>2016-06-21T14:26:44+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/about-me/</loc>
+    <lastmod>2017-07-07T17:51:25+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/fr/about-me/</loc>
+    <lastmod>2017-07-07T17:51:25+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/</loc>
+    <lastmod>2017-07-07T17:51:25+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/fr/</loc>
+    <lastmod>2017-07-07T17:51:25+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
