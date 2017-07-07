@@ -22,9 +22,11 @@
 @import "homepage/index";
 @import "components/navbar";
 @import "blog-listing/blog-articles-listing";
+@import "blog-listing/tags";
+@import "blog-listing/sidebars";
 @import "blog-article/article";
 @import "blog-article/header-image";
-
+@import "blog-article/metas";
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 

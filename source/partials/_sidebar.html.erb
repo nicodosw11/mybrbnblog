@@ -5,7 +5,7 @@
   <ol>
     <% blog.articles[0...10].each do |article| %>
       <li>
-        <%= link_to article.title, article %>
+        <%= link_to article.title, article, class: "article-link" %>
       </li>
     <% end %>
   </ol>

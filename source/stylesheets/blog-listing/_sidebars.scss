@@ -3,13 +3,22 @@ aside {
   $sidebar-headline-font-size: 1em;
   $sidebar-list-font-size: 0.9em;
 
+  $base-font-size: 19px;
+  $small-font-size: $base-font-size * 0.8;
+
+  $base-background-color: $light-gray;
+  $content-background-color: darken(#fff, 3%);
+  $aside-background-color: darken($base-background-color, 5%);
+  $aside-border-color: lighten($aside-background-color, 15%);
+
   fieldset {
     // margin: 24px 12px 0 12px;
   // }
 
 // .sidebar {
     @include fadein-keyframes;
-    @include animate-children(fadeIn);
+    // @include animate-children(fadeIn);
+    @include animation(fadeIn 4s);
     @include material-shadow(1);
     background-color: $aside-background-color;
 
@@ -21,21 +30,27 @@ aside {
     // @include clearfix;
 
       h2 {
-        font-size: $sidebar-headline-font-size;
+        // font-size: $sidebar-headline-font-size;
+        font-size: $base-font-size;
         margin-bottom: 0.5em;
       }
       li {
         font-size: $sidebar-list-font-size;
-        margin-left: 0.5em;
-        /////////////////////////////
         margin-bottom: $tiny-spacing;
-        /////////////////////////////
+        margin-left: 0.5em;
       }
       ol {
+        // list-style-position: outside;
         font-size: $small-font-size;
-        list-style-position: outside;
         margin-bottom: $tiny-spacing;
-        padding-left: $small-spacing;
+        // padding-left: $small-spacing;
+        .article-link {
+          color: #FF4D72;
+        }
+        .tag {
+          display: inline-block;
+        }
       }
+
   }
 }

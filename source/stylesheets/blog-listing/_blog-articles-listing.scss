@@ -14,8 +14,24 @@
 }
 
 #read-more {
-  // @include clearfix;
+  @include clearfix;
   a {
     float: right;
+    &:hover {
+      color: #FF4D72;
+    }
+    @include media($mobile-only) {
+      float: none;
+      // clear: both;
+      // width: auto;
+      // display: inline-block;
+    }
+  }
+}
+
+.tag-labels {
+  @include media($mobile-only) {
+    font-size: 80%;
+    // display: none;
   }
 }

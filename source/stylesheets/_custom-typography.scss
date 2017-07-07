@@ -135,7 +135,7 @@ article p:last-of-type {
 }
 p a, li a {
   color: #5BC0BE;
-  // text-decoration: none;
+  text-decoration: none;
  //    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
  //    background-repeat: repeat-x;
  //    background-size: 2px 2px;
@@ -147,9 +147,9 @@ p a, li a {
   //     }
   // }
 }
-p a:visited, li a:visited {
-  color: #564D65;
-}
+// p a:visited, li a:visited {
+//   color: #564D65;
+// }
 
 #introductions p {
   font-size: modular-scale(2);
