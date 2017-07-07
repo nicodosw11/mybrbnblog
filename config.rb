@@ -6,7 +6,7 @@ set :url_root, 'http://www.nicolasdotto.com'
 activate :search_engine_sitemap, default_change_frequency: "weekly"
 
 Time.zone = 'London'
-
+activate :i18n, :langs => [:en, :fr]
 ###
 # Blog settings
 ###
