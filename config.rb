@@ -13,23 +13,46 @@ activate :i18n, :langs => [:en, :fr]
 
 # Add blogging to Middleman Install
 activate :blog do |blog|
-  blog.prefix = 'blog'
-  blog.name = 'articles'
-  blog.new_article_template = "source/blog/article-templates/article-template.erb"
-  blog.sources = 'articles/{year}-{month}-{day}-{title}.html'
-  blog.permalink = '{title}'
+  # blog.prefix = 'blog'
+  blog.name              = 'en'
+  # blog.new_article_template = "source/blog/article-templates/article-template.erb"
+  # blog.sources           = 'blog/{lang}/{year}-{month}-{day}-{title}.html'
+  blog.sources           = "blog/en/{year}-{month}-{day}-{title}.html"
+  blog.permalink         = "blog/{lang}/{year}/{month}/{day}/{title}.html"
   blog.default_extension = '.markdown'
-  blog.layout = 'blog'
-  blog.tag_template = 'tag.html'
-  blog.calendar_template = 'calendar.html'
+  blog.layout            = 'blog'
+  # blog.tag_template = 'tag.html'
+  blog.tag_template      = "blog/en/tag.html"
+  # blog.calendar_template = 'calendar.html'
+  blog.calendar_template = "blog/en/calendar.html"
   # Enable pagination
-  blog.paginate = true
-  blog.per_page = 10
-  blog.page_link = 'page/{num}.html'
+  # blog.paginate = true
+  # blog.per_page = 10
+  # blog.page_link = 'page/{num}.html'
   blog.custom_collections = {
     category: {
-      link: '/categories/{category}.html',
-      template: '/category.html'
+      link: 'en/categories/{category}.html',
+      template: '/blog/en/category.html'
+    }
+  }
+end
+
+activate :blog do |blog|
+  blog.name              = 'fr'
+  # blog.sources           = 'blog/{lang}/{year}-{month}-{day}-{title}.html'
+  blog.sources           = "blog/fr/{year}-{month}-{day}-{title}.html"
+  blog.permalink         = "blog/{lang}/{year}/{month}/{day}/{title}.html"
+  blog.default_extension = '.markdown'
+  blog.layout            = "blog"
+  blog.calendar_template = "blog/fr/calendar.html"
+  blog.year_link         = "fr/{year}.html"
+  blog.month_link        = "fr/{year}/{month}.html"
+  blog.tag_template      = "blog/fr/tag.html"
+  blog.taglink           = "fr/tags/{tag}.html"
+  blog.custom_collections = {
+    category: {
+      link: 'fr/categories/{category}.html',
+      template: '/blog/fr/category.html'
     }
   }
 end
@@ -71,6 +94,7 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 page "/blog/*", layout: "blog"
+page "/fr/blog.html", layout: "blog"
 # page "index.html", layout: false
 # page "/about.html", layout: "blog"
 

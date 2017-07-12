@@ -1,6 +1,6 @@
 <!-- <aside class="blog-sidebars"> -->
 <fieldset><!-- <ul class="sidebar"> -->
-  <h2>| Recent Articles</h2>
+  <h2>| <%= t(:my_recent_articles) %></h2>
   <!-- partial -->
   <ol>
     <% blog.articles[0...10].each do |article| %>
@@ -13,11 +13,17 @@
 </fieldset><!-- </ul> -->
 
 <fieldset><!-- <ul class="sidebar"> -->
-  <h2>| By Year</h2>
+  <h2>| <%= t(:by_year) %></h2>
   <ol>
     <% blog.articles.group_by { |a| a.date.year }.each do |year, articles| %>
       <li>
         <%= link_to "#{year} (#{articles.size})", blog_year_path(year) %>
+        <% articles.group_by {|a| a.date.month }.each do |month, month_articles| %>
+          <ol class="li-month">
+            <li class="li-month"><%= link_to "#{month_articles.first.date.strftime("%b")} (#{month_articles.size})", blog_month_path(year, month) %>
+            </li>
+          </ol>
+          <% end %>
       </li>
     <% end %>
   </ol>
@@ -28,13 +34,14 @@
   <ol class="tag-labels">
     <% blog.tags.each do |tag, articles|  %>
       <li>
-        <%= link_to "#{tag} (#{articles.size})", tag_path(tag), class: "tag-label tag" %>
+        <% link_to tag_path(tag), :class => "tag-label tag" do %>
+          <%=t("#{tag}")%><%= "(#{articles.size})"%>
+        <% end %>
       </li>
     <% end %>
   </ol>
 </fieldset><!-- </ul> -->
 <!-- </aside> -->
-
 
 
 

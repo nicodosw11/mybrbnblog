@@ -5,6 +5,7 @@ summary: Part 2 nisi maxime eius, vitae commodi explicabo omnis consectetur, ex 
 description: Part 2 totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
 category: Code
 header_image:
+lang: en
 tags: art, programming, ruby
 ---
 

@@ -1,8 +1,9 @@
 ---
-title: Quick Markdown Example
+title: Rapide example de syntaxe
 summary: Example Markdown so I can see how my styles look and how the markdown is generated with RedCarpet / Middleman Blog.
 tags: example, formatting, design
 category: Code
+lang: fr
 published: false
 ---
 

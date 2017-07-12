@@ -1,10 +1,10 @@
 ---
-title: Starting is Hard
+title: Débuter est difficile
 summary: Aliquam excepturi deserunt voluptate deleniti laborum ullam id, sed, quo vero nesciunt ex iste.
 description: Dignissimos numquam, ratione enim incidunt dolores culpa quasi possimus, laboriosam aliquam.
 category: Currencies
 header_image: parisquai-panorama.jpg
-blog: articles
+lang: fr
 tags: travel, programming, ruby
 ---
 

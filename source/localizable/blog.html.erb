@@ -1,0 +1,28 @@
+---
+title: Blog | Nicolas Dotto
+pageable: true
+per_page: 10
+hide_from_sitemap: false
+description: Blog covering Code, Design, Business, and Life from a freelance web-designer.
+layout: blog
+blog: en
+---
+<section id="preview" class="article-listing">
+  <h1>Blog (blog in localizable)</h1>
+  <p>Language: <%= I18n.locale %></p>
+  <% page_articles.each do |article| %>
+    <div class="article-post">
+      <%= partial("partials/blog-listing/blog-article-date", :locals => { :article => article }) %>
+      <%= partial("partials/blog-listing/blog-article-category", :locals => { :article => article }) %>
+      <%= partial("partials/blog-listing/blog-article-title", :locals => { :article => article }) %>
+      <%= partial("partials/blog-listing/blog-article-tags", :locals => { :article => article }) %>
+      <%= partial("partials/blog-listing/blog-article-summary", :locals => { :article => article }) %>
+      <%= partial("partials/blog-listing/blog-article-read-more", :locals => { :article => article }) %>
+    </div>
+  <% end %>
+</section>
+
+
+
+<%= partial("partials/pagination/pagination") %>
+
