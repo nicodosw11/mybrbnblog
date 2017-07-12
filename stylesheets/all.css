@@ -3884,6 +3884,9 @@ aside fieldset {
     aside fieldset ol .tag {
       display: inline-block; }
 
+.li-month {
+  margin-bottom: 0; }
+
 article {
   -webkit-animation: fadeIn 2s;
   animation: fadeIn 2s;
