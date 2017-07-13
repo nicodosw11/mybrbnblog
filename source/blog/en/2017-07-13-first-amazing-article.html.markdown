@@ -1,5 +1,6 @@
 ---
-title: Lorem ipsum
+title: First amazing article
+date: 2017-07-13 18:08 BST
 subtitle: Impedit porro eligendi voluptates illo aut illum ducimus ullam laboriosam culpa praesentium optio perferendis tempore eos sit voluptatibus. 
 summary: Eaque architecto vel molestiae labore rem eveniet illo vitae harum est! Doloribus ratione, quidem blanditiis earum voluptatem.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore veniam nesciunt itaque, facilis sunt veritatis iste? Iusto repellendus accusantium, blanditiis adipisci ex, quos atque sequi, eligendi sed eveniet reprehenderit optio..
@@ -173,4 +174,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet magnam, in, cum i
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque distinctio optio molestias excepturi iste ipsum ab fugiat[@nicodosw11](https://twitter.com/nicodosw11).
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi laudantium aperiam, ut quaerat eius sed tempore nisi atque praesentium ipsum delectus mollitia perspiciatis repudiandae, rem obcaecati, nesciunt ullam. Molestiae, consequatur.
-

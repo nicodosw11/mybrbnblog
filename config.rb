@@ -15,7 +15,7 @@ activate :i18n, :langs => [:en, :fr]
 activate :blog do |blog|
   # blog.prefix = 'blog'
   blog.name              = 'en'
-  # blog.new_article_template = "source/blog/article-templates/article-template.erb"
+  blog.new_article_template = File.expand_path('../source/blog/en/blog-article-template.erb', __FILE__)
   # blog.sources           = 'blog/{lang}/{year}-{month}-{day}-{title}.html'
   blog.sources           = "blog/en/{year}-{month}-{day}-{title}.html"
   blog.permalink         = "blog/{lang}/{year}/{month}/{day}/{title}.html"
@@ -55,6 +55,48 @@ activate :blog do |blog|
       template: '/blog/fr/category.html'
     }
   }
+end
+
+# # Activate the middleman-search extension and customize it.
+# activate :search do |search|
+#   # I only want to search blog articles, not about/ or books/ or anything.
+#   search.resources = ['blog/']
+
+#   # Search fields are indexed by default, but not stored. Storing takes up
+#   # space, so we should only store what is needed to render search results: the
+#   # title, the date, and the URL. We'll index the content but no store it.
+#   # Additionally, we apply a "boost" to the title and content fields.
+#   search.fields = {
+#     title:   {boost: 100, store: true, required: true},
+#     date:    {index: false, store: true},
+#     content: {boost: 50},
+#     url:     {index: false, store: true}
+#   }
+# end
+
+activate :search do |search|
+  search.resources = ['blog/']
+  # search.index_path = 'search/lunr-index.json'
+  search.fields = {
+    title:   {boost: 100, store: true, required: true},
+    date:    {index: false, store: true},
+    # content: {boost: 50},
+    url:     {index: false, store: true}
+  }
+
+  search_skip = ['Articles Tagged', 'Posts by Tag']
+
+  search.before_index = Proc.new do |to_index, to_store, resource|
+    if search_skip.any?{|ss| ss == resource.data.title}
+      throw(:skip)
+    end
+    to_store[:group] = resource.path.split('/').first
+  end
+end
+
+activate :asset_hash do |asset_hash|
+  asset_hash.ignore = [/demos/]
+  asset_hash.exts = %w[ .css .js .png .jpg .eot .svg .ttf .woff .json ]
 end
 
 # Set Markdown Engine and add Syntax Highlighting
@@ -108,9 +150,9 @@ page "/fr/blog.html", layout: "blog"
 # General configuration
 
 # Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
-end
+# configure :development do
+#   activate :livereload
+# end
 
 ###
 # Helpers

@@ -1,12 +1,13 @@
 ---
-title: Lorem ipsum - Part 3
+title: RubyonRails pour vous aider à démarrer
+date: 2017-07-13 18:14 BST
 subtitle: Rem laudantium sed iusto vero accusantium assumenda placeat.
 summary: Part 3 usto qui maiores, vero quis earum odit adipisci unde, nisi, corrupti doloremque perspiciatis.
 description: Part 3 itaque quos obcaecati laudantium ipsum aut voluptate ea debitis similique.
 category: Code
 header_image:
 published: true
-lang: en
+lang: fr
 tags: travel, food, ruby
 ---
 

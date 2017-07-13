@@ -1,12 +1,13 @@
 ---
 title: Nicolas Dotto freelance web developer based in London
 blog: fr
+lang: fr
 ---
 
 <section class="intro">
   <div class="box">
     <div class="brand">
-      <div class="brand-logo">
+      <div class="brand-logo js-menu-trigger sliding-panel-button">
         <% link_to 'http://www.nicolasdotto.com', :id => 'logo' do %>
             <%= image_tag 'logo.gif' %>
         <% end %>
@@ -17,6 +18,16 @@ blog: fr
     </div>
 </section>
 
+<nav class="js-menu sliding-panel-content">
+  <ul>
+    <li><a href="/fr/blog">Blog</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/fr/search">Chercher</a></li>
+    <li><a href="/">Switch to English</a></li>
+  </ul>
+</nav>
+
+<div class="js-menu-screen sliding-panel-fade-screen"></div>
 <section class="photoAndMessage">
   <div id="backgroundImage">
   </div>
@@ -25,7 +36,7 @@ blog: fr
     <h1><%= t(:hello) %></h1>
     <p><%= t(:skills) %></p>
     <p>
-      <%= t(:read_more_in) %> <a href="/blog"><%= t(:my_blog) %></a> <%= t(:checkout) %><a target="_blank" href="http://www.nicolasdotto.com"> <%= t(:recent_projects) %></a>.
+      <%= t(:read_more_in) %> <a href='<%= "/#{I18n.locale}/blog" %>'><%= t(:my_blog) %></a> <%= t(:checkout) %><a target="_blank" href="http://www.nicolasdotto.com"> <%= t(:recent_projects) %></a>.
     </p>
   </div>
 </section>
@@ -49,10 +60,10 @@ blog: fr
   </div>
 </section>
 
-<section class="contact">
+<section class="contact" id="contact-me">
   <div class="contact-form">
     <form id="contact" action="//formspree.io/connect@nicolasdotto.com" method="POST">
-      <h1>Get in Touch</h1>
+      <h1><%= t(:get_in_touch) %></h1>
         <input type="text" name="name" placeholder="Your name">
         <input type="email" name="_replyto" placeholder="Your email">
         <input type="tel" name="telephone" placeholder="Your phone number">
@@ -60,7 +71,7 @@ blog: fr
         <button type="submit" value="Send">Send</button>
         <input type="hidden" name="_subject" value="nicolasdotto.com Contact" />
         <input type="text" name="_gotcha" style="display:none" />
-        <input type="hidden" name="_next" value="/thankyou" />
+        <input type="hidden" name="_next" value='<%= "/#{I18n.locale}/thankyou" %>'/>
     </form>
   </div>
 </section>

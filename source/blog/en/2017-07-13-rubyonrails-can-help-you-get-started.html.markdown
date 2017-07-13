@@ -1,12 +1,13 @@
 ---
-title: Un example d'article - Part 3
+title: RubyonRails can help you get started
+date: 2017-07-13 18:14 BST
 subtitle: Rem laudantium sed iusto vero accusantium assumenda placeat.
 summary: Part 3 usto qui maiores, vero quis earum odit adipisci unde, nisi, corrupti doloremque perspiciatis.
 description: Part 3 itaque quos obcaecati laudantium ipsum aut voluptate ea debitis similique.
 category: Code
 header_image:
 published: true
-lang: fr
+lang: en
 tags: travel, food, ruby
 ---
 

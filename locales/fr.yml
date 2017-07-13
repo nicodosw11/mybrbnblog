@@ -21,3 +21,6 @@ fr:
   design: "design"
   Code: "Codage"
   Currencies: "Monnaies"
+  search: "Rechercher"
+  search_for: "Vous cherchez un article?"
+  search_comment: "Si vous cherchez article essayez ici les articles sont référencés."

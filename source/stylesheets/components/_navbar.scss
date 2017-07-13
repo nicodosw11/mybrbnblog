@@ -22,9 +22,9 @@
     li {
       display: inline-block;
       margin: 0 modular-scale(0);
-      &:last-child {
-        margin: 0;
-      }
+      // &:last-child {
+      //   margin: 0;
+      // }
       a {
         display: inline-block;
         height: 44px;
@@ -42,14 +42,51 @@
       float: left;
     }
   }
+  .logo-button {
+    @include media($mobile-only) {
+      display: none;
+    }
+  }
+  .sliding-panel-button {
+    @include media($small) {
+      display: none;
+    }
+  }
 }
 
 
+@media (min-width: 768px) {
+  .nav .text-link {
+    display: none;
+  }
+}
 
+.nav .icon-link {
+  font-size: 1em;
+  display: none;
+}
 
+@media (min-width: 768px) {
+  .nav .icon-link {
+    display: inherit;
+  }
+}
 
-
-
+#navFra {
+  // display: block;
+  vertical-align: middle;
+  @include media($mobile-only) {
+    display: none;
+  }
+}
+.icon-small {
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  @include media($mobile-only) {
+    display: none;
+  }
+}
 
 
 

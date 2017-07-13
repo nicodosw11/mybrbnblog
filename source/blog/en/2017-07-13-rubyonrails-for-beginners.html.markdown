@@ -1,5 +1,6 @@
 ---
-title: Lorem ipsum - Part 2
+title: RubyonRails for Beginners
+date: 2017-07-13 18:12 BST
 subtitle: Quisquam consequatur ratione iure id officia cupiditate nulla
 summary: Part 2 nisi maxime eius, vitae commodi explicabo omnis consectetur, ex dolorem? Totam debitis corporis eius.
 description: Part 2 totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
@@ -91,4 +92,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam assu
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laborum modi labore ut. Eius aut nobis magni odit, accusantium, numquam obcaecati quia, (voluptates atque omnis) sunt officia rerum facilis explicabo.
 
 Neque maxime nisi recusandae dolor laboriosam pariatur incidunt itaque sapient [Github](https://github.com/nicolasdotto/nicolasdotto.github.io), [email](http://www.nicolasdotto.com#contact) or [Twitter](http://www.twitter.com/nicodosw11).
-

@@ -11,6 +11,7 @@
 @import "components-font-awesome/scss/font-awesome.scss";
 @import "highlights/solarized-light";
 @import "mixins";
+// @import "texture";
 @import "normalize";
 // @import "layout-plain-listing";
 @import "layout";
@@ -21,13 +22,16 @@
 @import "custom-typography";
 @import "homepage/index";
 @import "components/navbar";
+@import "components/sliding-panel";
 @import "blog-listing/blog-articles-listing";
 @import "blog-listing/tags";
 @import "blog-listing/sidebars";
 @import "blog-article/article";
 @import "blog-article/header-image";
 @import "blog-article/metas";
-
+@import "search/search";
+@import "search/searchpage-list-items";
+@import "search/search-sidebar";
 /* apply a natural box layout model to all elements, but allowing components to change */
 
 *,
@@ -39,5 +43,7 @@
 // *, *:before, *:after {
 //   box-sizing: inherit;
 // }
+
+
 
 

@@ -1,0 +1,26 @@
+.search-results {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.search-results .result {
+    // padding-left: 0;
+    padding-left: 1.06875em;
+    line-height: 2em;
+}
+
+.search-results a {
+    // color: #398CCC;
+    color: #FF4D72;
+    text-decoration: none;
+}
+.search-results .result .post-meta {
+    color: #00A69C;
+    display: inline;
+}
+
+#noresult {
+  color: #FF4D72;
+  font-size: 1em;
+  padding-left: 1.06875em;
+}

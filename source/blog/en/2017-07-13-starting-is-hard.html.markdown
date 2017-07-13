@@ -1,5 +1,6 @@
 ---
 title: Starting is Hard
+date: 2017-07-13 17:57 BST
 summary: Aliquam excepturi deserunt voluptate deleniti laborum ullam id, sed, quo vero nesciunt ex iste.
 description: Dignissimos numquam, ratione enim incidunt dolores culpa quasi possimus, laboriosam aliquam.
 category: Currencies
@@ -68,6 +69,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias eaque, sit, 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nulla doloremque at deleniti commodi dicta, eos suscipit vitae quasi nisi sequi voluptatem veritatis et necessitatibus dolorem ea iusto voluptas tempore.
 
 > “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius atque voluptatem perspiciatis asperiores debitis sunt quis itaque aut laudantium ipsa fugit odit, sint architecto animi quidem ipsam et laborum id? Modi possimus porro, accusantium voluptates, aliquam ipsum dolorum quas neque quia harum alias, culpa nostrum illum facilis beatae repudiandae, earum quod facere?.” [—Sean Douglas](https://nicolasdotto.com/starting-is-hard/)
-
-
-

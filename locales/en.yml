@@ -21,3 +21,6 @@ en:
   design: "design"
   Code: "Code"
   Currencies: "Currencies"
+  search: "Search"
+  search_for: "Searching for something?"
+  search_comment: "If you're looking for an article try searching this site here."

@@ -30,6 +30,8 @@ gem 'middleman-autoprefixer'
 # Middleman Sitemap Builder
 gem 'middleman-search_engine_sitemap'
 
+gem 'middleman-search', github: 'manastech/middleman-search'
+
 # Middleman HTML minifier
 gem 'middleman-minify-html'
 
