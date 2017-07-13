@@ -24,12 +24,34 @@
 
   <body class="fr fr_tags fr_tags_programming fr_tags_programming_index">
       <header class="nav">
-<a href="/" id="nav-logo"><img src="../../../images/logo.gif" alt="Logo" />
+<a href="/" id="nav-logo" class="logo-button"><img src="../../../images/logo.gif" alt="Logo" />
+</a><a href="/" id="nav-logo" class="js-menu-trigger sliding-panel-button"><img src="../../../images/logo.gif" alt="Logo" />
 </a>  <ul>
-  <li><a href="/blog">Blog</a></li>
-  <li><a href="http://www.nicolasdotto.com#contact">Contact</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="http://www.nicolasdotto.com#contact">Contact</a></li>
+    <li>
+      <!-- <a href="/search" class="text-link">Search</a> -->
+      <a href="/search" class="icon-link"><i class="fa fa-search"></i></a>
+    </li>
+    <li>
+      <a id="navFra" href="fr/blog" class="language">
+        <img id="imgNavFra" src="http://www.roemheld.de/IT/Data/Images/Address/Frankreich.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+    </li>
   </ul>
 </header>
+
+<nav class="js-menu sliding-panel-content">
+  <ul>
+    <li><a href="/ ">Home</a></li>
+    <li><a href="#contact-me">Contact</a></li>
+    <li><a href="/search">Search</a></li>
+    <li><a href="/fr/blog">Switch to French</a></li>
+  </ul>
+</nav>
+
+<div class="js-menu-screen sliding-panel-fade-screen"></div>
 
 
   <div class="outer-container">
@@ -44,8 +66,8 @@
 <p>Language: en</p>
 <p>Template from blog/fr/tag</p>
 <ul>
-    <li><a href="/blog/fr/2017/01/19/starting-is-hard/">Débuter est difficile</a> <span>Jan 19</span></li>
-    <li><a href="/blog/fr/2017/01/18/lorem-ipsum-part-2/">Un example d'article - Part 2</a> <span>Jan 18</span></li>
+    <li><a href="/blog/fr/2017/07/13/rubyonrails-for-beginners/">RubyonRails pour les novices</a> <span>Jul 13</span></li>
+    <li><a href="/blog/fr/2017/07/13/starting-is-hard/">Débuter est difficile</a> <span>Jul 13</span></li>
 </ul>
 
 
@@ -62,13 +84,13 @@
   <!-- partial -->
   <ol>
       <li>
-        <a href="/blog/fr/2017/01/19/starting-is-hard/" class="article-link">Débuter est difficile</a>
+        <a href="/blog/fr/2017/07/13/rubyonrails-can-help-you-get-started/" class="article-link">RubyonRails pour vous aider à démarrer</a>
       </li>
       <li>
-        <a href="/blog/fr/2017/01/18/lorem-ipsum-part-3/" class="article-link">Un example d'article - Part 3</a>
+        <a href="/blog/fr/2017/07/13/rubyonrails-for-beginners/" class="article-link">RubyonRails pour les novices</a>
       </li>
       <li>
-        <a href="/blog/fr/2017/01/18/lorem-ipsum-part-2/" class="article-link">Un example d'article - Part 2</a>
+        <a href="/blog/fr/2017/07/13/starting-is-hard/" class="article-link">Débuter est difficile</a>
       </li>
   </ol>
   <!-- partial -->
@@ -80,7 +102,7 @@
       <li>
         <a href="/fr/2017/">2017 (3)</a>
           <ol class="li-month">
-            <li class="li-month"><a href="/fr/2017/01/">Jan (3)</a>
+            <li class="li-month"><a href="/fr/2017/07/">Jul (3)</a>
             </li>
           </ol>
       </li>
@@ -91,26 +113,30 @@
   <h2>| Tags</h2>
   <ol class="tag-labels">
       <li>
-<a href="/fr/tags/art/" class="tag-label tag">          art(1)
-</a>      </li>
-      <li>
-<a href="/fr/tags/programming/" class="tag-label tag">          programming(2)
-</a>      </li>
-      <li>
-<a href="/fr/tags/ruby/" class="tag-label tag">          ruby(3)
-</a>      </li>
-      <li>
 <a href="/fr/tags/travel/" class="tag-label tag">          travel(2)
 </a>      </li>
       <li>
 <a href="/fr/tags/food/" class="tag-label tag">          food(1)
 </a>      </li>
+      <li>
+<a href="/fr/tags/ruby/" class="tag-label tag">          ruby(3)
+</a>      </li>
+      <li>
+<a href="/fr/tags/art/" class="tag-label tag">          art(1)
+</a>      </li>
+      <li>
+<a href="/fr/tags/programming/" class="tag-label tag">          programming(2)
+</a>      </li>
   </ol>
 </fieldset><!-- </ul> -->
 <!-- </aside> -->
 
+<fieldset>
+   <input type="text" id="search" placeholder="Search...">
+</fieldset>
 
-
+<!-- <div id="search-result-group"></div> -->
+<div class="search-results"></div>
 
     </aside>
   </div>

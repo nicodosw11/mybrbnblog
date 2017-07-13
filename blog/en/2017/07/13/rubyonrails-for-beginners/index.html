@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Lorem ipsum - Part 2</title>
+    <title>RubyonRails for Beginners</title>
     <meta content="Part 2 totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis." name="description" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -22,14 +22,36 @@
     <script src="../../../../../../javascripts/all.js"></script>
   </head>
 
-  <body class="blog blog_en blog_en_2017 blog_en_2017_01 blog_en_2017_01_18 blog_en_2017_01_18_lorem-ipsum-part-2 blog_en_2017_01_18_lorem-ipsum-part-2_index">
+  <body class="blog blog_en blog_en_2017 blog_en_2017_07 blog_en_2017_07_13 blog_en_2017_07_13_rubyonrails-for-beginners blog_en_2017_07_13_rubyonrails-for-beginners_index">
       <header class="nav">
-<a href="/" id="nav-logo"><img src="../../../../../../images/logo.gif" alt="Logo" />
+<a href="/" id="nav-logo" class="logo-button"><img src="../../../../../../images/logo.gif" alt="Logo" />
+</a><a href="/" id="nav-logo" class="js-menu-trigger sliding-panel-button"><img src="../../../../../../images/logo.gif" alt="Logo" />
 </a>  <ul>
-  <li><a href="/blog">Blog</a></li>
-  <li><a href="http://www.nicolasdotto.com#contact">Contact</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="http://www.nicolasdotto.com#contact">Contact</a></li>
+    <li>
+      <!-- <a href="/search" class="text-link">Search</a> -->
+      <a href="/search" class="icon-link"><i class="fa fa-search"></i></a>
+    </li>
+    <li>
+      <a id="navFra" href="fr/blog" class="language">
+        <img id="imgNavFra" src="http://www.roemheld.de/IT/Data/Images/Address/Frankreich.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+    </li>
   </ul>
 </header>
+
+<nav class="js-menu sliding-panel-content">
+  <ul>
+    <li><a href="/ ">Home</a></li>
+    <li><a href="#contact-me">Contact</a></li>
+    <li><a href="/search">Search</a></li>
+    <li><a href="/fr/blog">Switch to French</a></li>
+  </ul>
+</nav>
+
+<div class="js-menu-screen sliding-panel-fade-screen"></div>
 
 
   <div class="outer-container">
@@ -40,11 +62,11 @@
 
         <div id="header-article">
           
-          <h1>Lorem ipsum - Part 2</h1>
+          <h1>RubyonRails for Beginners</h1>
 
 
           <ul class="meta">
-  <li class="date"><i class="fa fa-clock-o"></i> <span class="posted-date">Posted on Jan 18, 2017</span></li>
+  <li class="date"><i class="fa fa-clock-o"></i> <span class="posted-date">Posted on Jul 13, 2017</span></li>
   <i class="fa fa-tags"></i> 
   <li class="tags tag-label"><a href="/tags/art/">art</a></li>
 
@@ -159,13 +181,13 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laborum mod
   <!-- partial -->
   <ol>
       <li>
-        <a href="/blog/en/2017/01/19/starting-is-hard/" class="article-link">Starting is Hard</a>
+        <a href="/blog/en/2017/07/13/rubyonrails-can-help-you-get-started/" class="article-link">RubyonRails can help you get started</a>
       </li>
       <li>
-        <a href="/blog/en/2017/01/18/lorem-ipsum-part-3/" class="article-link">Lorem ipsum - Part 3</a>
+        <a href="/blog/en/2017/07/13/rubyonrails-for-beginners/" class="article-link">RubyonRails for Beginners</a>
       </li>
       <li>
-        <a href="/blog/en/2017/01/18/lorem-ipsum-part-2/" class="article-link">Lorem ipsum - Part 2</a>
+        <a href="/blog/en/2017/07/13/starting-is-hard/" class="article-link">Starting is Hard</a>
       </li>
   </ol>
   <!-- partial -->
@@ -177,7 +199,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laborum mod
       <li>
         <a href="/2017/">2017 (3)</a>
           <ol class="li-month">
-            <li class="li-month"><a href="/2017/01/">Jan (3)</a>
+            <li class="li-month"><a href="/2017/07/">Jul (3)</a>
             </li>
           </ol>
       </li>
@@ -188,26 +210,30 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laborum mod
   <h2>| Tags</h2>
   <ol class="tag-labels">
       <li>
-<a href="/tags/art/" class="tag-label tag">          art(1)
-</a>      </li>
-      <li>
-<a href="/tags/programming/" class="tag-label tag">          programming(2)
-</a>      </li>
-      <li>
-<a href="/tags/ruby/" class="tag-label tag">          ruby(3)
-</a>      </li>
-      <li>
 <a href="/tags/travel/" class="tag-label tag">          travel(2)
 </a>      </li>
       <li>
 <a href="/tags/food/" class="tag-label tag">          food(1)
 </a>      </li>
+      <li>
+<a href="/tags/ruby/" class="tag-label tag">          ruby(3)
+</a>      </li>
+      <li>
+<a href="/tags/art/" class="tag-label tag">          art(1)
+</a>      </li>
+      <li>
+<a href="/tags/programming/" class="tag-label tag">          programming(2)
+</a>      </li>
   </ol>
 </fieldset><!-- </ul> -->
 <!-- </aside> -->
 
+<fieldset>
+   <input type="text" id="search" placeholder="Search...">
+</fieldset>
 
-
+<!-- <div id="search-result-group"></div> -->
+<div class="search-results"></div>
 
     </aside>
   </div>

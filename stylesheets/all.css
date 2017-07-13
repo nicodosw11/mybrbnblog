@@ -50,8 +50,8 @@ html {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../vendor/components-font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("../vendor/components-font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../vendor/components-font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../vendor/components-font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../vendor/components-font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../vendor/components-font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url("../vendor/components-font-awesome/fonts/fontawesome-webfont-d980c2ce.eot?v=4.7.0");
+  src: url("../vendor/components-font-awesome/fonts/fontawesome-webfont-d980c2ce.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../vendor/components-font-awesome/fonts/fontawesome-webfont-28b78224.woff2?v=4.7.0") format("woff2"), url("../vendor/components-font-awesome/fonts/fontawesome-webfont-28b78224.woff?v=4.7.0") format("woff"), url("../vendor/components-font-awesome/fonts/fontawesome-webfont-13b1eab6.ttf?v=4.7.0") format("truetype"), url("../vendor/components-font-awesome/fonts/fontawesome-webfont-98a8aa5c.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa {
@@ -2989,6 +2989,34 @@ body.index {
     display: table;
     clear: both; }
 
+body.fr.fr_index {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0; }
+  body.fr.fr_index:after {
+    content: "";
+    display: table;
+    clear: both; }
+  body.fr.fr_index:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+body.search.search_index, body.fr.fr_search.fr_search_index {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0; }
+  body.search.search_index:after, body.fr.fr_search.fr_search_index:after {
+    content: "";
+    display: table;
+    clear: both; }
+  body.search.search_index:after, body.fr.fr_search.fr_search_index:after {
+    content: "";
+    display: table;
+    clear: both; }
+
 .outer-container {
   max-width: 100%;
   margin-left: auto;
@@ -3774,8 +3802,6 @@ button {
     .nav ul li {
       display: inline-block;
       margin: 0 1.125em; }
-      .nav ul li:last-child {
-        margin: 0; }
       .nav ul li a {
         display: inline-block;
         height: 44px;
@@ -3791,6 +3817,92 @@ button {
       width: 2.74917em;
       height: 2.74917em;
       float: left; }
+  @media screen and (max-width: 29.9375em) {
+    .nav .logo-button {
+      display: none; } }
+  @media screen and (min-width: 30em) {
+    .nav .sliding-panel-button {
+      display: none; } }
+
+@media (min-width: 768px) {
+  .nav .text-link {
+    display: none; } }
+.nav .icon-link {
+  font-size: 1em;
+  display: none; }
+
+@media (min-width: 768px) {
+  .nav .icon-link {
+    display: inherit; } }
+#navFra {
+  vertical-align: middle; }
+  @media screen and (max-width: 29.9375em) {
+    #navFra {
+      display: none; } }
+
+.icon-small {
+  height: 18px;
+  margin: 0;
+  padding: 0; }
+  @media screen and (max-width: 29.9375em) {
+    .icon-small {
+      display: none; } }
+
+.sliding-panel-content {
+  position: fixed;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 220px;
+  background: #404040;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  -webkit-transform: translateX(-220px);
+          transform: translateX(-220px);
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  z-index: 999999; }
+  .sliding-panel-content ul {
+    padding: 0;
+    margin: 0; }
+  .sliding-panel-content li {
+    list-style: none; }
+  .sliding-panel-content li a {
+    border-bottom: 1px solid #333;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    padding: 1em;
+    text-decoration: none; }
+    .sliding-panel-content li a:focus {
+      background-color: #4d4d4d; }
+    .sliding-panel-content li a:hover {
+      background-color: #477DCA;
+      color: #fff; }
+  .sliding-panel-content.is-visible {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+
+.sliding-panel-fade-screen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  visibility: hidden;
+  z-index: 999998; }
+  .sliding-panel-fade-screen.is-visible {
+    opacity: 0.4;
+    visibility: visible; }
+
+.sliding-panel-button {
+  cursor: pointer; }
 
 @-webkit-keyframes bounceIn {
   0% {
@@ -3933,6 +4045,146 @@ a.image-attr {
       display: block; } }
   .meta .posted-date {
     padding-right: 1.06875em; }
+
+.device-background {
+  background: url("../images/search-3bd66bfe.jpg"), -webkit-linear-gradient(80deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
+  background: url("../images/search-3bd66bfe.jpg"), linear-gradient(10deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20em;
+  width: 100%; }
+  .device-background .device-text {
+    padding: 2em; }
+    @media screen and (min-width: 64em) {
+      .device-background .device-text {
+        float: left;
+        max-width: 50%;
+        padding: 4em; } }
+    .device-background .device-text h4 {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      font-size: 1.5em;
+      margin: 0 0 0.5em 0;
+      padding-bottom: 0.5em; }
+    .device-background .device-text p {
+      color: white;
+      line-height: 1.5em;
+      margin-bottom: 1.5em; }
+  .device-background .device {
+    display: none;
+    position: relative; }
+    @media screen and (min-width: 64em) {
+      .device-background .device {
+        background: #1a1a1a;
+        border-radius: 2em;
+        box-shadow: 1px 0 #343434, 4px 0 #060606, 7px 0 #010101, 10px 0 #010101, 13px 0 #010101;
+        display: block;
+        float: right;
+        margin-bottom: -12em;
+        margin-right: 5em;
+        padding: 5em 0;
+        -webkit-transform: perspective(800px) translateX(0) translateY(-100px) translateZ(50px) rotateX(0) rotateY(-20deg) rotateZ(0);
+                transform: perspective(800px) translateX(0) translateY(-100px) translateZ(50px) rotateX(0) rotateY(-20deg) rotateZ(0);
+        width: 14.8em;
+        z-index: 99999; }
+        .device-background .device .screen {
+          height: 25em;
+          width: 14em;
+          background-image: url("../images/xyz-phone-770865d6.png");
+          background-size: cover;
+          border-radius: 0.2em;
+          box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.5);
+          margin: auto; } }
+
+figure {
+  padding: 0 2.35765%; }
+  @media screen and (min-width: 45em) {
+    figure {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 65.05695%;
+      margin-left: 17.47153%;
+      padding: 0; }
+      figure:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 64em) {
+    figure {
+      float: left;
+      display: block;
+      margin-right: 2.84259%;
+      width: 58.86297%;
+      margin-left: 20.56852%;
+      padding: 0; }
+      figure:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 75em) {
+    figure {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-left: 25.58941%; }
+      figure:last-child {
+        margin-right: 0; } }
+
+.list-group {
+  margin-bottom: 20px;
+  padding-left: 0; }
+
+.list-group-item:first-child {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px; }
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd; }
+
+a.list-group-item, button.list-group-item {
+  color: #FF4D72;
+  text-decoration: none; }
+
+.list-group-item > .badge {
+  float: right; }
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #00A69C;
+  border-radius: 10px; }
+
+.search-results {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em; }
+
+.search-results .result {
+  padding-left: 1.06875em;
+  line-height: 2em; }
+
+.search-results a {
+  color: #FF4D72;
+  text-decoration: none; }
+
+.search-results .result .post-meta {
+  color: #00A69C;
+  display: inline; }
+
+#noresult {
+  color: #FF4D72;
+  font-size: 1em;
+  padding-left: 1.06875em; }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 *,

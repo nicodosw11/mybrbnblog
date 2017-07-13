@@ -24,12 +24,34 @@
 
   <body class="en en_categories en_categories_code en_categories_code_index">
       <header class="nav">
-<a href="/" id="nav-logo"><img src="../../../images/logo.gif" alt="Logo" />
+<a href="/" id="nav-logo" class="logo-button"><img src="../../../images/logo.gif" alt="Logo" />
+</a><a href="/" id="nav-logo" class="js-menu-trigger sliding-panel-button"><img src="../../../images/logo.gif" alt="Logo" />
 </a>  <ul>
-  <li><a href="/blog">Blog</a></li>
-  <li><a href="http://www.nicolasdotto.com#contact">Contact</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="http://www.nicolasdotto.com#contact">Contact</a></li>
+    <li>
+      <!-- <a href="/search" class="text-link">Search</a> -->
+      <a href="/search" class="icon-link"><i class="fa fa-search"></i></a>
+    </li>
+    <li>
+      <a id="navFra" href="fr/blog" class="language">
+        <img id="imgNavFra" src="http://www.roemheld.de/IT/Data/Images/Address/Frankreich.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+    </li>
   </ul>
 </header>
+
+<nav class="js-menu sliding-panel-content">
+  <ul>
+    <li><a href="/ ">Home</a></li>
+    <li><a href="#contact-me">Contact</a></li>
+    <li><a href="/search">Search</a></li>
+    <li><a href="/fr/blog">Switch to French</a></li>
+  </ul>
+</nav>
+
+<div class="js-menu-screen sliding-panel-fade-screen"></div>
 
 
   <div class="outer-container">
@@ -44,16 +66,16 @@
 <section class="article-listing">
   <h1>Articles categorized as Code</h1>
     <div class="article-post">
-      <h4 class="article-date">Jan 18</h4>
-      <h2 class="article-title"><a href="/blog/en/2017/01/18/lorem-ipsum-part-2/">Lorem ipsum - Part 2</a></h2>
-        <p class="article-summary">Part 2 nisi maxime eius, vitae commodi explicabo omnis consectetur, ex dolorem? Totam debitis corporis eius.</p>
-        <a href="/blog/en/2017/01/18/lorem-ipsum-part-2/" class="read-more">Read</a>
+      <h4 class="article-date">Jul 13</h4>
+      <h2 class="article-title"><a href="/blog/en/2017/07/13/rubyonrails-can-help-you-get-started/">RubyonRails can help you get started</a></h2>
+        <p class="article-summary">Part 3 usto qui maiores, vero quis earum odit adipisci unde, nisi, corrupti doloremque perspiciatis.</p>
+        <a href="/blog/en/2017/07/13/rubyonrails-can-help-you-get-started/" class="read-more">Read</a>
     </div>
     <div class="article-post">
-      <h4 class="article-date">Jan 18</h4>
-      <h2 class="article-title"><a href="/blog/en/2017/01/18/lorem-ipsum-part-3/">Lorem ipsum - Part 3</a></h2>
-        <p class="article-summary">Part 3 usto qui maiores, vero quis earum odit adipisci unde, nisi, corrupti doloremque perspiciatis.</p>
-        <a href="/blog/en/2017/01/18/lorem-ipsum-part-3/" class="read-more">Read</a>
+      <h4 class="article-date">Jul 13</h4>
+      <h2 class="article-title"><a href="/blog/en/2017/07/13/rubyonrails-for-beginners/">RubyonRails for Beginners</a></h2>
+        <p class="article-summary">Part 2 nisi maxime eius, vitae commodi explicabo omnis consectetur, ex dolorem? Totam debitis corporis eius.</p>
+        <a href="/blog/en/2017/07/13/rubyonrails-for-beginners/" class="read-more">Read</a>
     </div>
 </section>
 
@@ -70,13 +92,13 @@
   <!-- partial -->
   <ol>
       <li>
-        <a href="/blog/en/2017/01/19/starting-is-hard/" class="article-link">Starting is Hard</a>
+        <a href="/blog/en/2017/07/13/rubyonrails-can-help-you-get-started/" class="article-link">RubyonRails can help you get started</a>
       </li>
       <li>
-        <a href="/blog/en/2017/01/18/lorem-ipsum-part-3/" class="article-link">Lorem ipsum - Part 3</a>
+        <a href="/blog/en/2017/07/13/rubyonrails-for-beginners/" class="article-link">RubyonRails for Beginners</a>
       </li>
       <li>
-        <a href="/blog/en/2017/01/18/lorem-ipsum-part-2/" class="article-link">Lorem ipsum - Part 2</a>
+        <a href="/blog/en/2017/07/13/starting-is-hard/" class="article-link">Starting is Hard</a>
       </li>
   </ol>
   <!-- partial -->
@@ -88,7 +110,7 @@
       <li>
         <a href="/2017/">2017 (3)</a>
           <ol class="li-month">
-            <li class="li-month"><a href="/2017/01/">Jan (3)</a>
+            <li class="li-month"><a href="/2017/07/">Jul (3)</a>
             </li>
           </ol>
       </li>
@@ -99,26 +121,30 @@
   <h2>| Tags</h2>
   <ol class="tag-labels">
       <li>
-<a href="/tags/art/" class="tag-label tag">          art(1)
-</a>      </li>
-      <li>
-<a href="/tags/programming/" class="tag-label tag">          programming(2)
-</a>      </li>
-      <li>
-<a href="/tags/ruby/" class="tag-label tag">          ruby(3)
-</a>      </li>
-      <li>
 <a href="/tags/travel/" class="tag-label tag">          travel(2)
 </a>      </li>
       <li>
 <a href="/tags/food/" class="tag-label tag">          food(1)
 </a>      </li>
+      <li>
+<a href="/tags/ruby/" class="tag-label tag">          ruby(3)
+</a>      </li>
+      <li>
+<a href="/tags/art/" class="tag-label tag">          art(1)
+</a>      </li>
+      <li>
+<a href="/tags/programming/" class="tag-label tag">          programming(2)
+</a>      </li>
   </ol>
 </fieldset><!-- </ul> -->
 <!-- </aside> -->
 
+<fieldset>
+   <input type="text" id="search" placeholder="Search...">
+</fieldset>
 
-
+<!-- <div id="search-result-group"></div> -->
+<div class="search-results"></div>
 
     </aside>
   </div>
