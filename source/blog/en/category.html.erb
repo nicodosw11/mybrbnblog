@@ -13,8 +13,6 @@ lang: en
     <p><%= link_to 'Previous page', prev_page %></p>
   <% end %>
 <% end %>
-<p>Language: <%= I18n.locale %></p>
-<p>english category template</p>
 <section class="article-listing">
   <h1>Articles categorized as <%= category %></h1>
   <% page_articles.each_with_index do |article, i| %>

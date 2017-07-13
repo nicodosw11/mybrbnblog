@@ -8,8 +8,7 @@ layout: blog
 blog: en
 ---
 <section id="preview" class="article-listing">
-  <h1>Blog (blog in localizable)</h1>
-  <p>Language: <%= I18n.locale %></p>
+  <h1>My Blog</h1>
   <% page_articles.each do |article| %>
     <div class="article-post">
       <%= partial("partials/blog-listing/blog-article-date", :locals => { :article => article }) %>

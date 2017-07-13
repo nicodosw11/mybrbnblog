@@ -33,8 +33,6 @@ lang: fr
       <%= year %>
     <% end %>
   </h1>
-  <p>Language: <%= I18n.locale %></p>
-  <p>Calendar template in blog/fr</p>
   <% page_articles.each_with_index do |article, i| %>
     <div class="article-post">
       <h4 class="article-date"><%= article.date.strftime('%b %e') %></h4>

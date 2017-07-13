@@ -4,10 +4,11 @@ pageable: true
 per_page: 10
 hide_from_sitemap: false
 description: Blog covering Code, Design, Business, and Life from a freelance web-designer.
+layout: blog
 blog: fr
 ---
 <section id="preview" class="article-listing">
-  <h1>French Blog</h1>
+  <h1>Mon Blog</h1>
   <% page_articles.each do |article| %>
     <div class="article-post">
       <%= partial("partials/blog-listing/blog-article-date", :locals => { :article => article }) %>
@@ -23,4 +24,5 @@ blog: fr
 
 
 <%= partial("partials/pagination/pagination") %>
+
 

@@ -7,8 +7,8 @@ lang: fr
 <section class="intro">
   <div class="box">
     <div class="brand">
-      <div class="brand-logo js-menu-trigger sliding-panel-button">
-        <% link_to 'http://www.nicolasdotto.com', :id => 'logo' do %>
+      <div class="brand-logo">
+        <% link_to 'http://www.nicolasdotto.com', :id => 'logo', :class => 'js-menu-trigger sliding-panel-button' do %>
             <%= image_tag 'logo.gif' %>
         <% end %>
         <h1 id="name">Nicolas Dotto</h1>
@@ -21,7 +21,7 @@ lang: fr
 <nav class="js-menu sliding-panel-content">
   <ul>
     <li><a href="/fr/blog">Blog</a></li>
-    <li><a href="/contact">Contact</a></li>
+    <li><a href="#contact-me">Contact</a></li>
     <li><a href="/fr/search">Chercher</a></li>
     <li><a href="/">Switch to English</a></li>
   </ul>
@@ -43,7 +43,7 @@ lang: fr
 
 <section class="recent-posts" id="recent-posts">
   <div class="posts">
-    <h1><%= link_to 'Recent </br>Articles', 'blog/' %></h1>
+    <h1><%= link_to 'Derniers </br>Articles', '/fr/blog/' %></h1>
     <% blog.articles[0...3].each do |article| %>
       <div class="article-post">
           <h4 class="article-date"><%= article.date.strftime('%b %e') %></h4>
