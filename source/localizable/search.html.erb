@@ -10,10 +10,17 @@ layout: layout
 </div>
 <nav class="js-menu sliding-panel-content">
   <ul>
+  <% if I18n.locale == I18n.default_locale %>
     <li><a href="/ ">Home</a></li>
     <li><a href="/#contact-me">Contact</a></li>
-    <li><a href="/fr/blog">French</a></li>
-    <li><a href="/blog">English</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/fr/blog">Switch to French</a></li>
+  <% else %>
+    <li><a href="/fr/">Accueil</a></li>
+    <li><a href="/fr#contact-me">Me contacter</a></li>
+    <li><a href="/fr/blog">Blog</a></li>
+    <li><a href="/blog">Switch to English</a></li>
+  <% end %>
   </ul>
 </nav>
 
@@ -23,7 +30,7 @@ layout: layout
   <div class="device-text">
     <h4><%= t(:search_for) %></h4>
     <p><%= t(:search_comment) %></p>
-    <p><input type="text" id="search" placeholder="Search..." width="100%"></p>
+    <p><input type="text" id="search" placeholder="<%= t(:search_placeholder) %>" width="100%"></p>
     <p id="result-count"><p>
   </div>
   <div class="device">
@@ -34,7 +41,7 @@ layout: layout
 <figure>
   <div class="list-group searchresults"></div>
   <div id="fallback-search">
-    <p>Sorry no results were found</p>
+    <p><%= t(:no_results) %></p>
   </div>
 </figure>
 

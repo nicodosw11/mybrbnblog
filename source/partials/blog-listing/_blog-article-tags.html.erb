@@ -1,7 +1,6 @@
 <div class="tag-labels">
   <% article.tags.each do |tag| %>
-  <small class="tag-label"><%= tag %></small>
+  <small class="tag-label"><%= link_to tag, tag_path(tag) %></small>
   <% end %>
 </div>
 <hr>
-

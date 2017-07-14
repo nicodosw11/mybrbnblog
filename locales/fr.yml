@@ -24,3 +24,5 @@ fr:
   search: "Rechercher"
   search_for: "Vous cherchez un article?"
   search_comment: "Si vous cherchez article essayez ici les articles sont référencés."
+  search_placeholder: "Ruby"
+  no_results: "Pas de résultats"

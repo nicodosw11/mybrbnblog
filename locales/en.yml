@@ -24,3 +24,5 @@ en:
   search: "Search"
   search_for: "Searching for something?"
   search_comment: "If you're looking for an article try searching this site here."
+  search_placeholder: "Ruby"
+  no_results: "Sorry no results were found"

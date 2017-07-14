@@ -14,7 +14,7 @@ lang: fr
   <% end %>
 <% end %>
 <section class="article-listing">
-  <h1>Articles categorized as <%= category %></h1>
+  <h1>Articles pour la catégorie '<%= category %>'</h1>
   <% page_articles.each_with_index do |article, i| %>
     <div class="article-post">
       <h4 class="article-date"><%= article.date.strftime('%b %e') %></h4>
