@@ -3799,6 +3799,12 @@ button {
     float: right;
     margin: 0.48636em 0;
     padding: 0; }
+    @media screen and (max-width: 29.9375em) {
+      .nav ul:first-of-type {
+        display: none; } }
+    @media screen and (min-width: 30em) {
+      .nav ul:last-child {
+        display: none; } }
     .nav ul li {
       display: inline-block;
       margin: 0 1.125em; }
@@ -3824,20 +3830,10 @@ button {
     .nav .sliding-panel-button {
       display: none; } }
 
-@media (min-width: 768px) {
-  .nav .text-link {
-    display: none; } }
-.nav .icon-link {
-  font-size: 1em;
-  display: none; }
-
-@media (min-width: 768px) {
-  .nav .icon-link {
-    display: inherit; } }
-#navFra {
+#navFra, #navEng {
   vertical-align: middle; }
   @media screen and (max-width: 29.9375em) {
-    #navFra {
+    #navFra, #navEng {
       display: none; } }
 
 .icon-small {
@@ -3956,7 +3952,8 @@ button {
   margin-right: .4em;
   text-transform: lowercase; }
   .tag-label a {
-    color: white; }
+    color: white;
+    text-decoration: none; }
 
 aside fieldset {
   -webkit-animation: fadeIn 4s;
