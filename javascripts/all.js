@@ -10237,7 +10237,7 @@ jQuery(document).ready(function($) {
   // Download search index and then set up search.
   // jQuery provides nicer syntax for this async download.
   $.ajax({
-    url: '/search-8e824fc8.json',
+    url: '/search-37220654.json',
     cache: true,
     method: 'GET',
     success: function(data) {
@@ -10318,7 +10318,7 @@ var lunrIndex = null;
 var lunrData  = null;
 // Download index data
 $.ajax({
-  url: "/search-8e824fc8.json",
+  url: "/search-37220654.json",
   cache: true,
   method: 'GET',
   success: function(data) {
