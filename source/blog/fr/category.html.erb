@@ -5,6 +5,8 @@ per_page: 12
 blog: fr
 lang: fr
 ---
+
+<% I18n.locale = articles.first.lang %>
 <% @title = category %>
 <% if paginate && num_pages > 1 %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
@@ -14,7 +16,7 @@ lang: fr
   <% end %>
 <% end %>
 <section class="article-listing">
-  <h1>Articles pour la catégorie '<%= category %>'</h1>
+  <h1>Articles pour la catégorie '<%=t("#{category}")%>'</h1>
   <% page_articles.each_with_index do |article, i| %>
     <div class="article-post">
       <h4 class="article-date"><%= article.date.strftime('%b %e') %></h4>

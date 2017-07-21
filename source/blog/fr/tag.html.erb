@@ -4,7 +4,8 @@ per_page: 12
 blog: fr
 lang: fr
 ---
-<h1>Les articles associés à '<%= tagname %>'</h1>
+<% I18n.locale = articles.first.lang %>
+<h1>Les articles associés à '<%=t("#{tagname}")%>'</h1>
 
 <% if paginate && num_pages > 1 %>
   <p>Page <%= page_number %> of <%= num_pages %></p>

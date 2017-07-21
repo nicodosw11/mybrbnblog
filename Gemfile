@@ -13,7 +13,8 @@ gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 
 # Blog extension for Middleman
-gem 'middleman-blog'
+# gem 'middleman-blog'
+gem 'middleman-blog', '~> 4.0', '>= 4.0.2'
 gem 'nokogiri'
 
 # Middleman Deploy for quickly deploying build to Github

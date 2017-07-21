@@ -23,8 +23,11 @@ activate :blog do |blog|
   blog.layout            = 'blog'
   # blog.tag_template = 'tag.html'
   blog.tag_template      = "blog/en/tag.html"
+  blog.taglink           = "en/tags/{tag}.html"
   # blog.calendar_template = 'calendar.html'
   blog.calendar_template = "blog/en/calendar.html"
+  blog.year_link         = "en/{year}.html"
+  blog.month_link        = "en/{year}/{month}.html"
   # Enable pagination
   # blog.paginate = true
   # blog.per_page = 10

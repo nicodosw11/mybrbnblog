@@ -4,6 +4,9 @@ pageable: true
 blog: fr
 lang: fr
 ---
+
+<% I18n.locale = articles.first.lang %>
+
 <% case page_type
    when 'day' %>
       <% date = Date.new(year, month, day).strftime('%b %e %Y') %>
@@ -37,7 +40,7 @@ lang: fr
     <div class="article-post">
       <h4 class="article-date"><%= article.date.strftime('%b %e') %></h4>
       <% if article.data['category'] != nil %>
-      <h4 class="article-category">| <%= link_to article.data['category'], category_path(article.data['category']) %></h4>
+      <h4 class="article-category">| <%= link_to t(article.data['category']), category_path(article.data['category']) %></h4>
       <% end %>
       <h2 class="article-title"><%= link_to article.title, article %></h2>
       <% if article.data['summary'] != nil %>
