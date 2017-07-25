@@ -31,23 +31,23 @@ for updates.</p>
 <ol>
 <li>Install the Bourbon gem using the <a href="https://rubygems.org">RubyGems</a> package manager:</li>
 </ol>
-<pre class="highlight shell"><code>  gem install bourbon
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  gem install bourbon
+</code></pre></div>
 <p>Alternatively, you can install Bourbon with <a href="http://bower.io">Bower</a>.</p>
 
 <ol>
 <li>Install the Bourbon library into the current directory:</li>
 </ol>
-<pre class="highlight shell"><code>  bourbon install
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  bourbon install
+</code></pre></div>
 <p><strong>Pro Tip:</strong> You can target installation into a specific directory using the <code>path</code> flag:</p>
-<pre class="highlight shell"><code>  bourbon install --path my/custom/path/
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  bourbon install <span class="nt">--path</span> my/custom/path/
+</code></pre></div>
 <ol>
 <li>Import Bourbon at the beginning of your stylesheet:</li>
 </ol>
-<pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"bourbon/bourbon"</span><span class="p">;</span>
-</code></pre>
+<div class="highlight"><pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"bourbon/bourbon"</span><span class="p">;</span>
+</code></pre></div>
 <p>It’s not recommended to add or modify the Bourbon files so that you can update them easily.</p>
 
 <h2>Installation for Ruby on Rails 3.1+</h2>
@@ -55,26 +55,26 @@ for updates.</p>
 <ol>
 <li>Add Bourbon to your Gemfile:</li>
 </ol>
-<pre class="highlight ruby"><code>  <span class="n">gem</span> <span class="s1">'bourbon'</span>
-</code></pre>
+<div class="highlight"><pre class="highlight ruby"><code>  <span class="n">gem</span> <span class="s1">'bourbon'</span>
+</code></pre></div>
 <ol>
 <li>Then run:</li>
 </ol>
-<pre class="highlight shell"><code>  bundle install
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  bundle install
+</code></pre></div>
 <ol>
 <li>Restart your server and rename <code>application.css</code> to <code>application.scss</code>:</li>
 </ol>
-<pre class="highlight shell"><code>  mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
+</code></pre></div>
 <ol>
 <li><p>Delete <em>all</em> Sprockets directives in <code>application.scss</code> (<code>require</code>, <code>require_tree</code> and <code>require_self</code>) and use Sass’s native <code>@import</code> instead. (<a href="http://pivotallabs.com/structure-your-sass-files-with-import">why?</a>)</p></li>
 <li><p>Import Bourbon at the beginning of <code>application.scss</code>. All additional stylesheets should be imported below Bourbon:</p></li>
 </ol>
-<pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"bourbon"</span><span class="p">;</span>
+<div class="highlight"><pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"bourbon"</span><span class="p">;</span>
   <span class="k">@import</span> <span class="s2">"home"</span><span class="p">;</span>
   <span class="k">@import</span> <span class="s2">"users"</span><span class="p">;</span>
-</code></pre>
+</code></pre></div>
 <p><a href="https://github.com/thoughtbot/bourbon/wiki/Rails-Help-%5C-Undefined-mixin">Help! I’m getting an undefined mixin error.</a></p>
 
 <h2>Installing with npm and using a Node-based asset pipeline</h2>
@@ -82,26 +82,26 @@ for updates.</p>
 <ol>
 <li>Add Bourbon as a dependency:</li>
 </ol>
-<pre class="highlight shell"><code>  npm install --save bourbon
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  npm install <span class="nt">--save</span> bourbon
+</code></pre></div>
 <ol>
 <li><p>If you’re using <a href="http://eyeglass.rocks">Eyeglass</a>, skip to Step 3. Otherwise, you’ll need to add Bourbon to your node-sass <code>includePaths</code> option. <code>require(&quot;bourbon&quot;).includePaths</code> is an array of directories that you should pass to node-sass. How you do this depends on how node-sass is integrated into your project.</p></li>
 <li><p>Import Bourbon into your Sass files:</p></li>
 </ol>
-<pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"bourbon"</span><span class="p">;</span>
-</code></pre>
+<div class="highlight"><pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"bourbon"</span><span class="p">;</span>
+</code></pre></div>
 <h2>Installing older versions of Bourbon</h2>
 
 <ol>
 <li>Uninstall any Bourbon gem versions you already have:</li>
 </ol>
-<pre class="highlight shell"><code>  gem uninstall bourbon
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  gem uninstall bourbon
+</code></pre></div>
 <ol>
 <li>Reinstall the Bourbon gem, using the <code>-v</code> flag to specify the version you need:</li>
 </ol>
-<pre class="highlight shell"><code>  gem install bourbon -v 3.2.4
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  gem install bourbon <span class="nt">-v</span> 3.2.4
+</code></pre></div>
 <ol>
 <li>Follow the <a href="#installation">instructions above</a> to install Bourbon into your project.</li>
 </ol>

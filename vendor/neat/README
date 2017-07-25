@@ -32,25 +32,25 @@ for updates.</p>
 <ol>
 <li>Install the Neat gem using the <a href="https://rubygems.org">RubyGems</a> package manager:</li>
 </ol>
-<pre class="highlight shell"><code>  gem install neat
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  gem install neat
+</code></pre></div>
 <p>Alternatively, you can install Neat with <a href="http://bower.io">Bower</a>.</p>
 
 <ol>
 <li>Install or update Neat’s dependencies:</li>
 </ol>
-<pre class="highlight shell"><code>  gem install sass <span class="c"># or gem update sass</span>
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  gem install sass <span class="c"># or gem update sass</span>
+</code></pre></div>
 <ol>
 <li>Install the Neat library into the current directory:</li>
 </ol>
-<pre class="highlight shell"><code>  neat install
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  neat install
+</code></pre></div>
 <ol>
 <li>Import Neat in your stylesheet:</li>
 </ol>
-<pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"neat/neat"</span><span class="p">;</span>
-</code></pre>
+<div class="highlight"><pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"neat/neat"</span><span class="p">;</span>
+</code></pre></div>
 <p>It’s not recommended to add or modify the Neat files so that you can update them easily.</p>
 
 <h2>Installation for Ruby on Rails</h2>
@@ -58,21 +58,21 @@ for updates.</p>
 <ol>
 <li>Add Neat to your Gemfile:</li>
 </ol>
-<pre class="highlight ruby"><code>  <span class="n">gem</span> <span class="s1">'neat'</span>
-</code></pre>
+<div class="highlight"><pre class="highlight ruby"><code>  <span class="n">gem</span> <span class="s1">'neat'</span>
+</code></pre></div>
 <ol>
 <li>Then run:</li>
 </ol>
-<pre class="highlight shell"><code>  bundle install
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  bundle install
+</code></pre></div>
 <p>If you see the error <code>Bundler could not find compatible versions for gem &quot;sass&quot;</code>, run:</p>
-<pre class="highlight shell"><code>  bundle update sass
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  bundle update sass
+</code></pre></div>
 <ol>
 <li> Import Neat in your <code>application.scss</code>:</li>
 </ol>
-<pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"neat"</span><span class="p">;</span>
-</code></pre>
+<div class="highlight"><pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"neat"</span><span class="p">;</span>
+</code></pre></div>
 <p>It should be noted that <code>@import</code> rules are not compatible with Sprockets directives. You need to use one or the other.</p>
 
 <h2>Installing with npm and using a Node-based asset pipeline</h2>
@@ -80,26 +80,26 @@ for updates.</p>
 <ol>
 <li>Add Neat as a dependency:</li>
 </ol>
-<pre class="highlight shell"><code>  npm install --save bourbon-neat
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  npm install <span class="nt">--save</span> bourbon-neat
+</code></pre></div>
 <ol>
 <li><p>If you’re using <a href="http://eyeglass.rocks">Eyeglass</a>, skip to Step 3. Otherwise, you’ll need to add Neat to your node-sass <code>includePaths</code> option. <code>require(&quot;bourbon-neat&quot;).includePaths</code> is an array of directories that you should pass to node-sass. How you do this depends on how node-sass is integrated into your project.</p></li>
 <li><p>Import Neat into your Sass files:</p></li>
 </ol>
-<pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"neat"</span><span class="p">;</span>
-</code></pre>
+<div class="highlight"><pre class="highlight scss"><code>  <span class="k">@import</span> <span class="s2">"neat"</span><span class="p">;</span>
+</code></pre></div>
 <h2>Installing older versions of Neat</h2>
 
 <ol>
 <li>Uninstall any Neat gem versions you already have:</li>
 </ol>
-<pre class="highlight shell"><code>  gem uninstall neat
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  gem uninstall neat
+</code></pre></div>
 <ol>
 <li>Reinstall the Neat gem, using the <code>-v</code> flag to specify the version you need:</li>
 </ol>
-<pre class="highlight shell"><code>  gem install neat -v 1.7.0
-</code></pre>
+<div class="highlight"><pre class="highlight shell"><code>  gem install neat <span class="nt">-v</span> 1.7.0
+</code></pre></div>
 <ol>
 <li>Follow the <a href="#installation">instructions above</a> to install Neat into your project.</li>
 </ol>
@@ -107,11 +107,11 @@ for updates.</p>
 <h2>Using Neat</h2>
 
 <p>First off, if you are planning to override the default grid settings (12 columns), it is recommended to create a <code>_grid-settings.scss</code> file for that purpose. Make sure to import it right <em>before</em> importing Neat:</p>
-<pre class="highlight scss"><code><span class="k">@import</span> <span class="s2">"grid-settings"</span><span class="p">;</span>
+<div class="highlight"><pre class="highlight scss"><code><span class="k">@import</span> <span class="s2">"grid-settings"</span><span class="p">;</span>
 <span class="k">@import</span> <span class="s2">"neat/neat"</span><span class="p">;</span> <span class="c1">// or "neat" when in Rails
-</span></code></pre>
+</span></code></pre></div>
 <p>In your newly created  <code>_grid-settings.scss</code>, import <code>neat-helpers</code> if you are planning to use <code>new-breakpoint()</code>, then define your new variables:</p>
-<pre class="highlight scss"><code><span class="k">@import</span> <span class="s2">"neat/neat-helpers"</span><span class="p">;</span> <span class="c1">// or "neat-helpers" when in Rails
+<div class="highlight"><pre class="highlight scss"><code><span class="k">@import</span> <span class="s2">"neat/neat-helpers"</span><span class="p">;</span> <span class="c1">// or "neat-helpers" when in Rails
 </span>
 <span class="c1">// Change the grid settings
 </span><span class="nv">$column</span><span class="p">:</span> <span class="m">90px</span><span class="p">;</span>
@@ -122,21 +122,21 @@ for updates.</p>
 <span class="c1">// Define your breakpoints
 </span><span class="nv">$tablet</span><span class="p">:</span> <span class="nf">new-breakpoint</span><span class="p">(</span><span class="n">max-width</span> <span class="m">768px</span> <span class="m">8</span><span class="p">);</span>
 <span class="nv">$mobile</span><span class="p">:</span> <span class="nf">new-breakpoint</span><span class="p">(</span><span class="n">max-width</span> <span class="m">480px</span> <span class="m">4</span><span class="p">);</span>
-</code></pre>
+</code></pre></div>
 <p>See the <a href="http://thoughtbot.github.io/neat-docs/latest/#variable">docs</a> for a full list of settings.</p>
 
 <p>Next, include the <code>outer-container</code> mixin in the topmost container (to which the <code>max-width</code> setting will be applied):</p>
-<pre class="highlight scss"><code><span class="nt">div</span><span class="nc">.container</span> <span class="p">{</span>
+<div class="highlight"><pre class="highlight scss"><code><span class="nt">div</span><span class="nc">.container</span> <span class="p">{</span>
   <span class="k">@include</span> <span class="nd">outer-container</span><span class="p">;</span>
 <span class="p">}</span>
-</code></pre>
+</code></pre></div>
 <p>Then use <code>span-columns</code> on any element to specify the number of columns it should span:</p>
-<pre class="highlight scss"><code><span class="nt">div</span><span class="nc">.element</span> <span class="p">{</span>
+<div class="highlight"><pre class="highlight scss"><code><span class="nt">div</span><span class="nc">.element</span> <span class="p">{</span>
   <span class="k">@include</span> <span class="nd">span-columns</span><span class="p">(</span><span class="m">6</span><span class="p">);</span>
 <span class="p">}</span>
-</code></pre>
+</code></pre></div>
 <p>If the element’s parent isn’t the top-most container, you need to add the number of columns of the parent element to keep the right proportions:</p>
-<pre class="highlight scss"><code><span class="nt">div</span><span class="nc">.container</span> <span class="p">{</span>
+<div class="highlight"><pre class="highlight scss"><code><span class="nt">div</span><span class="nc">.container</span> <span class="p">{</span>
   <span class="k">@include</span> <span class="nd">outer-container</span><span class="p">;</span>
 
   <span class="nt">div</span><span class="nc">.parent-element</span> <span class="p">{</span>
@@ -147,9 +147,9 @@ for updates.</p>
     <span class="p">}</span>
   <span class="p">}</span>
 <span class="p">}</span>
-</code></pre>
+</code></pre></div>
 <p>To make your layout responsive, use the <code>media()</code> mixin to modify both the grid and the layout:</p>
-<pre class="highlight scss"><code><span class="nc">.my-class</span> <span class="p">{</span>
+<div class="highlight"><pre class="highlight scss"><code><span class="nc">.my-class</span> <span class="p">{</span>
   <span class="k">@include</span> <span class="nd">media</span><span class="p">(</span><span class="nv">$mobile</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// As defined in _grid-settings.scss
 </span>    <span class="k">@include</span> <span class="nd">span-columns</span><span class="p">(</span><span class="m">2</span><span class="p">);</span>
   <span class="p">}</span>
@@ -167,7 +167,7 @@ for updates.</p>
     <span class="nl">margin-right</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
   <span class="p">}</span>
 <span class="p">}</span>
-</code></pre>
+</code></pre></div>
 <p>By setting <code>$visual-grid</code> to <code>true</code> in a file that is imported before<br>
 <code>neat-helpers</code> (or prior to <code>neat</code> itself if you are using the default<br>
 breakpoints), you can display the base grid in the background (default) or as an<br>
@@ -186,7 +186,7 @@ overriding the default settings as detailed in the section below.</p>
 
 <p>The other, more elegant, solution is to use mutually exclusive media queries, also referred to as <a href="http://simurai.com/blog/2012/08/29/media-query-splitting">media-query<br>
 splitting</a>. This would guarantee that <code>omega()</code> styles are only applied where desired.</p>
-<pre class="highlight scss"><code><span class="nv">$first-breakpoint-value</span><span class="p">:</span> <span class="m">400px</span><span class="p">;</span>
+<div class="highlight"><pre class="highlight scss"><code><span class="nv">$first-breakpoint-value</span><span class="p">:</span> <span class="m">400px</span><span class="p">;</span>
 <span class="nv">$second-breakpoint-value</span><span class="p">:</span> <span class="m">700px</span><span class="p">;</span>
 <span class="nv">$medium-viewport</span><span class="p">:</span> <span class="nf">new-breakpoint</span><span class="p">(</span><span class="n">min-width</span> <span class="nv">$first-breakpoint-value</span> <span class="n">max-width</span> <span class="nv">$second-breakpoint-value</span><span class="p">);</span>
 <span class="nv">$large-viewport</span><span class="p">:</span> <span class="nf">new-breakpoint</span><span class="p">(</span><span class="n">min-width</span> <span class="nv">$second-breakpoint-value</span> <span class="o">+</span> <span class="m">1</span><span class="p">);</span>
@@ -202,7 +202,7 @@ splitting</a>. This would guarantee that <code>omega()</code> styles are only ap
     <span class="k">@include</span> <span class="nd">omega</span><span class="p">(</span><span class="m">3n</span><span class="p">);</span>
   <span class="p">}</span>
 <span class="p">}</span>
-</code></pre>
+</code></pre></div>
 <p>If, for some reason, you still think that <code>omega-reset</code> is the only way you want to go, check out Josh Fry’s <a href="http://joshfry.me/blog/2013/05/13/omega-reset-for-bourbon-neat">omega-reset</a>.</p>
 
 <h4>Why are the elements not properly aligned with the visual grid?</h4>

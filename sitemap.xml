@@ -121,49 +121,49 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.nicolasdotto.com/tags/travel/</loc>
-    <lastmod>2017-07-13T19:53:06+01:00</lastmod>
+    <loc>http://www.nicolasdotto.com/en/tags/travel/</loc>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.nicolasdotto.com/tags/programming/</loc>
-    <lastmod>2017-07-13T19:53:06+01:00</lastmod>
+    <loc>http://www.nicolasdotto.com/en/tags/food/</loc>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.nicolasdotto.com/tags/style/</loc>
-    <lastmod>2017-07-13T19:53:06+01:00</lastmod>
+    <loc>http://www.nicolasdotto.com/en/tags/ruby/</loc>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.nicolasdotto.com/tags/ruby/</loc>
-    <lastmod>2017-07-13T19:53:06+01:00</lastmod>
+    <loc>http://www.nicolasdotto.com/en/tags/art/</loc>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.nicolasdotto.com/tags/food/</loc>
-    <lastmod>2017-07-13T19:53:06+01:00</lastmod>
+    <loc>http://www.nicolasdotto.com/en/tags/programming/</loc>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.nicolasdotto.com/tags/art/</loc>
-    <lastmod>2017-07-13T19:53:06+01:00</lastmod>
+    <loc>http://www.nicolasdotto.com/en/tags/style/</loc>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.nicolasdotto.com/2017/</loc>
+    <loc>http://www.nicolasdotto.com/en/2017/</loc>
     <lastmod>2017-07-13T19:52:53+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.nicolasdotto.com/2017/07/</loc>
+    <loc>http://www.nicolasdotto.com/en/2017/07/</loc>
     <lastmod>2017-07-13T19:52:53+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -194,73 +194,73 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/tags/travel/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.nicolasdotto.com/fr/tags/programming/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.nicolasdotto.com/fr/tags/style/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.nicolasdotto.com/fr/tags/ruby/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/tags/food/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/fr/tags/ruby/</loc>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/tags/art/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/fr/tags/programming/</loc>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/fr/tags/style/</loc>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/2017/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/2017/07/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/2017/07/11/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/2017/07/10/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/categories/code/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/categories/currencies/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-25T20:31:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
