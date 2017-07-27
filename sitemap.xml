@@ -55,6 +55,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.nicolasdotto.com/about/</loc>
+    <lastmod>2017-07-27T21:10:57+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/fr/about/</loc>
+    <lastmod>2017-07-27T21:10:57+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.nicolasdotto.com/blog/</loc>
     <lastmod>2017-07-14T14:46:44+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -68,25 +80,25 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/</loc>
-    <lastmod>2017-07-13T19:50:09+01:00</lastmod>
+    <lastmod>2017-07-27T21:10:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/</loc>
-    <lastmod>2017-07-13T19:50:09+01:00</lastmod>
+    <lastmod>2017-07-27T21:10:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/search/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-27T21:10:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/search/</loc>
-    <lastmod>2017-07-14T14:46:44+01:00</lastmod>
+    <lastmod>2017-07-27T21:10:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -103,6 +115,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.nicolasdotto.com/fr/about/</loc>
+    <lastmod>2017-07-27T21:10:57+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.nicolasdotto.com/fr/blog/</loc>
     <lastmod>2017-07-14T14:46:44+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -110,7 +128,7 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/</loc>
-    <lastmod>2017-07-13T19:51:58+01:00</lastmod>
+    <lastmod>2017-07-27T21:10:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

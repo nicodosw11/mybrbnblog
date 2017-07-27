@@ -4190,6 +4190,294 @@ a.list-group-item, button.list-group-item {
   font-size: 1em;
   padding-left: 1.06875em; }
 
+body.about.about_index, body.fr.fr_about.fr_about_index {
+  height: 100%;
+  margin-top: 0; }
+  body.about.about_index section.intro-about, body.fr.fr_about.fr_about_index section.intro-about {
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    height: 100vh; }
+  body.about.about_index .image-bg, body.fr.fr_about.fr_about_index .image-bg {
+    background: url("../images/paris.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -200; }
+  body.about.about_index .color-overlay, body.fr.fr_about.fr_about_index .color-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2ecc71;
+    opacity: 0.7;
+    z-index: -100; }
+  body.about.about_index h1, body.fr.fr_about.fr_about_index h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: .5em; }
+    body.about.about_index h1 img, body.fr.fr_about.fr_about_index h1 img {
+      max-width: 50%; }
+  body.about.about_index h3, body.fr.fr_about.fr_about_index h3 {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0 20%; }
+  body.about.about_index a.jump-down, body.fr.fr_about.fr_about_index a.jump-down {
+    position: absolute;
+    bottom: 4em;
+    left: 20%;
+    right: 20%;
+    margin: 2em auto 0;
+    display: block;
+    width: 4em;
+    text-align: center; }
+    body.about.about_index a.jump-down i, body.fr.fr_about.fr_about_index a.jump-down i {
+      color: white;
+      opacity: 0.5;
+      font-size: 3.5em;
+      text-align: center;
+      -webkit-transition: opacity 0.2s;
+      transition: opacity 0.2s; }
+      body.about.about_index a.jump-down i:hover, body.fr.fr_about.fr_about_index a.jump-down i:hover {
+        opacity: 1; }
+
+body.about.about_index section.features .title, body.fr.fr_about.fr_about_index section.features .title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3em; }
+  body.about.about_index section.features .title hr, body.fr.fr_about.fr_about_index section.features .title hr {
+    border: solid 2px rgba(0, 0, 0, 0.1);
+    margin: 1em auto 1.5em; }
+    body.about.about_index section.features .title hr.small, body.fr.fr_about.fr_about_index section.features .title hr.small {
+      width: 50px; }
+  body.about.about_index section.features .title p, body.fr.fr_about.fr_about_index section.features .title p {
+    opacity: 0.5;
+    font-size: 1.25em; }
+body.about.about_index section.features .feature-items .feature-item, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item {
+  padding: 3em 0 2em;
+  text-align: center; }
+  body.about.about_index section.features .feature-items .feature-item i, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item i {
+    font-size: 4em;
+    color: #cccccc;
+    margin-bottom: .3em;
+    -webkit-transition: color .2s;
+    transition: color .2s; }
+    body.about.about_index section.features .feature-items .feature-item i:hover, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item i:hover {
+      color: #2ecc71; }
+  body.about.about_index section.features .feature-items .feature-item h4, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item h4 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    padding-bottom: .5em; }
+  body.about.about_index section.features .feature-items .feature-item p, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item p {
+    color: gray; }
+@media screen and (min-width: 53.75em) {
+  body.about.about_index section.features .feature-items .feature-item, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    body.about.about_index section.features .feature-items .feature-item::last-child, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item::last-child {
+      margin-right: 0; }
+    body.about.about_index section.features .feature-items .feature-item:nth-child(3n), body.fr.fr_about.fr_about_index section.features .feature-items .feature-item:nth-child(3n) {
+      margin-right: 0; }
+    body.about.about_index section.features .feature-items .feature-item:nth-child(3n+1), body.fr.fr_about.fr_about_index section.features .feature-items .feature-item:nth-child(3n+1) {
+      clear: left; } }
+@media screen and (max-width: 53.75em) {
+  body.about.about_index section.features .feature-items .feature-item, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 48.21067%; }
+    body.about.about_index section.features .feature-items .feature-item::last-child, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item::last-child {
+      margin-right: 0; }
+    body.about.about_index section.features .feature-items .feature-item:nth-child(2n), body.fr.fr_about.fr_about_index section.features .feature-items .feature-item:nth-child(2n) {
+      margin-right: 0; }
+    body.about.about_index section.features .feature-items .feature-item:nth-child(2n+1), body.fr.fr_about.fr_about_index section.features .feature-items .feature-item:nth-child(2n+1) {
+      clear: left; } }
+@media screen and (max-width: 30em) {
+  body.about.about_index section.features .feature-items .feature-item, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%; }
+    body.about.about_index section.features .feature-items .feature-item::last-child, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item::last-child {
+      margin-right: 0; }
+    body.about.about_index section.features .feature-items .feature-item:nth-child(2n), body.fr.fr_about.fr_about_index section.features .feature-items .feature-item:nth-child(2n) {
+      margin-right: 0; }
+    body.about.about_index section.features .feature-items .feature-item:nth-child(2n+1), body.fr.fr_about.fr_about_index section.features .feature-items .feature-item:nth-child(2n+1) {
+      clear: left; } }
+
+body.about.about_index section, body.fr.fr_about.fr_about_index section {
+  padding: 6em 0 3em;
+  position: relative; }
+body.about.about_index .container, body.fr.fr_about.fr_about_index .container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 .5em; }
+body.about.about_index .container:after, body.fr.fr_about.fr_about_index .container:after {
+  content: "";
+  display: table;
+  clear: both; }
+@media screen and (min-width: 30em) {
+  body.about.about_index section.intro-about .container, body.about.about_index section.intro-video .container, body.fr.fr_about.fr_about_index section.intro-about .container, body.fr.fr_about.fr_about_index section.intro-video .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%; } }
+@media screen and (max-width: 30em) {
+  body.about.about_index section.intro-about .container, body.about.about_index section.intro-video .container, body.fr.fr_about.fr_about_index section.intro-about .container, body.fr.fr_about.fr_about_index section.intro-video .container {
+    padding-top: 8em; } }
+
+body.about.about_index a, body.fr.fr_about.fr_about_index a {
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  color: #2ecc71;
+  text-decoration: none; }
+  body.about.about_index a:hover, body.fr.fr_about.fr_about_index a:hover {
+    color: #208e4e; }
+  body.about.about_index a:active, body.about.about_index a a:focus, body.fr.fr_about.fr_about_index a:active, body.fr.fr_about.fr_about_index a a:focus {
+    color: #208e4e;
+    outline: none; }
+
+body.about.about_index, body.fr.fr_about.fr_about_index {
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: gray; }
+  body.about.about_index h1, body.fr.fr_about.fr_about_index h1 {
+    font-size: 2.25em; }
+  body.about.about_index h2, body.fr.fr_about.fr_about_index h2 {
+    font-size: 2em; }
+  body.about.about_index h3, body.fr.fr_about.fr_about_index h3 {
+    font-size: 1.75em; }
+  body.about.about_index h4, body.fr.fr_about.fr_about_index h4 {
+    font-size: 1.5em; }
+  body.about.about_index h5, body.fr.fr_about.fr_about_index h5 {
+    font-size: 1.25em; }
+  body.about.about_index h6, body.fr.fr_about.fr_about_index h6 {
+    font-size: 1em; }
+  body.about.about_index h1, body.about.about_index h2, body.about.about_index h3, body.about.about_index h4, body.about.about_index h5, body.about.about_index h6, body.fr.fr_about.fr_about_index h1, body.fr.fr_about.fr_about_index h2, body.fr.fr_about.fr_about_index h3, body.fr.fr_about.fr_about_index h4, body.fr.fr_about.fr_about_index h5, body.fr.fr_about.fr_about_index h6 {
+    line-height: 1.25em;
+    margin: 0;
+    text-rendering: optimizeLegibility; }
+  body.about.about_index h1, body.about.about_index h2, body.about.about_index h3, body.about.about_index h4, body.about.about_index h5, body.fr.fr_about.fr_about_index h1, body.fr.fr_about.fr_about_index h2, body.fr.fr_about.fr_about_index h3, body.fr.fr_about.fr_about_index h4, body.fr.fr_about.fr_about_index h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase; }
+  body.about.about_index p, body.fr.fr_about.fr_about_index p {
+    margin: 0 0 0.75em; }
+
+body.about.about_index img, body.fr.fr_about.fr_about_index img {
+  margin: 0;
+  max-width: 100%; }
+
+.parallax-window {
+  max-height: 30em;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+  .parallax-window .color-overlay {
+    z-index: 1 !important; }
+
+.parallax-static-content {
+  color: #9A9A8A;
+  padding: 8em 0;
+  position: relative;
+  z-index: 9; }
+
+.parallax-background {
+  background-position: top;
+  background-size: cover;
+  background-color: beige;
+  height: 60em;
+  left: 0;
+  position: absolute;
+  top: -10em;
+  width: 100%; }
+
+body.about.about_index, body.fr.fr_about.fr_about_index {
+  height: 100%;
+  margin-top: 0; }
+  body.about.about_index section.intro-video, body.fr.fr_about.fr_about_index section.intro-video {
+    height: 100vh;
+    padding: 0;
+    color: white;
+    text-transform: uppercase; }
+    body.about.about_index section.intro-video .video-container, body.fr.fr_about.fr_about_index section.intro-video .video-container {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      height: 100%;
+      width: 100%;
+      overflow: hidden; }
+      body.about.about_index section.intro-video .video-container video, body.fr.fr_about.fr_about_index section.intro-video .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -200;
+        -o-object-fit: cover;
+           object-fit: cover; }
+    body.about.about_index section.intro-video .color-overlay, body.fr.fr_about.fr_about_index section.intro-video .color-overlay {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      min-width: 100%;
+      top: 0;
+      left: 0;
+      background-color: #2ecc71;
+      opacity: 0.7;
+      z-index: -100; }
+    body.about.about_index section.intro-video h1, body.fr.fr_about.fr_about_index section.intro-video h1 {
+      text-align: center;
+      color: white;
+      padding-bottom: .5em; }
+      body.about.about_index section.intro-video h1 img, body.fr.fr_about.fr_about_index section.intro-video h1 img {
+        max-width: 50%; }
+    body.about.about_index section.intro-video h3, body.fr.fr_about.fr_about_index section.intro-video h3 {
+      text-align: center;
+      font-size: 1.2em;
+      padding: 0 20%; }
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-10px); }
+  60% {
+    -webkit-transform: translateY(-5px); } }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); }
+  60% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px); } }
+    body.about.about_index section.intro-video .down-arrow, body.fr.fr_about.fr_about_index section.intro-video .down-arrow {
+      position: absolute;
+      color: white;
+      font-size: 25px;
+      bottom: 10px;
+      left: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+      -webkit-animation: bounce 2s infinite;
+      animation: bounce 2s infinite; }
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 *,
 *:before,
