@@ -1,0 +1,67 @@
+$parallax-window-fs-height: 100vh;
+$parallax-background-fs-height: $parallax-window-fs-height * 2;
+
+.parallax-window-fs {
+  // max-height: $parallax-window-height;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  // padding: 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+.parallax-static-content-fs {
+  // color: #9A9A8A;
+  // padding: 8em 0;
+  // position: relative;
+  // z-index: 9;
+}
+
+.parallax-static-content-fs {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 .5em;
+}
+.parallax-static-content-fs:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (min-width: 30em) {
+  .parallax-static-content-fs {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+}
+@media screen and (max-width: 30em) {
+  .parallax-static-content-fs {
+    padding-top: 8em;
+  }
+}
+
+.parallax-background-fs {
+  // background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  background: url("/images/paris.jpeg") repeat;
+  background-position: top;
+  background-size: cover;
+  // background-color: beige;
+  height: $parallax-background-fs-height;
+  left: 0;
+  position: absolute;
+  // top: - $parallax-window-height / 3;
+  top: 0;
+  width: 100%;
+
+  min-width: 100%;
+  z-index: -200;
+
+}
+
+// Based on http://codepen.io/skeurentjes/

@@ -6,6 +6,8 @@ en:
   my_blog: "my blog"
   checkout: "or checkout some"
   recent_projects: "recent projects"
+  more_about_me: "More about me"
+  here: "here"
   get_in_touch: "Get in touch"
   my_recent_articles: "Recent articles"
   by_year: "By Year"
@@ -26,3 +28,4 @@ en:
   search_comment: "If you're looking for an article try searching this site here."
   search_placeholder: "Ruby"
   no_results: "Sorry no results were found"
+  one_day: "One day I left finance to live out my real passion for programming and I have never looked back!"

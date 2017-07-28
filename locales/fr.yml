@@ -6,6 +6,8 @@ fr:
   my_blog: "mon blog"
   checkout: "ou regarder mes"
   recent_projects: "derniers projets"
+  more_about_me: "Pour plus d'infos sur moi"
+  here: "c'est par ici"
   get_in_touch: "Me contacter"
   my_recent_articles: "Derniers articles"
   by_year: "Par Année"
@@ -26,3 +28,4 @@ fr:
   search_comment: "Si vous cherchez article essayez ici les articles sont référencés."
   search_placeholder: "Ruby"
   no_results: "Pas de résultats"
+  one_day: "Un jour j'ai quitté la finance pour vivre pleinement ma passion pour la programmation sans aucun regret à ce jour!"

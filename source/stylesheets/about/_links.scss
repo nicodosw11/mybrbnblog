@@ -1,0 +1,17 @@
+body.about.about_index, body.fr.fr_about.fr_about_index {
+  a {
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    transition: color 0.1s linear;
+    color: #2ecc71;
+    text-decoration: none;
+    &:hover {
+      color: #208e4e;
+    }
+    &:active, a:focus {
+      color: #208e4e;
+      outline: none;
+    }
+  }
+
+}

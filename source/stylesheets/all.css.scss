@@ -32,6 +32,12 @@
 @import "search/search";
 @import "search/searchpage-list-items";
 @import "search/search-sidebar";
+@import "about/index";
+// @import "about/parallax-fullscreen";
+// @import "about/banner-fullscreen";
+@import "about/intro-video";
+@import "about/parallax";
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 
 *,
@@ -44,6 +50,12 @@
 //   box-sizing: inherit;
 // }
 
+html {
+  height: 100%;
+  // border-bottom: 3px solid blue;
+}
 
-
-
+body {
+  height: 100%;
+  // border-bottom: 3px solid orange;
+}

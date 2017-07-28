@@ -9,7 +9,7 @@ lang: en
     <div class="brand">
       <div class="brand-logo">
         <% link_to 'http://www.nicolasdotto.com', :id => 'logo', :class => 'js-menu-trigger sliding-panel-button' do %>
-            <%= image_tag 'logo.gif' %>
+            <%= image_tag 'logo.png' %>
         <% end %>
         <h1 id="name">Nicolas Dotto</h1>
       </div>
@@ -22,6 +22,7 @@ lang: en
   <ul>
     <li><a href="/blog">Blog</a></li>
     <li><a href="#contact-me">Contact</a></li>
+    <li><a href="/about">About</a></li>
     <li><a href="/search">Search</a></li>
     <li><a href="/fr">Switch to French</a></li>
   </ul>
@@ -38,6 +39,7 @@ lang: en
     <p><%= t(:skills) %></p>
     <p>
       <%= t(:read_more_in) %> <a href="/blog"><%= t(:my_blog) %></a> <%= t(:checkout) %><a target="_blank" href="http://www.nicolasdotto.com"> <%= t(:recent_projects) %></a>.
+      <%= t(:more_about_me) %> <a href="/about"><%= t(:here) %></a>.
     </p>
   </div>
 </section>

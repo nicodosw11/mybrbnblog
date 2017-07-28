@@ -1,0 +1,22 @@
+<section class="intro-video" id="section-intro">
+ <div class="video-container">
+  <video autoplay loop poster="paris.jpeg" id="bgvid">
+    <source src="/videos/bwcitystreet.mp4" type="video/mp4">
+  </video>
+  </div>
+  <div class="color-overlay"></div>
+  <div class="container">
+    <div class="logo">
+      <% if I18n.locale == I18n.default_locale %>
+      <a href='<%= "/" %>'><h1><img src="/images/logo-white.png" alt="logo"></h1></a>
+      <% else %>
+      <a href='<%= "/fr/" %>'><h1><img src="/images/logo-white.png" alt="logo"></h1></a>
+      <% end %>
+    </div>
+    <h3> <%= t(:one_day)%> </h3>
+  </div>
+  <div class="down-arrow">
+    <i class="fa fa-arrow-down"></i>
+  </div>
+</section>
+

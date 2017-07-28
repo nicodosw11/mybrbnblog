@@ -1,0 +1,162 @@
+.fullscreen-bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), image-url('paris.jpeg') no-repeat; // image as falback
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.wrapper-text-flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.fullscreen-bg-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+
+
+.welcome-text-intro{
+  position: relative;
+  -webkit-animation: slideUp 1.35s;
+  animation: slideUp 1.35s;
+  h1 {
+    color: black;
+    &:hover {
+      color: #fff;
+    }
+  }
+  h3 {
+    color: black;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.links{
+  // margin-top: 30px;
+  margin-top: 20px;
+
+  a{
+    font-weight: 800;
+    // color:#fff;
+    color: black;
+    text-shadow: 0px 1px 1px rgba(1,1,1,0.6);
+    padding: 10px;
+    // border: 3px solid #fff;
+    border: 3px solid black;
+    margin: 4px;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+
+    &:hover {
+      background: rgba(55,55,55,0.25);
+      color: #fff;
+    }
+  }
+}
+
+.top-bar{
+  top: -10px;
+  left: -15px;
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 10px;
+  // background: rgba(255,255,255,0.9);
+  background: black;
+  // margin: 20px 0 0 290px;
+}
+
+.bottom-bar{
+  bottom: -10px;
+  right: -15px;
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 10px;
+  // background: rgba(255,255,255,0.9);
+  background: black;
+  // margin: 20px 0 0 290px;
+}
+
+@media (max-width: 479px) {
+
+  .welcome-text-intro {
+    position: relative;
+    h1 {color: #fff;}
+    h3 {color: #fff;}
+  }
+  .links {
+    a{
+      color:#fff;
+      border: 3px solid #fff;
+    }
+  }
+  .top-bar{
+    width: 80px;
+    height: 8px;
+    background: rgba(255,255,255,0.9);
+  }
+  .bottom-bar{
+    width: 80px;
+    height: 8px;
+    background: rgba(255,255,255,0.9);
+  }
+  .wrapper-text-flexbox {
+    // background: image-url('images/search.jpg') center center / cover no-repeat;
+    // background: linear-gradient(135deg, rgba(48, 120, 159, 0.8) 0%, rgba(0, 0, 301, 0.2) 100%), url("/images/search.jpg") center center / cover no-repeat;
+    background: linear-gradient(135deg, rgba(35, 120, 159, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), image-url("images/parisquai-panorama.jpg") center center/ cover no-repeat;
+  }
+  .wrapper-text-flexbox {
+    h1 {
+      font-size: 28px;
+    }
+    h3 {
+      font-size: 19px;
+    }
+    h4 {
+      font-size: 14px;
+    }
+  }
+  .fullscreen-bg-video {
+    display: none;
+  }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+
+  // .fullscreen-bg-video {
+  //     display: none;
+  // }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  // .fullscreen-bg-video {
+  //     display: none;
+  // }
+}
+
+
+
+
