@@ -4193,58 +4193,58 @@ a.list-group-item, button.list-group-item {
 body.about.about_index, body.fr.fr_about.fr_about_index {
   height: 100%;
   margin-top: 0; }
-  body.about.about_index section.intro-about, body.fr.fr_about.fr_about_index section.intro-about {
+  body.about.about_index section.intro-about, body.about.about_index section.intro-video, body.about.about_index .banner-container, body.about.about_index .parallax-window-fs, body.fr.fr_about.fr_about_index section.intro-about, body.fr.fr_about.fr_about_index section.intro-video, body.fr.fr_about.fr_about_index .banner-container, body.fr.fr_about.fr_about_index .parallax-window-fs {
     padding: 0;
     color: white;
     text-transform: uppercase;
     height: 100vh; }
-  body.about.about_index .image-bg, body.fr.fr_about.fr_about_index .image-bg {
-    background: url("../images/paris.jpeg") 0 0 no-repeat;
-    background-size: cover;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    min-width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -200; }
-  body.about.about_index .color-overlay, body.fr.fr_about.fr_about_index .color-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #2ecc71;
-    opacity: 0.7;
-    z-index: -100; }
-  body.about.about_index h1, body.fr.fr_about.fr_about_index h1 {
-    text-align: center;
-    color: white;
-    padding-bottom: .5em; }
-    body.about.about_index h1 img, body.fr.fr_about.fr_about_index h1 img {
-      max-width: 50%; }
-  body.about.about_index h3, body.fr.fr_about.fr_about_index h3 {
-    text-align: center;
-    font-size: 1.2em;
-    padding: 0 20%; }
-  body.about.about_index a.jump-down, body.fr.fr_about.fr_about_index a.jump-down {
-    position: absolute;
-    bottom: 4em;
-    left: 20%;
-    right: 20%;
-    margin: 2em auto 0;
-    display: block;
-    width: 4em;
-    text-align: center; }
-    body.about.about_index a.jump-down i, body.fr.fr_about.fr_about_index a.jump-down i {
-      color: white;
-      opacity: 0.5;
-      font-size: 3.5em;
+    body.about.about_index section.intro-about .image-bg, body.about.about_index section.intro-video .image-bg, body.about.about_index .banner-container .image-bg, body.about.about_index .parallax-window-fs .image-bg, body.fr.fr_about.fr_about_index section.intro-about .image-bg, body.fr.fr_about.fr_about_index section.intro-video .image-bg, body.fr.fr_about.fr_about_index .banner-container .image-bg, body.fr.fr_about.fr_about_index .parallax-window-fs .image-bg {
+      background: url("../images/paris.jpeg") 0 0 no-repeat;
+      background-size: cover;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      min-width: 100%;
+      top: 0;
+      left: 0;
+      z-index: -200; }
+    body.about.about_index section.intro-about .color-overlay, body.about.about_index section.intro-video .color-overlay, body.about.about_index .banner-container .color-overlay, body.about.about_index .parallax-window-fs .color-overlay, body.fr.fr_about.fr_about_index section.intro-about .color-overlay, body.fr.fr_about.fr_about_index section.intro-video .color-overlay, body.fr.fr_about.fr_about_index .banner-container .color-overlay, body.fr.fr_about.fr_about_index .parallax-window-fs .color-overlay {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: #2ecc71;
+      opacity: 0.7;
+      z-index: -100; }
+    body.about.about_index section.intro-about h1, body.about.about_index section.intro-video h1, body.about.about_index .banner-container h1, body.about.about_index .parallax-window-fs h1, body.fr.fr_about.fr_about_index section.intro-about h1, body.fr.fr_about.fr_about_index section.intro-video h1, body.fr.fr_about.fr_about_index .banner-container h1, body.fr.fr_about.fr_about_index .parallax-window-fs h1 {
       text-align: center;
-      -webkit-transition: opacity 0.2s;
-      transition: opacity 0.2s; }
-      body.about.about_index a.jump-down i:hover, body.fr.fr_about.fr_about_index a.jump-down i:hover {
-        opacity: 1; }
+      color: white;
+      padding-bottom: .5em; }
+      body.about.about_index section.intro-about h1 img, body.about.about_index section.intro-video h1 img, body.about.about_index .banner-container h1 img, body.about.about_index .parallax-window-fs h1 img, body.fr.fr_about.fr_about_index section.intro-about h1 img, body.fr.fr_about.fr_about_index section.intro-video h1 img, body.fr.fr_about.fr_about_index .banner-container h1 img, body.fr.fr_about.fr_about_index .parallax-window-fs h1 img {
+        max-width: 50%; }
+    body.about.about_index section.intro-about h3, body.about.about_index section.intro-video h3, body.about.about_index .banner-container h3, body.about.about_index .parallax-window-fs h3, body.fr.fr_about.fr_about_index section.intro-about h3, body.fr.fr_about.fr_about_index section.intro-video h3, body.fr.fr_about.fr_about_index .banner-container h3, body.fr.fr_about.fr_about_index .parallax-window-fs h3 {
+      text-align: center;
+      font-size: 1.2em;
+      padding: 0 20%; }
+    body.about.about_index section.intro-about a.jump-down, body.about.about_index section.intro-video a.jump-down, body.about.about_index .banner-container a.jump-down, body.about.about_index .parallax-window-fs a.jump-down, body.fr.fr_about.fr_about_index section.intro-about a.jump-down, body.fr.fr_about.fr_about_index section.intro-video a.jump-down, body.fr.fr_about.fr_about_index .banner-container a.jump-down, body.fr.fr_about.fr_about_index .parallax-window-fs a.jump-down {
+      position: absolute;
+      bottom: 4em;
+      left: 20%;
+      right: 20%;
+      margin: 2em auto 0;
+      display: block;
+      width: 4em;
+      text-align: center; }
+      body.about.about_index section.intro-about a.jump-down i, body.about.about_index section.intro-video a.jump-down i, body.about.about_index .banner-container a.jump-down i, body.about.about_index .parallax-window-fs a.jump-down i, body.fr.fr_about.fr_about_index section.intro-about a.jump-down i, body.fr.fr_about.fr_about_index section.intro-video a.jump-down i, body.fr.fr_about.fr_about_index .banner-container a.jump-down i, body.fr.fr_about.fr_about_index .parallax-window-fs a.jump-down i {
+        color: white;
+        opacity: 0.5;
+        font-size: 3.5em;
+        text-align: center;
+        -webkit-transition: opacity 0.2s;
+        transition: opacity 0.2s; }
+        body.about.about_index section.intro-about a.jump-down i:hover, body.about.about_index section.intro-video a.jump-down i:hover, body.about.about_index .banner-container a.jump-down i:hover, body.about.about_index .parallax-window-fs a.jump-down i:hover, body.fr.fr_about.fr_about_index section.intro-about a.jump-down i:hover, body.fr.fr_about.fr_about_index section.intro-video a.jump-down i:hover, body.fr.fr_about.fr_about_index .banner-container a.jump-down i:hover, body.fr.fr_about.fr_about_index .parallax-window-fs a.jump-down i:hover {
+          opacity: 1; }
 
 body.about.about_index section.features .title, body.fr.fr_about.fr_about_index section.features .title {
   text-align: center;
@@ -4325,7 +4325,7 @@ body.about.about_index .container:after, body.fr.fr_about.fr_about_index .contai
   display: table;
   clear: both; }
 @media screen and (min-width: 30em) {
-  body.about.about_index section.intro-about .container, body.about.about_index section.intro-video .container, body.fr.fr_about.fr_about_index section.intro-about .container, body.fr.fr_about.fr_about_index section.intro-video .container {
+  body.about.about_index section.intro-about .container, body.about.about_index section.intro-video .container, body.about.about_index .banner-container .container, body.fr.fr_about.fr_about_index section.intro-about .container, body.fr.fr_about.fr_about_index section.intro-video .container, body.fr.fr_about.fr_about_index .banner-container .container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -4333,7 +4333,7 @@ body.about.about_index .container:after, body.fr.fr_about.fr_about_index .contai
             transform: translate(-50%, -50%);
     width: 100%; } }
 @media screen and (max-width: 30em) {
-  body.about.about_index section.intro-about .container, body.about.about_index section.intro-video .container, body.fr.fr_about.fr_about_index section.intro-about .container, body.fr.fr_about.fr_about_index section.intro-video .container {
+  body.about.about_index section.intro-about .container, body.about.about_index section.intro-video .container, body.about.about_index .banner-container .container, body.fr.fr_about.fr_about_index section.intro-about .container, body.fr.fr_about.fr_about_index section.intro-video .container, body.fr.fr_about.fr_about_index .banner-container .container {
     padding-top: 8em; } }
 
 body.about.about_index a, body.fr.fr_about.fr_about_index a {
@@ -4380,31 +4380,6 @@ body.about.about_index img, body.fr.fr_about.fr_about_index img {
   margin: 0;
   max-width: 100%; }
 
-.parallax-window {
-  max-height: 30em;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  width: 100%; }
-  .parallax-window .color-overlay {
-    z-index: 1 !important; }
-
-.parallax-static-content {
-  color: #9A9A8A;
-  padding: 8em 0;
-  position: relative;
-  z-index: 9; }
-
-.parallax-background {
-  background-position: top;
-  background-size: cover;
-  background-color: beige;
-  height: 60em;
-  left: 0;
-  position: absolute;
-  top: -10em;
-  width: 100%; }
-
 body.about.about_index, body.fr.fr_about.fr_about_index {
   height: 100%;
   margin-top: 0; }
@@ -4420,6 +4395,11 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
       height: 100%;
       width: 100%;
       overflow: hidden; }
+      @media screen and (max-width: 29.9375em) {
+        body.about.about_index section.intro-video .video-container, body.fr.fr_about.fr_about_index section.intro-video .video-container {
+          background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 50%), url(../images/paris.jpeg) no-repeat;
+          background-size: cover;
+          z-index: -200; } }
       body.about.about_index section.intro-video .video-container video, body.fr.fr_about.fr_about_index section.intro-video .video-container video {
         position: absolute;
         top: 0;
@@ -4429,26 +4409,9 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
         z-index: -200;
         -o-object-fit: cover;
            object-fit: cover; }
-    body.about.about_index section.intro-video .color-overlay, body.fr.fr_about.fr_about_index section.intro-video .color-overlay {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      min-width: 100%;
-      top: 0;
-      left: 0;
-      background-color: #2ecc71;
-      opacity: 0.7;
-      z-index: -100; }
-    body.about.about_index section.intro-video h1, body.fr.fr_about.fr_about_index section.intro-video h1 {
-      text-align: center;
-      color: white;
-      padding-bottom: .5em; }
-      body.about.about_index section.intro-video h1 img, body.fr.fr_about.fr_about_index section.intro-video h1 img {
-        max-width: 50%; }
-    body.about.about_index section.intro-video h3, body.fr.fr_about.fr_about_index section.intro-video h3 {
-      text-align: center;
-      font-size: 1.2em;
-      padding: 0 20%; }
+        @media screen and (max-width: 29.9375em) {
+          body.about.about_index section.intro-video .video-container video, body.fr.fr_about.fr_about_index section.intro-video .video-container video {
+            display: none; } }
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0); }
@@ -4478,9 +4441,47 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
       -webkit-animation: bounce 2s infinite;
       animation: bounce 2s infinite; }
 
+.parallax-window {
+  max-height: 30em;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+  .parallax-window .color-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2ecc71;
+    opacity: 0.7;
+    z-index: 1 !important; }
+
+.parallax-static-content {
+  color: #9A9A8A;
+  padding: 8em 0;
+  position: relative;
+  z-index: 9; }
+
+.parallax-background {
+  background-position: top;
+  background-size: cover;
+  background-color: beige;
+  height: 60em;
+  left: 0;
+  position: absolute;
+  top: -10em;
+  width: 100%; }
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 *,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
