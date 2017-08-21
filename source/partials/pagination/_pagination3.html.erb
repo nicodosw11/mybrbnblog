@@ -1,0 +1,25 @@
+<% if paginate && num_pages > 1 %>
+  <div class="pagination">
+    <% if prev_page %>
+      <%= link_to '<i class="icon-arrow-left"></i> Prev', prev_page, class: 'prev page-numbers' %>
+    <% else %>
+      <span class="disabled"><i class="icon-arrow-left"></i> Prev</span>
+    <% end %>
+
+    <% for p in 1..num_pages %>
+      <% if p == page_number %>
+        <span class="page-numbers current"><%= p %></span>
+      <% elsif p == 1 %>
+        <%= link_to p, "/blog" %>
+      <% else %>
+        <%= link_to p, "/blog/page/#{p}" %>
+      <% end %>
+    <% end %>
+
+    <% if next_page %>
+      <%= link_to 'Next <i class="icon-arrow-right"></i>', next_page, class: 'next page-numbers' %>
+    <% else %>
+      <span class="disabled">Next <i class="icon-arrow-right"></i></span>
+    <% end %>
+  </div>
+<% end %>

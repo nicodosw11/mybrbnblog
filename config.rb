@@ -29,9 +29,10 @@ activate :blog do |blog|
   blog.year_link         = "en/{year}.html"
   blog.month_link        = "en/{year}/{month}.html"
   # Enable pagination
-  # blog.paginate = true
-  # blog.per_page = 10
+  blog.paginate = true
+  blog.per_page = 3
   # blog.page_link = 'page/{num}.html'
+  blog.page_link = 'page/{num}'
   blog.custom_collections = {
     category: {
       link: 'en/categories/{category}.html',
@@ -52,6 +53,11 @@ activate :blog do |blog|
   blog.month_link        = "fr/{year}/{month}.html"
   blog.tag_template      = "blog/fr/tag.html"
   blog.taglink           = "fr/tags/{tag}.html"
+  # Enable pagination
+  blog.paginate = true
+  blog.per_page = 3
+  # blog.page_link = 'page/{num}.html'
+  blog.page_link = 'page/{num}'
   blog.custom_collections = {
     category: {
       link: 'fr/categories/{category}.html',
