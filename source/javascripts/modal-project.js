@@ -5,11 +5,6 @@
 //   var closeButton = document.querySelector("#close-button");
 //   // var openButton = document.querySelector("#open-button");
 
-//   closeButton.addEventListener("click", function() {
-//     modal.classList.toggle("closed");
-//     modalOverlay.classList.toggle("closed");
-//   });
-
 //   $('.trigger').on('click', function() {
 
 //     $('#title-id').html($(this).data('modal-title'));
@@ -22,8 +17,19 @@
 //     $('#description-text-left-id-2').html($(this).data('modal-description-text-left-2'));
 //     // $(".modal-guts").scrollTop(0);
 //     $(".modal-guts").animate({ scrollTop: 0 }, "fast");
+
+
+//     modal.classList.toggle("closed");
+//     modalOverlay.classList.toggle("closed");
 //     $("body.projects.projects_index, body.fr.fr_projects.fr_projects_index").addClass("modal-open");
 
 //   });
+
+//   closeButton.addEventListener("click", function() {
+//     modal.classList.toggle("closed");
+//     modalOverlay.classList.toggle("closed");
+//     $("body.projects.projects_index, body.fr.fr_projects.fr_projects_index").removeClass("modal-open")
+//   });
+
 // };
 

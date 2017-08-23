@@ -24,9 +24,11 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
   }
   .item {
     float:left;
-    width: 33.3%;
+    // width: 33.3%;
+    width: calc((100% - 10px * 4) / 4);
     height: 300px;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
+    margin: 20px 5px;
     transition: all .7s ease-out;
   }
   .item img {
@@ -34,13 +36,19 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     height: 100%;
   }
 
-  @media (max-width:791px) {
-    .item { width: 50% }
+  @media (max-width:1200px) {
+    // .item { width: 50% }
+    .item { width: calc((100% - 10px * 3) / 3); }
   }
-  @media (max-width:540px) {
-    .item { width: 100% }
+  @media (max-width:768px) {
+    // .item { width: 100% }
+    .item { width: calc((100% - 10px * 2) / 2); }
+  }
+  @media (max-width:480px) {
+    .item { width: calc(100% - 10px); }
   }
 }
+
 
 // @media screen and (max-width: 791px) {
 //   .item {
