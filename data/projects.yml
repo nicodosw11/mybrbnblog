@@ -1,0 +1,566 @@
+# - name: Some product
+#   image: some_product.png
+# - name: Other product
+#   image: other_product.png
+
+
+My Personal Website:
+  project_id: 1
+  card:
+    selector: HTML5-CSS3-JavaScript
+    image: bonhomme400310.jpeg
+    text: Middleman · HTML5 & CSS3 · JavasScript
+  modal:
+    title: A personal website to explain what I want to achieve.
+    img_banner: bonhomme1200760.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  A portfolio web built with Middleman
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: My first personal website with Middleman
+      text_1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quam enim cum nostrum harum vel optio aut nobis omnis est consequuntur explicabo voluptate ducimus eaque error libero cumque, eos cupiditate.
+      title_2: Landing Page with menu
+      text_2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam doloremque ipsum non dolores alias! Maxime enim nulla expedita fugit vel voluptate, assumenda officia dolor eveniet dicta, possimus ea laborum et.
+      image_2: bonhomme1200760.jpeg
+      title_3: Main Menu
+      text_3: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos molestias, accusantium maxime veniam cumque fuga nulla, sunt minus corporis quaerat! A ab, omnis dolore ad reiciendis alias officia accusamus itaque.
+      image_3: bonhomme1200760.jpeg
+      title_4: About me
+      image_4: bonhomme1200760.jpeg
+      title_5: Resume
+      image_5: bonhomme1200760.jpeg
+      title_6: Experience
+      image_6: bonhomme1200760.jpeg
+      title_7: Skills
+      image_7: bonhomme1200760.jpeg
+      title_8: Coding a grocery shopping app
+      image_8: bonhomme1200760.jpeg
+      title_9: Contact
+      image_9: bonhomme1200760.jpeg
+      image_10: bonhomme1200760.jpeg
+
+Building a Brunch Advisor:
+  project_id: 2
+  card:
+    selector: RubyOnRails Web-apps
+    image: food-salad-restaurant-person.jpg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: food-salad-restaurant-person.jpg
+    description:
+      title_left_1: What is it?
+      text_left_1:  A yelp clone to help choose restaurants in London
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis. Laudantium cumque libero et voluptate numquam voluptatum quod voluptas in, nobis, deserunt odio soluta esse maxime. Possimus hic inventore commodi culpa laborum, officia tenetur sint, recusandae, consectetur ipsum sapiente. Sunt maiores soluta, repudiandae tempora ad provident in, neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      title_2: Title 1
+      text_2: Cum rem fugit sunt accusantium rerum officia animi sequi quod libero, iste. Soluta laudantium quos eveniet laboriosam dolorum optio vitae, officia accusamus. Consectetur dolor doloremque eaque atque qui doloribus, est corporis saepe commodi reiciendis laudantium optio! Quas non aperiam quia, obcaecati quos! Excepturi, laudantium.
+      title_3: Title 2
+      text_3: Enim ad deserunt dicta sapiente odio dolor aliquam facilis voluptate iusto excepturi, praesentium, dignissimos necessitatibus sequi a, libero blanditiis dolores, iste reiciendis incidunt vel sapiente officiis reiciendis, cum, deleniti mollitia perspiciatis eum adipisci eligendi soluta inventore minima voluptatum repellat deserunt eius, nostrum similique sunt repudiandae, asperiores, rerum excepturi consequatur accusantium quae, officiis esse quam in beatae cumque, sapiente blanditiis possimus dolores sed! Dolores veniam distinctio officia.
+      title_4: Title 3
+      text_4: Ratione perspiciatis quia dolorum, reprehenderit soluta. Eum, quod, omnis? Odit porro repudiandae at, repellat dolorem totam repellendus magnam exercitationem placeat, ratione voluptate. Voluptate sit accusamus ducimus quaerat, itaque ratione obcaecati amet, autem, velit labore ipsa aliquid consequatur numquam magni inventore. Quisquam, nulla vero adipisci. Harum quibusdam error sed deserunt perspiciatis, debitis.
+      title_5: Title 4
+      text_5: Expedita cum totam sint cupiditate architecto, maiores eos fuga enim eveniet esse. Reprehenderit nihil, ipsa perferendis temporibus facere, expedita voluptates enim errorExpedita cum totam sint cupiditate architecto, maiores eos fuga enim eveniet esse. Reprehenderit nihil, ipsa perferendis temporibus facere, expedita voluptates enim error. Pariatur quo voluptatum, dolor doloribus debitis cum illum quod dignissimos.
+      title_6: Title 5
+      text_6: Animi, numquam odit veritatis quaerat veniam maxime ea quas iste explicabo in vel at error, unde fugiat. Dolorum, dicta fugiat quaerat pariatur. Blanditiis eaque ipsa veniam rem dolor excepturi. Animi et natus aspernatur recusandae porro. Unde, consequuntur blanditiis quis cumque debitis repellendus incidunt aperiam commodi explicabo corrupti minus cumque magnam, ex dignissimos. Error voluptates, nam tenetur quia, voluptas quae.
+      image_6: bread-food-restaurant-people.jpg
+      title_7: Title 6
+      text_7: Ducimus eius, adipisci fugit facere. Quos rerum ex aliquam deleniti excepturi similique nulla quod, voluptas molestias, quo sapiente, ut aspernatur! Reiciendis, perferendis. Porro repellat ducimus tempore explicabo maiores fuga perspiciatis libero suscipit aut omnis accusantium, vero laborum qui atque cum modi odio, quod inventore. Blanditiis sequi alias voluptas molestias facere velit, quia autem perferendis sunt saepe dicta veritatis nam aut tempora? Eligendi aliquam quidem eveniet deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil vero explicabo tempora, iusto dignissimos. Illum natus consequatur alias, velit ipsum odio rem temporibus consequuntur magni sapiente ipsam porro, blanditiis nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      image_7: bread-food-restaurant-people.jpg
+      title_8: Title 7
+      text_8: Ullam repellendus autem laudantium fugiat odio nemo dolorem, libero quia nobis. Distinctio, debitis officiis! Ipsum alias consequatur voluptatum eos, iste mollitia ut. Consectetur unde quo eum eos ea suscipit, optio tempore sequi ad. Tempora sed natus, quisquam magni deleniti cum quidem suscipit nesciunt cumque.
+      image_8: bread-food-restaurant-people.jpg
+      title_9: Title 8
+      text_9: Officia quaerat voluptatum nam harum magni mollitia laudantium, nulla sed cumque, architecto dolore. Aliquam, et tempore aspernatur iste dicta doloribus quaerat perspiciatis. Quod repudiandae perspiciatis id, sint adipisci quibusdam earum cumque, totam optio sed itaque, at corporis. Rerum, quis perferendis voluptas molestiae deleniti, nam. Deserunt quod veritatis assumenda architecto, molestias blanditiis eaque, harum voluptas saepe sapiente similique, quidem cumque sint doloribus optio ea labore repudiandae ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde error minima dicta ut cupiditate ipsam ducimus. Esse est quasi sint, eveniet vitae harum voluptatum possimus, corporis, quibusdam natus voluptates quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quis laudantium dolore nulla ducimus dolorem, neque ab praesentium tenetur, ratione facilis commodi! Repudiandae qui optio consequatur excepturi, maxime quo hic.
+      image_9: bread-food-restaurant-people.jpg
+      title_10: Title 9
+      text_10: Id similique accusamus ducimus sunt eaque omnis molestias, dolores voluptatem cupiditate libero praesentium consequatur sit labore asperiores. Aspernatur, voluptas illum? Obcaecati, deserunt. Incidunt saepe illo amet molestiae blanditiis, delectus vitae possimus. Quis quo, illum. Saepe ut quisquam odio, aspernatur, fugiat ea odit accusantium ad. Quaerat accusamus animi, hic iusto, quas, mollitia minima quia fugiat excepturi tenetur repellendus vitae non libero vel velit architecto, exercitationem harum accusantium. Enim molestiae illo doloremque, incidunt, quaerat necessitatibus officia rerum unde. Dolor eum asperiores illum soluta.
+      image_10: bread-food-restaurant-people.jpg
+      title_11: Title 10
+      text_11: Laudantium architecto unde sint minus earum amet.
+      image_11: bread-food-restaurant-people.jpg
+      title_12: Title 11
+      text_12: Voluptates officia cumque possimus exercitationem vel velit consectetur dolor in fugiat, magnam ab id! Voluptates corporis earum numquam voluptatum. Veniam excepturi voluptatibus cupiditate saepe atque porro laudantium laboriosam architecto ut, suscipit ratione omnis sapiente perferendis nostrum tempora deleniti aut dolorum? Laudantium.
+      title_13: Title 12
+      text_13: Sequi eveniet, quasi quidem laudantium nam quae repellat expedita pariatur, non nihil delectus vitae! Voluptatum ratione qui nihil, expedita iure delectus velit.
+      image_13: bread-food-restaurant-people.jpg
+      title_14: Title 13
+      text_14: Quasi laudantium beatae amet, tempora vitae quis, nostrum, aperiam aspernatur voluptates a impedit repudiandae recusandae quam mollitia eum consequatur, quo quibusdam illo.
+      image_14: bread-food-restaurant-people.jpg
+      title_15: Title 14
+      text_15: Distinctio, enim numquam voluptates in, modi nihil, suscipit veniam facilis facere ratione quibusdam adipisci eligendi ducimus quidem rem. Dolorem corporis, nemo mollitia.
+      image_15: bread-food-restaurant-people.jpg
+      image_16: bread-food-restaurant-people.jpg
+      image_17: bread-food-restaurant-people.jpg
+      image_18: bread-food-restaurant-people.jpg
+      title_19: Title 15
+      text_19: Dicta quasi incidunt odit, temporibus dolorum vero ex at debitis provident ipsa velit asperiores totam exercitationem eaque facilis fuga tempora fugit esse.
+      image_19: bread-food-restaurant-people.jpg
+      title_20: Title 16
+      text_20: A quaerat harum et dolorum, pariatur optio rerum amet magnam accusamus hic accusantium placeat ad tempora explicabo earum cupiditate voluptas totam praesentium. Quam accusantium sequi animi quod provident, veniam earum ducimus beatae nulla enim, ad unde aperiam cum aliquid laudantium molestiae est velit debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      image_20: bread-food-restaurant-people.jpg
+      image_21: bread-food-restaurant-people.jpg
+      image_22: bread-food-restaurant-people.jpg
+      image_23: bread-food-restaurant-people.jpg
+
+Building a property investment platform:
+  project_id: 3
+  card:
+    selector: RubyOnRails Web-apps
+    image: property.jpeg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: property.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1: An investment platform where investors can invest in a mutual fund
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      image_1: property.jpeg
+      title_1: Title 1
+      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis. Laudantium cumque libero et voluptate numquam voluptatum quod voluptas in, nobis, deserunt odio soluta esse maxime. Possimus hic inventore commodi culpa laborum, officia tenetur sint, recusandae, consectetur ipsum sapiente. Sunt maiores soluta, repudiandae tempora ad provident in, neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      title_2: Title 2
+      text_2: Cum rem fugit sunt accusantium rerum officia animi sequi quod libero, iste. Soluta laudantium quos eveniet laboriosam dolorum optio vitae, officia accusamus.
+      title_3: Title 3
+      text_3: Consectetur dolor doloremque eaque atque qui doloribus, est corporis saepe commodi reiciendis laudantium optio! Quas non aperiam quia, obcaecati quos! Excepturi, laudantium.
+      title_4: Title 4
+      text_4: Enim ad deserunt dicta sapiente odio dolor aliquam facilis voluptate iusto excepturi, praesentium, dignissimos necessitatibus sequi a, libero blanditiis dolores, iste reiciendis incidunt vel sapiente officiis reiciendis, cum, deleniti mollitia perspiciatis eum adipisci eligendi soluta inventore minima voluptatum repellat deserunt eius, nostrum similique sunt repudiandae, asperiores, rerum excepturi consequatur accusantium quae, officiis esse quam in beatae cumque, sapiente blanditiis possimus dolores sed! Dolores veniam distinctio officia.
+      title_5: Title 5
+      text_5: Ratione perspiciatis quia dolorum, reprehenderit soluta. Eum, quod, omnis? Odit porro repudiandae at, repellat dolorem totam repellendus magnam exercitationem placeat, ratione voluptate. Voluptate sit accusamus ducimus quaerat, itaque ratione obcaecati amet, autem, velit labore ipsa aliquid consequatur numquam magni inventore. Quisquam, nulla vero adipisci. Harum quibusdam error sed deserunt perspiciatis, debitis.
+      title_6: Title 6
+      text_6: Expedita cum totam sint cupiditate architecto, maiores eos fuga enim eveniet esse. Reprehenderit nihil, ipsa perferendis temporibus facere, expedita voluptates enim errorExpedita cum totam sint cupiditate architecto, maiores eos fuga enim eveniet esse. Reprehenderit nihil, ipsa perferendis temporibus facere, expedita voluptates enim error.
+      title_7: Title 7
+      text_7: Pariatur quo voluptatum, dolor doloribus debitis cum illum quod dignissimos.
+      title_8: Title 8
+      text_8: Animi, numquam odit veritatis quaerat veniam maxime ea quas iste explicabo in vel at error, unde fugiat. Dolorum, dicta fugiat quaerat pariatur. Blanditiis eaque ipsa veniam rem dolor excepturi. Animi et natus aspernatur recusandae porro. Unde, consequuntur blanditiis quis cumque debitis repellendus incidunt aperiam commodi explicabo corrupti minus cumque magnam, ex dignissimos. Error voluptates, nam tenetur quia, voluptas quae.
+      title_9: Title 9
+      image_9: property.jpeg
+      title_10: Title 10
+      text_10: Ducimus eius, adipisci fugit facere. Quos rerum ex aliquam deleniti excepturi similique nulla quod, voluptas molestias, quo sapiente, ut aspernatur! Reiciendis, perferendis. Porro repellat ducimus tempore explicabo maiores fuga perspiciatis libero suscipit aut omnis accusantium, vero laborum qui atque cum modi odio, quod inventore. Blanditiis sequi alias voluptas molestias facere velit, quia autem perferendis sunt saepe dicta veritatis nam aut tempora? Eligendi aliquam quidem eveniet deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil vero explicabo tempora, iusto dignissimos. Illum natus consequatur alias, velit ipsum odio rem temporibus consequuntur magni sapiente ipsam porro, blanditiis nobis.
+      title_11: Title 11
+      text_11: Ullam repellendus autem laudantium fugiat odio nemo dolorem, libero quia nobis. Distinctio, debitis officiis! Ipsum alias consequatur voluptatum eos, iste mollitia ut. Consectetur unde quo eum eos ea suscipit, optio tempore sequi ad. Tempora sed natus, quisquam magni deleniti cum quidem suscipit nesciunt cumque. Officia quaerat voluptatum nam harum magni mollitia laudantium, nulla sed cumque, architecto dolore. Aliquam, et tempore aspernatur iste dicta doloribus quaerat perspiciatis.
+      image_11: property.jpeg
+      image_12: property.jpeg
+      image_13: property.jpeg
+      title_14: Title 12
+      text_14: Quod repudiandae perspiciatis id, sint adipisci quibusdam earum cumque, totam optio sed itaque, at corporis. Rerum, quis perferendis voluptas molestiae deleniti, nam. Deserunt quod veritatis assumenda architecto, molestias blanditiis eaque, harum voluptas saepe sapiente similique, quidem cumque sint doloribus optio ea labore repudiandae ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      image_14: property.jpeg
+      title_15: Title 13
+      text_15: Unde error minima dicta ut cupiditate ipsam ducimus. Esse est quasi sint, eveniet vitae harum voluptatum possimus, corporis, quibusdam natus voluptates quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quis laudantium dolore nulla ducimus dolorem, neque ab praesentium tenetur, ratione facilis commodi! Repudiandae qui optio consequatur excepturi, maxime quo hic.
+      image_15: property.jpeg
+      title_16: Title 14
+      text_16: Id similique accusamus ducimus sunt eaque omnis molestias, dolores voluptatem cupiditate libero praesentium consequatur sit labore asperiores. Aspernatur, voluptas illum? Obcaecati, deserunt. Incidunt saepe illo amet molestiae blanditiis, delectus vitae possimus. Quis quo, illum. Saepe ut quisquam odio, aspernatur, fugiat ea odit accusantium ad.
+      image_16: property.jpeg
+      title_17: Title 15
+      text_17: Quaerat accusamus animi, hic iusto, quas, mollitia minima quia fugiat excepturi tenetur repellendus vitae non libero vel velit architecto, exercitationem harum accusantium. Enim molestiae illo doloremque, incidunt, quaerat necessitatibus officia rerum unde. Dolor eum asperiores illum soluta. Laudantium architecto unde sint minus earum amet. Voluptates officia cumque possimus exercitationem vel velit consectetur dolor in fugiat, magnam ab id! Voluptates corporis earum numquam voluptatum.
+      text_18: Veniam excepturi voluptatibus cupiditate saepe atque porro laudantium laboriosam architecto ut, suscipit ratione omnis sapiente perferendis nostrum tempora deleniti aut dolorum? Laudantium. Sequi eveniet, quasi quidem laudantium nam quae repellat expedita pariatur, non nihil delectus vitae! Voluptatum ratione qui nihil, expedita iure delectus velit
+      image_18: property.jpeg
+      image_19: property.jpeg
+      title_20: Title 16
+      text_20: Aut consequuntur inventore, vitae eligendi quidem reprehenderit
+      title_21: Title 17
+      image_20: property.jpeg
+      image_21: property.jpeg
+      image_31: property.jpeg
+      image_32: property.jpeg
+      image_33: property.jpeg
+
+Building a two-sided marketplace:
+  project_id: 4
+  card:
+    selector: RubyOnRails Web-apps
+    image: e-commerce.jpg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: e-commerce.jpg
+    description:
+      title_left_1: What is it?
+      text_left_1:  A marketplace for anything
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis. Laudantium cumque libero et voluptate numquam voluptatum quod voluptas in, nobis, deserunt odio soluta esse maxime.
+      title_2: Title 2
+      image_1: e-commerce.jpg
+      title_4: Title 3
+      sub_4: Sunt ducimus sit eaque eius quibusdam nemo cumque nobis deserunt.
+      image_4: e-commerce.jpg
+      image_5: e-commerce.jpg
+      image_6: e-commerce.jpg
+      title_6: Title 6
+      sub_6: Possimus hic inventore commodi culpa laborum
+      image_7: e-commerce.jpg
+      title_7: Title 7
+      image_8: e-commerce.jpg
+      title_9: Title 9
+      sub_9: Officia ipsum sapiente.
+      image_9: e-commerce.jpg
+      title_10: Title 10
+      sub_10: Quidem facilis at quod ratione sunt, sint, nobis aperiam incidunt.
+      image_10: e-commerce.jpg
+      title_11: Title 11
+      sub_11: Sint dolorem nesciunt, atque non! Temporibus eligendi vel laboriosam, beatae magni nostrum.
+      image_11: e-commerce.jpg
+      title_12: Title 12
+      sub_12: Sit eius obcaecati fugit ab voluptatem ex culpa voluptatibus voluptas.
+      image_12: e-commerce.jpg
+      title_13: Title 13
+      sub_13:  Aut consequuntur inventore, vitae eligendi quidem reprehenderit.
+      image_13: e-commerce.jpg
+      image_14: e-commerce.jpg
+      image_15: e-commerce.jpg
+      image_16: e-commerce.jpg
+      image_17: e-commerce.jpg
+      image_18: e-commerce.jpg
+      image_19: e-commerce.jpg
+
+Learning CSS3 in deep with a mock circus showpage:
+  project_id: 5
+  card:
+    selector: HTML5-CSS3-JavaScript
+    image: circus.jpeg
+    text: HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: circus.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  A one-page website to learn the main and more advanced concepts of HTML5, CSS3 and vanilla JavaScript
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
+      image_1: circus.jpeg
+      title_2: Title 2
+      image_2: circus.jpeg
+      title_3: Title 3
+      text_3: Laudantium cumque libero et voluptate numquam voluptatum quod voluptas in, nobis, deserunt odio soluta esse maxime.
+      image_3: circus.jpeg
+      title_4: Title 4
+      sub_4: Sunt ducimus sit eaque eius quibusdam nemo cumque nobis deserunt.
+      text_4: Quidem facilis at quod ratione sunt, sint, nobis aperiam incidunt? Sint dolorem nesciunt, atque non! Temporibus eligendi vel laboriosam, beatae magni nostrum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eius obcaecati fugit ab voluptatem ex culpa voluptatibus voluptas aut consequuntur inventore, vitae eligendi quidem reprehenderit.
+      image_4: circus.jpeg
+      image_5: circus.jpeg
+      image_6: circus.jpeg
+      image_7: circus.jpeg
+
+Building a Meetup-like for dance classes:
+  project_id: 6
+  card:
+    selector: RubyOnRails Web-apps
+    image: network.jpeg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: network.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  An app to meet people while learning how to dance
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
+      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
+      image_1: network.jpeg
+      image_2: network.jpeg
+      image_3: network.jpeg
+      image_4: network.jpeg
+      image_5: network.jpeg
+      image_6: network.jpeg
+      image_7: network.jpeg
+      image_10: network.jpeg
+      image_9: network.jpeg
+      image_8: network.jpeg
+      image_11: network.jpeg
+
+Building a booking system for aspiring dancers:
+  project_id: 7
+  card:
+    selector: RubyOnRails Web-apps
+    image: booking.jpeg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: booking.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  An app where people can make a group and book their dance tutors
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
+      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
+      image_1: booking.jpeg
+      image_2: booking.jpeg
+      image_3: booking.jpeg
+
+Bulding a blog and a multiblog with Middleman:
+  project_id: 8
+  card:
+    selector: HTML5-CSS3-JavaScript
+    image: blog.jpeg
+    text: Middleman · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: blog.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  A blog telling the world what I do as a junior developer
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
+      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
+      image_1: blog.jpeg
+
+A todo-list with Javascript and Python:
+  project_id: 9
+  card:
+    selector: HTML5-CSS3-JavaScript Python-Node.js
+    image: todo.jpg
+    text: HTML5 & CSS3 · JavasScript . Python
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: todo.jpg
+    description:
+      title_left_1: What is it?
+      text_left_1:  A one-page to-do app built in Python and JavaScript
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1:
+
+A country quizz and social platform:
+  project_id: 10
+  card:
+    selector: RubyOnRails Web-apps
+    image: countries.jpeg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: countries.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  A quizz app where people can share their knowledge of their countries
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
+      image_1: apps.jpeg
+      image_2: apps.jpeg
+      image_3: bonhomme.jpeg
+      image_4: bonhomme.jpeg
+      image_5: bonhomme.jpeg
+
+Building a mini producthunt:
+  project_id: 11
+  card:
+    selector: RubyOnRails Web-apps
+    image: apps.jpeg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: apps.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  A producthunt clone where people share the products they like
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1:
+      sub_1:
+
+Sharing Dance Choreographies shop:
+  project_id: 12
+  card:
+    selector: RubyOnRails Web-apps
+    image: dance.jpeg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: dance.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  An app where people share their best moves
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      image_1: dance.jpeg
+      title_2: Title 2
+      image_2: dance.jpeg
+
+Learning to code basic authentication and authorization in Rails:
+  project_id: 13
+  card:
+    selector: RubyOnRails Web-apps
+    image: key.jpeg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: key.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  Learning how to build an authentication and authorization logic from scratch
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
+      image_1: key.jpeg
+      image_2: key.jpeg
+      image_3: key.jpeg
+      image_5: key.jpeg
+      image_6: key.jpeg
+      image_7: key.jpeg
+      image_8: key.jpeg
+
+My first Node.js app:
+  project_id: 14
+  card:
+    selector: Python-Nodejs Web-apps
+    image: internet.jpeg
+    text: HTML5 & CSS3 · JavasScript . Node.js
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: internet.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  An app to learn Nodejs
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
+      image_1: internet.jpeg
+      title_2: Title 2
+      sub_2: Voluptatibus veritatis vero, tenetur fuga, quo repellendus unde magnam molestiae assumenda voluptates distinctio.
+      image_2: internet.jpeg
+      title_3: Title 3
+      image_3: internet.jpeg
+      title_4: Title 4
+      image_4: internet.jpeg
+      title_5: Title 5
+      image_5: internet.jpeg
+      title_6: Title 6
+      image_6: internet.jpeg
+
+Mobile Delivery App with Python/Swift:
+  project_id: 15
+  card:
+    selector: Python-Nodejs Web-apps Mobile
+    image: map.jpg
+    text: HTML5 & CSS3 · JavasScript . Python . Swift
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: map.jpg
+    description:
+      title_left_1: What is it?
+      text_left_1:  An app to learn Swift
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
+      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
+      image_1: map.jpg
+
+A multi-user blog with Rails:
+  project_id: 16
+  card:
+    selector: RubyOnRails Web-apps
+    image: multiblog.jpeg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    img_banner: multiblog.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1:  A multi-user blog
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: Middleman
+    body:
+      title_1: Title 1
+      sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
+      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
+      image_1: multiblog.jpeg
+      image_2: multiblog.jpeg
+      image_3: multiblog.jpeg
+      image_4: multiblog.jpeg

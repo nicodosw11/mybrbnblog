@@ -38,6 +38,8 @@
 @import "about/intro-video";
 @import "about/parallax";
 
+@import "portfolio/filters";
+@import "portfolio/shuffle-grid";
 /* apply a natural box layout model to all elements, but allowing components to change */
 
 *,
@@ -59,3 +61,5 @@ body {
   height: 100%;
   // border-bottom: 3px solid orange;
 }
+
+

@@ -1,0 +1,25 @@
+---
+title: Projects in english
+blog: en
+layout: layout
+---
+
+<div class="container-gallery">
+  <div class="filter-button-group">
+    <ul>
+      <li class='filter' data-target='all'>All</li>
+      <li class='filter' data-target='HTML5-CSS3-JavaScript'>HTML5 CSS3 JavaScript</li>
+      <li class='filter' data-target='RubyOnRails'>RubyOnRails</li>
+      <li class='filter' data-target='Python-Nodejs'>Python/Node.js</li>
+      <li class='filter' data-target='Web-apps'>Wep apps</li>
+      <li class='filter' data-target='Mobile'>Mobile</li>
+    </ul>
+  </div>
+  <div class="shuffle-grid">
+    <% data.projects.each do |project, details| %>
+      <div class='item' data-category='<%= details.card.selector %>'>
+       <%= image_tag details.card.image %>
+      </div>
+   <% end %>
+  </div>
+</div>
