@@ -52,7 +52,7 @@ Building a Brunch Advisor:
     image: food-salad-restaurant-person.jpg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: Yelp clone.
     img_banner: food-salad-restaurant-person.jpg
     description:
       title_left_1: What is it?
@@ -122,7 +122,7 @@ Building a property investment platform:
     image: property.jpeg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: A crowdfunding platform.
     img_banner: property.jpeg
     description:
       title_left_1: What is it?
@@ -190,7 +190,7 @@ Building a two-sided marketplace:
     image: e-commerce.jpg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: My first marketplace.
     img_banner: e-commerce.jpg
     description:
       title_left_1: What is it?
@@ -245,7 +245,7 @@ Learning CSS3 in deep with a mock circus showpage:
     image: circus.jpeg
     text: HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: Circus HTML CSS JavaScript.
     img_banner: circus.jpeg
     description:
       title_left_1: What is it?
@@ -280,7 +280,7 @@ Building a Meetup-like for dance classes:
     image: network.jpeg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: MeetUp & Dance.
     img_banner: network.jpeg
     description:
       title_left_1: What is it?
@@ -314,7 +314,7 @@ Building a booking system for aspiring dancers:
     image: booking.jpeg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: Book a dance lesson.
     img_banner: booking.jpeg
     description:
       title_left_1: What is it?
@@ -340,7 +340,7 @@ Bulding a blog and a multiblog with Middleman:
     image: blog.jpeg
     text: Middleman · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: Blog & Multiblog with Middleman.
     img_banner: blog.jpeg
     description:
       title_left_1: What is it?
@@ -364,7 +364,7 @@ A todo-list with Javascript and Python:
     image: todo.jpg
     text: HTML5 & CSS3 · JavasScript . Python
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: Todo-list app with JS and Python.
     img_banner: todo.jpg
     description:
       title_left_1: What is it?
@@ -385,7 +385,7 @@ A country quizz and social platform:
     image: countries.jpeg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: The great country quizz.
     img_banner: countries.jpeg
     description:
       title_left_1: What is it?
@@ -412,7 +412,7 @@ Building a mini producthunt:
     image: apps.jpeg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: ProductHunt clone.
     img_banner: apps.jpeg
     description:
       title_left_1: What is it?
@@ -434,7 +434,7 @@ Sharing Dance Choreographies shop:
     image: dance.jpeg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: Dance moves sharing.
     img_banner: dance.jpeg
     description:
       title_left_1: What is it?
@@ -458,7 +458,7 @@ Learning to code basic authentication and authorization in Rails:
     image: key.jpeg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: Authentication + Authorization.
     img_banner: key.jpeg
     description:
       title_left_1: What is it?
@@ -487,7 +487,7 @@ My first Node.js app:
     image: internet.jpeg
     text: HTML5 & CSS3 · JavasScript . Node.js
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: Learn Node.js.
     img_banner: internet.jpeg
     description:
       title_left_1: What is it?
@@ -521,7 +521,7 @@ Mobile Delivery App with Python/Swift:
     image: map.jpg
     text: HTML5 & CSS3 · JavasScript . Python . Swift
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: My first mobile app.
     img_banner: map.jpg
     description:
       title_left_1: What is it?
@@ -545,7 +545,7 @@ A multi-user blog with Rails:
     image: multiblog.jpeg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
-    title: Lorem ipsum dolor sit amet, cum molestiae perspiciatis.
+    title: Rails multi-user blog.
     img_banner: multiblog.jpeg
     description:
       title_left_1: What is it?
