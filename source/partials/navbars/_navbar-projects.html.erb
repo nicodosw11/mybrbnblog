@@ -1,0 +1,66 @@
+<header class="nav">
+  <% link_to '/', :id => 'nav-logo', :class => 'logo-button' do %>
+    <%= image_tag 'logo.png' %>
+  <% end %>
+  <% link_to '/', :id => 'nav-logo', :class => 'js-menu-trigger sliding-panel-button' do %>
+    <%= image_tag 'logo.png' %>
+  <% end %>
+  <ul>
+    <% if I18n.locale == I18n.default_locale %>
+    <li><a href="/blog" class="icon-link"><i class="fa fa-rss icon-link"></i></a></li>
+    <% else %>
+    <li><a href="/fr/blog" class="icon-link"><i class="fa fa-rss icon-link"></i></a></li>
+    <% end %>
+    <!-- <li><a href="/blog">Blog</a></li> -->
+    <li><a href="http://www.nicolasdotto.com#contact" class="icon-link"><i class="fa fa-paper-plane icon-link"></i></a></li>
+    <% if I18n.locale == I18n.default_locale %>
+    <li>
+      <!-- <a href="/search" class="text-link">Search</a> -->
+      <a href="/search" class="icon-link"><i class="fa fa-search icon-link"></i></a>
+    </li>
+    <li>
+      <a id="navFra" href="/fr/projects" class="language">
+        <img id="imgNavFra" src="http://www.roemheld.de/IT/Data/Images/Address/Frankreich.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+    </li>
+    <% else %>
+    <li>
+    <!-- <a href="/search" class="text-link">Chercher</a> -->
+      <a href="/fr/search" class="icon-link"><i class="fa fa-search icon-link"></i></a>
+    </li>
+    <li>
+      <a id="navEng" href="/projects" class="language">
+        <img id="imgNavEng" src="http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+    </li>
+    <% end %>
+  </ul>
+  <!-- responsive mobile only -->
+  <ul>
+    <% if I18n.locale == I18n.default_locale %>
+    <li><a href="/blog" class="icon-link"><i class="fa fa-rss icon-link"></i></a></li>
+    <% else %>
+    <li><a href="/fr/blog" class="icon-link"><i class="fa fa-rss icon-link"></i></a></li>
+    <% end %>
+  </ul>
+  <!-- responsive mobile only -->
+</header>
+
+<nav class="js-menu sliding-panel-content">
+  <ul>
+    <li><a href="/ ">Home</a></li>
+    <% if I18n.locale == I18n.default_locale %>
+    <li><a href="/#contact-me">Contact</a></li>
+    <li><a href="/search">Search</a></li>
+    <li><a href="/fr/projects">Switch to French</a></li>
+    <% else %>
+    <li><a href="/fr/#contact-me">Me contacter</a></li>
+    <li><a href="/fr/search">Chercher</a></li>
+    <li><a href="/projects">Switch to English</a></li>
+    <% end %>
+  </ul>
+</nav>
+
+<div class="js-menu-screen sliding-panel-fade-screen"></div>

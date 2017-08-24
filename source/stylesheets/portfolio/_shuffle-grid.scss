@@ -4,6 +4,8 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
   // overflow-y: scroll;
 
   .container-gallery {
+    // @include pad(0 default);
+    // @include span-columns(12);
     width: 90%;
     // margin: 0 auto;
     margin: 105px auto;
