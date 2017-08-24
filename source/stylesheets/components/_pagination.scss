@@ -1,18 +1,26 @@
 .pagination {
-  $base-border-color: gainsboro;
+  // $base-border-color: gainsboro !default;
+  // $base-border-radius: 3px !default;
+  // $base-spacing: 1.5em !default;
+  // $action-color: #477DCA !default;
+  // $dark-gray: #333 !default;
+  // $large-screen: 53.75em !default;
+  // $base-font-color: $dark-gray !default;
+  $base-border-color: #5BC0BE;
   $base-border-radius: 3px;
   $base-spacing: 1.5em;
-  $action-color: #477DCA;
-  $dark-gray: #333;
-  $large-screen: 53.75em;
-  $base-font-color: $dark-gray;
+  $action-color: #FF4D72;
+  $base-font-color: white;
   $pagination-border-color: $base-border-color;
   $pagination-border: 1px solid $pagination-border-color;
+  // $pagination-background: lighten($pagination-border-color, 10);
   $pagination-background: lighten($pagination-border-color, 10);
-  $pagination-hover-background: lighten($pagination-background, 5);
+  // $pagination-hover-background: lighten($pagination-background, 5);
+  $pagination-hover-background: lighten($pagination-background, 15);
   $pagination-color: $base-font-color;
 
   text-align: center;
+  margin: 20px;
 
   ul {
     display: inline;
@@ -23,6 +31,7 @@
     li {
       display: inline;
       list-style: none;
+      font-size: 1.1em;
     }
 
     ul li {
@@ -45,7 +54,8 @@
       border: $pagination-border;
       color: $pagination-color;
       outline: none;
-      padding: ($base-spacing / 4) ($gutter / 2);
+      // padding: ($base-spacing / 4) ($gutter / 2);
+      padding: ($base-spacing / 8) ($gutter / 4);
       text-decoration: none;
       transition: all 0.2s ease-in-out;
 
