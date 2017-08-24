@@ -1,0 +1,81 @@
+body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
+
+  .hover-tile-outer {
+
+    float:left;
+    width: calc((100% - 3em * 4) / 4);
+    height: 300px;
+    margin: 20px;
+    transition: all .7s ease-out;
+
+    // $base-border-color: gainsboro !default;
+    // $base-line-height: 1.5em !default;
+    // $medium-screen: 40em !default;
+    // $hover-tile-height: 10em;
+    $hover-tile-height: 18.75em;
+    $base-spacing: 1.5em;
+
+    // background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png");
+    background-color: beige;
+    background-position: top;
+    background-size: cover;
+    // border: 1px solid $base-border-color;
+    cursor: pointer;
+    height: $hover-tile-height;
+    // margin-bottom: $base-line-height;
+    margin-bottom: 1.5em;
+
+    // @include media($medium-screen) {
+    //   width: 40%;
+    // }
+
+    img {
+      max-width: 100%;
+    }
+
+    .hover-tile-container {
+      height: $hover-tile-height;
+      overflow: hidden;
+    }
+
+    .hover-tile-container:hover > .hover-tile {
+      transform: translate(0, -100%);
+    }
+
+    .hover-tile {
+      background: inherit;
+      color: white;
+      height: inherit;
+      overflow: hidden;
+      padding: $base-spacing;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .hover-tile-hidden {
+      background: transparentize(#000, 0.5);
+
+      p {
+        color: transparentize(#fff, 0.3);
+        // line-height: $base-line-height;
+        line-height: 1.5em;
+        font-size: 1em;
+      }
+
+      h4 {
+        margin: 0 0 0.5em 0;
+      }
+    }
+  }
+
+  @media (max-width:1200px) {
+    // .item { width: 50% }
+    .hover-tile-outer { width: calc((100% - 3em * 3) / 3); }
+  }
+  @media (max-width:768px) {
+    // .hover-tile-outer { width: 100% }
+    .hover-tile-outer { width: calc((100% - 3em * 2) / 2); }
+  }
+  @media (max-width:480px) {
+    .hover-tile-outer { width: calc(100% - 3em); }
+  }
+}

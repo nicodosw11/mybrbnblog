@@ -1,0 +1,35 @@
+---
+title: Projects in english
+blog: en
+layout: layout
+---
+
+<%= partial("partials/navbars/navbar-projects")%>
+
+<div class="modal-overlay closed" id="modal-overlay"></div>
+<div class="container-gallery">
+  <div class="filter-button-group">
+    <ul>
+      <li class='filter' data-target='all'>All</li>
+      <li class='filter' data-target='HTML5-CSS3-JavaScript'>HTML5 CSS3 JavaScript</li>
+      <li class='filter' data-target='RubyOnRails'>RubyOnRails</li>
+      <li class='filter' data-target='Python-Nodejs'>Python/Node.js</li>
+      <li class='filter' data-target='Web-apps'>Wep apps</li>
+      <li class='filter' data-target='Mobile'>Mobile</li>
+    </ul>
+  </div>
+  <div class="shuffle-grid">
+    <% data.projects.each do |project, details| %>
+    <div class="hover-tile-outer trigger <%= details.card.selector %> all" data-modal-title="<%= details.modal.title %>" data-modal-img-banner="<%= details.modal.img_banner %>" data-modal-description-title-left-1="<%= details.modal.description.title_left_1 %>" data-modal-description-text-left-1="<%= details.modal.description.text_left_1 %>" data-modal-description-title-left-2="<%= details.modal.description.title_left_2 %>" data-modal-description-text-left-2="<%= details.modal.description.text_left_2 %>" style="background-image: url('<%= image_path(details.card.image)%>');">
+        <div class="hover-tile-container">
+          <div class="hover-tile hover-tile-visible"></div>
+          <div class="hover-tile hover-tile-hidden">
+            <h4><%= project %></h4>
+            <p><%= details.modal.description.text_left_1%></p>
+          </div>
+        </div>
+    </div>
+   <% end %>
+  </div>
+</div>
+<%= partial("partials/portfolio/modal-project")%>
