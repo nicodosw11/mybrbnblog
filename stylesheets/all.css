@@ -4508,6 +4508,196 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
   top: -10em;
   width: 100%; }
 
+body.projects.projects_index .container-gallery ul, body.fr.fr_projects.fr_projects_index .container-gallery ul {
+  text-align: center;
+  margin: 20px 0; }
+body.projects.projects_index .container-gallery .filter, body.fr.fr_projects.fr_projects_index .container-gallery .filter {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  background-color: #fff;
+  color: #5BC0BE;
+  -webkit-box-shadow: 0 0 0 1px #5BC0BE, inset 0 0 0 0 #5BC0BE;
+          box-shadow: 0 0 0 1px #5BC0BE, inset 0 0 0 0 #5BC0BE;
+  font-weight: normal;
+  cursor: pointer;
+  font-family: 'Open Sans';
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease; }
+  @media screen and (max-width: 29.9375em) {
+    body.projects.projects_index .container-gallery .filter, body.fr.fr_projects.fr_projects_index .container-gallery .filter {
+      font-size: 0.6rem;
+      padding: 0.25rem 0.5rem; } }
+body.projects.projects_index .container-gallery .filter:hover,
+body.projects.projects_index .container-gallery .filter.active, body.fr.fr_projects.fr_projects_index .container-gallery .filter:hover,
+body.fr.fr_projects.fr_projects_index .container-gallery .filter.active {
+  -webkit-box-shadow: 0 0 0 1px #5BC0BE, inset 0 60px 0 -15px #5BC0BE;
+          box-shadow: 0 0 0 1px #5BC0BE, inset 0 60px 0 -15px #5BC0BE;
+  color: #fff; }
+
+body.projects.projects_index .hover-tile-outer, body.fr.fr_projects.fr_projects_index .hover-tile-outer {
+  float: left;
+  width: calc((100% - 3em * 4) / 4);
+  height: 300px;
+  margin: 20px;
+  -webkit-transition: all .7s ease-out;
+  transition: all .7s ease-out;
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  cursor: pointer;
+  height: 18.75em;
+  margin-bottom: 1.5em; }
+  body.projects.projects_index .hover-tile-outer img, body.fr.fr_projects.fr_projects_index .hover-tile-outer img {
+    max-width: 100%; }
+  body.projects.projects_index .hover-tile-outer .hover-tile-container, body.fr.fr_projects.fr_projects_index .hover-tile-outer .hover-tile-container {
+    height: 18.75em;
+    overflow: hidden; }
+  body.projects.projects_index .hover-tile-outer .hover-tile-container:hover > .hover-tile, body.fr.fr_projects.fr_projects_index .hover-tile-outer .hover-tile-container:hover > .hover-tile {
+    -webkit-transform: translate(0, -100%);
+            transform: translate(0, -100%); }
+  body.projects.projects_index .hover-tile-outer .hover-tile, body.fr.fr_projects.fr_projects_index .hover-tile-outer .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  body.projects.projects_index .hover-tile-outer .hover-tile-hidden, body.fr.fr_projects.fr_projects_index .hover-tile-outer .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.5); }
+    body.projects.projects_index .hover-tile-outer .hover-tile-hidden p, body.fr.fr_projects.fr_projects_index .hover-tile-outer .hover-tile-hidden p {
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.5em;
+      font-size: 1em; }
+    body.projects.projects_index .hover-tile-outer .hover-tile-hidden h4, body.fr.fr_projects.fr_projects_index .hover-tile-outer .hover-tile-hidden h4 {
+      margin: 0 0 0.5em 0; }
+@media (max-width: 1200px) {
+  body.projects.projects_index .hover-tile-outer, body.fr.fr_projects.fr_projects_index .hover-tile-outer {
+    width: calc((100% - 3em * 3) / 3); } }
+@media (max-width: 768px) {
+  body.projects.projects_index .hover-tile-outer, body.fr.fr_projects.fr_projects_index .hover-tile-outer {
+    width: calc((100% - 3em * 2) / 2); } }
+@media (max-width: 480px) {
+  body.projects.projects_index .hover-tile-outer, body.fr.fr_projects.fr_projects_index .hover-tile-outer {
+    width: calc(100% - 3em); } }
+
+body.projects.projects_index .modal img, body.fr.fr_projects.fr_projects_index .modal img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 10px auto; }
+@media screen and (max-width: 29.9375em) {
+  body.projects.projects_index .modal h4, body.fr.fr_projects.fr_projects_index .modal h4 {
+    font-size: 0.4rem; } }
+body.projects.projects_index .modal-container, body.fr.fr_projects.fr_projects_index .modal-container {
+  width: 70%;
+  margin: 0 auto; }
+body.projects.projects_index .modal-banner, body.fr.fr_projects.fr_projects_index .modal-banner {
+  text-align: center;
+  padding: 0vh; }
+  @media screen and (max-width: 29.9375em) {
+    body.projects.projects_index .modal-banner h2, body.fr.fr_projects.fr_projects_index .modal-banner h2 {
+      font-size: 0.6rem; } }
+
+body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
+  margin: 0; }
+  body.projects.projects_index.modal-open, body.fr.fr_projects.fr_projects_index.modal-open {
+    overflow: hidden;
+    position: fixed; }
+  body.projects.projects_index .modal, body.fr.fr_projects.fr_projects_index .modal {
+    /* This way it could be display flex or grid or whatever also. */
+    display: block;
+    /* Probably need media queries here */
+    width: 70%;
+    max-width: 100%;
+    height: 800px;
+    max-height: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    /* Use this for centering if unknown width/height */
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    /* If known, negative margins are probably better (less chance of blurry text). */
+    /* margin: -200px 0 0 -200px; */
+    background: white;
+    -webkit-box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+            box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9); }
+  body.projects.projects_index .closed, body.fr.fr_projects.fr_projects_index .closed {
+    display: none; }
+  body.projects.projects_index .modal-overlay, body.fr.fr_projects.fr_projects_index .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.6); }
+  body.projects.projects_index .modal-guts, body.fr.fr_projects.fr_projects_index .modal-guts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 20px 20px; }
+    body.projects.projects_index .modal-guts h1, body.fr.fr_projects.fr_projects_index .modal-guts h1 {
+      margin: 0 0 20px 0; }
+  body.projects.projects_index .modal .close-button, body.fr.fr_projects.fr_projects_index .modal .close-button {
+    position: absolute;
+    /* don't need to go crazy with z-index here, just sits over .modal-guts */
+    z-index: 1;
+    top: 10px;
+    /* needs to look OK with or without scrollbar */
+    right: 20px;
+    border: 0;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.3rem; }
+    @media screen and (max-width: 29.9375em) {
+      body.projects.projects_index .modal .close-button, body.fr.fr_projects.fr_projects_index .modal .close-button {
+        font-size: 1rem;
+        padding: 3px 6px; } }
+
+body.projects.projects_index .container-gallery, body.fr.fr_projects.fr_projects_index .container-gallery {
+  width: 90%;
+  margin: 105px auto; }
+body.projects.projects_index .shuffle-grid, body.fr.fr_projects.fr_projects_index .shuffle-grid {
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-box-shadow: 0 0 1px 1px #999;
+          box-shadow: 0 0 1px 1px #999;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease; }
+body.projects.projects_index .shuffle-grid:after, body.fr.fr_projects.fr_projects_index .shuffle-grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+body.projects.projects_index .item, body.fr.fr_projects.fr_projects_index .item {
+  float: left;
+  width: calc((100% - 10px * 4) / 4);
+  height: 300px;
+  margin: 20px 5px;
+  -webkit-transition: all .7s ease-out;
+  transition: all .7s ease-out; }
+body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .item img {
+  width: 100%;
+  height: 100%; }
+@media (max-width: 1200px) {
+  body.projects.projects_index .item, body.fr.fr_projects.fr_projects_index .item {
+    width: calc((100% - 10px * 3) / 3); } }
+@media (max-width: 768px) {
+  body.projects.projects_index .item, body.fr.fr_projects.fr_projects_index .item {
+    width: calc((100% - 10px * 2) / 2); } }
+@media (max-width: 480px) {
+  body.projects.projects_index .item, body.fr.fr_projects.fr_projects_index .item {
+    width: calc(100% - 10px); } }
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 *,
 *:before,
