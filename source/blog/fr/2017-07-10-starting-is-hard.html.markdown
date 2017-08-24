@@ -3,7 +3,7 @@ title: Débuter est difficile
 date: 2017-07-10 17:57 BST
 summary: Aliquam excepturi deserunt voluptate deleniti laborum ullam id, sed, quo vero nesciunt ex iste.
 description: Dignissimos numquam, ratione enim incidunt dolores culpa quasi possimus, laboriosam aliquam.
-category: Currencies
+category: currencies
 header_image: parisquai-panorama.jpg
 lang: fr
 published: true

@@ -4,7 +4,7 @@ date: 2017-07-10 18:08 BST
 subtitle: Impedit porro eligendi voluptates illo aut illum ducimus ullam laboriosam culpa praesentium optio perferendis tempore eos sit voluptatibus. 
 summary: Eaque architecto vel molestiae labore rem eveniet illo vitae harum est! Doloribus ratione, quidem blanditiis earum voluptatem.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore veniam nesciunt itaque, facilis sunt veritatis iste? Iusto repellendus accusantium, blanditiis adipisci ex, quos atque sequi, eligendi sed eveniet reprehenderit optio..
-category: Code
+category: code
 header_image:
 published: true
 lang: fr

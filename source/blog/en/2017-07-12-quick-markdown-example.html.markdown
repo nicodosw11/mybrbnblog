@@ -3,7 +3,7 @@ title: Quick Markdown Example
 date: 2017-07-12 21:01 BST
 summary: Example Markdown so I can see how my styles look and how the markdown is generated with RedCarpet / Middleman Blog.
 tags: example, formatting, design
-category: Code
+category: code
 lang: en
 published: false
 ---

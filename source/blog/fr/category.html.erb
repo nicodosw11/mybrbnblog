@@ -1,20 +1,14 @@
 ---
 title: "Nicolas Dotto | Articles Categorized as "
 pageable: true
-per_page: 12
+per_page: 2
 blog: fr
 lang: fr
 ---
 
 <% I18n.locale = articles.first.lang %>
 <% @title = category %>
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
 
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
 <section class="article-listing">
   <h1>Articles pour la catégorie '<%=t("#{category}")%>'</h1>
   <% page_articles.each_with_index do |article, i| %>
@@ -29,8 +23,4 @@ lang: fr
   <% end %>
 </section>
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
-<% end %>
+<%= partial("partials/pagination/pagination_refills_for_categories") %>
