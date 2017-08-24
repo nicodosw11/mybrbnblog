@@ -17,7 +17,7 @@ activate :blog do |blog|
   blog.name              = 'en'
   blog.new_article_template = File.expand_path('../source/blog/en/blog-article-template.erb', __FILE__)
   # blog.sources           = 'blog/{lang}/{year}-{month}-{day}-{title}.html'
-  blog.sources           = "blog/en/{year}-{month}-{day}-{title}.html"
+  blog.sources           = "blog/en/{year}/{month}/{year}-{month}-{day}-{title}.html"
   blog.permalink         = "blog/{lang}/{year}/{month}/{day}/{title}.html"
   blog.default_extension = '.markdown'
   blog.layout            = 'blog'
@@ -44,7 +44,7 @@ end
 activate :blog do |blog|
   blog.name              = 'fr'
   # blog.sources           = 'blog/{lang}/{year}-{month}-{day}-{title}.html'
-  blog.sources           = "blog/fr/{year}-{month}-{day}-{title}.html"
+  blog.sources           = "blog/fr/{year}/{month}/{year}-{month}-{day}-{title}.html"
   blog.permalink         = "blog/{lang}/{year}/{month}/{day}/{title}.html"
   blog.default_extension = '.markdown'
   blog.layout            = "blog"
@@ -173,6 +173,14 @@ page "/fr/blog.html", layout: "blog"
 #     "Helping"
 #   end
 # end
+
+helpers do
+  def tag_list(array, prefix)
+    array ||= []
+    array = [*array.split(/\s+,\s+/)].compact unless array.is_a? Array
+    array.map{|tag| link_to tag, "#{prefix}/tags/#{tag}/" }.join ", "
+  end
+end
 
 ###
 # Bower Components

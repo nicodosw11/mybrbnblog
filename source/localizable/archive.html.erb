@@ -1,0 +1,32 @@
+---
+title: Blog archive | Nicolas Dotto
+pageable: true
+per_page: 12
+hide_from_sitemap: false
+description: Blog covering Code, Design, Business, and Life from a freelance web-designer.
+layout: blog
+blog: en
+lang: en
+---
+
+<ul class="unstyled">
+  <% blog.articles.group_by{|a| a.date.year }.each do |year, articles| %>
+    <li>
+      <h3 class="bold">
+        <%= year %>
+      </h3>
+    </li>
+    <% articles.each do |article| %>
+      <li>
+        <span class="datetime-short">
+          <%= article.date.strftime("%b %d") %>
+        </span>
+        <%= link_to article.title, article %>
+        <% unless article.tags.length == 0 %>
+          &mdash;
+          <%= tag_list article.tags, "/en" %>
+        <% end %>
+      </li>
+    <% end %>
+  <% end %>
+</ul>

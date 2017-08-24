@@ -1,0 +1,14 @@
+<div class="pager">
+  <% if current_page.previous_article %>
+    <span class="prev">
+      &laquo;
+      <%= link_to truncate(current_page.previous_article.title, length: 30), current_page.previous_article %>
+    </span>
+  <% end %>
+  <% if current_page.next_article %>
+    <span class="next">
+      <%= link_to truncate(current_page.next_article.title, length: 30), current_page.next_article %>
+      &raquo;
+    </span>
+  <% end %>
+</div>
