@@ -11,10 +11,12 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     display: block;
 
     /* Probably need media queries here */
-    width: 600px;
+    // width: 600px;
+    width: 70%;
     max-width: 100%;
 
-    height: 400px;
+    // height: 400px;
+    height: 800px;
     max-height: 100%;
 
     position: fixed;
@@ -54,7 +56,8 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     width: 100%;
     height: 100%;
     overflow: auto;
-    padding: 20px 50px 20px 20px;
+    // padding: 20px 50px 20px 20px;
+    padding: 20px 20px;
   }
 
   h1 {
@@ -77,6 +80,11 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     color: white;
     padding: 5px 10px;
     font-size: 1.3rem;
+
+    @include media($mobile-only) {
+      font-size: 1rem;
+      padding: 3px 6px;
+    }
   }
 }
 

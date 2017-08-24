@@ -11,7 +11,7 @@ My Personal Website:
     image: bonhomme400310.jpeg
     text: Middleman · HTML5 & CSS3 · JavasScript
   modal:
-    title: A personal website to explain what I want to achieve.
+    title: A personal website to explain what I want.
     img_banner: bonhomme1200760.jpeg
     description:
       title_left_1: What is it?
@@ -53,7 +53,7 @@ Building a Brunch Advisor:
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
     title: Yelp clone.
-    img_banner: food-salad-restaurant-person.jpg
+    img_banner: brunch1200760.jpeg
     description:
       title_left_1: What is it?
       text_left_1:  A yelp clone to help choose restaurants in London
@@ -191,7 +191,7 @@ Building a two-sided marketplace:
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
     title: My first marketplace.
-    img_banner: e-commerce.jpg
+    img_banner: cashmachine1200760.jpeg
     description:
       title_left_1: What is it?
       text_left_1:  A marketplace for anything
@@ -315,7 +315,7 @@ Building a booking system for aspiring dancers:
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
     title: Book a dance lesson.
-    img_banner: booking.jpeg
+    img_banner: dancer1200760.jpeg
     description:
       title_left_1: What is it?
       text_left_1:  An app where people can make a group and book their dance tutors
@@ -341,7 +341,7 @@ Bulding a blog and a multiblog with Middleman:
     text: Middleman · HTML5 & CSS3 · JavasScript
   modal:
     title: Blog & Multiblog with Middleman.
-    img_banner: blog.jpeg
+    img_banner: bloggers1200760.jpeg
     description:
       title_left_1: What is it?
       text_left_1:  A blog telling the world what I do as a junior developer
@@ -365,7 +365,7 @@ A todo-list with Javascript and Python:
     text: HTML5 & CSS3 · JavasScript . Python
   modal:
     title: Todo-list app with JS and Python.
-    img_banner: todo.jpg
+    img_banner: todos1200760.jpeg
     description:
       title_left_1: What is it?
       text_left_1:  A one-page to-do app built in Python and JavaScript
@@ -522,7 +522,7 @@ Mobile Delivery App with Python/Swift:
     text: HTML5 & CSS3 · JavasScript . Python . Swift
   modal:
     title: My first mobile app.
-    img_banner: map.jpg
+    img_banner: navigation1200760.jpeg
     description:
       title_left_1: What is it?
       text_left_1:  An app to learn Swift
