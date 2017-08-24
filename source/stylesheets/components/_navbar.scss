@@ -1,5 +1,6 @@
 .nav {
   position: absolute;
+  z-index: 49;
   @media only screen and (min-height: 320px) {
     position: fixed;
   }
