@@ -1,0 +1,110 @@
+section.quote, .parallax-window, .parallax-window-2 {
+  padding: 6em 0;
+
+  .image-bg {
+    background: url("/images/paris.jpeg") 0 0 no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -200;
+  }
+
+  // .color-overlay {
+  //   position: absolute;
+  //   height: 100%;
+  //   width: 100%;
+  //   top: 0;
+  //   left: 0;
+  //   background-color: #2ecc71;
+  //   opacity: 0.7;
+  //   z-index: -100;
+  // }
+
+  // #quote-slider {
+  //   .owl-dots {
+  //     margin-top: 2em;
+  //     .owl-dot {
+  //       span { background-color: white; opacity: 0.4; }
+  //       span:hover { opacity: 0.7; }
+  //       &.active {
+  //       span { opacity: 1; }
+  //       }
+  //     }
+  //   }
+  // }
+
+  blockquote {
+    text-align: center;
+    font-style: normal;
+    color: white;
+    font-size: 2em;
+    margin: 0;
+    border: 0;
+    padding-left: 0;
+    cursor: move;
+    cite {
+      padding-top: 1.5em;
+      font-size: .6em;
+      color: white;
+      display: block;
+      a { color: #1b7943 !important;}
+      a:hover { color: #124f2c; }
+    }
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  section.quote, .parallax-window, .parallax-window-2 {
+    blockquote {
+      padding: 0 10px;
+      font-size: 1.6em;
+    }
+  }
+}
+@media screen and (max-width: 30em) {
+  section.quote, .parallax-window, .parallax-window-2 {
+    blockquote {
+      font-size: 1.3em;
+    }
+  }
+}
+@media screen and (max-width: 37.5em) {
+  section.quote, .parallax-window, .parallax-window-2 {
+    blockquote {
+      cite { font-size: .7em; }
+    }
+  }
+}
+
+// section {
+//   display: block;
+//   position: relative;
+//   margin: 0;
+//   padding: 0;
+//   border: 0;
+//   font-size: 100%;
+//   font: inherit;
+//   vertical-align: baseline;
+// }
+
+// blockquote {
+//   font-style: italic;
+//   color: #b3b3b3;
+//   font-size: 1.1em;
+//   border-left: solid 3px #d9d9d9; }
+
+// blockquote, q {
+//   /* quotes: none; */
+// }
+
+// cite {
+//   color: #737373;
+//   font-style: italic; }
+//   cite:before {
+//     content: '\2014 \00A0'; }
+

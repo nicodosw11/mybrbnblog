@@ -1,6 +1,7 @@
 $parallax-window-height: 30em;
 $parallax-background-height: $parallax-window-height * 2;
-
+$parallax-window2-height: 50em;
+$parallax-background2-height: $parallax-window2-height * 2;
 
 .parallax-window {
   max-height: $parallax-window-height;
@@ -43,4 +44,34 @@ $parallax-background-height: $parallax-window-height * 2;
 
 // Based on http://codepen.io/skeurentjes/
 
+.parallax-background-2 {
+  // background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  // background-repeat; repeat-y
+  background-position: top;
+  background-size: cover;
+  background-color: beige;
+  height: $parallax-background-height;
+  left: 0;
+  position: absolute;
+  top: - $parallax-window-height / 3;
+  width: 100%;
+}
 
+.parallax-window-2 {
+  max-height: $parallax-window2-height;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  .color-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #2ecc71;
+  opacity: 0.7;
+  // z-index: -100;
+  z-index: 1 !important;
+  }
+}

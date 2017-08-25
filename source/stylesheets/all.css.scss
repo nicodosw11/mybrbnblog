@@ -21,6 +21,7 @@
 // @import "highlights/syntax";
 @import "custom-typography";
 @import "homepage/index";
+@import "components/footer";
 @import "components/navbar";
 @import "components/pagination";
 @import "components/sliding-panel";
@@ -44,6 +45,9 @@
 @import "portfolio/modal-layout";
 @import "portfolio/modal-project";
 @import "portfolio/shuffle-grid";
+
+@import "about/sections/index";
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 
 *,
