@@ -1,0 +1,16 @@
+body.about.about_index, body.fr.fr_about.fr_about_index {
+  .padding-top {
+  padding-top: 78px; // same as header height
+  }
+  header {
+  // scrollup
+  height: 78px;
+  transition: top 0.2s ease-in-out;
+  //
+  }
+  .nav-up, .is-hidden {
+    top: -78px; // same as header height. use variables in LESS/SASS
+  }
+}
+
+
