@@ -1,0 +1,23 @@
+<% data.apps.category.each do |category| %>
+  <h4 class="line-behind"><%= category.name %></h4>
+  <ul class="cards">
+
+    <% category.app.each do |app| %>
+
+      <li class="card">
+        <a  href="<%= app.url %>">
+          <div class="card-image">
+            <%= image_tag app.image %>
+          </div>
+          <div class="card-header">
+            <%= app.name %>
+          </div>
+          <div class="card-copy">
+            <%= app.description %>
+          </div>
+        </a>
+      </li>
+
+    <% end %>
+  </ul>
+<% end %>

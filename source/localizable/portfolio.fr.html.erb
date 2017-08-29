@@ -1,0 +1,39 @@
+---
+title: My portfolio FR
+blog: fr
+layout: layout
+---
+<div class="background-scroll-cover-mobile"></div>
+<div class="background-scroll-cover-medium"></div>
+<div class="background-scroll-cover-desktop"></div>
+
+<section class="portfolio-cards">
+  <% data.apps.category.each do |category| %>
+    <h4 class="line-behind"><%= category.name %></h4>
+    <ul class="cards">
+
+      <% category.app.each do |app| %>
+
+        <li class="card">
+          <a href="<%= app.url %>">
+              <div class="card-image img-container">
+                <%= image_tag app.image %>
+              </div>
+              <div class="card-header">
+                <div>
+                  <h3><%= app.name %></h3>
+                </div>
+                <div>
+                  <h4><%= app.description %></h4>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="card-description"> -->
+              <!-- card.description -->
+            <!-- </div> -->
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+</section>
