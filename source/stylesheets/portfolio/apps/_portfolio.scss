@@ -55,13 +55,13 @@ body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
     &:before { right: 1.5%; }
     &:after { left: 1.5%; }
   }
-  .cards {
+  .cards-app {
     @include display(flex);
     @include flex-wrap(wrap);
     @include justify-content(space-around);
 
   }
-  .card {
+  .card-app {
     $card-background: #ffffff;
     $card-margin: 1em;
     $base-border-radius: 6px;
