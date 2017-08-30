@@ -4141,7 +4141,8 @@ a.image-attr {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 20em;
-  width: 100%; }
+  width: 100%;
+  margin-top: 158px; }
   .device-background .device-text {
     padding: 2em; }
     @media screen and (min-width: 64em) {
@@ -4187,6 +4188,10 @@ a.image-attr {
                   box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.5);
           margin: auto; } }
 
+body.search.search_index, body.fr.fr_search.fr_search_index {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPklEQVQYV2O8dOnSfwYg0NPTYwTRuAAj0QqxmYBNM1briFaIzRbi3UiRZ75uNgUHGbfvabgfsHqGaIXYPAMAD8wgC/DOrZ4AAAAASUVORK5CYII=) repeat;
+  height: 150%; }
+
 figure {
   padding: 0 2.35765%; }
   @media screen and (min-width: 45em) {
@@ -4218,6 +4223,8 @@ figure {
       margin-left: 25.58941%; }
       figure:last-child {
         margin-right: 0; } }
+  figure p {
+    color: #FF4D72; }
 
 .list-group {
   margin-bottom: 20px;
@@ -4255,6 +4262,15 @@ a.list-group-item, button.list-group-item {
   text-align: center;
   background-color: #00A69C;
   border-radius: 10px; }
+
+body.search.search_index .padding-top, body.fr.fr_search.fr_search_index .padding-top {
+  padding-top: 78px; }
+body.search.search_index header, body.fr.fr_search.fr_search_index header {
+  height: 78px;
+  -webkit-transition: top 0.2s ease-in-out;
+  transition: top 0.2s ease-in-out; }
+body.search.search_index .nav-up, body.search.search_index .is-hidden, body.fr.fr_search.fr_search_index .nav-up, body.fr.fr_search.fr_search_index .is-hidden {
+  top: -78px; }
 
 .search-results {
   margin-top: 1.25em;
@@ -4312,7 +4328,7 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
         max-width: 50%; }
     body.about.about_index section.intro-about h3, body.about.about_index section.intro-video h3, body.about.about_index .banner-container h3, body.about.about_index .parallax-window-fs h3, body.fr.fr_about.fr_about_index section.intro-about h3, body.fr.fr_about.fr_about_index section.intro-video h3, body.fr.fr_about.fr_about_index .banner-container h3, body.fr.fr_about.fr_about_index .parallax-window-fs h3 {
       text-align: center;
-      font-size: 1.2em;
+      font-size: 1.2em !important;
       padding: 0 20%; }
     body.about.about_index section.intro-about a.jump-down, body.about.about_index section.intro-video a.jump-down, body.about.about_index .banner-container a.jump-down, body.about.about_index .parallax-window-fs a.jump-down, body.fr.fr_about.fr_about_index section.intro-about a.jump-down, body.fr.fr_about.fr_about_index section.intro-video a.jump-down, body.fr.fr_about.fr_about_index .banner-container a.jump-down, body.fr.fr_about.fr_about_index .parallax-window-fs a.jump-down {
       position: absolute;
@@ -4361,7 +4377,8 @@ body.about.about_index section.features .feature-items .feature-item, body.fr.fr
     font-size: 1.3em;
     padding-bottom: .5em; }
   body.about.about_index section.features .feature-items .feature-item p, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item p {
-    color: gray; }
+    color: gray;
+    font-size: 1.25em; }
 @media screen and (min-width: 53.75em) {
   body.about.about_index section.features .feature-items .feature-item, body.fr.fr_about.fr_about_index section.features .feature-items .feature-item {
     float: left;
@@ -4446,31 +4463,32 @@ body.about.about_index .nav-up, body.about.about_index .is-hidden, body.fr.fr_ab
 body.about.about_index, body.fr.fr_about.fr_about_index {
   -webkit-font-smoothing: antialiased;
   background-color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  line-height: 1.5;
   color: gray; }
-  body.about.about_index h1, body.fr.fr_about.fr_about_index h1 {
-    font-size: 2.25em; }
-  body.about.about_index h2, body.fr.fr_about.fr_about_index h2 {
-    font-size: 2em; }
-  body.about.about_index h3, body.fr.fr_about.fr_about_index h3 {
-    font-size: 1.75em; }
-  body.about.about_index h4, body.fr.fr_about.fr_about_index h4 {
-    font-size: 1.5em; }
-  body.about.about_index h5, body.fr.fr_about.fr_about_index h5 {
-    font-size: 1.25em; }
-  body.about.about_index h6, body.fr.fr_about.fr_about_index h6 {
-    font-size: 1em; }
-  body.about.about_index h1, body.about.about_index h2, body.about.about_index h3, body.about.about_index h4, body.about.about_index h5, body.about.about_index h6, body.fr.fr_about.fr_about_index h1, body.fr.fr_about.fr_about_index h2, body.fr.fr_about.fr_about_index h3, body.fr.fr_about.fr_about_index h4, body.fr.fr_about.fr_about_index h5, body.fr.fr_about.fr_about_index h6 {
-    line-height: 1.25em;
-    margin: 0;
-    text-rendering: optimizeLegibility; }
-  body.about.about_index h1, body.about.about_index h2, body.about.about_index h3, body.about.about_index h4, body.about.about_index h5, body.fr.fr_about.fr_about_index h1, body.fr.fr_about.fr_about_index h2, body.fr.fr_about.fr_about_index h3, body.fr.fr_about.fr_about_index h4, body.fr.fr_about.fr_about_index h5 {
+  body.about.about_index #section-intro, body.about.about_index #section-features, body.about.about_index section.features > .container > .title, body.about.about_index .parallax-window, body.about.about_index .parallax-window-2, body.fr.fr_about.fr_about_index #section-intro, body.fr.fr_about.fr_about_index #section-features, body.fr.fr_about.fr_about_index section.features > .container > .title, body.fr.fr_about.fr_about_index .parallax-window, body.fr.fr_about.fr_about_index .parallax-window-2 {
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase; }
-  body.about.about_index p, body.fr.fr_about.fr_about_index p {
-    margin: 0 0 0.75em; }
+    font-size: 1em;
+    line-height: 1.5; }
+    body.about.about_index #section-intro h1, body.about.about_index #section-features h1, body.about.about_index section.features > .container > .title h1, body.about.about_index .parallax-window h1, body.about.about_index .parallax-window-2 h1, body.fr.fr_about.fr_about_index #section-intro h1, body.fr.fr_about.fr_about_index #section-features h1, body.fr.fr_about.fr_about_index section.features > .container > .title h1, body.fr.fr_about.fr_about_index .parallax-window h1, body.fr.fr_about.fr_about_index .parallax-window-2 h1 {
+      font-size: 2.25em; }
+    body.about.about_index #section-intro h2, body.about.about_index #section-features h2, body.about.about_index section.features > .container > .title h2, body.about.about_index .parallax-window h2, body.about.about_index .parallax-window-2 h2, body.fr.fr_about.fr_about_index #section-intro h2, body.fr.fr_about.fr_about_index #section-features h2, body.fr.fr_about.fr_about_index section.features > .container > .title h2, body.fr.fr_about.fr_about_index .parallax-window h2, body.fr.fr_about.fr_about_index .parallax-window-2 h2 {
+      font-size: 2em; }
+    body.about.about_index #section-intro h3, body.about.about_index #section-features h3, body.about.about_index section.features > .container > .title h3, body.about.about_index .parallax-window h3, body.about.about_index .parallax-window-2 h3, body.fr.fr_about.fr_about_index #section-intro h3, body.fr.fr_about.fr_about_index #section-features h3, body.fr.fr_about.fr_about_index section.features > .container > .title h3, body.fr.fr_about.fr_about_index .parallax-window h3, body.fr.fr_about.fr_about_index .parallax-window-2 h3 {
+      font-size: 1.75em; }
+    body.about.about_index #section-intro h4, body.about.about_index #section-features h4, body.about.about_index section.features > .container > .title h4, body.about.about_index .parallax-window h4, body.about.about_index .parallax-window-2 h4, body.fr.fr_about.fr_about_index #section-intro h4, body.fr.fr_about.fr_about_index #section-features h4, body.fr.fr_about.fr_about_index section.features > .container > .title h4, body.fr.fr_about.fr_about_index .parallax-window h4, body.fr.fr_about.fr_about_index .parallax-window-2 h4 {
+      font-size: 1.5em; }
+    body.about.about_index #section-intro h5, body.about.about_index #section-features h5, body.about.about_index section.features > .container > .title h5, body.about.about_index .parallax-window h5, body.about.about_index .parallax-window-2 h5, body.fr.fr_about.fr_about_index #section-intro h5, body.fr.fr_about.fr_about_index #section-features h5, body.fr.fr_about.fr_about_index section.features > .container > .title h5, body.fr.fr_about.fr_about_index .parallax-window h5, body.fr.fr_about.fr_about_index .parallax-window-2 h5 {
+      font-size: 1.25em; }
+    body.about.about_index #section-intro h6, body.about.about_index #section-features h6, body.about.about_index section.features > .container > .title h6, body.about.about_index .parallax-window h6, body.about.about_index .parallax-window-2 h6, body.fr.fr_about.fr_about_index #section-intro h6, body.fr.fr_about.fr_about_index #section-features h6, body.fr.fr_about.fr_about_index section.features > .container > .title h6, body.fr.fr_about.fr_about_index .parallax-window h6, body.fr.fr_about.fr_about_index .parallax-window-2 h6 {
+      font-size: 1em; }
+    body.about.about_index #section-intro h1, body.about.about_index #section-intro h2, body.about.about_index #section-intro h3, body.about.about_index #section-intro h4, body.about.about_index #section-intro h5, body.about.about_index #section-intro h6, body.about.about_index #section-features h1, body.about.about_index #section-features h2, body.about.about_index #section-features h3, body.about.about_index #section-features h4, body.about.about_index #section-features h5, body.about.about_index #section-features h6, body.about.about_index section.features > .container > .title h1, body.about.about_index section.features > .container > .title h2, body.about.about_index section.features > .container > .title h3, body.about.about_index section.features > .container > .title h4, body.about.about_index section.features > .container > .title h5, body.about.about_index section.features > .container > .title h6, body.about.about_index .parallax-window h1, body.about.about_index .parallax-window h2, body.about.about_index .parallax-window h3, body.about.about_index .parallax-window h4, body.about.about_index .parallax-window h5, body.about.about_index .parallax-window h6, body.about.about_index .parallax-window-2 h1, body.about.about_index .parallax-window-2 h2, body.about.about_index .parallax-window-2 h3, body.about.about_index .parallax-window-2 h4, body.about.about_index .parallax-window-2 h5, body.about.about_index .parallax-window-2 h6, body.fr.fr_about.fr_about_index #section-intro h1, body.fr.fr_about.fr_about_index #section-intro h2, body.fr.fr_about.fr_about_index #section-intro h3, body.fr.fr_about.fr_about_index #section-intro h4, body.fr.fr_about.fr_about_index #section-intro h5, body.fr.fr_about.fr_about_index #section-intro h6, body.fr.fr_about.fr_about_index #section-features h1, body.fr.fr_about.fr_about_index #section-features h2, body.fr.fr_about.fr_about_index #section-features h3, body.fr.fr_about.fr_about_index #section-features h4, body.fr.fr_about.fr_about_index #section-features h5, body.fr.fr_about.fr_about_index #section-features h6, body.fr.fr_about.fr_about_index section.features > .container > .title h1, body.fr.fr_about.fr_about_index section.features > .container > .title h2, body.fr.fr_about.fr_about_index section.features > .container > .title h3, body.fr.fr_about.fr_about_index section.features > .container > .title h4, body.fr.fr_about.fr_about_index section.features > .container > .title h5, body.fr.fr_about.fr_about_index section.features > .container > .title h6, body.fr.fr_about.fr_about_index .parallax-window h1, body.fr.fr_about.fr_about_index .parallax-window h2, body.fr.fr_about.fr_about_index .parallax-window h3, body.fr.fr_about.fr_about_index .parallax-window h4, body.fr.fr_about.fr_about_index .parallax-window h5, body.fr.fr_about.fr_about_index .parallax-window h6, body.fr.fr_about.fr_about_index .parallax-window-2 h1, body.fr.fr_about.fr_about_index .parallax-window-2 h2, body.fr.fr_about.fr_about_index .parallax-window-2 h3, body.fr.fr_about.fr_about_index .parallax-window-2 h4, body.fr.fr_about.fr_about_index .parallax-window-2 h5, body.fr.fr_about.fr_about_index .parallax-window-2 h6 {
+      line-height: 1.25em;
+      margin: 0;
+      text-rendering: optimizeLegibility; }
+    body.about.about_index #section-intro h1, body.about.about_index #section-intro h2, body.about.about_index #section-intro h3, body.about.about_index #section-intro h4, body.about.about_index #section-intro h5, body.about.about_index #section-features h1, body.about.about_index #section-features h2, body.about.about_index #section-features h3, body.about.about_index #section-features h4, body.about.about_index #section-features h5, body.about.about_index section.features > .container > .title h1, body.about.about_index section.features > .container > .title h2, body.about.about_index section.features > .container > .title h3, body.about.about_index section.features > .container > .title h4, body.about.about_index section.features > .container > .title h5, body.about.about_index .parallax-window h1, body.about.about_index .parallax-window h2, body.about.about_index .parallax-window h3, body.about.about_index .parallax-window h4, body.about.about_index .parallax-window h5, body.about.about_index .parallax-window-2 h1, body.about.about_index .parallax-window-2 h2, body.about.about_index .parallax-window-2 h3, body.about.about_index .parallax-window-2 h4, body.about.about_index .parallax-window-2 h5, body.fr.fr_about.fr_about_index #section-intro h1, body.fr.fr_about.fr_about_index #section-intro h2, body.fr.fr_about.fr_about_index #section-intro h3, body.fr.fr_about.fr_about_index #section-intro h4, body.fr.fr_about.fr_about_index #section-intro h5, body.fr.fr_about.fr_about_index #section-features h1, body.fr.fr_about.fr_about_index #section-features h2, body.fr.fr_about.fr_about_index #section-features h3, body.fr.fr_about.fr_about_index #section-features h4, body.fr.fr_about.fr_about_index #section-features h5, body.fr.fr_about.fr_about_index section.features > .container > .title h1, body.fr.fr_about.fr_about_index section.features > .container > .title h2, body.fr.fr_about.fr_about_index section.features > .container > .title h3, body.fr.fr_about.fr_about_index section.features > .container > .title h4, body.fr.fr_about.fr_about_index section.features > .container > .title h5, body.fr.fr_about.fr_about_index .parallax-window h1, body.fr.fr_about.fr_about_index .parallax-window h2, body.fr.fr_about.fr_about_index .parallax-window h3, body.fr.fr_about.fr_about_index .parallax-window h4, body.fr.fr_about.fr_about_index .parallax-window h5, body.fr.fr_about.fr_about_index .parallax-window-2 h1, body.fr.fr_about.fr_about_index .parallax-window-2 h2, body.fr.fr_about.fr_about_index .parallax-window-2 h3, body.fr.fr_about.fr_about_index .parallax-window-2 h4, body.fr.fr_about.fr_about_index .parallax-window-2 h5 {
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase; }
+    body.about.about_index #section-intro p, body.about.about_index #section-features p, body.about.about_index section.features > .container > .title p, body.about.about_index .parallax-window p, body.about.about_index .parallax-window-2 p, body.fr.fr_about.fr_about_index #section-intro p, body.fr.fr_about.fr_about_index #section-features p, body.fr.fr_about.fr_about_index section.features > .container > .title p, body.fr.fr_about.fr_about_index .parallax-window p, body.fr.fr_about.fr_about_index .parallax-window-2 p {
+      margin: 0 0 0.75em; }
 
 body.about.about_index img, body.fr.fr_about.fr_about_index img {
   margin: 0;
@@ -4595,6 +4613,27 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
     opacity: 0.7;
     z-index: 1 !important; }
 
+body.projects.projects_index .background-scroll-cover-mobile, body.projects.projects_index .background-scroll-cover-medium, body.projects.projects_index .background-scroll-cover-desktop, body.fr.fr_projects.fr_projects_index .background-scroll-cover-mobile, body.fr.fr_projects.fr_projects_index .background-scroll-cover-medium, body.fr.fr_projects.fr_projects_index .background-scroll-cover-desktop {
+  background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), url(../images/code-6c52f5ff.png) repeat;
+  background-size: 100% auto;
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+@media (max-width: 1400px) {
+  body.projects.projects_index .background-scroll-cover-mobile, body.fr.fr_projects.fr_projects_index .background-scroll-cover-mobile {
+    background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), url(../images/code10801920-e919426d.png) center center/cover no-repeat; }
+  body.projects.projects_index .background-scroll-cover-medium, body.projects.projects_index .background-scroll-cover-desktop, body.fr.fr_projects.fr_projects_index .background-scroll-cover-medium, body.fr.fr_projects.fr_projects_index .background-scroll-cover-desktop {
+    display: none; } }
+@media (min-width: 1400px) and (max-width: 1700px) {
+  body.projects.projects_index .background-scroll-cover-mobile, body.projects.projects_index .background-scroll-cover-desktop, body.fr.fr_projects.fr_projects_index .background-scroll-cover-mobile, body.fr.fr_projects.fr_projects_index .background-scroll-cover-desktop {
+    display: none; } }
+@media (min-width: 1700px) {
+  body.projects.projects_index .background-scroll-cover-mobile, body.projects.projects_index .background-scroll-cover-medium, body.fr.fr_projects.fr_projects_index .background-scroll-cover-mobile, body.fr.fr_projects.fr_projects_index .background-scroll-cover-medium {
+    display: none; } }
+
 body.projects.projects_index .container-gallery ul, body.fr.fr_projects.fr_projects_index .container-gallery ul {
   text-align: center;
   margin: 20px 0; }
@@ -4675,10 +4714,13 @@ body.projects.projects_index .modal img, body.fr.fr_projects.fr_projects_index .
   margin: 10px auto; }
 @media screen and (max-width: 29.9375em) {
   body.projects.projects_index .modal h4, body.fr.fr_projects.fr_projects_index .modal h4 {
-    font-size: 0.4rem; } }
+    font-size: 0.5rem; } }
 body.projects.projects_index .modal-container, body.fr.fr_projects.fr_projects_index .modal-container {
   width: 70%;
   margin: 0 auto; }
+  @media screen and (max-width: 29.9375em) {
+    body.projects.projects_index .modal-container, body.fr.fr_projects.fr_projects_index .modal-container {
+      width: 85%; } }
 body.projects.projects_index .modal-banner, body.fr.fr_projects.fr_projects_index .modal-banner {
   text-align: center;
   padding: 0vh; }
@@ -4711,6 +4753,11 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     background: white;
     -webkit-box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
             box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9); }
+    @media screen and (max-width: 29.9375em) {
+      body.projects.projects_index .modal, body.fr.fr_projects.fr_projects_index .modal {
+        height: 100%;
+        width: 100%;
+        margin: 0; } }
   body.projects.projects_index .closed, body.fr.fr_projects.fr_projects_index .closed {
     display: none; }
   body.projects.projects_index .modal-overlay, body.fr.fr_projects.fr_projects_index .modal-overlay {
@@ -4818,7 +4865,9 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
         width: 66.66667%;
         padding: 4em 4em 8em 4em; } }
     .side-image .side-image-content h1 {
-      margin-bottom: 0.9em; }
+      margin-bottom: 0.9em;
+      font-size: 2em;
+      margin: 0.67em 0; }
     .side-image .side-image-content h4 {
       background: #BBB;
       color: white;
@@ -4830,7 +4879,8 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
     .side-image .side-image-content p {
       color: #333;
       line-height: 1.5;
-      margin-bottom: 3em; }
+      margin-bottom: 3em;
+      font-size: 1.25em; }
 
 .bullets {
   display: -webkit-box;
@@ -5193,6 +5243,8 @@ body.portfolio.portfolio_index .background-scroll-cover-mobile, body.portfolio.p
 @media (min-width: 1700px) {
   body.portfolio.portfolio_index .background-scroll-cover-mobile, body.portfolio.portfolio_index .background-scroll-cover-medium, body.fr.fr_portfolio.fr_portfolio_index .background-scroll-cover-mobile, body.fr.fr_portfolio.fr_portfolio_index .background-scroll-cover-medium {
     display: none; } }
+body.portfolio.portfolio_index section.portfolio-cards, body.fr.fr_portfolio.fr_portfolio_index section.portfolio-cards {
+  margin: 105px auto; }
 body.portfolio.portfolio_index .line-behind, body.fr.fr_portfolio.fr_portfolio_index .line-behind {
   display: table;
   white-space: nowrap;
@@ -5348,6 +5400,15 @@ body.portfolio.portfolio_index .card-app, body.fr.fr_portfolio.fr_portfolio_inde
       font-size: 0.9em;
       line-height: 1.3em;
       letter-spacing: 0.01em; }
+
+body.portfolio.portfolio_index .padding-top, body.fr.fr_portfolio.fr_portfolio_index .padding-top {
+  padding-top: 78px; }
+body.portfolio.portfolio_index header, body.fr.fr_portfolio.fr_portfolio_index header {
+  height: 78px;
+  -webkit-transition: top 0.2s ease-in-out;
+  transition: top 0.2s ease-in-out; }
+body.portfolio.portfolio_index .nav-up, body.portfolio.portfolio_index .is-hidden, body.fr.fr_portfolio.fr_portfolio_index .nav-up, body.fr.fr_portfolio.fr_portfolio_index .is-hidden {
+  top: -78px; }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 *,
