@@ -34,6 +34,12 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
 
     background: white;
     box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+
+    @include media($mobile-only) {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+    }
   }
   .closed {
     display: none;

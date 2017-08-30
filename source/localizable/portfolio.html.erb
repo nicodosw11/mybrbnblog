@@ -8,6 +8,8 @@ layout: layout
 <div class="background-scroll-cover-medium"></div>
 <div class="background-scroll-cover-desktop"></div>
 
+<%= partial("partials/navbars/navbar-portfolio")%>
+
 <section class="portfolio-cards">
   <% data.apps.category.each do |category| %>
     <h4 class="line-behind"><%= category.name %></h4>

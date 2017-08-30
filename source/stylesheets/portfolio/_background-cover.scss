@@ -1,0 +1,37 @@
+body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
+  .background-scroll-cover-mobile, .background-scroll-cover-medium, .background-scroll-cover-desktop {
+    // background:
+    //   url("/images/windmill19202500.jpeg"),
+    //   repeat;
+    background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), image-url("/images/code.png") repeat;
+    background-size: 100% auto;
+    position: fixed;
+    width: 100%;
+    height: 300%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  @media (max-width: 1400px) {
+    .background-scroll-cover-mobile {
+      background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), image-url("/images/code10801920.png") center center/ cover no-repeat;
+    }
+    .background-scroll-cover-medium, .background-scroll-cover-desktop {
+      display: none;
+    }
+  }
+
+  @media (min-width: 1400px) and (max-width: 1700px) {
+
+    .background-scroll-cover-mobile, .background-scroll-cover-desktop {
+      display: none;
+    }
+  }
+
+  @media (min-width: 1700px) {
+    .background-scroll-cover-mobile, .background-scroll-cover-medium  {
+      display: none;
+    }
+  }
+}

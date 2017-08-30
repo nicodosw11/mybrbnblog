@@ -9,12 +9,15 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     }
     h4 {
       @include media($mobile-only) {
-        font-size: 0.4rem;
+        font-size: 0.5rem;
       }
     }
     &-container {
       width: 70%;
       margin: 0 auto;
+      @include media($mobile-only) {
+        width: 85%;
+      }
     }
     &-banner {
       text-align: center;

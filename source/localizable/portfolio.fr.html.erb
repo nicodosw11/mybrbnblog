@@ -3,9 +3,12 @@ title: My portfolio FR
 blog: fr
 layout: layout
 ---
+
 <div class="background-scroll-cover-mobile"></div>
 <div class="background-scroll-cover-medium"></div>
 <div class="background-scroll-cover-desktop"></div>
+
+<%= partial("partials/navbars/navbar-portfolio")%>
 
 <section class="portfolio-cards">
   <% data.apps.category.each do |category| %>
