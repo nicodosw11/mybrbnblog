@@ -20,10 +20,22 @@
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
+
+<!--     <script type='text/javascript'>
+      $(window).on('load', function() {
+      // $(document).ready(function () {
+        // Animate loader off screen
+        $('.se-pre-con').fadeOut('slow');
+    });
+    </script> -->
+
   </head>
 
   <body class="<%= page_classes %>">
+    <div class="se-pre-con"></div>
+
     <%= yield %>
   </body>
+
 
 </html>
