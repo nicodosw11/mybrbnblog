@@ -10338,7 +10338,21 @@ $(document).ready(function() {
 
 
 $(window).on('load', function(){
-  setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
+  // setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
+  setTimeout(removeLoader, 1000);
+
+  // $('.intro-video').delay(1000).hide(28000);
+  // $('.intro-about').delay(1000).fadeIn(28000);
+  // $(".intro-video").remove();
+
+  setTimeout(function(){
+    document.getElementById('section-intro-video').style.display = 'none';
+    document.getElementById('section-intro-fs').style.display = 'block';
+    $(".intro-video").remove();
+  }, 14000); //14secs
+
+
+
 });
 function removeLoader(){
     $( ".se-pre-con" ).fadeOut(500, function() {
@@ -10346,7 +10360,31 @@ function removeLoader(){
       $( ".se-pre-con" ).remove(); //makes page more lightweight
   });
 }
-;
+
+function preloader(){
+  document.getElementById("loading").style.display = "none";
+  document.getElementById("content").style.display = "block";
+}//preloader
+window.onload = preloader;
+$(document).ready(function() {
+  $(function() {
+    $("#modal-1").on("change", function() {
+      if ($(this).is(":checked")) {
+        $("body").addClass("modal-open");
+      } else {
+        $("body").removeClass("modal-open");
+      }
+    });
+
+    $(".modal-fade-screen, .modal-close").on("click", function() {
+      $(".modal-state:checked").prop("checked", false).change();
+    });
+
+    $(".modal-inner").on("click", function(e) {
+      e.stopPropagation();
+    });
+  });
+});
 // window.onload = function () {
 //   'use strict';
 //   var modal = document.querySelector("#modal");
@@ -10519,8 +10557,9 @@ $(document).ready(function() {
 
     if ($(window).scrollTop() > (5)) {
       $('.nav-scroll').removeClass('is-hidden');
-      $('body.search.search_index, body.fr.fr_search.fr_search_index').addClass('padding-top');
       $('body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index').addClass('padding-top');
+      $('body.projects.projects_index, body.fr.fr_projects.fr_projects_index').addClass('padding-top');
+      $('body.search.search_index, body.fr.fr_search.fr_search_index').addClass('padding-top');
       $('.device').css('margin-top', 80);
     }
   });

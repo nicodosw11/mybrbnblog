@@ -32,9 +32,10 @@
   </head>
 
   <body class="about about_index">
-    <div class="se-pre-con"></div>
+    <!-- <div class="se-pre-con"></div> -->
 
-    <header class="nav nav-down is-hidden">
+      <div class="se-pre-con"></div>
+  <header class="nav nav-down is-hidden">
 <a href="/" id="nav-logo" class="logo-button">    <img src="../images/logo-bf8c19f1.png" alt="Logo" />
 </a><a href="/" id="nav-logo" class="js-menu-trigger sliding-panel-button">    <img src="../images/logo-bf8c19f1.png" alt="Logo" />
 </a>  <ul>
@@ -70,12 +71,12 @@
 
 <div class="js-menu-screen sliding-panel-fade-screen"></div>
 
-<section class="intro-video" id="section-intro">
- <div class="video-container">
-  <video autoplay loop poster="../images/paris.jpeg" id="bgvid">
-  <!-- <video autoplay loop id="bgvid"> -->
-    <source src="/videos/bwcitystreet.mp4" type="video/mp4">
-  </video>
+<section class="intro-video" id="section-intro-video">
+  <div class="video-container">
+    <video autoplay loop poster="../images/paris.jpeg" id="bgvid">
+    <!-- <video autoplay loop id="bgvid"> -->
+      <source src="/videos/bwcitystreet.mp4" type="video/mp4">
+    </video>
   </div>
   <div class="color-overlay"></div>
   <div class="container">
@@ -89,6 +90,31 @@
   </div>
 </section>
 
+
+<section class="intro-about" id="section-intro-fs">
+  <div class="image-bg"></div>
+  <div class="color-overlay"></div>
+<!--   <div class="container">
+
+    <div class="logo">
+      <a href="index.html"><h1><img src="../images/logo-white-c73b81f6.png" alt="logo"></h1></a>
+    </div>
+    <h3> One day I left finance to live out my real passion for programming and I have never looked back! </h3>
+  </div>
+
+  <a href="#section-features" class="jump-down"><i class="fa fa-chevron-down"></i></a> -->
+
+
+  <div class="container">
+    <div class="logo">
+      <a href='/'><h1><img src="../images/logo-white-c73b81f6.png" alt="logo"></h1></a>
+    </div>
+    <h3> One day I left finance to live out my real passion for programming and I have never looked back! </h3>
+  </div>
+  <div class="down-arrow">
+    <i class="fa fa-arrow-down"></i>
+  </div>
+</section>
 
 <!-- <div class="side-image">
   <div class="images-wrapper"></div>
@@ -239,45 +265,136 @@
     </div>
 
     <div class="grid-items">
-      <a href="javascript:void(0)" class="grid-item">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="">
-        <h1>Grid Item</h1>
+    <!-- programmer -->
+      <!-- <a href="javascript:void(0)" class="grid-item"> -->
+      <label for="modal-1" class="grid-item grid-item-image grid-item-image-code">
+        <!-- <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt=""> -->
+        <h1>Learning Web Development</h1>
         <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-      </a>
-      <a href="javascript:void(0)" class="grid-item grid-item-big grid-item-image">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="">
-        <h1>Grid Item With an Image</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, illum.</p>
-      </a>
-      <a href="javascript:void(0)" class="grid-item grid-item-big">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="">
-        <h1>Another Wide Item</h1>
-        <p>Lorem ipsum consectetur dolor sit amet, consectetur adipisicing elit. Rem, illum.</p>
-      </a>
-      <a href="javascript:void(0)" class="grid-item">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="">
-        <h1>Last Grid Item</h1>
+      </label>
+      <!-- </a> -->
+      <input class="modal-state" id="modal-1" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <!-- <div class="modal-close" for="modal-1">Close</div> -->
+          <div class="modal-content">
+              <p>Livsty: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          </div>
+        </div>
+      </div>
+      <!-- programmer -->
+
+      <!-- credit analyst -->
+      <label for="modal-2" class="grid-item grid-item-big grid-item-image grid-item-image-cb">
+        <img src="../images/close-brothers-squarelogo-bcd7ebd9.png" alt="">
+          <h1 class="padded-multiline"><span>Close Brothers, Wimbledon<br />Credit Analyst</span></h1>
+          <!-- <h1 class="padded-multiline"><span>Close Brothers, Wimbledon, Credit Analyst</span></h1> -->
+      </label>
+      <input class="modal-state" id="modal-2" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <!-- <div class="modal-close" for="modal-2">Close</div> -->
+          <div class="modal-content">
+              <p>Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          </div>
+        </div>
+      </div>
+      <!-- credit analyst -->
+
+      <!-- business analyst -->
+      <label for="modal-3" class="grid-item grid-item-half grid-item-image grid-item-image-hsbc">
+        <img src="../images/hsbc-squarelogo-2b070bd6.png" alt="">
+        <div class="padded-text">
+          <h1>HSBC, Canary Wharf</h1><br>
+          <h1>Business Analyst</h1>
+          <!-- <p>2011-2012</p> -->
+        </div>
+      </label>
+      <input class="modal-state" id="modal-3" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <!-- <div class="modal-close" for="modal-3">Close</div> -->
+          <div class="modal-content">
+              <p>HSBC: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          </div>
+        </div>
+      </div>
+      <!-- business analyst -->
+
+      <!-- risk analyst -->
+      <label for="modal-4" class="grid-item grid-item-half grid-item-image grid-item-image-bnp">
+        <img src="../images/bnpparibas-05f2c670.png" alt="">
+        <h1>BNP Paribas</h1>
         <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-      </a>
-      <a href="javascript:void(0)" class="grid-item">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="">
-        <h1>Last Grid Item</h1>
-        <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-      </a>
-      <a href="javascript:void(0)" class="grid-item">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="">
-        <h1>A Grid Item</h1>
-        <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-      </a>
-      <a href="javascript:void(0)" class="grid-item">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="">
-        <h1>Item</h1>
-        <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-      </a>
+      </label>
+      <input class="modal-state" id="modal-4" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <!-- <div class="modal-close" for="modal-4">Close</div> -->
+          <div class="modal-content">
+              <p>BNP Paribas: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          </div>
+        </div>
+      </div>
+      <!-- risk analyst -->
+
+      <!-- sell-side analyst -->
+      <label for="modal-5" class="grid-item grid-item-image grid-item-image-sg">
+        <img src="../images/sg-6c25ea76.png" alt="">
+        <h1>Société Générale</h1>
+        <p>Internship</p>
+      </label>
+      <input class="modal-state" id="modal-5" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <!-- <div class="modal-close" for="modal-3">Close</div> -->
+          <div class="modal-content">
+              <p>SG: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          </div>
+        </div>
+      </div>
+      <!-- sell-side analyst -->
+
+      <!-- masters -->
+      <label for="modal-6" class="grid-item grid-item-image grid-item-image-dauphine">
+        <img src="../images/dauphine-82a4e3bc.png" alt="">
+        <h1>Master's Degree</h1>
+        <p>Dauphine University</p>
+      </label>
+      <input class="modal-state" id="modal-6" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <!-- <div class="modal-close" for="modal-3">Close</div> -->
+          <div class="modal-content">
+              <p>Dauphine: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          </div>
+        </div>
+      </div>
+      <!-- masters -->
+
+      <!-- undergraduate -->
+      <label for="modal-7" class="grid-item grid-item-image grid-item-image-lsbu">
+        <img src="../images/lsbu-fcd1a53a.png" alt="">
+        <h1>Bachelor of Arts</h1>
+        <p>LSBU</p>
+      </label>
+      <input class="modal-state" id="modal-7" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <!-- <div class="modal-close" for="modal-3">Close</div> -->
+          <div class="modal-content">
+              <p>LSBU: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          </div>
+        </div>
+      </div>
+      <!-- undergraduate -->
+
+
     </div>
 
   </div>
 </section>
+
 
 <div id="js-parallax-window-2" class="parallax-window-2">
 <!--   <div class="image-bg"></div>
@@ -422,6 +539,7 @@
   <hr>
 
 </footer>
+
 
 
   </body>
