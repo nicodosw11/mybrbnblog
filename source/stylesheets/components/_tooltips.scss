@@ -1,0 +1,91 @@
+.icon-link {
+  $base-border-color: gainsboro;
+  $base-border-radius: 3px;
+  $base-line-height: 1.5em;
+  $base-font-color: #335;
+  $tooltip-background: white;
+  $tooltip-color: $base-font-color;
+  $tooltip-shadow: 0 2px 2px silver;
+  $tooltip-max-width: 16em;
+  $tooltip-distance-from-item: 2em;
+  // $tooltip-arrow-width: 8px;
+  // $tooltip-arrow-distance-from-box: -1.3em;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  position: relative;
+  text-align: center;
+  &:focus, &:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+  .tooltip {
+    background-color: $tooltip-background;
+    border-radius: $base-border-radius;
+    box-shadow: $tooltip-shadow;
+    color: $tooltip-color;
+    // font-size: 0.9em; // Make sure you use -webkit-backface-visibility: hidden; on the body element to prevent 1px nudging bugs.
+    line-height: $base-line-height;
+    margin: 0 auto;
+    max-width: $tooltip-max-width;
+    opacity: 0;
+    // padding: 1em;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    visibility: hidden;
+    z-index: 10;
+    p {
+      color: $base-font-color;
+      line-height: $base-line-height;
+      margin: 0;
+    }
+    &::after {
+      // @include position(absolute, null 0);
+      // border: $tooltip-arrow-width solid transparent;
+      // bottom: $tooltip-arrow-distance-from-box;
+      // color: $tooltip-background;
+      // content: "▼";
+      // font-size: 1.4em;
+      // margin-left: -$tooltip-arrow-width;
+      // text-align: center;
+      // text-shadow: $tooltip-shadow;
+    }
+  }
+
+  &-about {
+    .tooltip {
+      @include position(absolute, null 0 $tooltip-distance-from-item 0);
+      font-size: 0.7em;
+    }
+  }
+  &-portfolio {
+    .tooltip {
+      @include position(absolute, null 0 $tooltip-distance-from-item 0);
+      font-size: 0.7em;
+    }
+  }
+  &-projects {
+    .tooltip {
+      @include position(absolute, null 0 $tooltip-distance-from-item 0);
+      font-size: 0.7em;
+    }
+  }
+  &-blog {
+    .tooltip {
+      @include position(absolute, null 0 $tooltip-distance-from-item 0);
+      font-size: 0.7em;
+    }
+  }
+  &-contact {
+    .tooltip {
+      @include position(absolute, null 0 $tooltip-distance-from-item 0);
+      font-size: 0.7em;
+    }
+  }
+  &-search {
+    .tooltip {
+      @include position(absolute, null 0 $tooltip-distance-from-item 0);
+      font-size: 0.7em;
+    }
+  }
+
+}
