@@ -34,16 +34,20 @@
   <body class="blog blog_fr blog_fr_2017 blog_fr_2017_07 blog_fr_2017_07_11 blog_fr_2017_07_11_ruby-on-rails-for-beginners blog_fr_2017_07_11_ruby-on-rails-for-beginners_index">
     <!-- <div class="se-pre-con"></div> -->
 
-      <header class="nav">
+      <header class="nav nav-scroll is-hidden">
 <a href="/fr/" id="nav-logo" class="logo-button">    <img src="../../../../../../images/logo-bf8c19f1.png" alt="Logo" />
 </a><a href="/fr/" id="nav-logo" class="js-menu-trigger sliding-panel-button">    <img src="../../../../../../images/logo-bf8c19f1.png" alt="Logo" />
 </a>  <ul>
-    <li><a href="/fr/blog" class="icon-link"><i class="fa fa-rss icon-link"></i></a></li>
+
+    <li class=><a href="/fr/about"><i class="fa fa-id-card icon-link icon-link-about"><p class="tooltip">profil</p></i></a></li>
+    <li class=><a href="/fr/portfolio"><i class="fa fa-briefcase icon-link icon-link-portfolio"><p class="tooltip">code</p></i></a></li>
+    <li class=><a href="/fr/projects"><i class="fa fa-code-fork icon-link icon-link-projects"><p class="tooltip">projets</p></i></a></li>
+    <li class=is-active><a href="/fr/blog"><i class="fa fa-rss icon-link icon-link-blog"><p class="tooltip">blog</p></i></a></li>
+
     <!-- <li><a href="/blog">Blog</a></li> -->
-    <li><a href="http://www.nicolasdotto.com#contact" class="icon-link"><i class="fa fa-paper-plane icon-link"></i></a></li>
-    <li>
-    <!-- <a href="/search" class="text-link">Chercher</a> -->
-      <a href="/fr/search" class="icon-link"><i class="fa fa-search icon-link"></i></a>
+    <li><a href="http://www.nicolasdotto.com#contact"><i class="fa fa-paper-plane icon-link icon-link-contact"><p class="tooltip">contact</p></i></a></li>
+    <li class=>
+      <a href="/fr/search"><i class="fa fa-search icon-link icon-link-search"><p class="tooltip">search</p></i></a>
     </li>
     <li>
       <a id="navEng" href="/blog" class="language">
@@ -54,21 +58,24 @@
   </ul>
   <!-- responsive mobile only -->
   <ul>
-    <li><a href="/fr/blog" class="icon-link"><i class="fa fa-rss icon-link"></i></a></li>
+    <li><a href="/fr/blog" class=""><i class="fa fa-rss icon-link"></i></a></li>
   </ul>
   <!-- responsive mobile only -->
 </header>
 
 <nav class="js-menu sliding-panel-content">
   <ul>
-    <li><a href="/ ">Home</a></li>
+    <li><a href="/fr/ ">Home</a></li>
     <li><a href="/fr/#contact-me">Me contacter</a></li>
+    <li><a href="/fr/about">Profil</a></li>
     <li><a href="/fr/search">Chercher</a></li>
     <li><a href="/blog">Switch to English</a></li>
   </ul>
 </nav>
 
 <div class="js-menu-screen sliding-panel-fade-screen"></div>
+
+
 
 
   <div class="outer-container">

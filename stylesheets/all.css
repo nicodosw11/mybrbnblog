@@ -3883,7 +3883,9 @@ button {
         display: none; } }
     .nav ul li {
       display: inline-block;
-      margin: 0 1.125em; }
+      margin: 0; }
+      .nav ul li.is-active a {
+        color: #FF4D72 !important; }
       .nav ul li a {
         display: inline-block;
         height: 44px;
@@ -3907,7 +3909,8 @@ button {
       display: none; } }
 
 #navFra, #navEng {
-  vertical-align: middle; }
+  vertical-align: middle;
+  padding-left: 1.2em; }
   @media screen and (max-width: 29.9375em) {
     #navFra, #navEng {
       display: none; } }
@@ -3919,6 +3922,70 @@ button {
   @media screen and (max-width: 29.9375em) {
     .icon-small {
       display: none; } }
+
+.icon-link {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  position: relative;
+  text-align: center; }
+  .icon-link:focus, .icon-link:hover .tooltip {
+    opacity: 1;
+    visibility: visible; }
+  .icon-link .tooltip {
+    background-color: white;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 2px silver;
+            box-shadow: 0 2px 2px silver;
+    color: #335;
+    line-height: 1.5em;
+    margin: 0 auto;
+    max-width: 16em;
+    opacity: 0;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    visibility: hidden;
+    z-index: 10; }
+    .icon-link .tooltip p {
+      color: #335;
+      line-height: 1.5em;
+      margin: 0; }
+  .icon-link-about .tooltip {
+    position: absolute;
+    right: 0;
+    bottom: 2em;
+    left: 0;
+    font-size: 0.7em; }
+  .icon-link-portfolio .tooltip {
+    position: absolute;
+    right: 0;
+    bottom: 2em;
+    left: 0;
+    font-size: 0.7em; }
+  .icon-link-projects .tooltip {
+    position: absolute;
+    right: 0;
+    bottom: 2em;
+    left: 0;
+    font-size: 0.7em; }
+  .icon-link-blog .tooltip {
+    position: absolute;
+    right: 0;
+    bottom: 2em;
+    left: 0;
+    font-size: 0.7em; }
+  .icon-link-contact .tooltip {
+    position: absolute;
+    right: 0;
+    bottom: 2em;
+    left: 0;
+    font-size: 0.7em; }
+  .icon-link-search .tooltip {
+    position: absolute;
+    right: 0;
+    bottom: 2em;
+    left: 0;
+    font-size: 0.7em; }
 
 .pagination {
   text-align: center;
