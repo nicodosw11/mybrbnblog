@@ -4022,6 +4022,120 @@ button {
       .pagination ul li a:active {
         background: #80cecd; }
 
+.comment {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+  display: table;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  width: 100%; }
+  .comment:last-of-type {
+    border-bottom: none; }
+  .comment .comment-image,
+  .comment .comment-content {
+    display: table-cell;
+    vertical-align: top; }
+  .comment .comment-image {
+    padding-right: 1.4em; }
+    .comment .comment-image > img {
+      background: #8fd097;
+      border-radius: 3px;
+      display: block;
+      height: auto;
+      max-width: none !important;
+      padding: 0.7em;
+      width: 4em;
+      margin-bottom: 1% !important; }
+    .comment-reverse-order .comment .comment-image {
+      padding-left: 10px;
+      padding-right: 0; }
+  .comment .comment-content {
+    width: 100%; }
+    .comment .comment-content h1 {
+      font-size: 1em;
+      margin: 0 0 0.5em 0; }
+    .comment .comment-content p {
+      line-height: 1.5em;
+      margin-bottom: 0.5em; }
+    .comment .comment-content p.comment-detail {
+      color: rgba(51, 51, 51, 0.5);
+      font-size: 0.9em;
+      font-style: italic; }
+
+.vertical-tabs-container .vertical-tabs i {
+  font-size: 30px;
+  width: 50px;
+  padding: 10px; }
+@media screen and (max-width: 69.9375em) {
+  .vertical-tabs-container .vertical-tabs i {
+    font-size: 24px;
+    width: 43px; }
+  .vertical-tabs-container .vertical-tabs span {
+    font-size: 14px; } }
+.vertical-tabs-container .vertical-tab-content-container .container-logo-text i {
+  display: inline-block;
+  vertical-align: middle; }
+.vertical-tabs-container .vertical-tab-content-container .container-logo-text .content-text {
+  display: inline-block;
+  vertical-align: middle; }
+.vertical-tabs-container .vertical-tab-content-container .container-logo-text h4 {
+  margin: 0; }
+
+.sliding-panel-content {
+  position: fixed;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 220px;
+  background: #404040;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  -webkit-transform: translateX(-220px);
+          transform: translateX(-220px);
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  z-index: 999999; }
+  .sliding-panel-content ul {
+    padding: 0;
+    margin: 0; }
+  .sliding-panel-content li {
+    list-style: none; }
+  .sliding-panel-content li a {
+    border-bottom: 1px solid #333;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    padding: 1em;
+    text-decoration: none; }
+    .sliding-panel-content li a:focus {
+      background-color: #4d4d4d; }
+    .sliding-panel-content li a:hover {
+      background-color: #477DCA;
+      color: #fff; }
+  .sliding-panel-content.is-visible {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+
+.sliding-panel-fade-screen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  visibility: hidden;
+  z-index: 999998; }
+  .sliding-panel-fade-screen.is-visible {
+    opacity: 0.4;
+    visibility: visible; }
+
+.sliding-panel-button {
+  cursor: pointer; }
+
 .sliding-panel-content {
   position: fixed;
   top: 0;
@@ -5335,7 +5449,7 @@ section.quote, .parallax-window, .parallax-window-2 {
   .vertical-tabs-container li {
     list-style: none; }
   .vertical-tabs-container a {
-    color: #477dca;
+    color: #FF4D72;
     text-decoration: none; }
   .vertical-tabs-container .vertical-tabs {
     display: none; }
@@ -5344,7 +5458,7 @@ section.quote, .parallax-window, .parallax-window-2 {
         background-color: white;
         display: inline;
         float: left;
-        height: 18.75em;
+        height: 42em;
         width: 20%; } }
   @media screen and (min-width: 40em) {
     .vertical-tabs-container .vertical-tab {
@@ -5368,7 +5482,7 @@ section.quote, .parallax-window, .parallax-window-2 {
       outline: none; }
     @media screen and (min-width: 40em) {
       .vertical-tabs-container .vertical-tab-content-container {
-        height: 18.75em;
+        height: 42em;
         width: 80%;
         background-color: #f6f6f6;
         display: inline-block; } }
@@ -5390,7 +5504,7 @@ section.quote, .parallax-window, .parallax-window-2 {
     font-weight: bold;
     padding: 0.75em 0.809em; }
     .vertical-tabs-container .vertical-tab-accordion-heading:focus, .vertical-tabs-container .vertical-tab-accordion-heading:hover {
-      color: #477dca; }
+      color: #FF4D72; }
     .vertical-tabs-container .vertical-tab-accordion-heading:first-child {
       border-top: 0; }
     .vertical-tabs-container .vertical-tab-accordion-heading.is-active {
