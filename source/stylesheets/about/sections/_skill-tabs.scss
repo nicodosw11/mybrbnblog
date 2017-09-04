@@ -14,7 +14,7 @@
   $base-background-color: white;
   $base-line-height: 1.5em;
   $base-spacing: 1.5em;
-  $action-color: #477dca;
+  $action-color: #FF4D72;
   $dark-gray: #333;
   $medium-screen: 40em;
   $base-font-color: $dark-gray;
@@ -24,7 +24,8 @@
   $tab-content-background: lighten($tab-border-color, 10%);
   $tab-active-color: $tab-content-background;
   $tab-inactive-color: $base-background-color;
-  $vertical-tabs-height: 18.75em;
+  // $vertical-tabs-height: 18.75em;
+  $vertical-tabs-height: 42em;
   $vertical-tab-mode: $medium-screen;
 
   @include clearfix;
@@ -81,6 +82,10 @@
   .vertical-tab-content-container {
     display: block;
     margin: 0 auto;
+
+    // overflow: auto;
+    // overflow-y: scroll;
+    // overflow-y: auto;
 
     & a:focus {
       outline: none;

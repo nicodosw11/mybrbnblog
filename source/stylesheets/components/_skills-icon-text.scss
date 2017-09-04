@@ -1,0 +1,29 @@
+.vertical-tabs-container {
+  .vertical-tabs {
+    i {font-size: 30px; width: 50px; padding: 10px;}
+    @include media($desktop-only) {
+      i {font-size: 24px; width: 43px;}
+      span {font-size: 14px;}
+    }
+  }
+  .vertical-tab-content-container {
+    .container-logo-text i {
+    // text-align: center;
+    // height: 30px;
+    // width: 30px;
+    // font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    }
+    .container-logo-text .content-text {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .container-logo-text h4 {margin: 0;}
+  }
+}
+
+
+
+
+

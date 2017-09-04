@@ -27,6 +27,9 @@
 @import "components/navbar";
 @import "components/tooltips";
 @import "components/pagination";
+@import "components/skills-comment";
+@import "components/skills-icon-text";
+@import "components/sliding-panel";
 @import "components/sliding-panel";
 @import "blog-listing/blog-articles-listing";
 @import "blog-listing/tags";
@@ -76,6 +79,8 @@ body {
   height: 100%;
   // border-bottom: 3px solid orange;
 }
+
+
 
 
 
