@@ -1,6 +1,9 @@
 body.about.about_index, body.fr.fr_about.fr_about_index {
     height: 100%;
     margin-top: 0;
+  section.intro-about{
+    display: none;
+  }
   section.intro-about, section.intro-video, .banner-container, .parallax-window-fs {
     // height: 100%;
     padding: 0;

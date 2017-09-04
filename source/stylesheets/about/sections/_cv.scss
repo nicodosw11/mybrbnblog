@@ -20,6 +20,7 @@
   $grid-item-border-size: 9px;
   $grid-item-columns: 4;
   $grid-item-big-columns: 8;
+  $grid-item-half: 6;
   $grid-item-color: white;
   $grid-item-height: 14em;
 
@@ -47,7 +48,7 @@
     }
 
     @for $i from 1 through length($grid-item-colors) {
-// assign colors from $grid-item-colors list
+    // assign colors from $grid-item-colors list
       &:nth-child(#{$i}) {
         $background-from-list: nth($grid-item-colors, $i);
         background-color: $background-from-list;
@@ -98,13 +99,84 @@
     }
   }
 
+  .grid-item-half {
+      @include media($large-screen) {
+      @include grid-item-columns($grid-item-half);
+    }
+
+    p {
+      @include media($medium-screen) {
+        max-width: 60%;
+      }
+    }
+  }
+
   .grid-item-image {
 //     background: url("https:
 // //raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png");
-    background: url("/images/parisquai-panorama.jpg");
     background-color: $grid-item-background;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+
+    &-code {
+      background: url("/images/programmer.jpeg");
+    }
+    &-cb {
+      background: url("/images/close-brothers.jpeg");
+      .padded-multiline {
+        line-height: 1.4;
+      }
+      .padded-multiline span {
+        background: rgba(0, 0, 0, 0.75);
+        color: #fff;
+      }
+    }
+    &-hsbc {
+      background: url("/images/hsbc.jpeg");
+      .padded-text {
+        display: inline-block;
+      }
+      h1, p {
+        background: rgba(255, 255, 255, 0.75);
+        color: black !important;
+        // padding: 0.25em 1em;
+        padding: 4px 8px;
+
+        display: inline-block;
+        margin: 1% 0;
+      }
+      p {
+        // display: inline-block;
+        display:table;
+      }
+    }
+    &-bnp {
+      background: url("/images/fimarkets.jpeg");
+    }
+    &-sg {
+      background: url("/images/sg.jpeg");
+    }
+    &-dauphine {
+      // background: url("/images/graduation.jpeg");
+      background-image: linear-gradient(
+      rgba(0, 215, 15, 0.5),
+      rgba(0, 215, 15, 0.5)
+      // rgba(0, 0, 0, 0.6),
+      // rgba(0, 0, 0, 0.6)
+      ), url("/images/graduation.jpeg");
+      p {
+        color: white;
+      }
+    }
+    &-lsbu {
+      // background: url("/images/library.jpeg");
+      background-image: linear-gradient(
+      // rgba(0, 215, 15, 0.5),
+      // rgba(0, 215, 15, 0.5)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+      ), url("/images/library.jpeg");
+    }
   }
 }

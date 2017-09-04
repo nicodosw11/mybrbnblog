@@ -21,7 +21,9 @@
 // @import "highlights/syntax";
 @import "custom-typography";
 @import "homepage/index";
+@import "components/down-arrow";
 @import "components/footer";
+@import "components/loader";
 @import "components/navbar";
 @import "components/pagination";
 @import "components/sliding-panel";
@@ -48,10 +50,9 @@
 @import "portfolio/modal-layout";
 @import "portfolio/modal-project";
 @import "portfolio/shuffle-grid";
-
 @import "about/sections/index";
 @import "portfolio/apps/portfolio";
-@import "portfolio/apps/apps-scrolldown";
+@import "portfolio/scrolldown";
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 
@@ -75,17 +76,8 @@ body {
   // border-bottom: 3px solid orange;
 }
 
-.se-pre-con {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  // background: url('/images/Preloader_2.gif') center no-repeat rgba(255,255,255,0.8);
-  background: url('/images/spinner.gif') center no-repeat #fff;
-  // display: none;
-}
+
+
 
 
 
