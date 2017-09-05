@@ -10921,7 +10921,21 @@ $(document).ready(function() {
 
   /* if in accordion mode */
 
+  // $('.js-accordion-trigger').bind('click', function(e){
+  //   jQuery(this).parent().find('.vertical-tab-content').slideToggle('fast');  // apply the toggle to the ul
+  //   jQuery(this).parent().toggleClass('is-expanded');
+  //   e.preventDefault();
+  // });
+
   $(".js-vertical-tab-accordion-heading").click(function(event) {
+
+    // add accordion toggling
+
+    jQuery(this).parent().find('.js-vertical-tab-content').slideToggle('fast');  // apply the toggle to the ul
+    jQuery(this).parent().toggleClass('is-expanded');
+
+    //
+
     event.preventDefault();
 
     $(".js-vertical-tab-content").hide();

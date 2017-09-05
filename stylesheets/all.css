@@ -4080,6 +4080,12 @@ button {
 .vertical-tabs-container .vertical-tab-content-container .container-logo-text h4 {
   margin: 0; }
 
+.vertical-tabs-container .vertical-tab-content-container .vertical-tab-content {
+  display: none; }
+.vertical-tabs-container .vertical-tab-content-container .is-expanded {
+  display: block;
+  padding-bottom: 0; }
+
 .sliding-panel-content {
   position: fixed;
   top: 0;
