@@ -1,75 +1,82 @@
-.side-image {
-  $base-line-height: 1.5em !default;
-  $action-color: #477DCA !default;
-  $dark-gray: #333 !default;
-  $large-screen: 53.75em !default;
-  $base-font-color: $dark-gray !default;
-  $side-image-background-top: #B5EBEB;
-  $side-image-background-bottom: #5DAC5D;
+.wrapper-for-inline {
+  width: 100%;
+  overflow: hidden; // overflow: auto;
   $side-image-content-background: #F9F9F9;
-  $side-image-border: 1px solid darken(transparentize($side-image-background-bottom, 0.8), 30%);
-
   background: $side-image-content-background;
-
-  @include media($large-screen) {
-    @include row(table);
-  }
-
-  .images-wrapper {
-//     background: url("https:
-// //raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"),
-//                 linear-gradient($side-image-background-top, $side-image-background-bottom),
-//                 no-repeat $side-image-background-top scroll;
-    background: url("/images/dancer1200760.jpeg"),
-                linear-gradient($side-image-background-top, $side-image-background-bottom),
-                no-repeat $side-image-background-top scroll;
-    background-color: $side-image-background-top;
-    background-size: cover;
-    border-bottom: $side-image-border;
-    display: block;
-    min-height: 12em;
-    padding: 3em;
-
-    @include media($large-screen) {
-      @include span-columns(4);
-      background-position: bottom;
-      background-size: cover;
-      border-right: $side-image-border;
+  .floatright-for-inline {
+    float: right;
+    width: 35%; // width: 100px;
+    // margin: 0 0 10px 10px;
+    // margin-left: 20px;
+    // background-color: #fff;
+    padding: 10px;
+    // border-top: 1px solid #999;
+    // border-right: 2px solid #555;
+    // border-bottom: 2px solid #555;
+    // border-left: 1px solid #999;
+    @include media($medium-screen) {
+      padding: 3em;
     }
   }
 
-  .side-image-content {
-    @include span-columns(12);
-    padding: 1em 1em 4em 1em;
+  div.floatright-for-inline img {
+  // border-top: 2px solid #555;
+  // border-right: 1px solid #999;
+  // border-bottom: 1px solid #999;
+  // border-left: 2px solid #555;
+  }
 
-    @include media($large-screen) {
-      @include span-columns(8);
-      padding: 4em 4em 8em 4em;
+  .padd-inline {
+    margin-top: 1em;
+    margin-left: 1em;
+    @include media($medium-screen) {
+      margin-top: 3em;
+      margin-left: 3em;
     }
+  }
+  h4 {
+    background: #BBB;
+    color: white;
+    display: inline;
+    padding: 3px 8px;
+    /* Needs prefixing */
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-size: 0.75em;
+    // margin-bottom: 1.3em;
+    text-transform: uppercase;
+    @include media($medium-screen) {
+        // display: inline-block;
+        // margin-top: 0;
+    }
+  }
 
-    h1 {
-      margin-bottom: 0.9em;
+  h1 {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 1em;
+    // margin: 0.67em 0;
+    // margin-bottom: 0.9em;
+    @include media($medium-screen) {
+      padding-left: 48px;
+      padding-right: 48px;
       font-size: 2em;
-      margin: 0.67em 0;
-    }
 
-    h4 {
-      background: #BBB;
-      color: white;
-      display: inline-block;
-      font-size: 0.75em ;
-      margin-bottom: 1.3em;
-      padding: 3px 8px;
-      text-transform: uppercase;
-    }
-
-    p {
-      color: $base-font-color;
-      line-height: $base-line-height;
-      margin-bottom: 3em;
-      font-size: 1.25em;
     }
   }
 
-  @include reset-display();
+  p {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 0.875em;
+    // color: $base-font-color;
+    // line-height: $base-line-height;
+    // margin-bottom: 3em;
+    @include media($medium-screen) {
+      font-size: 1.25em;
+      padding-left: 48px;
+      padding-right: 48px;
+    }
+  }
+
 }
