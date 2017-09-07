@@ -57,9 +57,11 @@
         &:focus,
         &:hover {
           background-color: darken($background-from-list, 10%);
-          background-position: top;
-          background-repeat: no-repeat;
-          background-size: cover;
+          @include media($large-screen) {
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
         }
       }
     }
@@ -177,6 +179,9 @@
       background: url(/images/reutersbw.jpeg) no-repeat top fixed;
       background-size: cover;
       position: relative;
+      @include media($mobile-only) {
+        background-attachment: scroll;
+      }
       .blur {
         background: url(/images/reutersbw.jpeg) no-repeat top fixed;
         background-size: cover;
@@ -188,6 +193,9 @@
         left: -50px;
         right: -50px;
         bottom: -50px;
+        @include media($mobile-only) {
+          background-attachment: scroll;
+        }
       }
 
       .blurred-area {
@@ -236,6 +244,9 @@
       background: url(/images/sg.jpeg) no-repeat center center fixed;
       background-size: cover;
       position: relative;
+      @include media($mobile-only) {
+        background-attachment: scroll;
+      }
       .blur {
         // background: url("/images/sg.jpeg");
         // background-position: top;
@@ -251,6 +262,9 @@
         left: -50px;
         right: -50px;
         bottom: -50px;
+        @include media($mobile-only) {
+          background-attachment: scroll;
+        }
       }
 
       .blurred-area {
