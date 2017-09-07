@@ -31,7 +31,8 @@
   }
 
   .bullet-icon-2 {
-    background: adjust-hue($action-color, -50%);
+    // background: adjust-hue($action-color, -50%);
+    background: #DA4734;
   }
 
   .bullet-icon-3 {
@@ -58,6 +59,7 @@
   p {
     color: $base-font-color;
     line-height: $base-line-height;
+    font-size: 1em;
   }
 
   img {

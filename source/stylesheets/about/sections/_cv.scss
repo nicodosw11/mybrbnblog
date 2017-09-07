@@ -120,7 +120,23 @@
     background-size: cover;
 
     &-code {
-      background: url("/images/programmer.jpeg");
+      // background: url("/images/programmer.jpeg");
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("/images/programmer.jpeg");
+      .padded-multiline {
+        line-height: 1.4;
+      }
+      .padded-multiline span {
+        background: rgba(0, 0, 0, 0.75);
+        // color: #fff;
+        padding: 2px 8px;
+        color: white;
+        text-shadow: 0 1px 0 black;
+
+        display: inline;
+        /* Needs prefixing */
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+      }
     }
     &-cb {
       background: url("/images/close-brothers.jpeg");
@@ -130,7 +146,12 @@
       .padded-multiline span {
         background: rgba(0, 0, 0, 0.75);
         color: #fff;
-        padding: 4px 8px;
+        padding: 2px 8px;
+
+        display: inline;
+        /* Needs prefixing */
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
       }
     }
     &-hsbc {
@@ -153,7 +174,63 @@
       }
     }
     &-bnp {
-      background: url("/images/fimarkets.jpeg");
+      background: url(/images/reutersbw.jpeg) no-repeat top fixed;
+      background-size: cover;
+      position: relative;
+      .blur {
+        background: url(/images/reutersbw.jpeg) no-repeat top fixed;
+        background-size: cover;
+        overflow: hidden;
+        filter: blur(13px);
+        position: absolute; // positioned relatively to blurred-area (non-static; absolute)
+        height: 300px; // extra with four specified
+        top: -50px; // 50px higher than blurred-are
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+      }
+
+      .blurred-area {
+        border: 2px solid rgba(255, 255, 255, .5);
+        width: 50%;
+        margin: 0 auto;
+        // border-top: 2px solid rgba(255, 255, 255, .5);
+        // border-bottom: 2px solid rgba(255, 255, 255, .5);
+        // height: 200px;
+        height: 100px;
+        // width: 100%; // extra with four specified
+        overflow: hidden;
+        position: absolute; // positioned relatively to image (non-static; relative)
+        // margin: auto; // for vertically centering blurred area on the image (need a specific height)
+
+        // top: 0;
+        top: 80px; // 32px card padding + 48px height of card
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      .text-on-blur{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        h1, p {
+          text-shadow: 1px 1px rgba(0, 0, 0, .1);
+          color: #ffffff;
+        }
+      }
+
+      .center {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
     }
     &-sg {
       background: url(/images/sg.jpeg) no-repeat center center fixed;
@@ -177,8 +254,11 @@
       }
 
       .blurred-area {
-        border-top: 2px solid rgba(255, 255, 255, .5);
-        border-bottom: 2px solid rgba(255, 255, 255, .5);
+        border: 2px solid rgba(255, 255, 255, .5);
+        width: 50%;
+        margin: 0 auto;
+        // border-top: 2px solid rgba(255, 255, 255, .5);
+        // border-bottom: 2px solid rgba(255, 255, 255, .5);
         // height: 200px;
         height: 100px;
         // width: 100%; // extra with four specified
@@ -225,16 +305,21 @@
       ), url("/images/graduation.jpeg");
       p {
         color: white;
+        text-shadow: 0 1px 0 black;
       }
     }
     &-lsbu {
       // background: url("/images/library.jpeg");
       background-image: linear-gradient(
-      // rgba(0, 215, 15, 0.5),
-      // rgba(0, 215, 15, 0.5)
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 215, 15, 0.5),
+      rgba(0, 215, 15, 0.5)
+      // rgba(0, 0, 0, 0.6),
+      // rgba(0, 0, 0, 0.6)
       ), url("/images/library.jpeg");
+      p {
+        color: white;
+        text-shadow: 0 1px 0 black;
+      }
     }
   }
 }
