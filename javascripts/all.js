@@ -10970,7 +10970,7 @@ $(document).ready(function() {
 
     // add accordion toggling
 
-    jQuery(this).parent().find('.js-vertical-tab-content').slideToggle('fast');  // apply the toggle to the ul
+    jQuery(this).parent().find('.js-vertical-tab-content').slideToggle('fast');
     jQuery(this).parent().toggleClass('is-expanded');
 
     //
@@ -10978,7 +10978,8 @@ $(document).ready(function() {
     // add scroll back up to top of the div
 
     // $(".js-vertical-tab-content").scrollTop(0);
-    $(".js-vertical-tab-content").animate({ scrollTop: 0 }, "fast");
+    // $(".js-vertical-tab-content").animate({ scrollTop: 0 }, "fast");
+    jQuery(this).parent().animate({ scrollTop: 0 }, "fast");
 
     //
 

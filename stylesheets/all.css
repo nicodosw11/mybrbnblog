@@ -5194,8 +5194,8 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
           justify-content: space-between; }
 
 .card {
-  background-color: white;
-  border: 1px solid #f2f2f2;
+  background-color: #54d98c;
+  border: 1px solid gainsboro;
   border-radius: 3px;
   -webkit-box-shadow: 0 2px 4px #e6e6e6;
           box-shadow: 0 2px 4px #e6e6e6;
@@ -5208,11 +5208,12 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
   margin: 0 1em 1.5em 1em;
   position: relative;
   -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s ease-in-out;
+  color: #fff; }
   .card .card-image {
-    background-color: #F8F2B4;
-    height: 150px;
-    max-height: 150px;
+    background-color: #2ecc71;
+    height: 175px;
+    max-height: 175px;
     overflow: hidden; }
     .card .card-image img {
       border-top-left-radius: 3px;
@@ -5222,8 +5223,8 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
       transition: all 0.2s ease-in-out;
       width: 100%; }
   .card .card-header {
-    background-color: white;
-    border-bottom: 1px solid #f2f2f2;
+    background-color: #54d98c;
+    border-bottom: 1px solid gainsboro;
     border-radius: 3px 3px 0 0;
     font-weight: bold;
     line-height: 1.5em;
@@ -5235,15 +5236,16 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
     line-height: 1.5em;
     padding: 0.75em 0.75em; }
     .card .card-copy p {
-      margin: 0 0 0.75em; }
+      margin: 0 0 0.75em;
+      font-size: 1em; }
   .card:focus, .card:hover {
     cursor: pointer; }
     .card:focus img, .card:hover img {
       opacity: 0.7; }
   .card:active {
-    background-color: white; }
+    background-color: #54d98c; }
     .card:active .card-header {
-      background-color: white; }
+      background-color: #54d98c; }
 
 .grid-items:after {
   content: "";
@@ -5274,64 +5276,78 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
     -webkit-box-shadow: inset 0 0 1px 2px #536a8b;
             box-shadow: inset 0 0 1px 2px #536a8b; }
     .grid-items .grid-item:nth-child(1):focus, .grid-items .grid-item:nth-child(1):hover {
-      background-color: #536a8b;
-      background-position: top;
-      background-repeat: no-repeat;
-      background-size: cover; }
+      background-color: #536a8b; }
+      @media screen and (min-width: 64em) {
+        .grid-items .grid-item:nth-child(1):focus, .grid-items .grid-item:nth-child(1):hover {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover; } }
   .grid-items .grid-item:nth-child(2) {
     background-color: #3581A5;
     -webkit-box-shadow: inset 0 0 1px 2px #29637e;
             box-shadow: inset 0 0 1px 2px #29637e; }
     .grid-items .grid-item:nth-child(2):focus, .grid-items .grid-item:nth-child(2):hover {
-      background-color: #29637e;
-      background-position: top;
-      background-repeat: no-repeat;
-      background-size: cover; }
+      background-color: #29637e; }
+      @media screen and (min-width: 64em) {
+        .grid-items .grid-item:nth-child(2):focus, .grid-items .grid-item:nth-child(2):hover {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover; } }
   .grid-items .grid-item:nth-child(3) {
     background-color: #5FBEBE;
     -webkit-box-shadow: inset 0 0 1px 2px #44a6a6;
             box-shadow: inset 0 0 1px 2px #44a6a6; }
     .grid-items .grid-item:nth-child(3):focus, .grid-items .grid-item:nth-child(3):hover {
-      background-color: #44a6a6;
-      background-position: top;
-      background-repeat: no-repeat;
-      background-size: cover; }
+      background-color: #44a6a6; }
+      @media screen and (min-width: 64em) {
+        .grid-items .grid-item:nth-child(3):focus, .grid-items .grid-item:nth-child(3):hover {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover; } }
   .grid-items .grid-item:nth-child(4) {
     background-color: #98C79A;
     -webkit-box-shadow: inset 0 0 1px 2px #77b57a;
             box-shadow: inset 0 0 1px 2px #77b57a; }
     .grid-items .grid-item:nth-child(4):focus, .grid-items .grid-item:nth-child(4):hover {
-      background-color: #77b57a;
-      background-position: top;
-      background-repeat: no-repeat;
-      background-size: cover; }
+      background-color: #77b57a; }
+      @media screen and (min-width: 64em) {
+        .grid-items .grid-item:nth-child(4):focus, .grid-items .grid-item:nth-child(4):hover {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover; } }
   .grid-items .grid-item:nth-child(5) {
     background-color: #A7A891;
     -webkit-box-shadow: inset 0 0 1px 2px #909175;
             box-shadow: inset 0 0 1px 2px #909175; }
     .grid-items .grid-item:nth-child(5):focus, .grid-items .grid-item:nth-child(5):hover {
-      background-color: #909175;
-      background-position: top;
-      background-repeat: no-repeat;
-      background-size: cover; }
+      background-color: #909175; }
+      @media screen and (min-width: 64em) {
+        .grid-items .grid-item:nth-child(5):focus, .grid-items .grid-item:nth-child(5):hover {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover; } }
   .grid-items .grid-item:nth-child(6) {
     background-color: #BDCC97;
     -webkit-box-shadow: inset 0 0 1px 2px #a7bb75;
             box-shadow: inset 0 0 1px 2px #a7bb75; }
     .grid-items .grid-item:nth-child(6):focus, .grid-items .grid-item:nth-child(6):hover {
-      background-color: #a7bb75;
-      background-position: top;
-      background-repeat: no-repeat;
-      background-size: cover; }
+      background-color: #a7bb75; }
+      @media screen and (min-width: 64em) {
+        .grid-items .grid-item:nth-child(6):focus, .grid-items .grid-item:nth-child(6):hover {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover; } }
   .grid-items .grid-item:nth-child(7) {
     background-color: #979EA0;
     -webkit-box-shadow: inset 0 0 1px 2px #7c8588;
             box-shadow: inset 0 0 1px 2px #7c8588; }
     .grid-items .grid-item:nth-child(7):focus, .grid-items .grid-item:nth-child(7):hover {
-      background-color: #7c8588;
-      background-position: top;
-      background-repeat: no-repeat;
-      background-size: cover; }
+      background-color: #7c8588; }
+      @media screen and (min-width: 64em) {
+        .grid-items .grid-item:nth-child(7):focus, .grid-items .grid-item:nth-child(7):hover {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover; } }
 .grid-items .grid-item img {
   display: block;
   height: 3em;
@@ -5406,6 +5422,9 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
     background: url(../images/reutersbw.jpeg) no-repeat top fixed;
     background-size: cover;
     position: relative; }
+    @media screen and (max-width: 29.9375em) {
+      .grid-items .grid-item-image-bnp {
+        background-attachment: scroll; } }
     .grid-items .grid-item-image-bnp .blur {
       background: url(../images/reutersbw.jpeg) no-repeat top fixed;
       background-size: cover;
@@ -5418,6 +5437,9 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
       left: -50px;
       right: -50px;
       bottom: -50px; }
+      @media screen and (max-width: 29.9375em) {
+        .grid-items .grid-item-image-bnp .blur {
+          background-attachment: scroll; } }
     .grid-items .grid-item-image-bnp .blurred-area {
       border: 2px solid rgba(255, 255, 255, 0.5);
       width: 50%;
@@ -5450,6 +5472,9 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
     background: url(../images/sg.jpeg) no-repeat center center fixed;
     background-size: cover;
     position: relative; }
+    @media screen and (max-width: 29.9375em) {
+      .grid-items .grid-item-image-sg {
+        background-attachment: scroll; } }
     .grid-items .grid-item-image-sg .blur {
       background: url(../images/sg.jpeg) no-repeat center center fixed;
       background-size: cover;
@@ -5462,6 +5487,9 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
       left: -50px;
       right: -50px;
       bottom: -50px; }
+      @media screen and (max-width: 29.9375em) {
+        .grid-items .grid-item-image-sg .blur {
+          background-attachment: scroll; } }
     .grid-items .grid-item-image-sg .blurred-area {
       border: 2px solid rgba(255, 255, 255, 0.5);
       width: 50%;
