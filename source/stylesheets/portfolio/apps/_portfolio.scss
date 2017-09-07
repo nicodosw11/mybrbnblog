@@ -5,7 +5,9 @@ body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
     // background:
     //   url("/images/windmill19202500.jpeg"),
     //   repeat;
-    background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), image-url("/images/windmill19202500.jpeg") repeat;
+    // background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), image-url("/images/windmill19202500.jpeg") repeat;
+    // background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%), image-url("/images/windmill19202500.jpeg") repeat; // white brightening
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.6) 100%), image-url("/images/windmill19202500.jpeg") repeat; // dark tinting
     background-size: 100% auto;
     position: fixed;
     width: 100%;

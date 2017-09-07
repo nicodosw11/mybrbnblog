@@ -1,8 +1,8 @@
 .sliding-panel-content {
-  $action-color: #477DCA !default;
-  $dark-gray: #333 !default;
-  $sliding-panel-border-color: $dark-gray;
-  $sliding-panel-background: lighten($sliding-panel-border-color, 5%);
+  $action-color: #5BC0BE;
+  $sliding-panel-border-color: #3C968F;
+  // $sliding-panel-background: lighten($sliding-panel-border-color, 5%);
+  $sliding-panel-background: darken($sliding-panel-border-color, 5%);
   $sliding-panel-color: #fff;
   $sliding-panel-border: 1px solid $sliding-panel-border-color;
   $sliding-panel-background-hover: $action-color;
@@ -29,7 +29,7 @@
 
   li a {
     border-bottom: $sliding-panel-border;
-    color: $sliding-panel-color;
+    color: $sliding-panel-color !important;
     display: block;
     font-weight: bold;
     padding: 1em;

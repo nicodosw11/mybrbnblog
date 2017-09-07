@@ -1,21 +1,21 @@
 .footer {
-  $base-spacing: 1.5em !default;
-  $action-color: #477DCA !default;
-  $medium-screen: 40em !default;
-  $large-screen: 53.75em !default;
+  $base-spacing: 1.5em;
+  $action-color: #477DCA;
+  $medium-screen: 40em;
+  $large-screen: 53.75em;
   // $footer-background: desaturate(darken($action-color, 20%), 30%);
-  $footer-background:  #2ecc71;
-  // $footer-color: white;
-  $footer-color: #FF4D72;
+  $footer-background: #3C968F; // Blue Chili // Fountain Blue #68B3B4
+  $footer-color: white;
   $footer-link-color: transparentize($footer-color, 0.6);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
   background: $footer-background;
-  padding: ($base-spacing * 2) $gutter;
+  // padding: ($base-spacing * 2) $gutter;
+  padding: ($base-spacing / 2) $gutter;
   width: 100%;
 
   .footer-logo {
-    margin-bottom: 2em;
+    // margin-bottom: 2em;
     text-align: center;
 
     img {
@@ -27,7 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: $base-spacing;
+    // margin-bottom: $base-spacing;
   }
 
   ul {
@@ -44,33 +44,29 @@
   }
 
   li a {
-    // color: $footer-link-color;
-    color: white !important;
+    color: $footer-link-color !important;
     text-decoration: none;
 
     &:focus,
     &:hover {
       // color: transparentize($footer-color, 0);
-      color: $footer-color !important;
+      color: #FF4D72 !important;
     }
   }
   li h3 {
-    // color: $footer-color;
-    color: white;
+    color: $footer-color !important;
     font-size: 1em;
     margin-bottom: 0.4em;
   }
 
   hr {
-    // border: 1px solid transparentize($footer-disclaimer-color, 0.3);
-    border: 1px solid transparentize(white, 0.3);
+    border: 1px solid transparentize($footer-disclaimer-color, 0.3) !important;
     margin: 0 auto $base-spacing;
     width: 12em;
   }
 
   p {
-    // color: $footer-disclaimer-color;
-    color: white;
+    color: $footer-disclaimer-color !important;
     font-size: 0.9em;
     line-height: 1.5em;
     margin: auto;

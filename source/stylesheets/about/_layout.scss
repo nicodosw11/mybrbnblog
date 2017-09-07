@@ -3,6 +3,17 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
   // height: 100%;
   // }
 
+  .footer {
+    $footer-background:  #2ecc71;
+    background: $footer-background;
+  }
+
+  .sliding-panel-content {
+    $sliding-panel-border-color: #2ecc71;
+    $sliding-panel-background: darken($sliding-panel-border-color, 5%);
+    background: $sliding-panel-background;
+  }
+
   section {
     padding: 6em 0 3em;
     position: relative;

@@ -132,11 +132,13 @@
 .big-link {
   display: inline-block;
   // border: 1px solid #5BC0BE;
-  background-color: #5BC0BE;
+  background-color: #3C968F;
   // padding: 1em;
 }
 
-#menu-button {
+
+// #menu-button {
+.menu-button {
   display: none;
   align-self: flex-start;
   margin: 0 0 modular-scale(0);
@@ -170,7 +172,8 @@
       to { opacity: 1; transform: translateY(0); }
     }
   }
-  #tagline, #menu-button {
+  // #tagline, #menu-button {
+  #tagline {
     animation: fadeUp ease-in-out 1;
     animation-fill-mode: forwards;
     animation-duration: 1s;
