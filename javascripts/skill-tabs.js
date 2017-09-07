@@ -35,6 +35,13 @@ $(document).ready(function() {
 
     //
 
+    // add scroll back up to top of the div
+
+    // $(".js-vertical-tab-content").scrollTop(0);
+    $(".js-vertical-tab-content").animate({ scrollTop: 0 }, "fast");
+
+    //
+
     event.preventDefault();
 
     $(".js-vertical-tab-content").hide();

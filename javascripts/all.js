@@ -10330,6 +10330,29 @@ $(document).ready(function() {
 //     }
 // }
 ;
+$(document).ready(function() {
+  var element = document.getElementById("js-fadeInElement");
+  $(element).addClass('js-fade-element-hide');
+
+  $(window).scroll(function() {
+    if( $("#js-fadeInElement").length > 0 ) {
+      var elementTopToPageTop = $(element).offset().top;
+      var windowTopToPageTop = $(window).scrollTop();
+      var windowInnerHeight = window.innerHeight;
+      var elementTopToWindowTop = elementTopToPageTop - windowTopToPageTop;
+      var elementTopToWindowBottom = windowInnerHeight - elementTopToWindowTop;
+      var distanceFromBottomToAppear = 300;
+
+      if(elementTopToWindowBottom > distanceFromBottomToAppear) {
+        $(element).addClass('js-fade-element-show');
+      }
+      else if(elementTopToWindowBottom < 0) {
+        $(element).removeClass('js-fade-element-show');
+        $(element).addClass('js-fade-element-hide');
+      }
+    }
+  });
+});
 // $(window).on('load', function() {
 // // $(document).ready(function () {
 //   // Animate loader off screen
@@ -10368,11 +10391,25 @@ function preloader(){
 window.onload = preloader;
 $(document).ready(function() {
   $(function() {
-    $("#modal-1").on("change", function() {
+    // $("#modal-1").on("change", function() {
+    $("#modal-1, #modal-2, #modal-3, #modal-4, #modal-5, #modal-6, #modal-7 ").on("change", function() {
       if ($(this).is(":checked")) {
-        $("body").addClass("modal-open");
+        // $("body").addClass("modal-open");
+        scrollPosition = $('body').scrollTop();
+        $('body').css({
+          overflow: 'hidden',
+          position: 'fixed',
+          width: '100%',
+          height: '100%',
+          top : -scrollPosition
+        });
       } else {
-        $("body").removeClass("modal-open");
+        // $("body").removeClass("modal-open");
+        $('body').css({
+          overflow: '',
+          position: '',
+          top: ''
+        }).scrollTop(scrollPosition);
       }
     });
 
@@ -10385,6 +10422,8 @@ $(document).ready(function() {
     });
   });
 });
+
+
 // window.onload = function () {
 //   'use strict';
 //   var modal = document.querySelector("#modal");
@@ -10933,6 +10972,13 @@ $(document).ready(function() {
 
     jQuery(this).parent().find('.js-vertical-tab-content').slideToggle('fast');  // apply the toggle to the ul
     jQuery(this).parent().toggleClass('is-expanded');
+
+    //
+
+    // add scroll back up to top of the div
+
+    // $(".js-vertical-tab-content").scrollTop(0);
+    $(".js-vertical-tab-content").animate({ scrollTop: 0 }, "fast");
 
     //
 
