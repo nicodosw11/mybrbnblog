@@ -130,6 +130,7 @@
       .padded-multiline span {
         background: rgba(0, 0, 0, 0.75);
         color: #fff;
+        padding: 4px 8px;
       }
     }
     &-hsbc {
@@ -155,7 +156,64 @@
       background: url("/images/fimarkets.jpeg");
     }
     &-sg {
-      background: url("/images/sg.jpeg");
+      background: url(/images/sg.jpeg) no-repeat center center fixed;
+      background-size: cover;
+      position: relative;
+      .blur {
+        // background: url("/images/sg.jpeg");
+        // background-position: top;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        background: url(/images/sg.jpeg) no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+        filter: blur(13px);
+        position: absolute; // positioned relatively to blurred-area (non-static; absolute)
+        height: 300px; // extra with four specified
+        top: -50px; // 50px higher than blurred-are
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+      }
+
+      .blurred-area {
+        border-top: 2px solid rgba(255, 255, 255, .5);
+        border-bottom: 2px solid rgba(255, 255, 255, .5);
+        // height: 200px;
+        height: 100px;
+        // width: 100%; // extra with four specified
+        overflow: hidden;
+        position: absolute; // positioned relatively to image (non-static; relative)
+        // margin: auto; // for vertically centering blurred area on the image (need a specific height)
+
+        // top: 0;
+        top: 80px; // 32px card padding + 48px height of card
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      .text-on-blur{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        h1, p {
+          text-shadow: 1px 1px rgba(0, 0, 0, .1);
+          color: #ffffff;
+        }
+      }
+
+      .center {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
     }
     &-dauphine {
       // background: url("/images/graduation.jpeg");
