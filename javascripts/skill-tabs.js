@@ -37,9 +37,8 @@ $(document).ready(function() {
 
     // add scroll back up to top of the div
 
-    // $(".js-vertical-tab-content").scrollTop(0);
-    // $(".js-vertical-tab-content").animate({ scrollTop: 0 }, "fast");
-    jQuery(this).parent().animate({ scrollTop: 0 }, "fast");
+    // jQuery(this).parent().scrollTop(0);
+    // jQuery(this).parent().animate({ scrollTop: 0 }, "fast");
 
     //
 
@@ -48,6 +47,7 @@ $(document).ready(function() {
     $(".js-vertical-tab-content").hide();
     var accordion_activeTab = $(this).attr("rel");
     $("#"+accordion_activeTab).show();
+    $("#"+accordion_activeTab).scrollTop(0);
 
     $(".js-vertical-tab-accordion-heading").removeClass("is-active");
     $(this).addClass("is-active");

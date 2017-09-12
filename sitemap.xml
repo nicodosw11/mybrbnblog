@@ -56,13 +56,13 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/about/</loc>
-    <lastmod>2017-09-06T18:31:12+01:00</lastmod>
+    <lastmod>2017-09-12T18:19:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/about/</loc>
-    <lastmod>2017-09-06T18:31:12+01:00</lastmod>
+    <lastmod>2017-09-12T18:19:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -91,14 +91,26 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.nicolasdotto.com/contact/</loc>
+    <lastmod>2017-09-12T18:19:43+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/fr/contact/</loc>
+    <lastmod>2017-09-12T18:19:43+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.nicolasdotto.com/</loc>
-    <lastmod>2017-09-07T16:28:14+01:00</lastmod>
+    <lastmod>2017-09-12T18:19:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/</loc>
-    <lastmod>2017-09-07T16:28:14+01:00</lastmod>
+    <lastmod>2017-09-12T18:19:43+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -152,7 +164,7 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/about/</loc>
-    <lastmod>2017-09-04T10:05:17+01:00</lastmod>
+    <lastmod>2017-09-12T18:23:19+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
