@@ -1,9 +1,12 @@
-<header class="nav nav-down is-hidden transparent">
+<header class="nav nav-down is-hidden transparent-to-solid">
   <% link_to '/', :id => 'nav-logo', :class => 'logo-button' do %>
     <%= image_tag 'logo.png' %>
   <% end %>
-  <% link_to '/', :id => 'nav-logo', :class => 'js-menu-trigger sliding-panel-button' do %>
+  <% link_to '/', :id => 'nav-logo', :class => 'js-menu-trigger sliding-panel-button logo-dark' do %>
     <%= image_tag 'logo.png' %>
+  <% end %>
+  <% link_to '/', :id => 'nav-logo', :class => 'js-menu-trigger sliding-panel-button logo-white' do %>
+    <%= image_tag 'footer-logo-white55.png' %>
   <% end %>
   <ul>
     <% if I18n.locale == I18n.default_locale %>

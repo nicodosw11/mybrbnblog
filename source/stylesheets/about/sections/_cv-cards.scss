@@ -1,0 +1,775 @@
+@mixin grid-item-columns($columns) {
+  width: (100% / 12) * $columns;
+}
+
+.grid-items {
+  $action-color: #477DCA !default;
+  $base-background-color: white !default;
+  $medium-screen: 40em !default;
+  $large-screen: 53.75em !default;
+  $grid-items-background: $base-background-color;
+  $grid-item-background: desaturate($action-color, 30%);
+  $grid-item-colors:
+    desaturate($action-color, 30%),
+    #3581A5,
+    #5FBEBE,
+    #98C79A,
+    #A7A891,
+    #BDCC97,
+    #979EA0;
+  $grid-item-border-size: 9px;
+  $grid-item-columns: 4;
+  $grid-item-big-columns: 8;
+  $grid-item-half: 6;
+  $grid-item-color: white;
+  $grid-item-height: 14em;
+
+  @include clearfix;
+
+  .grid-item {
+    background: $grid-item-background;
+    border-bottom: $grid-item-border-size solid $grid-items-background;
+    border-left: ($grid-item-border-size / 2) solid $grid-items-background;
+    border-right: ($grid-item-border-size / 2) solid $grid-items-background;
+    border-top: 0;
+    cursor: pointer;
+    float: left;
+    height: $grid-item-height;
+    outline: none;
+    overflow: hidden;
+    padding: 2em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+
+    @include media($large-screen) {
+      @include grid-item-columns($grid-item-columns);
+    }
+
+
+    // &:focus,
+    // &:hover {
+    //   background-color: darken($background-from-list, 10%);
+    //   @include media($large-screen) {
+    //     background-position: top;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+
+    //     background-image: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/sg.jpeg);
+    //     opacity: 0.7;
+    //   }
+    // }
+
+  }
+
+  .grid-item img {
+    display: block;
+    height: 3em;
+    margin: 0 auto 1em;
+  }
+
+  .grid-item h1 {
+    color: $grid-item-color;
+    font-size: 1.3em;
+    margin-bottom: 0.4em;
+  }
+
+  .grid-item p {
+    color: transparentize($grid-item-color, 0.3);
+    line-height: 1.5em;
+    margin: auto;
+
+    @include media($medium-screen) {
+      max-width: 70%;
+    }
+  }
+
+  .grid-item-big {
+    @include media($large-screen) {
+      @include grid-item-columns($grid-item-big-columns);
+    }
+
+    p {
+      @include media($medium-screen) {
+        max-width: 60%;
+      }
+    }
+  }
+
+  .grid-item-half {
+      @include media($large-screen) {
+      @include grid-item-columns($grid-item-half);
+    }
+
+    p {
+      @include media($medium-screen) {
+        max-width: 60%;
+      }
+    }
+  }
+
+  .grid-item-image {
+//     background: url("https:
+// //raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png");
+    background-color: $grid-item-background;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-code {
+      // background: url("/images/programmer.jpeg");
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("/images/programmer.jpeg");
+      position: relative;
+      &:focus,
+      &:hover {
+        .blur, .blurred-area, .text-on-blur {
+          opacity: 1;
+        }
+        @include media($large-screen) {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          background-image: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/programmer.jpeg);
+          opacity: 0.7;
+        }
+      }
+      .blur {
+        opacity: 0;
+        transition: all 0.5s;
+        // background: url("/images/sg.jpeg");
+        // background-position: top;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // background: url(/images/sg.jpeg) no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+        // background-color: #2ecc71;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        position: absolute; // positioned relatively to blurred-area (non-static; absolute)
+        height: 300px; // extra with four specified
+        top: -50px; // 50px higher than blurred-are
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+
+      .blurred-area {
+        opacity: 0;
+        transition: all 0.5s;
+        border: 2px solid rgba(255, 255, 255, .5);
+        width: 50%;
+        margin: 0 auto;
+        // border-top: 2px solid rgba(255, 255, 255, .5);
+        // border-bottom: 2px solid rgba(255, 255, 255, .5);
+        // height: 200px;
+        height: 100px;
+        // width: 100%; // extra with four specified
+        overflow: hidden;
+        position: absolute; // positioned relatively to image (non-static; relative)
+        // margin: auto; // for vertically centering blurred area on the image (need a specific height)
+
+        // top: 0;
+        top: 80px; // 32px card padding + 48px height of card
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+      .text-on-blur{
+        opacity: 0;
+        transition: all 0.5s;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+
+        h1, p {
+          text-shadow: 1px 1px rgba(0, 0, 0, .1);
+          color: #ffffff;
+        }
+      }
+
+      .center {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+    &-cb {
+      background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/city.jpeg") no-repeat top fixed;
+      background-size: cover;
+      position: relative;
+      // @include media($desktop-only) {
+      //   background-attachment: scroll;
+      // }
+      &:focus,
+      &:hover {
+        .blur, .blurred-area, .text-on-blur {
+          opacity: 1;
+        }
+        @include media($large-screen) {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          background-image: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/city.jpeg);
+          opacity: 0.7;
+        }
+      }
+      .blur {
+        opacity: 0;
+        transition: all 0.5s;
+        background: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/city.jpeg) no-repeat top fixed;
+        background-size: cover;
+        overflow: hidden;
+        filter: blur(13px);
+        position: absolute; // positioned relatively to blurred-area (non-static; absolute)
+        height: 300px; // extra with four specified
+        top: -50px; // 50px higher than blurred-are
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+        @include media($desktop-only) {
+          background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+          background-attachment: scroll;
+          opacity: 1;
+          filter: none;
+        }
+      }
+
+      .blurred-area {
+        opacity: 0;
+        transition: all 0.5s;
+        border: 2px solid rgba(255, 255, 255, .5);
+        width: 50%;
+        margin: 0 auto;
+        // border-top: 2px solid rgba(255, 255, 255, .5);
+        // border-bottom: 2px solid rgba(255, 255, 255, .5);
+        // height: 200px;
+        height: 100px;
+        // width: 100%; // extra with four specified
+        overflow: hidden;
+        position: absolute; // positioned relatively to image (non-static; relative)
+        // margin: auto; // for vertically centering blurred area on the image (need a specific height)
+
+        // top: 0;
+        top: 80px; // 32px card padding + 48px height of card
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+      .text-on-blur {
+        opacity: 0;
+        transition: all 0.5s;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+
+        h1, p {
+          text-shadow: 1px 1px rgba(0, 0, 0, .1);
+          color: #ffffff;
+        }
+      }
+
+      .center {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+    &-hsbc {
+      background: url("/images/hsbc.jpeg");
+      position: relative;
+      &:focus,
+      &:hover {
+        .blur, .blurred-area, .text-on-blur {
+          opacity: 1;
+        }
+        @include media($large-screen) {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          background-image: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/hsbc.jpeg);
+          opacity: 0.7;
+        }
+      }
+      .blur {
+        opacity: 0;
+        transition: all 0.5s;
+        // background: url("/images/sg.jpeg");
+        // background-position: top;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // background: url(/images/sg.jpeg) no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+        // background-color: #2ecc71;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        position: absolute; // positioned relatively to blurred-area (non-static; absolute)
+        height: 300px; // extra with four specified
+        top: -50px; // 50px higher than blurred-are
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+
+      .blurred-area {
+        opacity: 0;
+        transition: all 0.5s;
+        border: 2px solid rgba(255, 255, 255, .5);
+        width: 50%;
+        margin: 0 auto;
+        // border-top: 2px solid rgba(255, 255, 255, .5);
+        // border-bottom: 2px solid rgba(255, 255, 255, .5);
+        // height: 200px;
+        height: 100px;
+        // width: 100%; // extra with four specified
+        overflow: hidden;
+        position: absolute; // positioned relatively to image (non-static; relative)
+        // margin: auto; // for vertically centering blurred area on the image (need a specific height)
+
+        // top: 0;
+        top: 80px; // 32px card padding + 48px height of card
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+      .text-on-blur{
+        opacity: 0;
+        transition: all 0.5s;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+
+        h1, p {
+          text-shadow: 1px 1px rgba(0, 0, 0, .1);
+          color: #ffffff;
+        }
+      }
+
+      .center {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+    &-bnp {
+      background: url(/images/reutersbw.jpeg) no-repeat top fixed;
+      background-size: cover;
+      position: relative;
+      // @include media($desktop-only) {
+      //   background-attachment: scroll;
+      // }
+      &:focus,
+      &:hover {
+        .blur, .blurred-area, .text-on-blur {
+          opacity: 1;
+        }
+        @include media($large-screen) {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          background-image: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/reutersbw.jpeg);
+          opacity: 0.7;
+        }
+      }
+      .blur {
+        opacity: 0;
+        transition: all 0.5s;
+        background: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/reutersbw.jpeg) no-repeat top fixed;
+        background-size: cover;
+        overflow: hidden;
+        filter: blur(13px);
+        position: absolute; // positioned relatively to blurred-area (non-static; absolute)
+        height: 300px; // extra with four specified
+        top: -50px; // 50px higher than blurred-are
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+        @include media($desktop-only) {
+          background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+          background-attachment: scroll;
+          opacity: 1;
+          filter: none;
+        }
+      }
+
+      .blurred-area {
+        opacity: 0;
+        transition: all 0.5s;
+        border: 2px solid rgba(255, 255, 255, .5);
+        width: 50%;
+        margin: 0 auto;
+        // border-top: 2px solid rgba(255, 255, 255, .5);
+        // border-bottom: 2px solid rgba(255, 255, 255, .5);
+        // height: 200px;
+        height: 100px;
+        // width: 100%; // extra with four specified
+        overflow: hidden;
+        position: absolute; // positioned relatively to image (non-static; relative)
+        // margin: auto; // for vertically centering blurred area on the image (need a specific height)
+
+        // top: 0;
+        top: 80px; // 32px card padding + 48px height of card
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+      .text-on-blur {
+        opacity: 0;
+        transition: all 0.5s;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+
+        h1, p {
+          text-shadow: 1px 1px rgba(0, 0, 0, .1);
+          color: #ffffff;
+        }
+      }
+
+      .center {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+    &-sg {
+      background: url(/images/sg.jpeg);
+      position: relative;
+      &:focus,
+      &:hover {
+        .blur, .blurred-area, .text-on-blur {
+          opacity: 1;
+        }
+        @include media($large-screen) {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          background-image: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/sg.jpeg);
+          opacity: 0.7;
+        }
+      }
+      .blur {
+        opacity: 0;
+        transition: all 0.5s;
+        // background: url("/images/sg.jpeg");
+        // background-position: top;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // background: url(/images/sg.jpeg) no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+        // background-color: #2ecc71;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        position: absolute; // positioned relatively to blurred-area (non-static; absolute)
+        height: 300px; // extra with four specified
+        top: -50px; // 50px higher than blurred-are
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+
+      .blurred-area {
+        opacity: 0;
+        transition: all 0.5s;
+        border: 2px solid rgba(255, 255, 255, .5);
+        width: 50%;
+        margin: 0 auto;
+        // border-top: 2px solid rgba(255, 255, 255, .5);
+        // border-bottom: 2px solid rgba(255, 255, 255, .5);
+        // height: 200px;
+        height: 100px;
+        // width: 100%; // extra with four specified
+        overflow: hidden;
+        position: absolute; // positioned relatively to image (non-static; relative)
+        // margin: auto; // for vertically centering blurred area on the image (need a specific height)
+
+        // top: 0;
+        top: 80px; // 32px card padding + 48px height of card
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+      .text-on-blur{
+        opacity: 0;
+        transition: all 0.5s;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+
+        h1, p {
+          text-shadow: 1px 1px rgba(0, 0, 0, .1);
+          color: #ffffff;
+        }
+      }
+
+      .center {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+    &-dauphine {
+      background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/graduation.jpeg") no-repeat top fixed;
+      background-size: cover;
+      position: relative;
+      // @include media($desktop-only) {
+      //   background-attachment: scroll;
+      // }
+      &:focus,
+      &:hover {
+        .blur, .blurred-area, .text-on-blur {
+          opacity: 1;
+        }
+        @include media($large-screen) {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          background-image: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/graduation.jpeg);
+          opacity: 0.7;
+        }
+      }
+      .blur {
+        opacity: 0;
+        transition: all 0.5s;
+        background: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/graduation.jpeg) no-repeat top fixed;
+        background-size: cover;
+        overflow: hidden;
+        filter: blur(13px);
+        position: absolute; // positioned relatively to blurred-area (non-static; absolute)
+        height: 300px; // extra with four specified
+        top: -50px; // 50px higher than blurred-are
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+        @include media($desktop-only) {
+          background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+          background-attachment: scroll;
+          opacity: 1;
+          filter: none;
+        }
+      }
+
+      .blurred-area {
+        opacity: 0;
+        transition: all 0.5s;
+        border: 2px solid rgba(255, 255, 255, .5);
+        width: 50%;
+        margin: 0 auto;
+        // border-top: 2px solid rgba(255, 255, 255, .5);
+        // border-bottom: 2px solid rgba(255, 255, 255, .5);
+        // height: 200px;
+        height: 100px;
+        // width: 100%; // extra with four specified
+        overflow: hidden;
+        position: absolute; // positioned relatively to image (non-static; relative)
+        // margin: auto; // for vertically centering blurred area on the image (need a specific height)
+
+        // top: 0;
+        top: 80px; // 32px card padding + 48px height of card
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+      .text-on-blur {
+        opacity: 0;
+        transition: all 0.5s;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+
+        h1, p {
+          text-shadow: 1px 1px rgba(0, 0, 0, .1);
+          color: #ffffff;
+        }
+      }
+
+      .center {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+    &-lsbu {
+      background: url("/images/library.jpeg");
+      position: relative;
+      &:focus,
+      &:hover {
+        .blur, .blurred-area, .text-on-blur {
+          opacity: 1;
+        }
+        @include media($large-screen) {
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          background-image: linear-gradient(rgba(0, 215, 15, 0.5), rgba(0, 215, 15, 0.5)), url(/images/library.jpeg);
+          opacity: 0.7;
+        }
+      }
+      .blur {
+        opacity: 0;
+        transition: all 0.5s;
+        // background: url("/images/sg.jpeg");
+        // background-position: top;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // background: url(/images/sg.jpeg) no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+        // background-color: #2ecc71;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        position: absolute; // positioned relatively to blurred-area (non-static; absolute)
+        height: 300px; // extra with four specified
+        top: -50px; // 50px higher than blurred-are
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+
+      .blurred-area {
+        opacity: 0;
+        transition: all 0.5s;
+        border: 2px solid rgba(255, 255, 255, .5);
+        width: 50%;
+        margin: 0 auto;
+        // border-top: 2px solid rgba(255, 255, 255, .5);
+        // border-bottom: 2px solid rgba(255, 255, 255, .5);
+        // height: 200px;
+        height: 100px;
+        // width: 100%; // extra with four specified
+        overflow: hidden;
+        position: absolute; // positioned relatively to image (non-static; relative)
+        // margin: auto; // for vertically centering blurred area on the image (need a specific height)
+
+        // top: 0;
+        top: 80px; // 32px card padding + 48px height of card
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+      }
+      .text-on-blur{
+        opacity: 0;
+        transition: all 0.5s;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        @include media($desktop-only) {
+          opacity: 1;
+        }
+
+        h1, p {
+          text-shadow: 1px 1px rgba(0, 0, 0, .1);
+          // text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+          // text-shadow: 0 1px 0 black;
+          color: #ffffff;
+          // color: white;
+        }
+      }
+
+      .center {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+}
