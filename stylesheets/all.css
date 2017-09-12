@@ -4643,7 +4643,7 @@ stretchRight
   padding: 0.75em 1.618em;
   width: 100%;
   position: relative;
-  z-index: 2;
+  z-index: 0;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -4902,14 +4902,24 @@ stretchRight
   margin-bottom: 1.5em;
   padding-bottom: 1em;
   width: 100%; }
+  @media screen and (max-width: 29.9375em) {
+    .comment {
+      display: block; } }
   .comment:last-of-type {
     border-bottom: none; }
   .comment .comment-image,
   .comment .comment-content {
     display: table-cell;
     vertical-align: top; }
+    @media screen and (max-width: 29.9375em) {
+      .comment .comment-image,
+      .comment .comment-content {
+        display: inline; } }
   .comment .comment-image {
     padding-right: 1.4em; }
+    @media screen and (max-width: 29.9375em) {
+      .comment .comment-image {
+        float: left; } }
     .comment .comment-image > img {
       background: #8fd097;
       border-radius: 3px;
@@ -4919,6 +4929,9 @@ stretchRight
       padding: 0.7em;
       width: 4em;
       margin-bottom: 1% !important; }
+      @media screen and (max-width: 29.9375em) {
+        .comment .comment-image > img {
+          width: 3em; } }
     .comment-reverse-order .comment .comment-image {
       padding-left: 10px;
       padding-right: 0; }
@@ -4930,6 +4943,9 @@ stretchRight
     .comment .comment-content p {
       line-height: 1.5em;
       margin-bottom: 0.5em; }
+      @media screen and (max-width: 29.9375em) {
+        .comment .comment-content p {
+          font-size: 0.9em; } }
     .comment .comment-content p.comment-detail {
       color: rgba(51, 51, 51, 0.5);
       font-size: 0.9em;
@@ -6277,6 +6293,9 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/city.jpeg") no-repeat top fixed;
     background-size: cover;
     position: relative; }
+    @media screen and (max-width: 69.9375em) {
+      .grid-items .grid-item-image-cb {
+        background-attachment: scroll; } }
     .grid-items .grid-item-image-cb:focus .blur, .grid-items .grid-item-image-cb:focus .blurred-area, .grid-items .grid-item-image-cb:focus .text-on-blur, .grid-items .grid-item-image-cb:hover .blur, .grid-items .grid-item-image-cb:hover .blurred-area, .grid-items .grid-item-image-cb:hover .text-on-blur {
       opacity: 1; }
     @media screen and (min-width: 64em) {
@@ -6425,6 +6444,9 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
     background: url(../images/reutersbw.jpeg) no-repeat top fixed;
     background-size: cover;
     position: relative; }
+    @media screen and (max-width: 69.9375em) {
+      .grid-items .grid-item-image-bnp {
+        background-attachment: scroll; } }
     .grid-items .grid-item-image-bnp:focus .blur, .grid-items .grid-item-image-bnp:focus .blurred-area, .grid-items .grid-item-image-bnp:focus .text-on-blur, .grid-items .grid-item-image-bnp:hover .blur, .grid-items .grid-item-image-bnp:hover .blurred-area, .grid-items .grid-item-image-bnp:hover .text-on-blur {
       opacity: 1; }
     @media screen and (min-width: 64em) {
@@ -6574,6 +6596,9 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/graduation.jpeg") no-repeat top fixed;
     background-size: cover;
     position: relative; }
+    @media screen and (max-width: 69.9375em) {
+      .grid-items .grid-item-image-dauphine {
+        background-attachment: scroll; } }
     .grid-items .grid-item-image-dauphine:focus .blur, .grid-items .grid-item-image-dauphine:focus .blurred-area, .grid-items .grid-item-image-dauphine:focus .text-on-blur, .grid-items .grid-item-image-dauphine:hover .blur, .grid-items .grid-item-image-dauphine:hover .blurred-area, .grid-items .grid-item-image-dauphine:hover .text-on-blur {
       opacity: 1; }
     @media screen and (min-width: 64em) {
