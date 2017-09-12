@@ -1,0 +1,11 @@
+.video-background-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  // z-index: 2;
+  z-index: -1;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  opacity: 0.5;
+}

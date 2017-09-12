@@ -1,0 +1,21 @@
+#up{
+  text-align:center;
+  border-radius:5px;
+  color:#FFF;
+  padding:20px;
+  width:62px;
+  height:62px;
+  bottom:-72px;
+  right:10px;
+  position:fixed;
+  cursor:pointer;
+  z-index:999;
+  background:#222;
+  transition:bottom .3s ease;
+}
+#up:hover{
+  background:#00B16A;
+}
+#up.show{
+  bottom:10px;
+}

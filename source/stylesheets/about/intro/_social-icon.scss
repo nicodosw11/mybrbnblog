@@ -27,12 +27,24 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
       height: 50px;
       display: inline-block;
       padding: 0;
+
+      @include media ($mobile-only) {
+        width: 30px;
+        height: 30px;
+      }
     }
     .btn-round i {
       font-size: 20px;
       top: 15px;
       position: relative;
+
+      @include media ($mobile-only) {
+        font-size: 15px;
+        top: 5px;
+        position: relative;
+      }
     }
+
     .btn-clear {
       border: 1px solid #fff;
       color: #fff;

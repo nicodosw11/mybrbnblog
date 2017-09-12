@@ -14,6 +14,12 @@
   -moz-transition: opacity 400ms linear;
   -o-transition: opacity 400ms linear;
   transition: opacity 400ms linear;
+  @include media ($mobile-only) {
+    // background: image-url('images/london.jpg') center center / cover no-repeat;
+    // background: linear-gradient(135deg, rgba(48, 120, 159, 0.8) 0%, rgba(0, 0, 301, 0.2) 100%), url("/images/london.jpg") center center / cover no-repeat;
+    background: linear-gradient(135deg, rgba(35, 120, 159, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), image-url("images/london.jpg") center center/ cover no-repeat;
+    height: 150%;
+  }
 }
 
 #body-contact {
@@ -62,6 +68,7 @@
   //    100% {opacity: 1; }
   h1 {
     font-size: 30px;
+    font-family: "Satisfy", cursive;
   }
 }
 
