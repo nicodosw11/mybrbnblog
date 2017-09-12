@@ -1,0 +1,189 @@
+body.about.about_index, body.fr.fr_about.fr_about_index {
+  .logo-name-message {
+    // position: relative;
+    display: flex;
+    @media only screen and (max-height: 30em) {
+      background-color: rgba(256, 256, 256, .75);
+    }
+    @media only screen and (max-width: 45em) {
+      background-color: rgba(256, 256, 256, .75);
+    }
+    @media only screen and (min-height: 20em) {
+      height: 100vh;
+      // background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPklEQVQYV2O8dOnSfwYg0NPTYwTRuAAj0QqxmYBNM1briFaIzRbi3UiRZ75uNgUHGbfvabgfsHqGaIXYPAMAD8wgC/DOrZ4AAAAASUVORK5CYII=
+      // ) repeat;
+    }
+
+    .box {
+      @include clearfix;
+      @include pad(0 default);
+      clear: both;
+      // margin: 0 auto;
+      height: 100vh;
+      @media only screen and (max-height: 20em) {
+        height: auto;
+      }
+      @media only screen and (min-height: 30em) {
+        @include media($medium) {
+          @include span-columns(3 of 6);
+          // @include shift(1);
+          @include pad(0 default);
+        }
+      }
+      @include media($large) {
+        @include span-columns(5 of 10);
+        // @include shift(1);
+        @include pad(0 default);
+      }
+      @include media($xlarge) {
+        @include span-columns(4 of 12);
+        @include shift(1);
+        @include pad(0);
+      }
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @media only screen and (min-height: 20em) {
+        height: 100vh;
+      }
+      // @include media($small) {
+      //   max-width: 85%;
+      // }
+      // @media only screen and (min-width: 40em){
+      //   max-width: 60%;
+      // }
+      // @include media($medium) {
+      //   max-width: 65%;
+      // }
+      // @include media($large) {
+      //   max-width: 50%;
+      // }
+    }
+
+    #logo {
+      display: inline-block;
+      margin: 0 0 modular-scale(0);
+      padding: modular-scale(0) 0 0;
+    }
+
+    #logo img {
+      width: 112px;
+      height: 112px;
+      width: 7rem;
+      height: 7rem;
+      @media only screen and (max-height: 30em) {
+        width: 2.75rem;
+        height: 2.75rem;
+      }
+      @media only screen and (max-width: 45em) {
+        width: 2.75rem;
+        height: 2.75rem;
+      }
+    }
+
+    #name {
+      margin: 0 0 modular-scale(0);
+    }
+    #name {
+      font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+      font-size: 3em; //63px at desktop size 48px at mobile size
+      font-size: modular-scale(5);
+      @include media($medium) {
+        font-size: modular-scale(6);
+      }
+      @include media($large) {
+        font-size: modular-scale(7);
+      }
+      font-weight: 400;
+      color: #00A69C;
+      line-height: 1;
+      text-transform: uppercase;
+      text-align: left;
+      letter-spacing: -0.01em;
+    }
+    #tagline {
+      margin: 0 0 modular-scale(0);
+    }
+
+    #tagline {
+      font-family: 'freight-big-pro', 'times', 'georgia', serif;
+      font-size: 2.25em; //47.25px at desktop size 36px at mobile size
+      font-size: modular-scale(4);
+      @include media($large) {
+        font-size: modular-scale(6);
+      }
+      font-weight: 400;
+      color: #4A4A4A;
+      line-height: 1;
+    }
+
+    .big-link {
+      font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+      font-size: modular-scale(2);
+      font-weight: 400;
+      line-height: 1;
+      text-decoration: none;
+      color: #00A69C;
+      text-transform: uppercase;
+    }
+
+    .big-link {
+      display: inline-block;
+      // border: 1px solid #5BC0BE;
+      background-color: #3C968F;
+      // padding: 1em;
+    }
+
+    // #menu-button {
+    .menu-button {
+      display: none;
+      align-self: flex-start;
+      margin: 0 0 modular-scale(0);
+      @media only screen and (min-height: 24em) {
+        @media only screen and (min-width: 20em) {
+          display: inline-block;
+        }
+      }
+    }
+
+    //Animation
+    // .cssanimations {
+    .brand {
+      opacity: 0;
+      animation: fadeIn ease-in-out 1;
+      animation-fill-mode: forwards;
+      animation-duration: 1.5s;
+      animation-delay: 0.5s;
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    }
+    #logo, #name {
+      animation: fadeDown ease-in-out 1;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      animation-delay: 0.25s;
+      @keyframes fadeDown {
+        from { opacity: 0; transform: translateY(-15px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    }
+    // #tagline, #menu-button {
+    #tagline {
+      animation: fadeUp ease-in-out 1;
+      animation-fill-mode: forwards;
+      animation-duration: 1s;
+      animation-delay: 0.25s;
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(15px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    }
+
+  }
+
+}

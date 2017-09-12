@@ -1,0 +1,84 @@
+.blink {
+  // margin: auto;
+  // width: 38em;
+    h1 {
+      white-space: nowrap;
+      font-size: 30px;
+      animation: type 4s steps(60, end);
+      -webkit-animation: type 4s steps(60, end);
+    }
+
+    p {
+      font-size: 1em;
+      color: white;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: type 4s steps(60, end);
+      -webkit-animation: type 4s steps(60, end) ;
+    }
+
+  p:nth-child(1) {
+    animation: type1 6s steps(60, end);
+    font-weight: 800;
+  }
+  p:nth-child(2) {
+    animation: type2 6s steps(60, end);
+  }
+  p:nth-child(3) {
+    animation: type3 5s steps(60, end);
+  }
+
+  span {
+    animation: blink 1s infinite;
+  }
+
+  @keyframes type{
+    0%{width: 0;}
+  }
+  @keyframes type1{
+    0%{width: 0%;}
+    5%{ width: 60px; }
+    8%{ width: 60px; }
+    30%{ width: 100%; }
+    100%{ width: 100%; }
+  }
+  @keyframes type2{
+    0%{width: 0%; }
+    30%{width: 0%; }
+    50%{ width: 100%; }
+    100%{ width: 100%; }
+  }
+  @keyframes type3{
+    0%{width: 0%;}
+    50%{width: 0%;}
+    90%{ width: 100%; }
+    100%{ width: 100%; }
+  }
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+
+}
+@media (min-width: 479px) and (max-width: 768px) {
+  .blink {
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 0.8em;
+    }
+  }
+}
+
+@media (max-width: 479px) {
+  .blink {
+    h1 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 0.7em;
+    }
+  }
+
+
+}

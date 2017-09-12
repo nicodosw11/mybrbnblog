@@ -1,0 +1,18 @@
+<section class="recent-posts" id="recent-posts">
+  <div class="posts">
+    <h1><%= link_to 'Recent </br>Articles', 'blog/' %></h1>
+    <% blog.articles[0...3].each do |article| %>
+      <div class="article-post">
+          <h4 class="article-date"><%= article.date.strftime('%b %e') %></h4>
+          <% if article.data['category'] != nil %>
+          <h4 class="article-category">| <%= link_to article.data['category'], category_path(article.data['category']) %></h4>
+          <% end %>
+          <h2 class="article-title"><%= link_to article.title, article %></h2>
+          <% if article.data['summary'] != nil %>
+            <p class="article-summary"><%= article.data['summary'] %></p>
+            <%= link_to 'Read', article, class: 'read-more' %>
+          <% end %>
+        </div>
+      <% end %>
+  </div>
+</section>

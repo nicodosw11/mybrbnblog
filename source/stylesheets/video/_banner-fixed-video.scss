@@ -38,13 +38,21 @@
   -webkit-animation: slideUp 1.35s;
   animation: slideUp 1.35s;
   h1 {
-    color: black;
+    // color: black;
+    color: white;
+    // font-size: 2em;
+    font-size: 36px;
+    font-family: 'Satisfy', cursive;
     &:hover {
       color: #fff;
     }
   }
   h3 {
-    color: black;
+    // color: black;
+    color: white;
+    // font-size: 1em;
+    font-size: 24px;
+    font-family: 'Satisfy', cursive;
     &:hover {
       color: #fff;
     }
@@ -55,14 +63,18 @@
   // margin-top: 30px;
   margin-top: 20px;
 
-  a{
+  a {
     font-weight: 800;
     // color:#fff;
-    color: black;
+    // color: black;
+    color: white;
+    // font-size: 1em;
+    font-size: 18px;
+    font-family: 'Satisfy', cursive;
     text-shadow: 0px 1px 1px rgba(1,1,1,0.6);
     padding: 10px;
-    // border: 3px solid #fff;
-    border: 3px solid black;
+    border: 3px solid #fff;
+    // border: 3px solid black;
     margin: 4px;
     position: relative;
     display: inline-block;
@@ -84,7 +96,8 @@
   width: 100px;
   height: 10px;
   // background: rgba(255,255,255,0.9);
-  background: black;
+  // background: black;
+  background: white;
   // margin: 20px 0 0 290px;
 }
 
@@ -96,7 +109,8 @@
   width: 100px;
   height: 10px;
   // background: rgba(255,255,255,0.9);
-  background: black;
+  // background: black;
+  background: white;
   // margin: 20px 0 0 290px;
 }
 

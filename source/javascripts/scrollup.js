@@ -19,7 +19,8 @@ $(document).ready(function() {
   function hasScrolled() {
       var st = $(this).scrollTop();
 
-      var bannerHeight = $(".intro-video").height();
+      // var bannerHeight = $(".intro-video").height();
+      var bannerHeight = $(".intro-background-image").height();
       if ($(window).scrollTop() > (bannerHeight - 10)) {
         $('.nav').removeClass('is-hidden');
         $('body.about.about_index, body.fr.fr_about.fr_about_index').addClass('padding-top');

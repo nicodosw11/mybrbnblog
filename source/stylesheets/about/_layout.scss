@@ -14,9 +14,18 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
     background: $sliding-panel-background;
   }
 
-  section {
+  // section {
+  //   padding: 6em 0 3em;
+  //   position: relative;
+  // }
+  section.features {
     padding: 6em 0 3em;
+    // to accommodate fixed background image
     position: relative;
+    z-index: 2;
+    // background-color: #ECF0F1;
+    background: white;
+    @include span-columns (12);
   }
   .container {
     max-width: 68em;

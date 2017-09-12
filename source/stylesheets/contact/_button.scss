@@ -1,0 +1,27 @@
+.container-contact {
+  button {
+    background: none;
+    border: none;
+    outline: none;
+    margin: 2vmax;
+  }
+  .send-icon {
+    fill: rgba(255, 255, 255, 1);
+  }
+  small {
+    display: block;
+    opacity: 0;
+    color: white;
+  }
+  button:hover small {
+    opacity: 1;
+  }
+  .send-icon:hover {
+    fill: rgba(255,255,255,0.665);
+    cursor: pointer;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+  }
+}

@@ -1,0 +1,29 @@
+<form id="contact-form" method="POST" action="https://formspree.io/connect@nicolasdotto.com" accept-charset="UTF-8"><input name="_token" type="hidden">
+  <div class="text-left">
+    <div class="form-group">
+      <label for="inputEmail">Email address</label>
+      <input type="email" class="form-control" required="required" name="email" id="inputEmail" placeholder="your@email.address" value="">
+    </div>
+    <div class="form-group">
+      <label for="inputName">Name</label>
+      <input type="name" class="form-control" required="required" name="name" id="inputName" placeholder="my name" value="">
+    </div>
+    <div class="form-group">
+      <label for="inputTel">Phone</label>
+      <input type="tel" class="form-control" name="tel" id="inputTel" placeholder="+44 7468 846 783" value="">
+    </div>
+    <div class="form-group">
+      <label for="inputMsg">Message</label>
+      <textarea class="form-control" id="inputMsg" required="required" name="message" rows="5" placeholder="your message"></textarea>
+    </div>
+    <input type="hidden" name="_next" value="/thanks.html" />
+    <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+    <button type="submit">
+      <svg version="1.1" class="send-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
+        <path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
+        l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
+      </svg>
+      <small>send</small>
+    </button>
+  </div>
+</form>

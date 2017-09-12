@@ -1,0 +1,85 @@
+#bodyBg {
+  // background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), image-url('http://res.cloudinary.com/dqoj6yz5k/image/upload/v1482405685/london.jpg') no-repeat;
+  background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('/images/london.jpg') no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: #111;
+  background-position: 50% 50% !important;
+  -webkit-background-size: cover !important;
+  background-size: cover;
+  background-attachment: fixed !important;
+  -webkit-transition: opacity 400ms linear;
+  -moz-transition: opacity 400ms linear;
+  -o-transition: opacity 400ms linear;
+  transition: opacity 400ms linear;
+}
+
+#body-contact {
+  font-weight: 600;
+  color: #fff;
+  min-height: 450px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+#intro-contact {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  -webkit-transition: margin 200ms linear;
+  -moz-transition: margin 200ms linear;
+  -o-transition: margin 200ms linear;
+  transition: margin 200ms linear;
+}
+
+.block {
+  position: relative;
+  display: block;
+  // padding: 25px 20px;
+  padding: 4px 4px;
+  -webkit-transition: background 200ms linear, transform 500ms linear;
+  -moz-transition: background 200ms linear, transform 500ms linear;
+  -o-transition: background 200ms linear, transform 500ms linear;
+  transition: background 200ms linear, transform 500ms linear;
+  // font-size: 1.25em;
+  font-size: 1em;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-bottom: 20px;
+  -webkit-animation: slideUp 1.35s;
+  animation: slideUp 1.35s;
+
+  // @-webkit-keyframes slideUp {
+  //   0% {transform: translateY(25px);opacity: 0; }
+  //   20% {opacity: 0; }
+  //   80% {transform: translateY(0px); }
+  //   100% {opacity: 1; } }
+  // @keyframes slideUp {
+  //    0% {transform: translateY(25px); opacity: 0; }
+  //    20% {opacity: 0; }
+  //    80% {transform: translateY(0px); }
+  //    100% {opacity: 1; }
+  h1 {
+    font-size: 30px;
+  }
+}
+
+.top-bar-contact {
+  top: -10px;
+  left: -15px;
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.9);
+}
+.bottom-bar-contact {
+  bottom: 10px;
+  right: -15px;
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.9);
+}
