@@ -214,9 +214,9 @@
       background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/city.jpeg") no-repeat top fixed;
       background-size: cover;
       position: relative;
-      // @include media($desktop-only) {
-      //   background-attachment: scroll;
-      // }
+      @include media($desktop-only) {
+        background-attachment: scroll;
+      }
       &:focus,
       &:hover {
         .blur, .blurred-area, .text-on-blur {
@@ -400,9 +400,9 @@
       background: url(/images/reutersbw.jpeg) no-repeat top fixed;
       background-size: cover;
       position: relative;
-      // @include media($desktop-only) {
-      //   background-attachment: scroll;
-      // }
+      @include media($desktop-only) {
+        background-attachment: scroll;
+      }
       &:focus,
       &:hover {
         .blur, .blurred-area, .text-on-blur {
@@ -586,9 +586,9 @@
       background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/graduation.jpeg") no-repeat top fixed;
       background-size: cover;
       position: relative;
-      // @include media($desktop-only) {
-      //   background-attachment: scroll;
-      // }
+      @include media($desktop-only) {
+        background-attachment: scroll;
+      }
       &:focus,
       &:hover {
         .blur, .blurred-area, .text-on-blur {

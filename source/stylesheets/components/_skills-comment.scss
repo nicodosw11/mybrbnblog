@@ -18,6 +18,10 @@
   padding-bottom: 1em;
   width: 100%;
 
+  @include media($mobile-only) {
+    display: block;
+  }
+
   &:last-of-type {
     border-bottom: none;
   }
@@ -26,10 +30,16 @@
   .comment-content {
     display: table-cell;
     vertical-align: $comment-image-vert-alignment;
+    @include media($mobile-only) {
+      display: inline;
+    }
   }
 
   .comment-image {
     padding-right: $comment-gutter;
+    @include media($mobile-only) {
+      float: left;
+    }
 
     > img {
       background: $comment-background;
@@ -41,6 +51,10 @@
       width: $comment-image-width;
 
       margin-bottom: 1% !important;
+
+      @include media($mobile-only) {
+        width: $comment-image-width * 0.75;
+      }
     }
 
     .comment-reverse-order & {
@@ -60,6 +74,9 @@
     p {
       line-height: 1.5em;
       margin-bottom: 0.5em;
+      @include media($mobile-only) {
+        font-size: 0.9em;
+      }
     }
 
     p.comment-detail {
