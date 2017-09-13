@@ -3,7 +3,7 @@ $parallax-background-height: $parallax-window-height * 2;
 $parallax-window2-height: 50em;
 $parallax-background2-height: $parallax-window2-height * 2;
 
-.parallax-window {
+.parallax-window, section.quote {
   max-height: $parallax-window-height;
   overflow: hidden;
   position: relative;
@@ -22,7 +22,7 @@ $parallax-background2-height: $parallax-window2-height * 2;
   }
 }
 
-.parallax-static-content {
+.parallax-static-content, .quote-container {
   color: #9A9A8A;
   padding: 8em 0;
   position: relative;

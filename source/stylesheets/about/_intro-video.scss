@@ -1,10 +1,11 @@
-body.about.about_index, body.fr.fr_about.fr_about_index {
+body.about.about_index, body.fr.fr_about.fr_about_index, body.index, body.fr.fr_index {
+
   height: 100%;
   margin-top: 0;
 
   section.intro-video {
     // section as header-container positioned as relative
-    // position: relative;
+    position: relative;
     // background-size: cover !important;
     // background-position: 50% 50%;
     // width: 100%;
@@ -32,9 +33,10 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
       // bottom: 0%;
       // right: 0%;
       @include media($mobile-only) {
-          background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), image-url('paris.jpeg') no-repeat; // image as falback
-          background-size: cover;
-          z-index: -200;
+        // background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), image-url('paris.jpeg') no-repeat; // image as falback
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('paris.jpeg') no-repeat;
+        background-size: cover;
+        z-index: -200;
         }
       video {
         position: absolute;
@@ -76,6 +78,27 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
 
   }
 
+  @media screen and (min-width: 30em) {
+    section.intro-video {
+      .container {
+        // position: relative;
+        // top: 50%;
+        // transform: translateY(-50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+      }
+    }
+  }
+  @media screen and (max-width: 30em) {
+    section.intro-video {
+      .container {
+      padding-top: 8em;
+      }
+    }
+  }
 }
 
 

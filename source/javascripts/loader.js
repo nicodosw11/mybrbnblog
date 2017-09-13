@@ -14,9 +14,10 @@ $(window).on('load', function(){
   // $(".intro-video").remove();
 
   setTimeout(function(){
-    document.getElementById('section-intro-video').style.display = 'none';
-    document.getElementById('section-intro-fs').style.display = 'block';
-    $(".intro-video").remove();
+    // document.getElementById('section-intro-video').style.display = 'none';
+    // document.getElementById('section-intro-fs').style.display = 'block';
+    document.getElementById('section-intro-video').remove();
+    document.getElementById('video-background-overlay').remove();
   }, 14000); //14secs
 
 

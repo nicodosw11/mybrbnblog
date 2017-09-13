@@ -12,6 +12,9 @@ $(document).ready(function() {
           height: '100%',
           top : -scrollPosition
         });
+        $('header').css({
+          display: 'none'
+        });
       } else {
         // $("body").removeClass("modal-open");
         $('body').css({
@@ -19,6 +22,9 @@ $(document).ready(function() {
           position: '',
           top: ''
         }).scrollTop(scrollPosition);
+        $('header').css({
+          display: 'block'
+        });
       }
     });
 

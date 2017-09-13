@@ -1,6 +1,6 @@
 $(".down-arrow").click(function() {
   $('html, body').animate({
-      scrollTop: $("#scrolled-message").offset().top
+      scrollTop: $("#hi").offset().top
   }, 2000);
   return false;
 });

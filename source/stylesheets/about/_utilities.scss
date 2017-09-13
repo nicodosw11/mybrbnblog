@@ -1,4 +1,10 @@
 body.about.about_index, body.fr.fr_about.fr_about_index {
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+  // color: $light-gray;
+  // color: $dark-gray;
+  color: gray;
+
   img {
   margin: 0;
   max-width: 100%;

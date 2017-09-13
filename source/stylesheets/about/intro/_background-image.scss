@@ -17,15 +17,18 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
     background-size: cover;
     background-repeat: no-repeat;
 
-    position: fixed;
-    z-index: 0; // z-index: -1; for messages on background with linear gradient
-    // position: relative;
-    // background-attachment: fixed // background-attachment: scroll;
-
-    top: 0;
-    width: 100%;
+    // mobile background image with background-attachment fixed
+    position: relative;
+    background-attachment: fixed; // background-attachment: scroll;
+    width: 100vw;
     height: 100vh;
-    // width: 100vw;
+
+    // or maintain background image parallax style on mobile
+    // position: fixed;
+    // z-index: 0; // z-index: -1; for messages on background with linear gradient
+    // top: 0;
+    // width: 100%;
+    // height: 100vh;
 
     @media only screen and (min-height: 30em) {
       @include media($medium) {
@@ -36,6 +39,8 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
         width: 50%;
         height: 100vh;
         z-index: 0; // z-index: -1;
+        // to accommodate transition to desktop
+        background-attachment: scroll;
       }
     }
 
