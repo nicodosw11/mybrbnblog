@@ -3,7 +3,7 @@ $(document).ready(function() {
   var didScroll;
   var lastScrollTop = 0;
   var delta = 5;
-  var navbarHeight = $('header').outerHeight();
+  var navbarHeight = $('.nav-scroll-up').outerHeight();
 
   $(window).scroll(function(event){
       didScroll = true;
@@ -22,7 +22,7 @@ $(document).ready(function() {
       // var bannerHeight = $(".intro-video").height();
       var bannerHeight = $(".intro-background-image").height();
       if ($(window).scrollTop() > (bannerHeight - 10)) {
-        $('.nav').removeClass('is-hidden');
+        $('.nav-scroll-up').removeClass('is-hidden');
         $('body.about.about_index, body.fr.fr_about.fr_about_index').addClass('padding-top');
       }
 
@@ -34,11 +34,11 @@ $(document).ready(function() {
       // This is necessary so you never see what is "behind" the navbar.
       if (st > lastScrollTop && st > navbarHeight){
           // Scroll Down
-          $('header').removeClass('nav-down').addClass('nav-up');
+          $('.nav-scroll-up').removeClass('nav-down').addClass('nav-up');
       } else {
           // Scroll Up
           if(st + $(window).height() < $(document).height()) {
-              $('header').removeClass('nav-up').addClass('nav-down');
+              $('.nav-scroll-up').removeClass('nav-up').addClass('nav-down');
           }
       }
 

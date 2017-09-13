@@ -4795,6 +4795,31 @@ stretchRight
   @media screen and (min-width: 30em) {
     .nav .sliding-panel-button {
       display: none; } }
+  .nav.transparent {
+    background-color: transparent;
+    -webkit-transition: background-color 1s ease 0s;
+    transition: background-color 1s ease 0s; }
+    .nav.transparent a {
+      color: white !important;
+      -webkit-transition: color 1s ease 0s;
+      transition: color 1s ease 0s; }
+    @media screen and (max-width: 29.9375em) {
+      .nav.transparent .logo-dark {
+        display: none; } }
+  .nav.solid {
+    background-color: white;
+    -webkit-transition: background-color 1s ease 0s;
+    transition: background-color 1s ease 0s; }
+    .nav.solid a {
+      color: #2ecc71 !important;
+      -webkit-transition: color 1s ease 0s;
+      transition: color 1s ease 0s; }
+    @media screen and (max-width: 29.9375em) {
+      .nav.solid .logo-white {
+        display: none; } }
+    @media screen and (max-width: 29.9375em) {
+      .nav.solid .logo-dark {
+        display: block; } }
 
 #navFra, #navEng {
   vertical-align: middle;
@@ -4809,30 +4834,6 @@ stretchRight
   padding: 0; }
   @media screen and (max-width: 29.9375em) {
     .icon-small {
-      display: none; } }
-
-.transparent {
-  background-color: transparent;
-  -webkit-transition: background-color 1s ease 0s;
-  transition: background-color 1s ease 0s; }
-  .transparent a {
-    color: white !important;
-    -webkit-transition: color 1s ease 0s;
-    transition: color 1s ease 0s; }
-  @media screen and (max-width: 29.9375em) {
-    .transparent .logo-dark {
-      display: none; } }
-
-.solid {
-  background-color: white;
-  -webkit-transition: background-color 1s ease 0s;
-  transition: background-color 1s ease 0s; }
-  .solid a {
-    color: #2ecc71 !important;
-    -webkit-transition: color 1s ease 0s;
-    transition: color 1s ease 0s; }
-  @media screen and (max-width: 29.9375em) {
-    .solid .logo-white {
       display: none; } }
 
 .icon-link {
@@ -5574,6 +5575,7 @@ body.about.about_index .modal-inner, body.fr.fr_about.fr_about_index .modal-inne
   margin: 78px auto;
   max-height: 95%;
   overflow: auto;
+  overflow-y: scroll;
   padding: 1em;
   position: relative;
   top: 0.5em;
@@ -7539,12 +7541,10 @@ body.about.about_index .intro-background-image, body.fr.fr_about.fr_about_index 
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/images/bonhomme.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/bonhomme.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/images/bonhomme.jpg) left center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/bonhomme.jpg) left center/cover no-repeat;
+  background-attachment: scroll;
   position: relative;
-  background-attachment: fixed;
   width: 100vw;
   height: 100vh;
   color: #FFFFFF;
@@ -7556,9 +7556,7 @@ body.about.about_index .intro-background-image, body.fr.fr_about.fr_about_index 
     right: 0;
     top: 0;
     width: 50%;
-    height: 100vh;
-    z-index: 0;
-    background-attachment: scroll; } }
+    height: 100vh; } }
 
   body.about.about_index .intro-background-image .intro-fixed-banner-content, body.fr.fr_about.fr_about_index .intro-background-image .intro-fixed-banner-content {
     font-family: 'Satisfy', cursive; }
@@ -7920,9 +7918,13 @@ body {
     display: none; } }
 
 @media screen and (max-width: 45.5625em) {
-  #logo-name-message, #js-parallax-window, #js-parallax-window-2 {
+  #logo-name-message, #js-parallax-window, #js-parallax-window-2, #navbar-about-large {
     display: none; } }
 
 @media screen and (min-width: 45.625em) {
-  #quote1, #quote2 {
+  #quote1, #quote2, #navbar-about-medium {
+    display: none; } }
+
+@media screen and (max-width: 45.5625em) {
+  section.intro-video .color-overlay {
     display: none; } }

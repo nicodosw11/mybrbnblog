@@ -10220,6 +10220,20 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 $(document).ready(function() {
+  var topofDiv = $(".intro-background-image").offset().top; //gets offset of background-image
+  var height = $(".intro-background-image").outerHeight(); //gets height of background-image
+
+  $(window).scroll(function(){
+      if($(window).scrollTop() > (topofDiv + height)){
+        $('.transparent').addClass('solid');
+        // $('.transparent-to-solid').removeClass('transparent');
+      } else {
+        // $('.transparent-to-solid').addClass('transparent');
+        $('.transparent').removeClass('solid');
+      }
+  });
+});
+$(document).ready(function() {
 
   $(window).scroll(function(e){
     parallascroll();
@@ -10612,20 +10626,6 @@ $(document).ready(function() {
   });
 });
 
-// $(document).ready(function() {
-//   var topofDiv = $(".intro-background-image").offset().top; //gets offset of background-image
-//   var height = $(".intro-background-image").outerHeight(); //gets height of background-image
-
-//   $(window).scroll(function(){
-//       if($(window).scrollTop() > (topofDiv + height)){
-//         $('.transparent-to-solid').addClass('solid');
-//         $('.transparent-to-solid').removeClass('transparent');
-//       } else {
-//         $('.transparent-to-solid').addClass('transparent');
-//         $('.transparent-to-solid').removeClass('solid');
-//       }
-//   });
-// });
 
 // $(document).ready(function() {
 //   $(window).scroll(function() {
@@ -10643,7 +10643,7 @@ $(document).ready(function() {
   $(window).scroll(function () {
 
     if ($(window).scrollTop() > (5)) {
-      $('.nav-scroll').removeClass('is-hidden');
+      $('.nav-scroll-down').removeClass('is-hidden');
       $('body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index').addClass('padding-top');
       $('body.projects.projects_index, body.fr.fr_projects.fr_projects_index').addClass('padding-top');
       $('body.search.search_index, body.fr.fr_search.fr_search_index').addClass('padding-top');
@@ -10657,7 +10657,7 @@ $(document).ready(function() {
   var didScroll;
   var lastScrollTop = 0;
   var delta = 5;
-  var navbarHeight = $('header').outerHeight();
+  var navbarHeight = $('.nav-scroll-up').outerHeight();
 
   $(window).scroll(function(event){
       didScroll = true;
@@ -10676,7 +10676,7 @@ $(document).ready(function() {
       // var bannerHeight = $(".intro-video").height();
       var bannerHeight = $(".intro-background-image").height();
       if ($(window).scrollTop() > (bannerHeight - 10)) {
-        $('.nav').removeClass('is-hidden');
+        $('.nav-scroll-up').removeClass('is-hidden');
         $('body.about.about_index, body.fr.fr_about.fr_about_index').addClass('padding-top');
       }
 
@@ -10688,11 +10688,11 @@ $(document).ready(function() {
       // This is necessary so you never see what is "behind" the navbar.
       if (st > lastScrollTop && st > navbarHeight){
           // Scroll Down
-          $('header').removeClass('nav-down').addClass('nav-up');
+          $('.nav-scroll-up').removeClass('nav-down').addClass('nav-up');
       } else {
           // Scroll Up
           if(st + $(window).height() < $(document).height()) {
-              $('header').removeClass('nav-up').addClass('nav-down');
+              $('.nav-scroll-up').removeClass('nav-up').addClass('nav-down');
           }
       }
 
