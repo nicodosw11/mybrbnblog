@@ -89,13 +89,13 @@ body {
   }
 }
 
-#logo-name-message, #js-parallax-window, #js-parallax-window-2, #navbar-about-large {
+#video-background, #video-background-overlay, #wrapper-text-flexbox, #logo-name-message, #js-parallax-window, #js-parallax-window-2, #navbar-about-large {
   @include media($tablet-only) {
     display: none;
   }
 }
 
-#quote1, #quote2, #navbar-about-medium {
+#background-overlay, #quote1, #quote2, #navbar-about-medium {
   @include media($medium-screen) {
     display: none;
   }

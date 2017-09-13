@@ -75,11 +75,13 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
       $modal-padding: 2em;
       background-color: #fff;
       border-radius: 3px;
-      margin: 78px auto;
+      margin: auto;
       max-height: 95%;
 
       overflow: auto;
-      overflow-y: scroll;
+      // overflow-y: scroll;
+
+      // margin: 78px auto;
 
       padding: $modal-padding / 2;
       position: relative;
@@ -88,7 +90,6 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
       width: 95%;
 
       @include media($medium-screen) {
-        margin: auto;
         max-height: 70%;
         width: 60%;
         padding: $modal-padding;
