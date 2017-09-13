@@ -89,18 +89,25 @@ body {
   }
 }
 
-#logo-name-message, #js-parallax-window, #js-parallax-window-2 {
+#logo-name-message, #js-parallax-window, #js-parallax-window-2, #navbar-about-large {
   @include media($tablet-only) {
     display: none;
   }
 }
 
-#quote1, #quote2 {
+#quote1, #quote2, #navbar-about-medium {
   @include media($medium-screen) {
     display: none;
   }
 }
 
+section.intro-video {
+  .color-overlay {
+    @include media($tablet-only) {
+      display: none;
+    }
+  }
+}
 
 
 
