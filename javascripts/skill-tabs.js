@@ -46,8 +46,9 @@ $(document).ready(function() {
 
     $(".js-vertical-tab-content").hide();
     var accordion_activeTab = $(this).attr("rel");
-    $("#"+accordion_activeTab).show();
-    $("#"+accordion_activeTab).scrollTop(0);
+    // $("#"+accordion_activeTab).show();
+    // $("#"+accordion_activeTab).scrollTop(0);
+    $("#"+accordion_activeTab).show().scrollTop(0);
 
     $(".js-vertical-tab-accordion-heading").removeClass("is-active");
     $(this).addClass("is-active");

@@ -10369,9 +10369,10 @@ $(window).on('load', function(){
   // $(".intro-video").remove();
 
   setTimeout(function(){
-    document.getElementById('section-intro-video').style.display = 'none';
-    document.getElementById('section-intro-fs').style.display = 'block';
-    $(".intro-video").remove();
+    // document.getElementById('section-intro-video').style.display = 'none';
+    // document.getElementById('section-intro-fs').style.display = 'block';
+    document.getElementById('section-intro-video').remove();
+    document.getElementById('video-background-overlay').remove();
   }, 14000); //14secs
 
 
@@ -10403,6 +10404,9 @@ $(document).ready(function() {
           height: '100%',
           top : -scrollPosition
         });
+        $('header').css({
+          display: 'none'
+        });
       } else {
         // $("body").removeClass("modal-open");
         $('body').css({
@@ -10410,6 +10414,9 @@ $(document).ready(function() {
           position: '',
           top: ''
         }).scrollTop(scrollPosition);
+        $('header').css({
+          display: 'block'
+        });
       }
     });
 
@@ -10591,22 +10598,39 @@ Prism.languages.javascript=Prism.languages.extend("clike",{keyword:/\b(as|async|
 Prism.languages.bash=Prism.languages.extend("clike",{comment:{pattern:/(^|[^"{\\])(#.*?(\r?\n|$))/,lookbehind:!0},string:{pattern:/("|')(\\?[\s\S])*?\1/,inside:{property:/\$([a-zA-Z0-9_#\?\-\*!@]+|\{[^\}]+\})/}},number:{pattern:/([^\w\.])-?(0x[\dA-Fa-f]+|\d*\.?\d+([Ee]-?\d+)?)\b/,lookbehind:!0},"function":/\b(?:alias|apropos|apt-get|aptitude|aspell|awk|basename|bash|bc|bg|builtin|bzip2|cal|cat|cd|cfdisk|chgrp|chmod|chown|chroot|chkconfig|cksum|clear|cmp|comm|command|cp|cron|crontab|csplit|cut|date|dc|dd|ddrescue|declare|df|diff|diff3|dig|dir|dircolors|dirname|dirs|dmesg|du|echo|egrep|eject|enable|env|ethtool|eval|exec|exit|expand|expect|export|expr|fdformat|fdisk|fg|fgrep|file|find|fmt|fold|format|free|fsck|ftp|fuser|gawk|getopts|git|grep|groupadd|groupdel|groupmod|groups|gzip|hash|head|help|hg|history|hostname|htop|iconv|id|ifconfig|ifdown|ifup|import|install|jobs|join|kill|killall|less|link|ln|locate|logname|logout|look|lpc|lpr|lprint|lprintd|lprintq|lprm|ls|lsof|make|man|mkdir|mkfifo|mkisofs|mknod|more|most|mount|mtools|mtr|mv|mmv|nano|netstat|nice|nl|nohup|notify-send|nslookup|open|op|passwd|paste|pathchk|ping|pkill|popd|pr|printcap|printenv|printf|ps|pushd|pv|pwd|quota|quotacheck|quotactl|ram|rar|rcp|read|readarray|readonly|reboot|rename|renice|remsync|rev|rm|rmdir|rsync|screen|scp|sdiff|sed|select|seq|service|sftp|shift|shopt|shutdown|sleep|slocate|sort|source|split|ssh|stat|strace|su|sudo|sum|suspend|sync|tail|tar|tee|test|time|timeout|times|touch|top|traceroute|trap|tr|tsort|tty|type|ulimit|umask|umount|unalias|uname|unexpand|uniq|units|unrar|unshar|until|uptime|useradd|userdel|usermod|users|uuencode|uudecode|v|vdir|vi|vmstat|wait|watch|wc|wget|whereis|which|who|whoami|write|xargs|xdg-open|yes|zip)\b/,keyword:/\b(if|then|else|elif|fi|for|break|continue|while|in|case|function|select|do|done|until|echo|exit|return|set|declare)\b/}),Prism.languages.insertBefore("bash","keyword",{property:/\$([a-zA-Z0-9_#\?\-\*!@]+|\{[^}]+\})/}),Prism.languages.insertBefore("bash","comment",{important:/(^#!\s*\/bin\/bash)|(^#!\s*\/bin\/sh)/});;
 Prism.languages.ruby=Prism.languages.extend("clike",{comment:/#[^\r\n]*(\r?\n|$)/,keyword:/\b(alias|and|BEGIN|begin|break|case|class|def|define_method|defined|do|each|else|elsif|END|end|ensure|false|for|if|in|module|new|next|nil|not|or|raise|redo|require|rescue|retry|return|self|super|then|throw|true|undef|unless|until|when|while|yield)\b/,builtin:/\b(Array|Bignum|Binding|Class|Continuation|Dir|Exception|FalseClass|File|Stat|File|Fixnum|Fload|Hash|Integer|IO|MatchData|Method|Module|NilClass|Numeric|Object|Proc|Range|Regexp|String|Struct|TMS|Symbol|ThreadGroup|Thread|Time|TrueClass)\b/,constant:/\b[A-Z][a-zA-Z_0-9]*[?!]?\b/}),Prism.languages.insertBefore("ruby","keyword",{regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/,lookbehind:!0},variable:/[@$]+\b[a-zA-Z_][a-zA-Z_0-9]*[?!]?\b/,symbol:/:\b[a-zA-Z_][a-zA-Z_0-9]*[?!]?\b/});;
 Prism.languages.scss=Prism.languages.extend("css",{comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/,lookbehind:!0},atrule:{pattern:/@[\w-]+(?:\([^()]+\)|[^(])*?(?=\s+(\{|;))/i,inside:{rule:/@[\w-]+/}},url:/([-a-z]+-)*url(?=\()/i,selector:/([^@;\{\}\(\)]?([^@;\{\}\(\)]|&|#\{\$[-_\w]+\})+)(?=\s*\{(\}|\s|[^\}]+(:|\{)[^\}]+))/m}),Prism.languages.insertBefore("scss","atrule",{keyword:/@(if|else if|else|for|each|while|import|extend|debug|warn|mixin|include|function|return|content)|(?=@for\s+\$[-_\w]+\s)+from/i}),Prism.languages.insertBefore("scss","property",{variable:/((\$[-_\w]+)|(#\{\$[-_\w]+\}))/i}),Prism.languages.insertBefore("scss","function",{placeholder:/%[-_\w]+/i,statement:/\B!(default|optional)\b/i,"boolean":/\b(true|false)\b/,"null":/\b(null)\b/,operator:/\s+([-+]{1,2}|={1,2}|!=|\|?\||\?|\*|\/|%)\s+/}),Prism.languages.scss.atrule.inside.rest=Prism.util.clone(Prism.languages.scss);;
+$(document).ready(function() {
+  $(window).scroll(function() {
+    var bannerHeight = $(".intro-background-image").height();
+    var fixedbannerHeight = bannerHeight * 2;
+    if($(this).scrollTop() > fixedbannerHeight) {
+      $('.transparent-to-solid').addClass('solid');
+      $('.transparent-to-solid').removeClass('transparent');
+    } else {
+      $('.transparent-to-solid').addClass('transparent');
+      $('.transparent-to-solid').removeClass('solid');
+    }
+  });
+});
+
 // $(document).ready(function() {
-//   $(window).scroll(function() {
-//     var bannerHeight = $(".intro-background-image").height();
-//     var fixedbannerHeight = bannerHeight * 2;
-//     if($(this).scrollTop() > fixedbannerHeight) {
-//       $('.transparent').addClass('solid');
-//     } else {
-//       $('.transparent').removeClass('solid');
-//     }
+//   var topofDiv = $(".intro-background-image").offset().top; //gets offset of background-image
+//   var height = $(".intro-background-image").outerHeight(); //gets height of background-image
+
+//   $(window).scroll(function(){
+//       if($(window).scrollTop() > (topofDiv + height)){
+//         $('.transparent-to-solid').addClass('solid');
+//         $('.transparent-to-solid').removeClass('transparent');
+//       } else {
+//         $('.transparent-to-solid').addClass('transparent');
+//         $('.transparent-to-solid').removeClass('solid');
+//       }
 //   });
 // });
 
 // $(document).ready(function() {
 //   $(window).scroll(function() {
 //     var bannerHeight = $(".intro-background-image").height();
-//     var introductionsHeight = $("#scrolled-message").height();
+//     var introductionsHeight = $("#hi").height();
 //     var totalHeight = bannerHeight + introductionsHeight;
 //     if($(this).scrollTop() > totalHeight) {
 //         $('.transparent').addClass('solid');
@@ -10615,21 +10639,6 @@ Prism.languages.scss=Prism.languages.extend("css",{comment:{pattern:/(^|[^\\])(\
 //     }
 //   });
 // });
-
-$(document).ready(function() {
-  var topofDiv = $(".intro-background-image").offset().top; //gets offset of background-image
-  var height = $(".intro-background-image").outerHeight(); //gets height of background-image
-
-  $(window).scroll(function(){
-      if($(window).scrollTop() > (topofDiv + height)){
-        $('.transparent-to-solid').addClass('solid');
-        $('.transparent-to-solid').removeClass('transparent');
-      } else {
-        $('.transparent-to-solid').addClass('transparent');
-        $('.transparent-to-solid').removeClass('solid');
-      }
-  });
-});
 $(document).ready(function() {
   $(window).scroll(function () {
 
@@ -11026,8 +11035,9 @@ $(document).ready(function() {
 
     $(".js-vertical-tab-content").hide();
     var accordion_activeTab = $(this).attr("rel");
-    $("#"+accordion_activeTab).show();
-    $("#"+accordion_activeTab).scrollTop(0);
+    // $("#"+accordion_activeTab).show();
+    // $("#"+accordion_activeTab).scrollTop(0);
+    $("#"+accordion_activeTab).show().scrollTop(0);
 
     $(".js-vertical-tab-accordion-heading").removeClass("is-active");
     $(this).addClass("is-active");
@@ -11044,7 +11054,7 @@ $(document).ready(function(){
 });
 $(".down-arrow").click(function() {
   $('html, body').animate({
-      scrollTop: $("#scrolled-message").offset().top
+      scrollTop: $("#hi").offset().top
   }, 2000);
   return false;
 });
