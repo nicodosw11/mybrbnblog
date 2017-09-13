@@ -5399,6 +5399,7 @@ body.about.about_index, body.fr.fr_about.fr_about_index, body.index, body.fr.fr_
   height: 100%;
   margin-top: 0; }
   body.about.about_index section.intro-about, body.fr.fr_about.fr_about_index section.intro-about, body.index section.intro-about, body.fr.fr_index section.intro-about {
+    position: relative;
     display: none; }
   body.about.about_index section.intro-about, body.about.about_index section.intro-video, body.about.about_index .banner-container, body.about.about_index .parallax-window-fs, body.fr.fr_about.fr_about_index section.intro-about, body.fr.fr_about.fr_about_index section.intro-video, body.fr.fr_about.fr_about_index .banner-container, body.fr.fr_about.fr_about_index .parallax-window-fs, body.index section.intro-about, body.index section.intro-video, body.index .banner-container, body.index .parallax-window-fs, body.fr.fr_index section.intro-about, body.fr.fr_index section.intro-video, body.fr.fr_index .banner-container, body.fr.fr_index .parallax-window-fs {
     padding: 0;
@@ -5572,10 +5573,9 @@ body.about.about_index .modal-close, body.fr.fr_about.fr_about_index .modal-clos
 body.about.about_index .modal-inner, body.fr.fr_about.fr_about_index .modal-inner {
   background-color: #fff;
   border-radius: 3px;
-  margin: 78px auto;
+  margin: auto;
   max-height: 95%;
   overflow: auto;
-  overflow-y: scroll;
   padding: 1em;
   position: relative;
   top: 0.5em;
@@ -5584,7 +5584,6 @@ body.about.about_index .modal-inner, body.fr.fr_about.fr_about_index .modal-inne
   width: 95%; }
   @media screen and (min-width: 45.625em) {
     body.about.about_index .modal-inner, body.fr.fr_about.fr_about_index .modal-inner {
-      margin: auto;
       max-height: 70%;
       width: 60%;
       padding: 2em; } }
@@ -7224,9 +7223,6 @@ body.portfolio.portfolio_index .nav-up, body.portfolio.portfolio_index .is-hidde
     height: 8px;
     background: rgba(255, 255, 255, 0.9); }
 
-  .wrapper-text-flexbox {
-    background: linear-gradient(135deg, rgba(35, 120, 159, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), url(../assets/images/parisquai-panorama.jpg) center center/cover no-repeat; }
-
   .wrapper-text-flexbox h1 {
     font-size: 28px; }
   .wrapper-text-flexbox h3 {
@@ -7236,7 +7232,7 @@ body.portfolio.portfolio_index .nav-up, body.portfolio.portfolio_index .is-hidde
 
   .fullscreen-bg-video {
     display: none; } }
-.video-background-overlay {
+.video-background-overlay, .background-overlay {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -7918,11 +7914,11 @@ body {
     display: none; } }
 
 @media screen and (max-width: 45.5625em) {
-  #logo-name-message, #js-parallax-window, #js-parallax-window-2, #navbar-about-large {
+  #video-background, #video-background-overlay, #wrapper-text-flexbox, #logo-name-message, #js-parallax-window, #js-parallax-window-2, #navbar-about-large {
     display: none; } }
 
 @media screen and (min-width: 45.625em) {
-  #quote1, #quote2, #navbar-about-medium {
+  #background-overlay, #quote1, #quote2, #navbar-about-medium {
     display: none; } }
 
 @media screen and (max-width: 45.5625em) {
