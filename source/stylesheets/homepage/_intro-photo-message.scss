@@ -3,9 +3,9 @@
 }
 
 #backgroundImage, .backgroundImage {
-  // position: fixed;
-  // top: 0;
-  background-image: url(../images/paris-medium.jpeg);
+  position: fixed;
+  top: 0;
+  background-image: url(../images/parisquai-small.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -17,7 +17,7 @@
   width: 100%;
   height: 100vh;
   z-index: -1;
-  @media only screen and (min-height: 30em) {
+  // @media only screen and (min-height: 30em) {
     @include media($medium) {
       position: fixed;
       right: 0;
@@ -26,7 +26,7 @@
       height: 100vh;
       z-index: -1;
     }
-  }
+  // }
 }
 
 #introductions {
