@@ -152,6 +152,26 @@ body.index, body.fr.fr_index {
         border: 2px solid #5BC0BE;
         cursor: pointer;
       }
+      &-button-1 {
+        display: inline-block;
+        // height: 38px;
+        // padding: 0 30px;
+        // padding: 1em;
+        color: white;
+        text-align: center;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        white-space: nowrap;
+        // background-color: transparent;
+        background-color: black;
+        border-radius: 4px;
+        border: 2px solid #fff;
+        cursor: pointer;
+      }
 
     }
 
@@ -188,6 +208,38 @@ body.index, body.fr.fr_index {
           padding-left: 0;
           padding-right: 0;
           color: white !important;
+        }
+      }
+    }
+
+    .buttons-container-1 {
+      box-shadow: 0px 1px 15px #414142;
+      // width: 85%;
+      width: 100%;
+      margin: 0 auto;
+      // padding: 20px;
+      padding: 10px;
+      /*z-index position relative on top of background image*/
+      // position: relative;
+      // z-index: 1;
+      .buttons-1 {
+        display: flex;
+        flex-flow: row wrap;
+        // justify-content: space-between;
+        justify-content: space-around;
+        // padding: 10px;
+
+        a {
+          // width: 23%;
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          padding-left: 0;
+          padding-right: 0;
+          color: white !important;
+          img {
+            max-width: 100%;
+          }
         }
       }
     }
