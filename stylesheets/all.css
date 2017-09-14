@@ -3585,7 +3585,9 @@ body.index .intro #tagline, body.index .intro #contact-button, body.fr.fr_index 
   position: relative; }
 
 #backgroundImage, .backgroundImage {
-  background-image: url(../images/paris-medium.jpeg);
+  position: fixed;
+  top: 0;
+  background-image: url(../images/parisquai-small-965231f0.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -3593,14 +3595,14 @@ body.index .intro #tagline, body.index .intro #contact-button, body.fr.fr_index 
   width: 100%;
   height: 100vh;
   z-index: -1; }
-@media only screen and (min-height: 30em) and (min-width: 45.625em) {
-  #backgroundImage, .backgroundImage {
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 50%;
-    height: 100vh;
-    z-index: -1; } }
+  @media screen and (min-width: 45.625em) {
+    #backgroundImage, .backgroundImage {
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 50%;
+      height: 100vh;
+      z-index: -1; } }
 
 #introductions {
   background-color: rgba(255, 255, 255, 0.75);
@@ -7581,7 +7583,9 @@ body.about.about_index .intro-background-image, body.fr.fr_about.fr_about_index 
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/images/bonhomme.jpg) left center/cover no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/bonhomme.jpg) left center/cover no-repeat;
   background-attachment: fixed;
-  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
   color: #FFFFFF;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.2); }
   @media screen and (min-width: 45.625em) {
