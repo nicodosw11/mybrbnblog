@@ -5,13 +5,13 @@
 #backgroundImage, .backgroundImage {
   position: fixed;
   top: 0;
-  background-image: url(../images/parisquai-small.jpg);
+  background-image: url(../images/paris-medium.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 
   // keeps the background image in place so long as the element is tall enough for scrolling.
-  background-attachment: fixed; // fixed in the viewport
-  overflow: hidden;
+  // background-attachment: fixed; // fixed in the viewport
+  // overflow: hidden;
   //
 
   width: 100%;
