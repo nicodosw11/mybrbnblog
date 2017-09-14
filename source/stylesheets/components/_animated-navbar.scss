@@ -1,0 +1,36 @@
+.animated-navbar-flex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: transparent; // black #eee;
+  padding: 30px; // height: 86px;
+  transition: all 0.3s ease;
+  position: absolute;
+  z-index: 999;
+
+  // flex-flow: row wrap;
+  // flex-direction: row; // default
+  // flex-wrap: nowrap; // default
+  // align-content: stretch; // default
+  // justify-content: space-between; // each at corner
+  // justify-content: space-around; // space on each edge of the screen
+
+  .logo-flex {
+    display: inline-block;
+  }
+  .icons-flex {
+    display: block;
+    // text-align: right;
+  }
+  .logo-flex, .icons-flex {
+    display: flex;
+    flex: 1; // if all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all
+
+    // flex-grow: 1; // default 0 //if one has a value of 2, the remaining space would try to take up twice as much space as the others
+  }
+  .icons-flex {
+    justify-content: flex-end;
+
+    // align-self: flex-end;
+  }
+}

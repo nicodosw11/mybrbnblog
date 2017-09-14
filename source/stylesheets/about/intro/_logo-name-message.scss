@@ -110,7 +110,7 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
 
     #tagline {
       font-family: 'freight-big-pro', 'times', 'georgia', serif;
-      font-size: 2.25em; //47.25px at desktop size 36px at mobile size
+      font-size: 2.25em !important; //47.25px at desktop size 36px at mobile size
       font-size: modular-scale(4);
       @include media($large) {
         font-size: modular-scale(6);
@@ -183,6 +183,14 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
         to { opacity: 1; transform: translateY(0); }
       }
     }
+
+    p {
+      font-size: 1.2em !important;
+    }
+    .animated-logo {
+      color: #4A4A4A !important;
+    }
+
 
   }
 

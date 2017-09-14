@@ -5,16 +5,15 @@ body {
   }
 }
 
-body.index {
+body.index, body.fr.fr_index {
   @include outer-container;
   @include clearfix;
   margin-top: 0;
-}
-
-body.fr.fr_index {
-  @include outer-container;
-  @include clearfix;
-  margin-top: 0;
+  #animated-navbar {
+    @include media($tablet-only) {
+      display: none;
+    }
+  }
 }
 
 body.search.search_index, body.fr.fr_search.fr_search_index {

@@ -1,0 +1,59 @@
+<div class="animated-navigation-links menu-links icons-flex">
+  <span class="links-show hidden-xs">
+    <a href="/" data-caption="Home">
+      <i class="fa fa-home"></i>
+     <!--  <span class="glyphicon glyphicon-home"></span> -->
+    </a>
+    <a href="/about" data-caption="About">
+      <i class="fa fa-id-card"></i>
+      <!-- <span class="glyphicon glyphicon-folder-open"></span> -->
+    </a>
+    <a href="/portfolio" data-caption="Portfolio">
+      <i class="fa fa-briefcase"></i>
+      <!-- <span class="glyphicon glyphicon-send"></span> -->
+    </a>
+
+    <a href="/projects" data-caption="Projects">
+      <i class="fa fa-code-fork"></i>
+    </a>
+    <a href="/blog" data-caption="Blog">
+      <i class="fa fa-rss"></i>
+    </a>
+    <a href="/contact" data-caption="Contact">
+      <i class="fa fa-paper-plane"></i>
+    </a>
+    <a href="/search" data-caption="Search">
+      <i class="fa fa-search"></i>
+    </a>
+    <a href="/fr/contact" data-caption="Switch to French">
+      <i class="fa fa-flag""></i>
+    </a>
+
+  </span>
+  &nbsp;
+  <i class="fa fa-bars menu js-menu-trigger sliding-panel-button"></i>
+  <!-- <span class="glyphicon glyphicon-menu-hamburger menu"></span> -->
+</div>
+
+<nav class="js-menu sliding-panel-content">
+  <ul>
+    <li><a href="/ ">Home</a></li>
+    <% if I18n.locale == I18n.default_locale %>
+    <li><a href="/portfolio">Portfolio</a></li>
+    <li><a href="/projects">Projects</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/search">Search</a></li>
+    <li><a href="/fr/about">Switch to French</a></li>
+    <% else %>
+    <li><a href="/fr/portfolio">Code</a></li>
+    <li><a href="/fr/projects">Projets</a></li>
+    <li><a href="/fr/contact">Me contacter</a></li>
+    <li><a href="/fr/blog">Blog</a></li>
+    <li><a href="/fr/search">Chercher</a></li>
+    <li><a href="/about">Switch to English</a></li>
+    <% end %>
+  </ul>
+</nav>
+
+<div class="js-menu-screen sliding-panel-fade-screen"></div>

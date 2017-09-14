@@ -4,28 +4,30 @@ blog: en
 lang: en
 ---
 
+<%= partial "partials/navbars/animated-navbar" %>
+
 <div id="bodyBg"></div>
-  <div class="container-contact" id="body-contact">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <div id="intro-contact">
-          <div class="row">
-            <div class="col-lg-6 col-lg-push-3 col-xs-10 col-xs-push-1">
-              <div class="block text-center">
-                <div class="top-bar-contact"></div>
-                <div class="inline blink text-left">
-                  <h1>Thank you so much for reading!</h1>
-                  <p>Please let's keep in touch.</p>
-                  <!-- <p>Messages sent through this contact form go directly into my inbox.</p> -->
-                  <p>Messages go directly into my inbox.</p>
-                  <p>It is the best way to contact me.<span>|</span></p>
-                </div>
-                <div class="bottom-bar-contact"></div>
-                <%= partial "partials/contact/form" %>
+<div class="container-contact" id="body-contact">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <div id="intro-contact">
+        <div class="row">
+          <div class="col-lg-6 col-lg-push-3 col-xs-10 col-xs-push-1">
+            <div class="block text-center">
+              <div class="top-bar-contact"></div>
+              <div class="inline blink text-left">
+                <h1>Thank you so much for reading!</h1>
+                <p>Please let's keep in touch.</p>
+                <!-- <p>Messages sent through this contact form go directly into my inbox.</p> -->
+                <p>Messages go directly into my inbox.</p>
+                <p>It is the best way to contact me.<span>|</span></p>
               </div>
+              <div class="bottom-bar-contact"></div>
+              <%= partial "partials/contact/form" %>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>

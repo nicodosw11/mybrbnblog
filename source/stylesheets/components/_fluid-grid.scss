@@ -1,0 +1,92 @@
+.animated-navbar {
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .row {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+
+    .row:before, .row:after {
+      content: " ";
+      display: table;
+    }
+
+    .row:after {
+      clear: both;
+    }
+  }
+
+  .container:before, .container:after {
+      content: " ";
+      display: table;
+  }
+
+  .container:after {
+      clear: both;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  .col-xs-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+
+  .col-xs-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+
+  .col-xs-4, .col-xs-8 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  @media (max-width: 767px) {
+    .hidden-xs {
+      display: none !important;
+    }
+  }
+
+  .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .glyphicon-menu-hamburger:before {
+    content: "\e236";
+  }
+
+}
