@@ -3439,6 +3439,21 @@ body.index .intro .big-link, body.fr.fr_index .intro .big-link {
     border-radius: 4px;
     border: 2px solid #5BC0BE;
     cursor: pointer; }
+  body.index .intro .big-link-button-1, body.fr.fr_index .intro .big-link-button-1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: black;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    cursor: pointer; }
 body.index .intro .menu-button, body.index .intro #contact-button, body.fr.fr_index .intro .menu-button, body.fr.fr_index .intro #contact-button {
   display: none;
   -ms-flex-item-align: start;
@@ -3471,6 +3486,32 @@ body.index .intro .buttons-container, body.fr.fr_index .intro .buttons-container
       padding-left: 0;
       padding-right: 0;
       color: white !important; }
+body.index .intro .buttons-container-1, body.fr.fr_index .intro .buttons-container-1 {
+  -webkit-box-shadow: 0px 1px 15px #414142;
+          box-shadow: 0px 1px 15px #414142;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  /*z-index position relative on top of background image*/ }
+  body.index .intro .buttons-container-1 .buttons-1, body.fr.fr_index .intro .buttons-container-1 .buttons-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    body.index .intro .buttons-container-1 .buttons-1 a, body.fr.fr_index .intro .buttons-container-1 .buttons-1 a {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      padding-left: 0;
+      padding-right: 0;
+      color: white !important; }
+      body.index .intro .buttons-container-1 .buttons-1 a img, body.fr.fr_index .intro .buttons-container-1 .buttons-1 a img {
+        max-width: 100%; }
 body.index .intro .brand, body.fr.fr_index .intro .brand {
   opacity: 0;
   -webkit-animation: fadeIn ease-in-out 1;
@@ -3549,6 +3590,8 @@ body.index .intro #tagline, body.index .intro #contact-button, body.fr.fr_index 
   background-image: url(../images/paris-medium.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
   width: 100%;
   height: 100vh;
   z-index: -1; }
@@ -7539,7 +7582,8 @@ body.about.about_index .intro-background-image, body.fr.fr_about.fr_about_index 
   text-align: center;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/images/bonhomme.jpg) left center/cover no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/bonhomme.jpg) left center/cover no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  overflow: hidden;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -7904,7 +7948,6 @@ body {
   height: 100%; }
 
 @media screen and (min-width: 45.625em) {
-  #section-intro-video,
   #intro-logo-name,
   .sliding-panel-content,
   .sliding-panel-fade-screen,
