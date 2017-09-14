@@ -2,9 +2,9 @@
   position: relative;
 }
 
-#backgroundImage {
-  position: fixed;
-  top: 0;
+#backgroundImage, .backgroundImage {
+  // position: fixed;
+  // top: 0;
   background-image: url(../images/paris-medium.jpeg);
   background-repeat: no-repeat;
   background-size: cover;

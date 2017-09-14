@@ -3,35 +3,53 @@ title: Nicolas Dotto freelance web developer based in London
 blog: fr
 lang: fr
 ---
+<div class="backgroundImage">
 
-<section class="intro">
-  <div class="box">
-    <div class="brand">
-      <div class="brand-logo">
-        <% link_to 'http://www.nicolasdotto.com', :id => 'logo', :class => 'js-menu-trigger sliding-panel-button' do %>
-            <%= image_tag 'logo.png' %>
-        <% end %>
-        <h1 id="name">Nicolas Dotto</h1>
-      </div>
-        <h2 id="tagline">London-based freelance web developer</h2>
-<!--         <a href="" class="big-link big-link-menu menu-button" id="js-fadeInElement">
-          <img src="/images/menu-white.png" class="js-menu-trigger sliding-panel-button" alt="">
-        </a> -->
-<!--         <a href="" class="big-link menu-button" id="js-fadeInElement">
-          <img src="/images/menu-black.png" class="js-menu-trigger sliding-panel-button" alt="">
-        </a> -->
-        <div class="buttons-container-1">
-          <div class="buttons-1">
-            <a class="big-link-button-1" href="/about">About</a>
-            <a class="big-link-button-1" href="/portfolio">Code</a>
-            <a class="big-link-button-1" href="/blog">Blog</a>
-            <a href="" class="big-link-button-1" id="js-fadeInElement-1">
-              <img src="/images/menu-white.png" class="js-menu-trigger sliding-panel-button" alt="">
-            </a>
-          </div>
+  <section class="intro">
+    <div class="box">
+      <div class="brand">
+        <div class="brand-logo">
+          <% link_to 'http://www.nicolasdotto.com', :id => 'logo', :class => 'js-menu-trigger sliding-panel-button' do %>
+              <%= image_tag 'logo.png' %>
+          <% end %>
+          <h1 id="name">Nicolas Dotto</h1>
         </div>
+          <h2 id="tagline">London-based freelance web developer</h2>
+  <!--         <a href="" class="big-link big-link-menu menu-button" id="js-fadeInElement">
+            <img src="/images/menu-white.png" class="js-menu-trigger sliding-panel-button" alt="">
+          </a> -->
+  <!--         <a href="" class="big-link menu-button" id="js-fadeInElement">
+            <img src="/images/menu-black.png" class="js-menu-trigger sliding-panel-button" alt="">
+          </a> -->
+          <div class="buttons-container-1">
+            <div class="buttons-1">
+              <a class="big-link-button-1" href="/about">About</a>
+              <a class="big-link-button-1" href="/portfolio">Code</a>
+              <a class="big-link-button-1" href="/blog">Blog</a>
+              <a href="" class="big-link-button-1" id="js-fadeInElement-1">
+                <img src="/images/menu-white.png" class="js-menu-trigger sliding-panel-button" alt="">
+              </a>
+            </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="photoAndMessage">
+    <div id="backgroundImage">
     </div>
-</section>
+
+    <div id="introductions">
+      <h1><%= t(:hello) %></h1>
+      <p><%= t(:skills) %></p>
+      <p>
+        <%= t(:read_more_in) %> <a href='<%= "/#{I18n.locale}/blog" %>'><%= t(:my_blog) %></a> <%= t(:checkout) %><a href="/fr/projects"> <%= t(:recent_projects) %></a>.
+          <!-- <a target="_blank" href="/fr/projects"></a>. -->
+        <%= t(:more_about_me) %> <a href="/fr/about"><%= t(:here) %></a>.
+      </p>
+    </div>
+  </section>
+
+</div>
 
 <nav class="js-menu sliding-panel-content">
   <ul>
@@ -46,20 +64,7 @@ lang: fr
 </nav>
 
 <div class="js-menu-screen sliding-panel-fade-screen"></div>
-<section class="photoAndMessage">
-  <div id="backgroundImage">
-  </div>
 
-  <div id="introductions">
-    <h1><%= t(:hello) %></h1>
-    <p><%= t(:skills) %></p>
-    <p>
-      <%= t(:read_more_in) %> <a href='<%= "/#{I18n.locale}/blog" %>'><%= t(:my_blog) %></a> <%= t(:checkout) %><a href="/fr/projects"> <%= t(:recent_projects) %></a>.
-        <!-- <a target="_blank" href="/fr/projects"></a>. -->
-      <%= t(:more_about_me) %> <a href="/fr/about"><%= t(:here) %></a>.
-    </p>
-  </div>
-</section>
 
 <section class="recent-posts" id="recent-posts">
   <div class="posts">
