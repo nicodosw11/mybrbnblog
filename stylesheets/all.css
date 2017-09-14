@@ -3584,9 +3584,7 @@ body.index .intro #tagline, body.index .intro #contact-button, body.fr.fr_index 
 .photoAndMessage {
   position: relative; }
 
-#backgroundImage {
-  position: fixed;
-  top: 0;
+#backgroundImage, .backgroundImage {
   background-image: url(../images/paris-medium.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -3596,7 +3594,7 @@ body.index .intro #tagline, body.index .intro #contact-button, body.fr.fr_index 
   height: 100vh;
   z-index: -1; }
 @media only screen and (min-height: 30em) and (min-width: 45.625em) {
-  #backgroundImage {
+  #backgroundImage, .backgroundImage {
     position: fixed;
     right: 0;
     top: 0;
@@ -7584,20 +7582,18 @@ body.about.about_index .intro-background-image, body.fr.fr_about.fr_about_index 
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/bonhomme.jpg) left center/cover no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  position: relative;
-  width: 100vw;
-  height: 100vh;
   color: #FFFFFF;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.2); }
-@media only screen and (min-height: 30em) and (min-width: 45.625em) {
-  body.about.about_index .intro-background-image, body.fr.fr_about.fr_about_index .intro-background-image {
-    position: fixed;
-    z-index: 0;
-    right: 0;
-    top: 0;
-    width: 50%;
-    height: 100vh; } }
-
+  @media screen and (min-width: 45.625em) {
+    body.about.about_index .intro-background-image, body.fr.fr_about.fr_about_index .intro-background-image {
+      position: fixed;
+      z-index: 0;
+      right: 0;
+      top: 0;
+      left: auto;
+      width: 50%;
+      height: 100vh;
+      background-attachment: scroll; } }
   body.about.about_index .intro-background-image .intro-fixed-banner-content, body.fr.fr_about.fr_about_index .intro-background-image .intro-fixed-banner-content {
     font-family: 'Satisfy', cursive; }
     body.about.about_index .intro-background-image .intro-fixed-banner-content h1, body.fr.fr_about.fr_about_index .intro-background-image .intro-fixed-banner-content h1 {
