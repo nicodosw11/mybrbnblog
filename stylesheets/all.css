@@ -3587,11 +3587,9 @@ body.index .intro #tagline, body.index .intro #contact-button, body.fr.fr_index 
 #backgroundImage, .backgroundImage {
   position: fixed;
   top: 0;
-  background-image: url(../images/parisquai-small-965231f0.jpg);
+  background-image: url(../images/paris-medium.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  overflow: hidden;
   width: 100%;
   height: 100vh;
   z-index: -1; }
@@ -7582,7 +7580,7 @@ body.about.about_index .intro-background-image, body.fr.fr_about.fr_about_index 
   text-align: center;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/images/bonhomme.jpg) left center/cover no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/bonhomme.jpg) left center/cover no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -7596,8 +7594,7 @@ body.about.about_index .intro-background-image, body.fr.fr_about.fr_about_index 
       top: 0;
       left: auto;
       width: 50%;
-      height: 100vh;
-      background-attachment: scroll; } }
+      height: 100vh; } }
   body.about.about_index .intro-background-image .intro-fixed-banner-content, body.fr.fr_about.fr_about_index .intro-background-image .intro-fixed-banner-content {
     font-family: 'Satisfy', cursive; }
     body.about.about_index .intro-background-image .intro-fixed-banner-content h1, body.fr.fr_about.fr_about_index .intro-background-image .intro-fixed-banner-content h1 {
@@ -7948,6 +7945,7 @@ body {
   height: 100%; }
 
 @media screen and (min-width: 45.625em) {
+  #section-intro-video,
   #intro-logo-name,
   .sliding-panel-content,
   .sliding-panel-fade-screen,
