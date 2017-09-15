@@ -4,16 +4,29 @@ blog: fr
 layout: personal
 ---
 
-<!-- partial "partials/navbars/navbar-about" -->
-<%= partial "partials/about/intro-video" %>
-<%= partial "partials/about/intro-section-fullscreen" %>
-<!-- partial "partials/about/sections/boxmessage"
-partial "partials/about/sections/features-section"
-partial "partials/about/sections/parallax-section"
-partial "partials/about/sections/bullet-experiences"
-partial "partials/about/cv"
-partial "partials/about/sections/parallax-quote-section"
-partial "partials/about/sections/skill-tabs"
-partial "partials/about/sections/cards"
-partial "partials/footer"
- -->
+<%= partial "partials/navbars/navbar-about-responsive" %>
+
+<!-- mobile only -->
+<%= partial "partials/navbars/navbar-about-medium" %>
+<!-- mobile only -->
+
+<%= partial "partials/navbars/navbar-about" %>
+
+<%= partial "partials/about/intro/logo-name-message" %>
+<%= partial "partials/about/intro/background-fixed-image-message" %>
+<%= partial "partials/about/sections/boxmessage" %>
+<%= partial "partials/about/sections/features-section" %>
+<!-- mobile only -->
+<%= partial "partials/about/sections/quote-section-making" %>
+<!-- mobile only -->
+<%= partial "partials/about/sections/parallax-quote-section" %>
+<%= partial "partials/about/sections/skill-tabs" %>
+<%= partial "partials/about/sections/cards" %>
+<%= partial "partials/about/sections/parallax-section" %>
+<!-- mobile only -->
+<%= partial "partials/about/sections/quote-section-ship" %>
+<!-- mobile only -->
+<%= partial "partials/about/sections/bullet-experiences" %>
+<%= partial "partials/about/sections/cv-cards" %>
+<%= partial "partials/about/up" %>
+<%= partial "partials/footer" %>

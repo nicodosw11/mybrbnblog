@@ -1,5 +1,12 @@
 ---
 en:
+  occupation: "Nicolas Dotto, Web Developer"
+  passion: "Living my passion for web design and programming."
+  about_button: "About me"
+  portfolio_button: "Portfolio"
+  blog_button: "My Blog"
+  freelance: "London-based freelance web developer"
+  build: Building a career in programming & web development.
   hello: "Hi there"
   skills: "I create applications for mobiles using Java for Android, Python & Swift for iOS and React Native with RubyOnRails."
   read_more_in: "Read more in"

@@ -5,12 +5,10 @@
   <div class="fullscreen-bg-content">
     <div class="welcome-text-intro">
       <div class="top-bar"></div>
-      <h1>Nicolas Dotto, Web Developer</h1>
-      <h3>Living my passion for web design and programming.</h3>
+      <h1><%= t(:occupation) %></h1>
+      <h3><%= t(:passion) %></h3>
       <h4 class="links">
-      <%= link_to "About me", "/about"%>
-      <%= link_to "Portfolio", "/portfolio"%>
-      <%= link_to "Blog", "/blog"%>
+      <%= partial "partials/localized_paths/video-intro-links" %>
       </h4>
       <div class="bottom-bar"></div>
     </div>

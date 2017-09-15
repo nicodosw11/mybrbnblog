@@ -1,0 +1,21 @@
+<% if I18n.locale == I18n.default_locale %>
+  <% link_to "/about" do %>
+  <%= t(:about_button) %>
+  <% end %>
+  <% link_to "/portfolio" do %>
+  <%= t(:portfolio_button) %>
+  <% end %>
+  <% link_to "/blog" do %>
+  <%= t(:blog_button) %>
+  <% end %>
+<% else %>
+  <% link_to "/fr/about" do %>
+  <%= t(:about_button) %>
+  <% end %>
+  <% link_to "/fr/portfolio" do %>
+  <%= t(:portfolio_button) %>
+  <% end %>
+  <% link_to "/fr/blog" do %>
+  <%= t(:blog_button) %>
+  <% end %>
+<% end %>

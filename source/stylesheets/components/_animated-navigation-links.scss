@@ -110,6 +110,13 @@
             color: #FFF;
           }
       }
+      #navFra, #navEng {
+        padding-left: 0;
+        width: 28px;
+      }
+      #imgNavFra, #imgNavEng {
+        height: 16px;
+      }
   }
   .menu {
     opacity: 1;

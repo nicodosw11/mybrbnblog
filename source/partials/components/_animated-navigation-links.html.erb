@@ -1,33 +1,66 @@
 <div class="animated-navigation-links menu-links icons-flex">
   <span class="links-show hidden-xs">
-    <a href="/" data-caption="Home">
-      <i class="fa fa-home"></i>
-     <!--  <span class="glyphicon glyphicon-home"></span> -->
-    </a>
-    <a href="/about" data-caption="About">
-      <i class="fa fa-id-card"></i>
-      <!-- <span class="glyphicon glyphicon-folder-open"></span> -->
-    </a>
-    <a href="/portfolio" data-caption="Portfolio">
-      <i class="fa fa-briefcase"></i>
-      <!-- <span class="glyphicon glyphicon-send"></span> -->
-    </a>
+    <% if I18n.locale == I18n.default_locale %>
+      <a href="/" data-caption="Home">
+        <i class="fa fa-home"></i>
+       <!--  <span class="glyphicon glyphicon-home"></span> -->
+      </a>
+      <a href="/about" data-caption="About">
+        <i class="fa fa-id-card"></i>
+        <!-- <span class="glyphicon glyphicon-folder-open"></span> -->
+      </a>
+      <a href="/portfolio" data-caption="Portfolio">
+        <i class="fa fa-briefcase"></i>
+        <!-- <span class="glyphicon glyphicon-send"></span> -->
+      </a>
 
-    <a href="/projects" data-caption="Projects">
-      <i class="fa fa-code-fork"></i>
-    </a>
-    <a href="/blog" data-caption="Blog">
-      <i class="fa fa-rss"></i>
-    </a>
-    <a href="/contact" data-caption="Contact">
-      <i class="fa fa-paper-plane"></i>
-    </a>
-    <a href="/search" data-caption="Search">
-      <i class="fa fa-search"></i>
-    </a>
-    <a href="/fr/contact" data-caption="Switch to French">
-      <i class="fa fa-flag""></i>
-    </a>
+      <a href="/projects" data-caption="Projects">
+        <i class="fa fa-code-fork"></i>
+      </a>
+      <a href="/blog" data-caption="Blog">
+        <i class="fa fa-rss"></i>
+      </a>
+      <a href="/contact" data-caption="Contact">
+        <i class="fa fa-paper-plane"></i>
+      </a>
+      <a href="/search" data-caption="Search">
+        <i class="fa fa-search"></i>
+      </a>
+      <a id="navFra" href="/fr" class="language">
+        <img id="imgNavFra" src="http://www.roemheld.de/IT/Data/Images/Address/Frankreich.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+    <% else %>
+      <a href="/" data-caption="Home">
+        <i class="fa fa-home"></i>
+       <!--  <span class="glyphicon glyphicon-home"></span> -->
+      </a>
+      <a href="/fr/about" data-caption="About">
+        <i class="fa fa-id-card"></i>
+        <!-- <span class="glyphicon glyphicon-folder-open"></span> -->
+      </a>
+      <a href="/fr/portfolio" data-caption="Portfolio">
+        <i class="fa fa-briefcase"></i>
+        <!-- <span class="glyphicon glyphicon-send"></span> -->
+      </a>
+
+      <a href="/fr/projects" data-caption="Projects">
+        <i class="fa fa-code-fork"></i>
+      </a>
+      <a href="/fr/blog" data-caption="Blog">
+        <i class="fa fa-rss"></i>
+      </a>
+      <a href="/fr/contact" data-caption="Contact">
+        <i class="fa fa-paper-plane"></i>
+      </a>
+      <a href="/fr/search" data-caption="Search">
+        <i class="fa fa-search"></i>
+      </a>
+      <a id="navEng" href="/" class="language">
+        <img id="imgNavEng" src="http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+    <% end %>
 
   </span>
   &nbsp;
