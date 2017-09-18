@@ -20,6 +20,9 @@ body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
   @media (max-width: 1400px) {
     .background-scroll-cover-mobile {
       background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), image-url("/images/windmill10801750.jpeg") center center/ cover no-repeat;
+      @include media($mobile-only) {
+        background: #eee;
+      }
     }
     .background-scroll-cover-medium, .background-scroll-cover-desktop {
       display: none;
@@ -49,6 +52,10 @@ body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
     margin-bottom: $base-spacing;
     color: white;
 
+    @include media($mobile-only) {
+      color: rgba(0, 0, 0, 0.75);
+    }
+
     &:before, &:after {
       border-top: $base-border;
       content: '';
@@ -56,6 +63,9 @@ body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
       position: relative;
       top: 0.6em;
       width: 50%;
+      @include media($mobile-only) {
+        border-top: 1px solid rgba(0, 0, 0, 0.75);
+      }
     }
     &:before { right: 1.5%; }
     &:after { left: 1.5%; }
@@ -67,7 +77,9 @@ body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
 
   }
   .card-app {
-    $card-background: #ffffff;
+    // $card-background: #ffffff; // option 1 #5BC0BE as default text color
+    $card-background: #5BC0BE; // option 2
+    $card-header-color: #ffffff; // option 2
     $card-margin: 1em;
     $base-border-radius: 6px;
     $base-border-color: rgb(91, 192, 190);
@@ -109,7 +121,8 @@ body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
 
     &:hover {
       -webkit-filter: brightness(90%);
-      filter: brightness(90%);
+      // filter: brightness(90%);
+      filter: brightness(70%);
       -webkit-transition: all .04s ease;
       -moz-transition: all .04s ease;
       -o-transition: all .04s ease;
@@ -130,7 +143,7 @@ body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
         border-radius: $base-border-radius $base-border-radius 0 0;
           // border-top-left-radius: $base-border-radius;
           // border-top-right-radius: $base-border-radius;
-          border-bottom: solid 1px #e8e8e8;
+          // border-bottom: solid 1px #e8e8e8; // option 2
         }
       }
 
@@ -143,17 +156,21 @@ body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
 
       padding: ($base-spacing / 3) ($base-spacing / 2);
       h3 {
-        font-weight: bold;
+        // font-weight: bold;
         font-size: 0.9em;
         line-height: 1.7em;
         // line-height: 1.5em;
         letter-spacing: 0.01em;
         padding-bottom: 0vh;
+        color: $card-header-color; // option 2
+        font-weight: 500; // option 2
+
       }
       h4 {
-        font-size: 0.9em;
+        font-size: 0.8em;
         line-height: 1.3em;
         letter-spacing: 0.01em;
+        color: $card-header-color; // option 2
       }
     }
 

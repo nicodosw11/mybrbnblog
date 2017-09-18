@@ -56,13 +56,20 @@
 
 <nav class="js-menu sliding-panel-content">
   <ul>
-    <li><a href="/ ">Home</a></li>
     <% if I18n.locale == I18n.default_locale %>
-    <li><a href="/#contact-me">Contact</a></li>
+    <li><a href="/ ">Home</a></li>
+    <li><a href="/portfolio">Portfolio</a></li>
+    <li><a href="/projects">Projects</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/blog">Blog</a></li>
     <li><a href="/search">Search</a></li>
     <li><a href="/fr/projects">Switch to French</a></li>
     <% else %>
-    <li><a href="/fr/#contact-me">Me contacter</a></li>
+    <li><a href="/fr/ ">Home</a></li>
+    <li><a href="/fr/portfolio">Code</a></li>
+    <li><a href="/fr/projects">Projets</a></li>
+    <li><a href="/fr/contact">Me contacter</a></li>
+    <li><a href="/fr/blog">Blog</a></li>
     <li><a href="/fr/search">Chercher</a></li>
     <li><a href="/projects">Switch to English</a></li>
     <% end %>

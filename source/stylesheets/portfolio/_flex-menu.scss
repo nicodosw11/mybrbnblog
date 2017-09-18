@@ -33,6 +33,9 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     display: block;
     padding: 1rem 0;
     transition: all .25s ease-in-out;
+    @include media($mobile-only) {
+      color: rgba(0, 0, 0, 0.75);
+    }
   }
 
   #flex-menu ul {
@@ -48,8 +51,10 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
   #flex-menu span {
     cursor: pointer;
     font-size: 14px;
+    font-weight: 500;
     @include media($medium-screen) {
       font-size: 16px;
+      font-weight: normal;
     }
   }
 }
