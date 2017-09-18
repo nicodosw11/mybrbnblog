@@ -1,0 +1,88 @@
+body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
+  .container-gallery ul {
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+
+    background: #eee;
+  }
+
+  .container-gallery li {
+    // background-image: linear-gradient(to bottom, transparent 50%, #a2d39c 50%, #a2d39c 95%, #7cc576 95%);
+    background-image: linear-gradient(to bottom, transparent 50%, #68B3B4 50%, #68B3B4 95%, #3C968F 95%);
+    background-size: 100% 200%;
+    background-position: top center;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+  }
+
+  .container-gallery li:hover {
+    background-position: bottom center;
+    color: rgba(0, 0, 0, 0.75);
+    & a, & span {
+      color: white;
+    }
+  }
+
+  .container-gallery li a, .container-gallery li span {
+    color: #3C968F;
+    display: block;
+    padding: 1rem 0;
+    transition: all .25s ease-in-out;
+  }
+
+  #flex-menu ul {
+    display: flex;
+    width: 100%;
+  }
+  #flex-menu ul li {
+    flex: 1 1 auto;
+    @include media($medium-screen) {
+      flex: 1 1 100%;
+    }
+  }
+  #flex-menu span {
+    cursor: pointer;
+    font-size: 14px;
+    @include media($medium-screen) {
+      font-size: 16px;
+    }
+  }
+}
+
+// .container-gallery {
+//   #flex-menu {
+//     ul {
+//       border-bottom: 1px solid #ccc;
+//       list-style: none;
+//       margin: 0 0 1.5rem 0;
+//       padding: 0;
+//       li {
+//         background-image: linear-gradient(to bottom, transparent 50%, #a2d39c 50%, #a2d39c 95%, #7cc576 95%);
+//         background-size: 100% 200%;
+//         background-position: top center;
+//         color: white;
+//         display: block;
+//         text-align: center;
+//         text-decoration: none;
+//         transition: all .25s ease-in-out;
+//         &:hover {
+//           background-position: bottom center;
+//           color: rgba(0, 0, 0, 0.75);
+//         }
+//         & a {
+//           // color: white;
+//           color: black;
+//           display: block;
+//           padding: 1rem 0;
+//           transition: all .25s ease-in-out;
+//         }
+//       }
+//     }
+//   }
+// }
+

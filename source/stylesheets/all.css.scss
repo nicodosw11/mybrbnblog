@@ -42,8 +42,9 @@
 @import "about/parallax";
 
 @import "portfolio/background-cover";
-@import "portfolio/filters";
+// @import "portfolio/filters";
 @import "portfolio/hover-tile";
+@import "portfolio/flex-menu";
 @import "portfolio/modal-layout";
 @import "portfolio/modal-project";
 @import "portfolio/shuffle-grid";
@@ -66,7 +67,8 @@
 //   box-sizing: inherit;
 // }
 
-html {
+// html {
+.fullHeight {
   height: 100%;
   // border-bottom: 3px solid blue;
 }
