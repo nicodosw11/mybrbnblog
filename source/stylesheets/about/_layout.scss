@@ -12,6 +12,8 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
     $sliding-panel-border-color: #2ecc71;
     $sliding-panel-background: darken($sliding-panel-border-color, 5%);
     background: $sliding-panel-background;
+    li a {border-bottom: 1px solid #208e4e !important;}
+    li a:hover {background-color: #208e4e !important;}
   }
 
   // section {
