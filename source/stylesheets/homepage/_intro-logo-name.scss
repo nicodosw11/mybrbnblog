@@ -96,7 +96,12 @@ body.index, body.fr.fr_index {
         font-size: modular-scale(7);
       }
       font-weight: 400;
-      color: #00A69C;
+      // color: #00A69C;
+      // color: rgba(0, 0, 0, 0.75); // option 1
+      // text-shadow: 0 1px 0 black;
+      color: #ffffff; // option 2
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+      // text-shadow: 1px 1px rgba(0, 0, 0, .1);
       line-height: 1;
       text-transform: uppercase;
       text-align: left;
@@ -107,11 +112,14 @@ body.index, body.fr.fr_index {
     }
 
     #tagline {
-      font-family: 'freight-big-pro', 'times', 'georgia', serif;
+      // font-family: 'freight-big-pro', 'times', 'georgia', serif;
+      font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
       font-size: 2.25em; //47.25px at desktop size 36px at mobile size
-      font-size: modular-scale(4);
+      // font-size: modular-scale(4);
+      font-size: modular-scale(2);
       @include media($large) {
-        font-size: modular-scale(6);
+        // font-size: modular-scale(6);
+        font-size: modular-scale(3);
       }
       font-weight: 400;
       color: #4A4A4A;
@@ -158,6 +166,8 @@ body.index, body.fr.fr_index {
         // padding: 0 30px;
         // padding: 1em;
         color: white;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+        // text-shadow: 1px 1px rgba(0, 0, 0, .1);
         text-align: center;
         font-size: 11px;
         font-weight: 600;
@@ -166,8 +176,8 @@ body.index, body.fr.fr_index {
         text-transform: uppercase;
         text-decoration: none;
         white-space: nowrap;
-        // background-color: transparent;
-        background-color: black;
+        // background-color: black; // option 1
+        background-color: transparent; // option 2
         border-radius: 4px;
         border: 2px solid #fff;
         cursor: pointer;

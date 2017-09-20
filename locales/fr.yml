@@ -5,7 +5,8 @@ fr:
   about_button: "Tout sur moi"
   portfolio_button: "Mes projets"
   blog_button: "Mon Blog"
-  freelance: "Web developer entre Londres et Paris "
+  freelance: "Développeur Web"
+  freelance_about: "Web developer entre Londres et Paris"
   build: Devenir meilleur en programmation et web design jour après jour.
   hello: "Salut à tous!"
   skills: "Je crée des applications mobiles codées en Java sous Android, mais aussi en Python + Swift pour iOS et même en React Native avec RubyOnRails."
