@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(function() {
     // $("#modal-1").on("change", function() {
-    $("#modal-1, #modal-2, #modal-3, #modal-4, #modal-5, #modal-6, #modal-7 ").on("change", function() {
+    $("#modal-1, #modal-2, #modal-3, #modal-4, #modal-5, #modal-6, #modal-7, #modal-8, #modal-9, #modal-10").on("change", function() {
       if ($(this).is(":checked")) {
         // $("body").addClass("modal-open");
         scrollPosition = $('body').scrollTop();
@@ -12,7 +12,7 @@ $(document).ready(function() {
           height: '100%',
           top : -scrollPosition
         });
-        $('header').css({
+        $('#navbar-about-medium').css({
           display: 'none'
         });
       } else {
@@ -22,7 +22,7 @@ $(document).ready(function() {
           position: '',
           top: ''
         }).scrollTop(scrollPosition);
-        $('header').css({
+        $('#navbar-about-medium').css({
           display: 'block'
         });
       }
@@ -184,7 +184,7 @@ $(document).ready(function() {
     // add accordion toggling
 
     jQuery(this).parent().find('.js-vertical-tab-content').slideToggle('fast');
-    jQuery(this).parent().toggleClass('is-expanded');
+    // jQuery(this).parent().toggleClass('is-expanded');
 
     //
 
@@ -199,9 +199,10 @@ $(document).ready(function() {
 
     $(".js-vertical-tab-content").hide();
     var accordion_activeTab = $(this).attr("rel");
-    // $("#"+accordion_activeTab).show();
+    $("#"+accordion_activeTab).show();
     // $("#"+accordion_activeTab).scrollTop(0);
-    $("#"+accordion_activeTab).show().scrollTop(0);
+    // $("#section-experience").scrollTop(0);
+    $("#section-experience").animate({ scrollTop: 0 }, "fast");
 
     $(".js-vertical-tab-accordion-heading").removeClass("is-active");
     $(this).addClass("is-active");

@@ -118,6 +118,17 @@ window.onload = function () {
     $('#description-text-left-id-1').html($(this).data('modal-description-text-left-1'));
     $('#description-title-left-id-2').html($(this).data('modal-description-title-left-2'));
     $('#description-text-left-id-2').html($(this).data('modal-description-text-left-2'));
+
+    $('#app-name').html($(this).data('modal-name'));
+    var modal_app_url = $(this).attr('data-modal-url');
+    var url = document.getElementById('myurl');
+    url.href = modal_app_url;
+    var modal_app_img = $(this).attr('data-modal-image');
+    var img_to_insert = "<img src=/images/" + modal_app_img + ">";
+    $('#app-image').html(img_to_insert);
+    $('#app-description').html($(this).data('modal-description'));
+    // $('#app-url').html($(this).data('modal-url'));
+
     // $(".modal-guts").scrollTop(0);
     $(".modal-guts").animate({ scrollTop: 0 }, "fast");
 
@@ -125,13 +136,14 @@ window.onload = function () {
     modal.classList.toggle("closed");
     modalOverlay.classList.toggle("closed");
     $("body.projects.projects_index, body.fr.fr_projects.fr_projects_index").addClass("modal-open");
-
+    $("body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index").addClass("modal-open");
   });
 
   closeButton.addEventListener("click", function() {
     modal.classList.toggle("closed");
     modalOverlay.classList.toggle("closed");
-    $("body.projects.projects_index, body.fr.fr_projects.fr_projects_index").removeClass("modal-open")
+    $("body.projects.projects_index, body.fr.fr_projects.fr_projects_index").removeClass("modal-open");
+    $("body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index").removeClass("modal-open");
   });
 
 };

@@ -5039,12 +5039,6 @@ stretchRight
 .vertical-tabs-container .vertical-tab-content-container .container-logo-text h4 {
   margin: 0; }
 
-.vertical-tabs-container .vertical-tab-content-container .vertical-tab-content {
-  display: none; }
-.vertical-tabs-container .vertical-tab-content-container .is-expanded {
-  display: block;
-  padding-bottom: 0; }
-
 .sliding-panel-content {
   position: fixed;
   top: 0;
@@ -5741,6 +5735,8 @@ body.about.about_index.modal-open, body.fr.fr_about.fr_about_index.modal-open {
   overflow: hidden;
   width: 100%;
   height: 100%; }
+body.about.about_index label, body.fr.fr_about.fr_about_index label {
+  cursor: pointer; }
 body.about.about_index .modal-state, body.fr.fr_about.fr_about_index .modal-state {
   display: none; }
 body.about.about_index .modal-fade-screen, body.fr.fr_about.fr_about_index .modal-fade-screen {
@@ -5849,6 +5845,8 @@ body.about.about_index section.features, body.fr.fr_about.fr_about_index section
   width: 100%; }
   body.about.about_index section.features:last-child, body.fr.fr_about.fr_about_index section.features:last-child {
     margin-right: 0; }
+body.about.about_index #section-experience, body.fr.fr_about.fr_about_index #section-experience {
+  z-index: 1; }
 body.about.about_index .container, body.fr.fr_about.fr_about_index .container {
   max-width: 68em;
   margin-left: auto;
@@ -5870,14 +5868,18 @@ body.about.about_index .container:after, body.fr.fr_about.fr_about_index .contai
   body.about.about_index section.intro-about .container, body.about.about_index section.intro-video .container, body.about.about_index .banner-container .container, body.fr.fr_about.fr_about_index section.intro-about .container, body.fr.fr_about.fr_about_index section.intro-video .container, body.fr.fr_about.fr_about_index .banner-container .container {
     padding-top: 8em; } }
 
-body.about.about_index a, body.fr.fr_about.fr_about_index a {
+body.about.about_index a, body.fr.fr_about.fr_about_index a,
+body.portfolio.portfolio_index a, body.fr.fr_portfolio.fr_portfolio_index a {
   -webkit-transition: color 0.1s linear;
   transition: color 0.1s linear;
   color: #2ecc71;
   text-decoration: none; }
-  body.about.about_index a:hover, body.fr.fr_about.fr_about_index a:hover {
+  body.about.about_index a:hover, body.fr.fr_about.fr_about_index a:hover,
+  body.portfolio.portfolio_index a:hover, body.fr.fr_portfolio.fr_portfolio_index a:hover {
     color: #208e4e; }
-  body.about.about_index a:active, body.about.about_index a a:focus, body.fr.fr_about.fr_about_index a:active, body.fr.fr_about.fr_about_index a a:focus {
+  body.about.about_index a:active, body.about.about_index a a:focus, body.fr.fr_about.fr_about_index a:active, body.fr.fr_about.fr_about_index a a:focus,
+  body.portfolio.portfolio_index a:active,
+  body.portfolio.portfolio_index a a:focus, body.fr.fr_portfolio.fr_portfolio_index a:active, body.fr.fr_portfolio.fr_portfolio_index a a:focus {
     color: #208e4e;
     outline: none; }
 
@@ -6012,13 +6014,13 @@ body.about.about_index, body.fr.fr_about.fr_about_index, body.index, body.fr.fr_
     left: 0;
     background-color: #2ecc71;
     opacity: 0.7;
-    z-index: 1 !important; }
+    z-index: 0; }
 
 .parallax-static-content, .quote-container {
   color: #9A9A8A;
   padding: 8em 0;
   position: relative;
-  z-index: 9; }
+  z-index: 1; }
 
 .parallax-background {
   background-position: top;
@@ -6054,7 +6056,7 @@ body.about.about_index, body.fr.fr_about.fr_about_index, body.index, body.fr.fr_
     left: 0;
     background-color: #2ecc71;
     opacity: 0.7;
-    z-index: 1 !important; }
+    z-index: 0; }
 
 body.projects.projects_index .background-scroll-cover-mobile, body.projects.projects_index .background-scroll-cover-medium, body.projects.projects_index .background-scroll-cover-desktop, body.fr.fr_projects.fr_projects_index .background-scroll-cover-mobile, body.fr.fr_projects.fr_projects_index .background-scroll-cover-medium, body.fr.fr_projects.fr_projects_index .background-scroll-cover-desktop {
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.6) 100%), url(../images/code-6c52f5ff.png) repeat;
@@ -6182,33 +6184,42 @@ body.projects.projects_index #flex-menu span, body.fr.fr_projects.fr_projects_in
       font-size: 16px;
       font-weight: normal; } }
 
-body.projects.projects_index .modal img, body.fr.fr_projects.fr_projects_index .modal img {
+body.projects.projects_index .modal img, body.fr.fr_projects.fr_projects_index .modal img,
+body.portfolio.portfolio_index .modal img, body.fr.fr_portfolio.fr_portfolio_index .modal img {
   max-width: 100%;
   width: 100%;
   height: auto;
   margin: 10px auto; }
 @media screen and (max-width: 29.9375em) {
-  body.projects.projects_index .modal h4, body.fr.fr_projects.fr_projects_index .modal h4 {
+  body.projects.projects_index .modal h4, body.fr.fr_projects.fr_projects_index .modal h4,
+  body.portfolio.portfolio_index .modal h4, body.fr.fr_portfolio.fr_portfolio_index .modal h4 {
     font-size: 0.5rem; } }
-body.projects.projects_index .modal-container, body.fr.fr_projects.fr_projects_index .modal-container {
+body.projects.projects_index .modal-container, body.fr.fr_projects.fr_projects_index .modal-container,
+body.portfolio.portfolio_index .modal-container, body.fr.fr_portfolio.fr_portfolio_index .modal-container {
   width: 70%;
   margin: 0 auto; }
   @media screen and (max-width: 29.9375em) {
-    body.projects.projects_index .modal-container, body.fr.fr_projects.fr_projects_index .modal-container {
+    body.projects.projects_index .modal-container, body.fr.fr_projects.fr_projects_index .modal-container,
+    body.portfolio.portfolio_index .modal-container, body.fr.fr_portfolio.fr_portfolio_index .modal-container {
       width: 85%; } }
-body.projects.projects_index .modal-banner, body.fr.fr_projects.fr_projects_index .modal-banner {
+body.projects.projects_index .modal-banner, body.fr.fr_projects.fr_projects_index .modal-banner,
+body.portfolio.portfolio_index .modal-banner, body.fr.fr_portfolio.fr_portfolio_index .modal-banner {
   text-align: center;
   padding: 0vh; }
   @media screen and (max-width: 29.9375em) {
-    body.projects.projects_index .modal-banner h2, body.fr.fr_projects.fr_projects_index .modal-banner h2 {
+    body.projects.projects_index .modal-banner h2, body.fr.fr_projects.fr_projects_index .modal-banner h2,
+    body.portfolio.portfolio_index .modal-banner h2, body.fr.fr_portfolio.fr_portfolio_index .modal-banner h2 {
       font-size: 0.6rem; } }
 
-body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
+body.projects.projects_index, body.fr.fr_projects.fr_projects_index,
+body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
   margin: 0; }
-  body.projects.projects_index.modal-open, body.fr.fr_projects.fr_projects_index.modal-open {
+  body.projects.projects_index.modal-open, body.fr.fr_projects.fr_projects_index.modal-open,
+  body.portfolio.portfolio_index.modal-open, body.fr.fr_portfolio.fr_portfolio_index.modal-open {
     overflow: hidden;
     position: fixed; }
-  body.projects.projects_index .modal, body.fr.fr_projects.fr_projects_index .modal {
+  body.projects.projects_index .modal, body.fr.fr_projects.fr_projects_index .modal,
+  body.portfolio.portfolio_index .modal, body.fr.fr_portfolio.fr_portfolio_index .modal {
     /* This way it could be display flex or grid or whatever also. */
     display: block;
     /* Probably need media queries here */
@@ -6229,13 +6240,16 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     -webkit-box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
             box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9); }
     @media screen and (max-width: 29.9375em) {
-      body.projects.projects_index .modal, body.fr.fr_projects.fr_projects_index .modal {
+      body.projects.projects_index .modal, body.fr.fr_projects.fr_projects_index .modal,
+      body.portfolio.portfolio_index .modal, body.fr.fr_portfolio.fr_portfolio_index .modal {
         height: 100%;
         width: 100%;
         margin: 0; } }
-  body.projects.projects_index .closed, body.fr.fr_projects.fr_projects_index .closed {
+  body.projects.projects_index .closed, body.fr.fr_projects.fr_projects_index .closed,
+  body.portfolio.portfolio_index .closed, body.fr.fr_portfolio.fr_portfolio_index .closed {
     display: none; }
-  body.projects.projects_index .modal-overlay, body.fr.fr_projects.fr_projects_index .modal-overlay {
+  body.projects.projects_index .modal-overlay, body.fr.fr_projects.fr_projects_index .modal-overlay,
+  body.portfolio.portfolio_index .modal-overlay, body.fr.fr_portfolio.fr_portfolio_index .modal-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -6243,7 +6257,8 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     height: 100%;
     z-index: 50;
     background: rgba(0, 0, 0, 0.6); }
-  body.projects.projects_index .modal-guts, body.fr.fr_projects.fr_projects_index .modal-guts {
+  body.projects.projects_index .modal-guts, body.fr.fr_projects.fr_projects_index .modal-guts,
+  body.portfolio.portfolio_index .modal-guts, body.fr.fr_portfolio.fr_portfolio_index .modal-guts {
     position: absolute;
     top: 0;
     left: 0;
@@ -6251,9 +6266,11 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     height: 100%;
     overflow: auto;
     padding: 20px 20px; }
-    body.projects.projects_index .modal-guts h1, body.fr.fr_projects.fr_projects_index .modal-guts h1 {
+    body.projects.projects_index .modal-guts h1, body.fr.fr_projects.fr_projects_index .modal-guts h1,
+    body.portfolio.portfolio_index .modal-guts h1, body.fr.fr_portfolio.fr_portfolio_index .modal-guts h1 {
       margin: 0 0 20px 0; }
-  body.projects.projects_index .modal .close-button, body.fr.fr_projects.fr_projects_index .modal .close-button {
+  body.projects.projects_index .modal .close-button, body.fr.fr_projects.fr_projects_index .modal .close-button,
+  body.portfolio.portfolio_index .modal .close-button, body.fr.fr_portfolio.fr_portfolio_index .modal .close-button {
     position: absolute;
     /* don't need to go crazy with z-index here, just sits over .modal-guts */
     z-index: 1;
@@ -6266,7 +6283,8 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     padding: 5px 10px;
     font-size: 1.3rem; }
     @media screen and (max-width: 29.9375em) {
-      body.projects.projects_index .modal .close-button, body.fr.fr_projects.fr_projects_index .modal .close-button {
+      body.projects.projects_index .modal .close-button, body.fr.fr_projects.fr_projects_index .modal .close-button,
+      body.portfolio.portfolio_index .modal .close-button, body.fr.fr_portfolio.fr_portfolio_index .modal .close-button {
         font-size: 1rem;
         padding: 3px 6px; } }
 

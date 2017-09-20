@@ -31,7 +31,7 @@ $(document).ready(function() {
     // add accordion toggling
 
     jQuery(this).parent().find('.js-vertical-tab-content').slideToggle('fast');
-    jQuery(this).parent().toggleClass('is-expanded');
+    // jQuery(this).parent().toggleClass('is-expanded');
 
     //
 
@@ -46,9 +46,10 @@ $(document).ready(function() {
 
     $(".js-vertical-tab-content").hide();
     var accordion_activeTab = $(this).attr("rel");
-    // $("#"+accordion_activeTab).show();
+    $("#"+accordion_activeTab).show();
     // $("#"+accordion_activeTab).scrollTop(0);
-    $("#"+accordion_activeTab).show().scrollTop(0);
+    // $("#section-experience").scrollTop(0);
+    $("#section-experience").animate({ scrollTop: 0 }, "fast");
 
     $(".js-vertical-tab-accordion-heading").removeClass("is-active");
     $(this).addClass("is-active");
