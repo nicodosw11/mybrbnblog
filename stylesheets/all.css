@@ -4793,10 +4793,10 @@ stretchRight
     float: right;
     margin: 0.48636em 0;
     padding: 0; }
-    @media screen and (max-width: 29.9375em) {
+    @media screen and (max-width: 62.4375em) {
       .nav ul:first-of-type {
         display: none; } }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 62.5em) {
       .nav ul:last-child {
         display: none; } }
     .nav ul li {
@@ -4819,10 +4819,10 @@ stretchRight
       width: 2.74917em;
       height: 2.74917em;
       float: left; }
-  @media screen and (max-width: 29.9375em) {
+  @media screen and (max-width: 62.4375em) {
     .nav .logo-button {
       display: none; } }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 62.5em) {
     .nav .sliding-panel-button {
       display: none; } }
   .nav.transparent {
@@ -4833,7 +4833,7 @@ stretchRight
       color: white !important;
       -webkit-transition: color 1s ease 0s;
       transition: color 1s ease 0s; }
-    @media screen and (max-width: 29.9375em) {
+    @media screen and (max-width: 45.5625em) {
       .nav.transparent .logo-dark {
         display: none; } }
   .nav.solid {
@@ -4844,10 +4844,10 @@ stretchRight
       color: #2ecc71 !important;
       -webkit-transition: color 1s ease 0s;
       transition: color 1s ease 0s; }
-    @media screen and (max-width: 29.9375em) {
+    @media screen and (max-width: 45.5625em) {
       .nav.solid .logo-white {
         display: none; } }
-    @media screen and (max-width: 29.9375em) {
+    @media screen and (max-width: 45.5625em) {
       .nav.solid .logo-dark {
         display: block; } }
 
@@ -8173,11 +8173,14 @@ body {
 @media screen and (min-width: 45.625em) {
   #section-intro-video,
   #intro-logo-name,
-  .sliding-panel-content,
-  .sliding-panel-fade-screen,
   #photoAndMessage,
   #recent-posts,
   #contact-me {
+    display: none; } }
+
+@media screen and (min-width: 62.5em) {
+  .sliding-panel-content,
+  .sliding-panel-fade-screen {
     display: none; } }
 
 @media screen and (max-width: 45.5625em) {
