@@ -3246,22 +3246,22 @@ p a, li a {
   text-decoration: none; }
 
 #introductions p {
-  font-size: 1.375em;
+  font-size: 1.59075em;
   color: white;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.2); }
   #introductions p a {
     color: rgba(0, 0, 0, 0.75);
     text-shadow: 0 1px 0 black; }
 
-#introductions, #hi h1 {
+#introductions h1 {
   font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
-  font-size: 2.25em !important;
+  font-size: 2.25em;
   font-size: 1.59075em;
   font-weight: 400;
   color: #4A4A4A;
   line-height: 1; }
   @media screen and (min-width: 64em) {
-    #introductions, #hi h1 {
+    #introductions h1 {
       font-size: 1.94425em; } }
 
 code {
@@ -8189,10 +8189,16 @@ body.about.about_index .logo-name-message, body.fr.fr_about.fr_about_index .logo
       #hi:last-child {
         margin-right: 0; } }
   #hi h1 {
-    text-align: left; }
+    text-align: left;
+    font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+    font-size: 2.25em;
+    font-size: 1.59075em;
+    font-weight: 400;
+    color: #4A4A4A;
+    line-height: 1; }
     @media screen and (min-width: 64em) {
       #hi h1 {
-        font-size: 3.18054em; } }
+        font-size: 1.94425em; } }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 *,
