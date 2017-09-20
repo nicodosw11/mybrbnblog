@@ -19,7 +19,7 @@
       <![endif]-->
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link href="../../stylesheets/all.css" rel="stylesheet" />
-    <script src="../../javascripts/all.js"></script>
+    <script src="../../javascripts/all.js"></script><script src="../../javascripts/all-about.js"></script><script src="../../javascripts/all-scroll.js"></script>
 <!-- javascript_include_tag  "all", "loader" and remove require_tree . -->
 <!--     <script type='text/javascript'>
       $(window).on('load', function() {
@@ -32,69 +32,839 @@
   </head>
 
   <body class="fr fr_about fr_about_index">
-    <!-- <div class="se-pre-con"></div> -->
+    <div class="se-pre-con"></div>
 
-      <div class="se-pre-con"></div>
-  <!-- partial "partials/navbars/navbar-about" -->
-<section class="intro-video" id="section-intro-video">
-  <div class="video-container">
-    <video autoplay loop poster="../../images/paris.jpeg" id="bgvid">
-    <!-- <video autoplay loop id="bgvid"> -->
-      <source src="/videos/bwcitystreet.mp4" type="video/mp4">
-    </video>
-  </div>
-  <div class="color-overlay"></div>
-  <div class="container">
-    <div class="logo">
-      <a href='/fr/'><h1><img src="../../images/logo-white-c73b81f6.png" alt="logo"></h1></a>
+    <nav class="js-menu sliding-panel-content">
+  <ul>
+    <li><a href="/ ">Home</a></li>
+    <li><a href="/fr/portfolio">Code</a></li>
+    <li><a href="/fr/projects">Projets</a></li>
+    <li><a href="/fr/contact">Me contacter</a></li>
+    <li><a href="/fr/blog">Blog</a></li>
+    <li><a href="/fr/search">Chercher</a></li>
+    <li><a href="/about">Switch to English</a></li>
+  </ul>
+</nav>
+
+<div class="js-menu-screen sliding-panel-fade-screen"></div>
+
+
+<!-- mobile only -->
+<header class="nav nav-scroll-down transparent" id="navbar-about-medium">
+<a href="/fr/" id="nav-logo" class="logo-button">    <img src="../../images/logo-bf8c19f1.png" alt="Logo" />
+</a><a href="/fr/" id="nav-logo" class="js-menu-trigger sliding-panel-button logo-dark">    <img src="../../images/logo-bf8c19f1.png" alt="Logo" />
+</a><a href="/fr/" id="nav-logo" class="js-menu-trigger sliding-panel-button logo-white">    <img src="../../images/footer-logo-white55-3c86b5da.png" alt="Footer logo white55" />
+</a>  <ul>
+    <li class=is-active><a href="/fr/about"><i class="fa fa-id-card icon-link icon-link-about"><p class="tooltip">about</p></i></a></li>
+    <li class=><a href="/fr/portfolio"><i class="fa fa-briefcase icon-link icon-link-portfolio"><p class="tooltip">code</p></i></a></li>
+    <li class=><a href="/fr/projects"><i class="fa fa-code-fork icon-link icon-link-projects"><p class="tooltip">projets</p></i></a></li>
+    <li class=><a href="/fr/blog"><i class="fa fa-rss icon-link icon-link-blog"><p class="tooltip">blog</p></i></a></li>
+
+    <li><a href="/contact"><i class="fa fa-paper-plane icon-link icon-link-contact"><p class="tooltip">contact</p></i></a></li>
+    <li>
+    <!-- <a href="/search" class="text-link">Chercher</a> -->
+      <a href="/fr/search"><i class="fa fa-search icon-link icon-link-search"><p class="tooltip">search</p></i></a>
+    </li>
+    <li>
+      <a id="navEng" href="/about" class="language">
+        <img id="imgNavEng" src="http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+    </li>
+  </ul>
+  <!-- responsive mobile only -->
+  <ul>
+    <li><a href="/fr/blog" class=""><i class="fa fa-rss icon-link"></i></a></li>
+  </ul>
+  <!-- responsive mobile only -->
+</header>
+
+
+
+<!-- mobile only -->
+
+<header class="nav nav-scroll-down nav-scroll-up is-hidden transparent-to-solid" id="navbar-about-large">
+<a href="/fr/" id="nav-logo" class="logo-button">    <img src="../../images/logo-bf8c19f1.png" alt="Logo" />
+</a><a href="/fr/" id="nav-logo" class="js-menu-trigger sliding-panel-button">    <img src="../../images/logo-bf8c19f1.png" alt="Logo" />
+</a>  <ul>
+    <li class=is-active><a href="/fr/about"><i class="fa fa-id-card icon-link icon-link-about"><p class="tooltip">about</p></i></a></li>
+    <li class=><a href="/fr/portfolio"><i class="fa fa-briefcase icon-link icon-link-portfolio"><p class="tooltip">code</p></i></a></li>
+    <li class=><a href="/fr/projects"><i class="fa fa-code-fork icon-link icon-link-projects"><p class="tooltip">projets</p></i></a></li>
+    <li class=><a href="/fr/blog"><i class="fa fa-rss icon-link icon-link-blog"><p class="tooltip">blog</p></i></a></li>
+
+    <li><a href="/contact"><i class="fa fa-paper-plane icon-link icon-link-contact"><p class="tooltip">contact</p></i></a></li>
+    <li>
+    <!-- <a href="/search" class="text-link">Chercher</a> -->
+      <a href="/fr/search"><i class="fa fa-search icon-link icon-link-search"><p class="tooltip">search</p></i></a>
+    </li>
+    <li>
+      <a id="navEng" href="/about" class="language">
+        <img id="imgNavEng" src="http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+    </li>
+  </ul>
+  <!-- responsive mobile only -->
+  <ul>
+    <li><a href="/fr/blog" class=""><i class="fa fa-rss icon-link"></i></a></li>
+  </ul>
+  <!-- responsive mobile only -->
+</header>
+
+
+
+
+<section class="logo-name-message" id="logo-name-message">
+  <div class="box">
+    <div class="brand">
+      <div class="brand-logo">
+<a href="/fr/" id="logo">            <img src="../../images/logo-bf8c19f1.png" alt="Logo" />
+</a>        <h1 id="name">Nicolas Dotto</h1>
+      </div>
+      <h2 id="tagline">Web developer entre Londres et Paris </h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatum amet aliquam, ad dicta pariatur consequuntur non neque ipsam atque reiciendis harum ut iusto facere nostrum totam, similique vel explicabo.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatum amet aliquam, ad dicta pariatur consequuntur non neque ipsam atque reiciendis harum ut iusto facere nostrum totam, similique vel explicabo.</p>
+<!--         <a href="" class="big-link menu-button" id="js-fadeInElement">
+          <img src="../../images/menu-white-8335b183.png" class="js-menu-trigger sliding-panel-button" alt="">
+        </a> -->
     </div>
-    <h3> Un jour j'ai quitté la finance pour vivre pleinement ma passion pour la programmation sans aucun regret à ce jour! </h3>
-  </div>
-  <div class="down-arrow">
-    <i class="fa fa-arrow-down"></i>
+
   </div>
 </section>
 
 
-<section class="intro-about" id="section-intro-fs">
+
+<section class="intro-fixed-image" id="home">
+  <div class="intro-background-image">
+    <div class="container">
+      <div class="intro-fixed-banner-content">
+        <h1>FullStack,
+          <br>JavaScript &sdot; Ruby &sdot; Rails</h1>
+          <!-- <br>JavaScript Ruby Rails</h1> -->
+        <h2>Devenir meilleur en programmation et web design jour après jour.</h2><div class="social-icon">
+          <a href="https://uk.linkedin.com/in/nicolas-dotto-a6b2a0b2" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
+        </div>
+      </div>
+      <h4 class="links">
+      <a href="#section-box">Objectives</a>
+        <a href="#section-skills">Skills</a>
+        <a href="#section-experience">Experience</a>
+      </h4>
+      <div class="down-arrow">
+      <a href="#hi" id="down-arrow">
+        <i class="fa fa-arrow-down"></i>
+      </a>
+      </div>
+    </div>
+  </div>
+  <!-- <div id="introductions" style="position: relative; z-index: 1;"> -->
+  <div id="hi">
+
+    <h1>Salut à tous!</h1>
+    <p>Je crée des applications mobiles codées en Java sous Android, mais aussi en Python + Swift pour iOS et même en React Native avec RubyOnRails.</p>
+    <p>
+      Pour plus d'informations n'hésitez pas à lire  <a href="/blog">mon blog</a> ou regarder mes<a href="/projects"> derniers projets</a>.
+      <!-- <a target="_blank" href="/projects"></a>. -->
+      Pour plus d'infos sur moi <a href="/about">c'est par ici</a>.
+    </p>
+
+<!--     <section class="features" id="section-features">
+      <div class="container">
+
+        <div class="title">
+          <h2>6 reasons to hire me!</h2>
+          <hr class="small">
+          <p>Why should you get me onboard as a junior developer? Here are a few good reasons.</p>
+        </div>
+
+        <div class="feature-items">
+
+          <div class="feature-item">
+            <i class="fa fa-free-code-camp"></i>
+            <h4>On my way</h4>
+            <p>I have made the decision that I wanted to become a developer and I have been coding for one year already!</p>
+          </div>
+
+          <div class="feature-item">
+            <i class="fa fa-css3"></i>
+            <h4>Got my hands dirty </h4>
+            <p>I have build a few applications and blogs so I am familiar with web design and advanced CSS3 concepts.</p>
+          </div>
+
+          <div class="feature-item">
+            <i class="fa fa-cogs"></i>
+            <h4>If this then that</h4>
+            <p>Lots of ruby programming and database design under my belt - not a bad intro to web development!</p>
+          </div>
+
+          <div class="feature-item">
+            <i class="fa fa-child"></i>
+            <h4>Experience baby!</h4>
+            <p>I have worked in London for years and I have built a strong experience working in banks.</p>
+          </div>
+
+          <div class="feature-item">
+            <i class="fa fa-heart"></i>
+            <h4>I found my Passion</h4>
+            <p>I love finance but my real passion is for programming and I can't stop coding!</p>
+          </div>
+
+          <div class="feature-item">
+            <i class="fa fa-bolt"></i>
+            <h4>MO-TI-VA-TED</h4>
+            <p>I am ready to go the extra mile to reach my ambitions - whatever it takes and wherever I go.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+  </div>
+</section>
+
+<section class="features" id="section-box">
+  <div class="container">
+
+    <div class="title">
+      <h2>The Prize</h2>
+      <hr class="small">
+      <p>Here are a few good things to know about me.</p>
+    </div>
+
+    <div class="wrapper-for-inline">
+      <div class="floatright-for-inline">
+        <img class="profile-picture" src="../../images/pic323541.jpeg">
+      </div>
+      <div class="padd-inline"><h4>Nicolas Dotto, Programmer/Developer</h4></div>
+      <h1>What I want and what my action plan is</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda nihil suscipit obcaecati sit, cum quod corporis adipisci ipsam, fugiat, quae error. Eaque commodi, dicta quidem explicabo mollitia inventore quibusdam.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda nihil suscipit obcaecati sit, cum quod corporis adipisci ipsam, fugiat, quae error. Eaque commodi, dicta quidem explicabo mollitia inventore quibusdam.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="features" id="section-features">
+  <div class="container">
+
+    <div class="title">
+      <h2>6 reasons to hire me!</h2>
+      <hr class="small">
+      <p>Why should you get me onboard as a junior developer? Here are a few good reasons.</p>
+    </div>
+
+    <div class="feature-items">
+
+      <div class="feature-item">
+        <i class="fa fa-free-code-camp"></i>
+        <h4>On my way</h4>
+        <p>I have made the decision that I wanted to become a developer and I have been coding for one year already!</p>
+      </div>
+
+      <div class="feature-item">
+        <i class="fa fa-css3"></i>
+        <h4>Got my hands dirty </h4>
+        <p>I have build a few applications and blogs so I am familiar with web design and advanced CSS3 concepts.</p>
+      </div>
+
+      <div class="feature-item">
+        <i class="fa fa-cogs"></i>
+        <h4>If this then that</h4>
+        <p>Lots of ruby programming and database design under my belt - not a bad intro to web development!</p>
+      </div>
+
+      <div class="feature-item">
+        <i class="fa fa-child"></i>
+        <h4>Experience baby!</h4>
+        <p>I have worked in London for years and I have built a strong experience working in banks.</p>
+      </div>
+
+      <div class="feature-item">
+        <i class="fa fa-heart"></i>
+        <h4>I found my Passion</h4>
+        <p>I love finance but my real passion is for programming and I can't stop coding!</p>
+      </div>
+
+      <div class="feature-item">
+        <i class="fa fa-bolt"></i>
+        <h4>MO-TI-VA-TED</h4>
+        <p>I am ready to go the extra mile to reach my ambitions - whatever it takes and wherever I go.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- mobile only -->
+<section class="quote" id="quote1">
   <div class="image-bg"></div>
   <div class="color-overlay"></div>
-<!--   <div class="container">
-
-    <div class="logo">
-      <a href="index.html"><h1><img src="../../images/logo-white-c73b81f6.png" alt="logo"></h1></a>
-    </div>
-    <h3> Un jour j'ai quitté la finance pour vivre pleinement ma passion pour la programmation sans aucun regret à ce jour! </h3>
-  </div>
-
-  <a href="#section-features" class="jump-down"><i class="fa fa-chevron-down"></i></a> -->
-
-
-  <div class="container">
-    <div class="logo">
-      <a href='/fr/'><h1><img src="../../images/logo-white-c73b81f6.png" alt="logo"></h1></a>
-    </div>
-    <h3> Un jour j'ai quitté la finance pour vivre pleinement ma passion pour la programmation sans aucun regret à ce jour! </h3>
-  </div>
-  <div class="down-arrow">
-    <i class="fa fa-arrow-down"></i>
+  <div class="container quote-container">
+    <!-- <div id="quote-slider" class="owl-carousel owl-theme"> -->
+      <div class="item">
+      <blockquote>“I've learned that making a 'living' is not the same thing as 'making a life'.”<cite>Maya Angelou, <a href="https://en.wikipedia.org/wiki/Maya_Angelou">Poet, memoirist, and civil rights activist.</a></cite></blockquote>
+      </div>
+      <!-- <div class="item"> -->
+        <!-- quote text -->
+        <!-- <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate obcaecati autem perspiciatis excepturi totam repellendus laudantium architecto, veritatis veniam magnam, unde dolore aperiam, aspernatur commodi ad quae ab ratione, iusto! -->
+        <!-- quote author -->
+        <!-- <cite>John Doe, <a href="#">Freelance Magazine</a></cite></blockquote> -->
+      <!-- </div> -->
+    <!-- </div> -->
   </div>
 </section>
 
-<!-- partial "partials/about/sections/boxmessage"
-partial "partials/about/sections/features-section"
-partial "partials/about/sections/parallax-section"
-partial "partials/about/sections/bullet-experiences"
-partial "partials/about/cv"
-partial "partials/about/sections/parallax-quote-section"
-partial "partials/about/sections/skill-tabs"
-partial "partials/about/sections/cards"
-partial "partials/footer"
- -->
+<!-- mobile only -->
+<div id="js-parallax-window-2" class="parallax-window-2">
+<!--   <div class="image-bg"></div>
+  <div class="color-overlay"></div> -->
+  <div class="parallax-static-content container">
+<!--     <b>Parallax Window</b> -->
+    <div class="item">
+      <blockquote>“I've learned that making a 'living' is not the same thing as 'making a life'.”<cite>Maya Angelou, <a href="https://en.wikipedia.org/wiki/Maya_Angelou">Poet, memoirist, and civil rights activist.</a></cite></blockquote>
+    </div>
+    <!-- <br> -->
+    <!-- <div class="item"> -->
+    <!-- <blockquote>“The most important kind of freedom is to be what you really are. You trade in your reality for a role. You trade in your sense for an act. You give up your ability to feel, and in exchange, put on a mask. There can't be any large-scale revolution until there's a personal revolution, on an individual level. It's got to happen inside first.”<cite>Jim Morrison, <a href="https://en.wikipedia.org/wiki/Jim_Morrison">Singer, songwriter, and poet.</a></cite></blockquote> -->
+    <!-- </div> -->
+<!--     <div class="item">
+      <blockquote>“It is never too late to be what you might have been.”<cite>George Eliot, <a href="https://en.wikipedia.org/wiki/George_Eliot">Novelist, poet and journalist.</a></cite></blockquote>
+    </div> -->
+  </div>
+  <div id="js-parallax-background-2" class="parallax-background-2" style="background-image: url('../../images/paris.jpeg');"></div>
+  <div class="color-overlay"></div>
+</div>
+
+<section class="features" id="section-skills">
+  <div class="container">
+
+    <div class="title">
+      <h2>My very honest skills</h2>
+      <hr class="small">
+      <p>I learned a lot and I am no newbie anymore.</p>
+    </div>
+
+    <div class="vertical-tabs-container">
+      <div class="vertical-tabs">
+        <a href="javascript:void(0)" class="js-vertical-tab vertical-tab is-active" rel="tab1">
+        <!-- Item 1 -->
+          <!-- <i class="fa fa-html5 prog-logo" style="font-size: 30px; width: 50px; padding: 10px;"></i> -->
+          <i class="fa fa-html5 prog-logo"></i>
+          <span>Front-end</span>
+        </a>
+        <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab2">
+        <!-- Item 2 -->
+          <i class="fa fa-diamond"></i>
+          <span>Back-end</span>
+        </a>
+        <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab3">
+        <!-- Item 3 -->
+          <i class="fa fa-database"></i>
+          <span>Database</span>
+        </a>
+        <a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab4">
+        <!-- Item 4 -->
+          <i class="fa fa-github"></i>
+          <span>Tools</span>
+        </a>
+      </div>
+
+      <div class="vertical-tab-content-container">
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading is-active js-accordion-trigger" rel="tab1">
+        <!-- Item 1 -->
+          <div class="container-logo-text">
+            <i class="fa fa-html5 prog-logo"></i>
+            <h4 class="content-text">Front-end</h4>
+          </div>
+        </a>
+        <div id="tab1" class="js-vertical-tab-content vertical-tab-content">
+        <!-- html/css -->
+          <div class="comment">
+            <div class="comment-image">
+              <img src="../../images/tag-0ea7c903.png">
+            </div>
+            <div class="comment-content">
+              <h1>HTML5 CSS3</h1>
+              <p class="comment-detail">Date or details about this technology</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+            </div>
+          </div>
+        <!-- html/css -->
+        <!-- javascript -->
+          <div class="comment">
+            <div class="comment-image">
+              <img src="../../images/js-33546893.png">
+            </div>
+            <div class="comment-content">
+              <h1>JavaScript</h1>
+              <p class="comment-detail">Date or details about this technology</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+            </div>
+          </div>
+        <!-- javascript -->
+        <!-- react -->
+          <div class="comment">
+            <div class="comment-image">
+              <img src="../../images/react-7ed2f34a.png">
+            </div>
+            <div class="comment-content">
+              <h1>Frameworks</h1>
+              <p class="comment-detail">Date or details about this technology</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+            </div>
+          </div>
+        <!-- react -->
+        </div>
+
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading js-accordion-trigger" rel="tab2"><!-- Item 2 -->
+          <div class="container-logo-text">
+            <i class="fa fa-diamond"></i>
+            <h4 class="content-text">Back-end</h4>
+          </div>
+        </a>
+        <div id="tab2" class="js-vertical-tab-content vertical-tab-content">
+          <!-- ruby -->
+          <div class="comment">
+            <div class="comment-image">
+              <img src="../../images/ruby-862bfbc8.png">
+              <img src="../../images/python-ad1c971e.png">
+            </div>
+            <div class="comment-content">
+              <h1>Ruby (&Python)</h1>
+              <p class="comment-detail">Date or details about this technology</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+            </div>
+          </div>
+        <!-- ruby -->
+        <!-- java -->
+          <div class="comment">
+            <div class="comment-image">
+              <img src="../../images/java-923a3b42.png">
+            </div>
+            <div class="comment-content">
+              <h1>Java</h1>
+              <p class="comment-detail">Date or details about this technology</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+            </div>
+          </div>
+        <!-- java -->
+        <!-- rails -->
+          <div class="comment">
+            <div class="comment-image">
+              <img src="../../images/rails-5d3e7ce6.png">
+              <img src="../../images/middleman-logo-e8b391b3.png">
+            </div>
+            <div class="comment-content">
+              <h1>Frameworks</h1>
+              <p class="comment-detail">Date or details about this technology</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+            </div>
+          </div>
+        <!-- rails -->
+        </div>
+
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading js-accordion-trigger" rel="tab3"><!-- Item 3 -->
+          <div class="container-logo-text">
+            <i class="fa fa-database"></i>
+            <h4 class="content-text">Database</h4>
+          </div>
+        </a>
+        <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
+        <!-- sql -->
+          <div class="comment">
+            <div class="comment-image">
+              <img src="../../images/sql-5048f722.png">
+            </div>
+            <div class="comment-content">
+              <h1>SQL</h1>
+              <p class="comment-detail">Date or details about this technology</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+            </div>
+          </div>
+        <!-- sql -->
+        <!-- R -->
+          <div class="comment">
+            <div class="comment-image">
+              <img src="../../images/r-f337315c.png">
+            </div>
+            <div class="comment-content">
+              <h1>R</h1>
+              <p class="comment-detail">Date or details about this technology</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+            </div>
+          </div>
+        <!-- R -->
+        </div>
+
+        <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading js-accordion-trigger" rel="tab4"><!-- Item 4 -->
+          <div class="container-logo-text">
+            <i class="fa fa-github"></i>
+            <h4 class="content-text">Tools</h4>
+          </div>
+        </a>
+        <div id="tab4" class="js-vertical-tab-content vertical-tab-content">
+                 <!-- html/css -->
+          <div class="comment">
+            <div class="comment-image">
+              <img src="../../images/github-white-logo-2217d038.png">
+            </div>
+            <div class="comment-content">
+              <h1>Github</h1>
+              <p class="comment-detail">Date or details about this technology</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
+            </div>
+          </div>
+        <!-- html/css -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="features" id="section-projects">
+  <div class="container">
+
+    <div class="title">
+      <h2>What have I been working on?</h2>
+      <hr class="small">
+      <p>I have had a hectic time but I just loved it!</p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-image">
+  <!--         <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png" alt=""> -->
+          <img src="../../images/xyz-540e6c24.png" alt="">
+        </div>
+        <div class="card-header">
+          Build a great personal website first
+        </div>
+        <div class="card-copy">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+<!--           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-4.png" alt=""> -->
+          <img src="../../images/xyzblog-872ea429.png" alt="">
+        </div>
+        <div class="card-header">
+          Build a blog to share my passion
+        </div>
+        <div class="card-copy">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+<!--           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt=""> -->
+          <img src="../../images/livsty-b69baffb.png" alt="">
+        </div>
+        <div class="card-header">
+          Build a real-life app
+        </div>
+        <div class="card-copy">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div id="js-parallax-window" class="parallax-window">
+  <div class="parallax-static-content container">
+    <!-- <b>Parallax Window</b> -->
+    <div class="item">
+    <blockquote>
+      “A Ship in Harbor Is Safe, But that Is Not What Ships Are Built For”
+      <cite>John A. Shedd,<a href="https://quoteinvestigator.com/2013/12/09/safe-harbor/"> Author and professor, </a>Grace M. Hopper,<a href="https://en.wikipedia.org/wiki/Grace_Hopper"> Computer scientist and United States Navy rear admiral</a></cite>
+    </blockquote>
+    </div>
+  </div>
+  <div id="js-parallax-background" class="parallax-background" style="background-image: url('../../images/paris.jpeg');"></div>
+  <div class="color-overlay"></div>
+</div>
+
+
+<!-- mobile only -->
+<section class="quote" id="quote2">
+  <div class="image-bg"></div>
+  <div class="color-overlay"></div>
+  <div class="container quote-container">
+    <!-- <div id="quote-slider" class="owl-carousel owl-theme"> -->
+      <div class="item">
+        <blockquote>“A Ship in Harbor Is Safe, But that Is Not What Ships Are Built For”
+        <cite>John A. Shedd,<a href="https://quoteinvestigator.com/2013/12/09/safe-harbor/"> Author and professor, </a>Grace M. Hopper,<a href="https://en.wikipedia.org/wiki/Grace_Hopper"> Computer scientist and United States Navy rear admiral</a></cite>
+      </div>
+      <!-- <div class="item"> -->
+        <!-- quote text -->
+        <!-- <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate obcaecati autem perspiciatis excepturi totam repellendus laudantium architecto, veritatis veniam magnam, unde dolore aperiam, aspernatur commodi ad quae ab ratione, iusto! -->
+        <!-- quote author -->
+        <!-- <cite>John Doe, <a href="#">Freelance Magazine</a></cite></blockquote> -->
+      <!-- </div> -->
+    <!-- </div> -->
+  </div>
+</section>
+
+<!-- mobile only -->
+<section class="features" id="section-experience">
+  <div class="container">
+
+    <div class="title">
+      <h2>What did I do before?</h2>
+      <hr class="small">
+      <p>My main three experiences and what I like about them.</p>
+    </div>
+
+    <ul class="bullets">
+      <li class="bullet">
+        <div class="bullet-icon bullet-icon-1">
+          <img src="../../images/close-brothers-squarelogo-bcd7ebd9.png" alt="">
+        </div>
+        <div class="bullet-content">
+          <h2>Close Brothers</h2>
+          <p>Lorem dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+          </div>
+      </li>
+      <li class="bullet">
+        <div class="bullet-icon bullet-icon-2">
+          <img src="../../images/hsbc-squarelogo-2b070bd6.png" alt="">
+        </div>
+        <div class="bullet-content">
+          <h2>HSBC</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum.</p>
+        </div>
+      </li>
+      <li class="bullet">
+        <div class="bullet-icon bullet-icon-3">
+          <img src="../../images/bnpparibas-05f2c670.png" alt="">
+        </div>
+        <div class="bullet-content">
+          <h2>BNP Paribas</h2>
+          <p>Lorem ipsum sit amet consectetur adipisicing elit. Doloremque, minus, blanditiis, voluptatibus nulla quia ipsam sequi quos iusto aliquam iste magnam accusamus molestias quo illum impedit. Odit officia autem.</p>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+<section class="features" id="section-cv">
+  <div class="container">
+
+    <div class="title">
+      <h2>The Full Picture</h2>
+      <hr class="small">
+      <p>Here it is: market risk analysis and corporate banking.</p>
+    </div>
+
+    <div class="grid-items">
+    <!-- programmer -->
+      <!-- <a href="javascript:void(0)" class="grid-item"> -->
+      <label for="modal-1" class="grid-item grid-item-image grid-item-image-code">
+        <img src="../../images/linkedin-f0a6b51b.jpg" alt="">
+        <div class="blurred-area">
+          <div class="blur"></div>
+          <div class="text-on-blur">
+            <h1>Learning Web Development to become a pro</h1>
+            <!-- <p>to become a pro</p> -->
+          </div>
+        </div>
+      </label>
+      <!-- </a> -->
+      <input class="modal-state" id="modal-1" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <div class="modal-close" for="modal-1"></div>
+          <h1>Livsty</h1>
+          <div class="modal-content">
+            <p>Livsty: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          </div>
+        </div>
+      </div>
+      <!-- programmer -->
+
+      <!-- credit analyst -->
+      <label for="modal-2" class="grid-item grid-item-big grid-item-image grid-item-image-cb">
+        <img src="../../images/close-brothers-squarelogo-bcd7ebd9.png" alt="">
+        <div class="blurred-area">
+          <div class="blur"></div>
+          <div class="text-on-blur">
+            <h1>Close Brothers, Wimbledon</h1>
+            <p>Credit Analyst</p>
+          </div>
+        </div>
+      </label>
+      <input class="modal-state" id="modal-2" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <div class="modal-close" for="modal-2"></div>
+          <h1>Close Brothers</h1>
+          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+        </div>
+      </div>
+      <!-- credit analyst -->
+
+      <!-- business analyst -->
+      <label for="modal-3" class="grid-item grid-item-half grid-item-image grid-item-image-hsbc">
+        <img src="../../images/hsbc-squarelogo-2b070bd6.png" alt="">
+        <div class="blurred-area">
+          <div class="blur"></div>
+          <div class="text-on-blur">
+            <h1>HSBC, Canary Wharf</h1>
+            <p>Business Analyst</p>
+          </div>
+        </div>
+      </label>
+      <input class="modal-state" id="modal-3" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <div class="modal-close" for="modal-3"></div>
+          <h1>HSBC</h1>
+          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+        </div>
+      </div>
+      <!-- business analyst -->
+
+      <!-- risk analyst -->
+      <label for="modal-4" class="grid-item grid-item-half grid-item-image grid-item-image-bnp">
+        <img src="../../images/bnpparibas-05f2c670.png" alt="">
+        <div class="blurred-area">
+          <div class="blur"></div>
+          <div class="text-on-blur">
+            <h1>BNP Paribas</h1>
+            <p>Market Risk</p>
+          </div>
+        </div>
+      </label>
+      <input class="modal-state" id="modal-4" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <div class="modal-close" for="modal-4"></div>
+          <h1>BNP Paribas</h1>
+          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+        </div>
+      </div>
+      <!-- risk analyst -->
+
+      <!-- sell-side analyst -->
+      <label for="modal-5" class="grid-item grid-item-image grid-item-image-sg">
+        <img src="../../images/sg-6c25ea76.png" alt="">
+        <div class="blurred-area">
+          <div class="blur"></div>
+          <div class="text-on-blur">
+            <h1>Société Générale</h1>
+            <p>Internship</p>
+          </div>
+        </div>
+      </label>
+      <input class="modal-state" id="modal-5" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <div class="modal-close" for="modal-5"></div>
+          <h1>Société Générale</h1>
+          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+        </div>
+      </div>
+      <!-- sell-side analyst -->
+
+      <!-- masters -->
+      <label for="modal-6" class="grid-item grid-item-image grid-item-image-dauphine">
+        <img src="../../images/dauphine-82a4e3bc.png" alt="">
+        <div class="blurred-area">
+          <div class="blur"></div>
+          <div class="text-on-blur">
+            <h1>Master's Degree</h1>
+            <p>Dauphine</p>
+          </div>
+        </div>
+      </label>
+      <input class="modal-state" id="modal-6" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <div class="modal-close" for="modal-6"></div>
+          <h1>Dauphine University</h1>
+          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+        </div>
+      </div>
+      <!-- masters -->
+
+      <!-- undergraduate -->
+      <label for="modal-7" class="grid-item grid-item-image grid-item-image-lsbu">
+        <img src="../../images/lsbu-fcd1a53a.png" alt="">
+        <div class="blurred-area">
+          <div class="blur"></div>
+          <div class="text-on-blur">
+            <h1>Bachelor of Arts</h1>
+            <p>LSBU</p>
+          </div>
+        </div>
+      </label>
+      <input class="modal-state" id="modal-7" type="checkbox" />
+      <div class="modal-fade-screen">
+        <div class="modal-inner">
+          <div class="modal-close" for="modal-7"></div>
+          <h1>LSBU</h1>
+          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+        </div>
+      </div>
+      <!-- undergraduate -->
+
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="up"><i class="fa fa-arrow-up"></i></section>
+
+<footer class="footer" role="contentinfo">
+  <div class="footer-logo">
+    <img src="../../images/footer-logo-white55-3c86b5da.png" alt="Logo image">
+  </div>
+  <div class="footer-links">
+    <ul>
+      <li><h3>Content</h3></li>
+      <li><a href="javascript:void(0)">About</a></li>
+      <li><a href="javascript:void(0)">Contact</a></li>
+      <li><a href="javascript:void(0)">Blog</a></li>
+    </ul>
+    <ul>
+      <li><h3>Follow Me</h3></li>
+      <li><a href="javascript:void(0)">Facebook</a></li>
+      <li><a href="javascript:void(0)">Twitter</a></li>
+      <li><a href="javascript:void(0)">YouTube</a></li>
+    </ul>
+<!--     <ul>
+      <li><h3>Legal</h3></li>
+      <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+      <li><a href="javascript:void(0)">Privacy Policy</a></li>
+    </ul> -->
+  </div>
+
+  <hr>
+
+</footer>
 
 
   </body>
 
 
 </html>
+
 

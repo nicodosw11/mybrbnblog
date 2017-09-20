@@ -19,7 +19,7 @@
       <![endif]-->
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link href="../../stylesheets/all.css" rel="stylesheet" />
-    <script src="../../javascripts/all.js"></script>
+    <script src="../../javascripts/all.js"></script><script src="../../javascripts/all-projects.js"></script><script src="../../javascripts/all-scroll.js"></script>
 <!-- javascript_include_tag  "all", "loader" and remove require_tree . -->
 <!--     <script type='text/javascript'>
       $(window).on('load', function() {
@@ -32,10 +32,9 @@
   </head>
 
   <body class="fr fr_projects fr_projects_index">
-    <!-- <div class="se-pre-con"></div> -->
+    <div class="se-pre-con"></div>
 
-      <div class="se-pre-con"></div>
-  <div class="background-scroll-cover-mobile"></div>
+    <div class="background-scroll-cover-mobile"></div>
 <div class="background-scroll-cover-medium"></div>
 <div class="background-scroll-cover-desktop"></div>
 
@@ -69,8 +68,12 @@
 
 <nav class="js-menu sliding-panel-content">
   <ul>
-    <li><a href="/ ">Home</a></li>
-    <li><a href="/fr/#contact-me">Me contacter</a></li>
+    <li><a href="/fr/ ">Home</a></li>
+    <li><a href="/fr/about">Profil</a></li>
+    <li><a href="/fr/portfolio">Code</a></li>
+    <li><a href="/fr/projects">Projets</a></li>
+    <li><a href="/fr/contact">Me contacter</a></li>
+    <li><a href="/fr/blog">Blog</a></li>
     <li><a href="/fr/search">Chercher</a></li>
     <li><a href="/projects">Switch to English</a></li>
   </ul>
@@ -81,16 +84,34 @@
 
 <div class="modal-overlay closed" id="modal-overlay"></div>
 <div class="container-gallery">
-  <div class="filter-button-group">
-    <ul>
-      <li class='filter' data-target='all'>Tous</li>
-      <li class='filter' data-target='HTML5-CSS3-JavaScript'>HTML5 CSS3 JavaScript</li>
-      <li class='filter' data-target='RubyOnRails'>RubyOnRails</li>
-      <li class='filter' data-target='Python-Nodejs'>Python/Node.js</li>
-      <li class='filter' data-target='Web-apps'>Wep apps</li>
-      <li class='filter' data-target='Mobile'>Mobile</li>
-    </ul>
-  </div>
+  <div id="flex-menu">
+  <ul>
+    <li><span class="filter" data-target='all'>All</span></li>
+    <li><span class="filter" data-target='HTML5-CSS3-JavaScript'>JavaScript</span></li>
+    <li><span class="filter" data-target='RubyOnRails'>RubyOnRails</span></li>
+    <li><span class="filter" data-target='Python-Nodejs'>Python</span></li>
+    <li><span class="filter" data-target='Web-apps'>Web</span></li>
+  </ul>
+</div>
+<!-- <div id="flex-menu">
+  <ul>
+    <li><a href="#" data-target='all'>All</a></li>
+    <li><a href="#" data-target='HTML5-CSS3-JavaScript'>HTML5 CSS3 JavaScript</a></li>
+    <li><a href="#" data-target='RubyOnRails'>RubyOnRails</a></li>
+    <li><a href="#" data-target='Python-Nodejs'>Python/Node.js</a></li>
+    <li><a href="#" data-target='Web-apps'>Web apps</a></li>
+  </ul>
+</div> -->
+<!-- <div id="flex-menu">
+  <ul>
+    <li><a href="#" title="All">All</a></li>
+    <li><a href="#" title="Front-end">HTML5 CSS3 JavaScript</a></li>
+    <li><a href="#" title="Back-end">RubyOnRails</a></li>
+    <li><a href="#" title="Languages">Python/Node.js</a></li>
+    <li><a href="#" title="Web">Web apps</a></li>
+  </ul>
+</div> -->
+
   <div class="shuffle-grid">
       <div class="hover-tile-outer trigger HTML5-CSS3-JavaScript all" data-modal-title="A personal website to explain what I want." data-modal-img-banner="bonhomme1200760.jpeg" data-modal-description-title-left-1="What is it?" data-modal-description-text-left-1="A portfolio web built with Middleman" data-modal-description-title-left-2="Categories" data-modal-description-text-left-2="HTML CSS Ruby Javascript" style="background-image: url('../../images/bonhomme400310.jpeg');">
     <div class="hover-tile-container">
@@ -345,9 +366,9 @@
 </div>
 
 
-
   </body>
 
 
 </html>
+
 

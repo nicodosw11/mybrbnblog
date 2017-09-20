@@ -43,12 +43,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.nicolasdotto.com/blog/en/2017/07/10/first-amazing-article/</loc>
-    <lastmod>2017-08-31T11:35:52+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://www.nicolasdotto.com/vendor/neat/contrib/</loc>
     <lastmod>2016-06-21T14:26:44+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -56,13 +50,13 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/about/</loc>
-    <lastmod>2017-09-13T21:35:24+01:00</lastmod>
+    <lastmod>2017-09-18T14:19:56+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/about/</loc>
-    <lastmod>2017-09-13T21:35:24+01:00</lastmod>
+    <lastmod>2017-09-18T14:19:56+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -104,49 +98,49 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/</loc>
-    <lastmod>2017-09-14T18:32:06+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/</loc>
-    <lastmod>2017-09-14T18:32:06+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/portfolio/</loc>
-    <lastmod>2017-09-04T10:05:17+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/portfolio/</loc>
-    <lastmod>2017-09-04T10:05:17+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/projects/</loc>
-    <lastmod>2017-09-04T10:05:17+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/projects/</loc>
-    <lastmod>2017-09-04T10:05:17+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/search/</loc>
-    <lastmod>2017-09-04T10:05:17+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/search/</loc>
-    <lastmod>2017-09-04T10:05:17+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -164,7 +158,7 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/about/</loc>
-    <lastmod>2017-09-14T10:05:01+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -182,19 +176,19 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/</loc>
-    <lastmod>2017-09-14T11:55:04+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/portfolio/</loc>
-    <lastmod>2017-09-04T10:05:17+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/projects/</loc>
-    <lastmod>2017-09-04T10:05:17+01:00</lastmod>
+    <lastmod>2017-09-20T07:26:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -344,6 +338,12 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/categories/currencies/</loc>
+    <lastmod>2017-08-31T11:35:52+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/blog/en/2017/07/10/first-amazing-article/</loc>
     <lastmod>2017-08-31T11:35:52+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

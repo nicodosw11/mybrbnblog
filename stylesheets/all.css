@@ -5259,6 +5259,11 @@ stretchRight
       opacity: 0; }
       .animated-navigation-links .links-show a:hover {
         color: #FFF; }
+    .animated-navigation-links .links-show #navFra, .animated-navigation-links .links-show #navEng {
+      padding-left: 0;
+      width: 28px; }
+    .animated-navigation-links .links-show #imgNavFra, .animated-navigation-links .links-show #imgNavEng {
+      height: 16px; }
   .animated-navigation-links .menu {
     opacity: 1;
     position: relative;
@@ -5829,6 +5834,10 @@ body.about.about_index .footer, body.fr.fr_about.fr_about_index .footer {
   background: #2ecc71; }
 body.about.about_index .sliding-panel-content, body.fr.fr_about.fr_about_index .sliding-panel-content {
   background: #29b765; }
+  body.about.about_index .sliding-panel-content li a, body.fr.fr_about.fr_about_index .sliding-panel-content li a {
+    border-bottom: 1px solid #208e4e !important; }
+  body.about.about_index .sliding-panel-content li a:hover, body.fr.fr_about.fr_about_index .sliding-panel-content li a:hover {
+    background-color: #208e4e !important; }
 body.about.about_index section.features, body.fr.fr_about.fr_about_index section.features {
   padding: 6em 0 3em;
   position: relative;
@@ -6058,7 +6067,11 @@ body.projects.projects_index .background-scroll-cover-mobile, body.projects.proj
   z-index: -1; }
 @media (max-width: 1400px) {
   body.projects.projects_index .background-scroll-cover-mobile, body.fr.fr_projects.fr_projects_index .background-scroll-cover-mobile {
-    background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), url(../images/code10801920-e919426d.png) center center/cover no-repeat; }
+    background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), url(../images/code10801920-e919426d.png) center center/cover no-repeat; } }
+  @media screen and (max-width: 1400px) and (max-width: 29.9375em) {
+    body.projects.projects_index .background-scroll-cover-mobile, body.fr.fr_projects.fr_projects_index .background-scroll-cover-mobile {
+      background: #eee; } }
+@media (max-width: 1400px) {
   body.projects.projects_index .background-scroll-cover-medium, body.projects.projects_index .background-scroll-cover-desktop, body.fr.fr_projects.fr_projects_index .background-scroll-cover-medium, body.fr.fr_projects.fr_projects_index .background-scroll-cover-desktop {
     display: none; } }
 @media (min-width: 1400px) and (max-width: 1700px) {
@@ -6067,32 +6080,6 @@ body.projects.projects_index .background-scroll-cover-mobile, body.projects.proj
 @media (min-width: 1700px) {
   body.projects.projects_index .background-scroll-cover-mobile, body.projects.projects_index .background-scroll-cover-medium, body.fr.fr_projects.fr_projects_index .background-scroll-cover-mobile, body.fr.fr_projects.fr_projects_index .background-scroll-cover-medium {
     display: none; } }
-
-body.projects.projects_index .container-gallery ul, body.fr.fr_projects.fr_projects_index .container-gallery ul {
-  text-align: center;
-  margin: 20px 0; }
-body.projects.projects_index .container-gallery .filter, body.fr.fr_projects.fr_projects_index .container-gallery .filter {
-  display: inline-block;
-  padding: 0.5rem 2rem;
-  background-color: #fff;
-  color: #5BC0BE;
-  -webkit-box-shadow: 0 0 0 1px #5BC0BE, inset 0 0 0 0 #5BC0BE;
-          box-shadow: 0 0 0 1px #5BC0BE, inset 0 0 0 0 #5BC0BE;
-  font-weight: normal;
-  cursor: pointer;
-  font-family: 'Open Sans';
-  -webkit-transition: all .1s ease;
-  transition: all .1s ease; }
-  @media screen and (max-width: 29.9375em) {
-    body.projects.projects_index .container-gallery .filter, body.fr.fr_projects.fr_projects_index .container-gallery .filter {
-      font-size: 0.6rem;
-      padding: 0.25rem 0.5rem; } }
-body.projects.projects_index .container-gallery .filter:hover,
-body.projects.projects_index .container-gallery .filter.active, body.fr.fr_projects.fr_projects_index .container-gallery .filter:hover,
-body.fr.fr_projects.fr_projects_index .container-gallery .filter.active {
-  -webkit-box-shadow: 0 0 0 1px #5BC0BE, inset 0 60px 0 -15px #5BC0BE;
-          box-shadow: 0 0 0 1px #5BC0BE, inset 0 60px 0 -15px #5BC0BE;
-  color: #fff; }
 
 body.projects.projects_index .hover-tile-outer, body.fr.fr_projects.fr_projects_index .hover-tile-outer {
   float: left;
@@ -6140,6 +6127,60 @@ body.projects.projects_index .hover-tile-outer, body.fr.fr_projects.fr_projects_
 @media (max-width: 480px) {
   body.projects.projects_index .hover-tile-outer, body.fr.fr_projects.fr_projects_index .hover-tile-outer {
     width: calc(100% - 3em); } }
+
+body.projects.projects_index .container-gallery ul, body.fr.fr_projects.fr_projects_index .container-gallery ul {
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+  background: #eee; }
+body.projects.projects_index .container-gallery li, body.fr.fr_projects.fr_projects_index .container-gallery li {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #68B3B4), color-stop(95%, #68B3B4), color-stop(95%, #3C968F));
+  background-image: linear-gradient(to bottom, transparent 50%, #68B3B4 50%, #68B3B4 95%, #3C968F 95%);
+  background-size: 100% 200%;
+  background-position: top center;
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out; }
+body.projects.projects_index .container-gallery li:hover, body.fr.fr_projects.fr_projects_index .container-gallery li:hover {
+  background-position: bottom center;
+  color: rgba(0, 0, 0, 0.75); }
+  body.projects.projects_index .container-gallery li:hover a, body.projects.projects_index .container-gallery li:hover span, body.fr.fr_projects.fr_projects_index .container-gallery li:hover a, body.fr.fr_projects.fr_projects_index .container-gallery li:hover span {
+    color: white; }
+body.projects.projects_index .container-gallery li a, body.projects.projects_index .container-gallery li span, body.fr.fr_projects.fr_projects_index .container-gallery li a, body.fr.fr_projects.fr_projects_index .container-gallery li span {
+  color: #3C968F;
+  display: block;
+  padding: 1rem 0;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out; }
+  @media screen and (max-width: 29.9375em) {
+    body.projects.projects_index .container-gallery li a, body.projects.projects_index .container-gallery li span, body.fr.fr_projects.fr_projects_index .container-gallery li a, body.fr.fr_projects.fr_projects_index .container-gallery li span {
+      color: rgba(0, 0, 0, 0.75); } }
+body.projects.projects_index #flex-menu ul, body.fr.fr_projects.fr_projects_index #flex-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+body.projects.projects_index #flex-menu ul li, body.fr.fr_projects.fr_projects_index #flex-menu ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+  @media screen and (min-width: 45.625em) {
+    body.projects.projects_index #flex-menu ul li, body.fr.fr_projects.fr_projects_index #flex-menu ul li {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 100%;
+              flex: 1 1 100%; } }
+body.projects.projects_index #flex-menu span, body.fr.fr_projects.fr_projects_index #flex-menu span {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500; }
+  @media screen and (min-width: 45.625em) {
+    body.projects.projects_index #flex-menu span, body.fr.fr_projects.fr_projects_index #flex-menu span {
+      font-size: 16px;
+      font-weight: normal; } }
 
 body.projects.projects_index .modal img, body.fr.fr_projects.fr_projects_index .modal img {
   max-width: 100%;
@@ -7136,7 +7177,11 @@ body.portfolio.portfolio_index .background-scroll-cover-mobile, body.portfolio.p
   z-index: -1; }
 @media (max-width: 1400px) {
   body.portfolio.portfolio_index .background-scroll-cover-mobile, body.fr.fr_portfolio.fr_portfolio_index .background-scroll-cover-mobile {
-    background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), url(../images/windmill10801750.jpeg) center center/cover no-repeat; }
+    background: linear-gradient(135deg, rgba(35, 150, 140, 0.8) 50%, rgba(111, 138, 50, 0.2) 100%), url(../images/windmill10801750.jpeg) center center/cover no-repeat; } }
+  @media screen and (max-width: 1400px) and (max-width: 29.9375em) {
+    body.portfolio.portfolio_index .background-scroll-cover-mobile, body.fr.fr_portfolio.fr_portfolio_index .background-scroll-cover-mobile {
+      background: #eee; } }
+@media (max-width: 1400px) {
   body.portfolio.portfolio_index .background-scroll-cover-medium, body.portfolio.portfolio_index .background-scroll-cover-desktop, body.fr.fr_portfolio.fr_portfolio_index .background-scroll-cover-medium, body.fr.fr_portfolio.fr_portfolio_index .background-scroll-cover-desktop {
     display: none; } }
 @media (min-width: 1400px) and (max-width: 1700px) {
@@ -7153,6 +7198,9 @@ body.portfolio.portfolio_index .line-behind, body.fr.fr_portfolio.fr_portfolio_i
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   color: white; }
+  @media screen and (max-width: 29.9375em) {
+    body.portfolio.portfolio_index .line-behind, body.fr.fr_portfolio.fr_portfolio_index .line-behind {
+      color: rgba(0, 0, 0, 0.75); } }
   body.portfolio.portfolio_index .line-behind:before, body.portfolio.portfolio_index .line-behind:after, body.fr.fr_portfolio.fr_portfolio_index .line-behind:before, body.fr.fr_portfolio.fr_portfolio_index .line-behind:after {
     border-top: 1px solid #f2f2f2;
     content: '';
@@ -7160,6 +7208,9 @@ body.portfolio.portfolio_index .line-behind, body.fr.fr_portfolio.fr_portfolio_i
     position: relative;
     top: 0.6em;
     width: 50%; }
+    @media screen and (max-width: 29.9375em) {
+      body.portfolio.portfolio_index .line-behind:before, body.portfolio.portfolio_index .line-behind:after, body.fr.fr_portfolio.fr_portfolio_index .line-behind:before, body.fr.fr_portfolio.fr_portfolio_index .line-behind:after {
+        border-top: 1px solid rgba(0, 0, 0, 0.75); } }
   body.portfolio.portfolio_index .line-behind:before, body.fr.fr_portfolio.fr_portfolio_index .line-behind:before {
     right: 1.5%; }
   body.portfolio.portfolio_index .line-behind:after, body.fr.fr_portfolio.fr_portfolio_index .line-behind:after {
@@ -7188,7 +7239,7 @@ body.portfolio.portfolio_index .card-app, body.fr.fr_portfolio.fr_portfolio_inde
   -ms-flex-preferred-size: 80%;
   position: relative;
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: #5BC0BE;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   -webkit-box-shadow: bottom-shadow(1), top-shadow(1);
@@ -7272,7 +7323,7 @@ body.portfolio.portfolio_index .card-app, body.fr.fr_portfolio.fr_portfolio_inde
     animation-delay: 0.5s; }
   body.portfolio.portfolio_index .card-app:hover, body.fr.fr_portfolio.fr_portfolio_index .card-app:hover {
     -webkit-filter: brightness(90%);
-    filter: brightness(90%);
+    filter: brightness(70%);
     -webkit-transition: all .04s ease;
     transition: all .04s ease; }
   body.portfolio.portfolio_index .card-app .card-image, body.fr.fr_portfolio.fr_portfolio_index .card-app .card-image {
@@ -7286,22 +7337,23 @@ body.portfolio.portfolio_index .card-app, body.fr.fr_portfolio.fr_portfolio_inde
       transition: all 0.2s ease-in-out;
       width: 100%;
       height: auto;
-      border-radius: 6px 6px 0 0;
-      border-bottom: solid 1px #e8e8e8; }
+      border-radius: 6px 6px 0 0; }
   body.portfolio.portfolio_index .card-app .card-header, body.fr.fr_portfolio.fr_portfolio_index .card-app .card-header {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     padding: 0.5em 0.75em; }
     body.portfolio.portfolio_index .card-app .card-header h3, body.fr.fr_portfolio.fr_portfolio_index .card-app .card-header h3 {
-      font-weight: bold;
       font-size: 0.9em;
       line-height: 1.7em;
       letter-spacing: 0.01em;
-      padding-bottom: 0vh; }
+      padding-bottom: 0vh;
+      color: #ffffff;
+      font-weight: 500; }
     body.portfolio.portfolio_index .card-app .card-header h4, body.fr.fr_portfolio.fr_portfolio_index .card-app .card-header h4 {
-      font-size: 0.9em;
+      font-size: 0.8em;
       line-height: 1.3em;
-      letter-spacing: 0.01em; }
+      letter-spacing: 0.01em;
+      color: #ffffff; }
 
 body.portfolio.portfolio_index .padding-top, body.fr.fr_portfolio.fr_portfolio_index .padding-top, body.projects.projects_index .padding-top, body.fr.fr_projects.fr_projects_index .padding-top {
   padding-top: 78px; }
@@ -8112,7 +8164,7 @@ body.about.about_index .logo-name-message, body.fr.fr_about.fr_about_index .logo
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-html {
+.fullHeight {
   height: 100%; }
 
 body {

@@ -19,7 +19,7 @@
       <![endif]-->
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
     <link href="../stylesheets/all.css" rel="stylesheet" />
-    <script src="../javascripts/all.js"></script>
+    <script src="../javascripts/all.js"></script><script src="../javascripts/all-intro.js"></script>
 <!-- javascript_include_tag  "all", "loader" and remove require_tree . -->
 <!--     <script type='text/javascript'>
       $(window).on('load', function() {
@@ -32,72 +32,91 @@
   </head>
 
   <body class="fr fr_index">
-    <!-- <div class="se-pre-con"></div> -->
+    <div class="se-pre-con"></div>
 
-    <!-- <div class="backgroundImage"> -->
+    <!-- mobile only -->
 
-  <section class="intro">
-    <div class="box">
-      <div class="brand">
-        <div class="brand-logo">
-<a href="http://www.nicolasdotto.com" id="logo" class="js-menu-trigger sliding-panel-button">              <img src="../images/logo-bf8c19f1.png" alt="Logo" />
-</a>          <h1 id="name">Nicolas Dotto</h1>
-        </div>
-          <h2 id="tagline">London-based freelance web developer</h2>
-  <!--         <a href="" class="big-link big-link-menu menu-button" id="js-fadeInElement">
-            <img src="../images/menu-white-8335b183.png" class="js-menu-trigger sliding-panel-button" alt="">
-          </a> -->
-  <!--         <a href="" class="big-link menu-button" id="js-fadeInElement">
-            <img src="../images/menu-black-4ac01df3.png" class="js-menu-trigger sliding-panel-button" alt="">
-          </a> -->
-          <div class="buttons-container-1">
-            <div class="buttons-1">
-              <a class="big-link-button-1" href="/about">About</a>
-              <a class="big-link-button-1" href="/portfolio">Code</a>
-              <a class="big-link-button-1" href="/blog">Blog</a>
-              <a href="" class="big-link-button-1" id="js-fadeInElement-1">
-                <img src="../images/menu-white-8335b183.png" class="js-menu-trigger sliding-panel-button" alt="">
-              </a>
-            </div>
-          </div>
+<section class="intro-video" id="section-intro-video">
+  <div class="video-container">
+    <video autoplay loop poster="../images/paris.jpeg" id="bgvid">
+    <!-- <video autoplay loop id="bgvid"> -->
+      <source src="/videos/bwcitystreet.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="color-overlay"></div>
+  <div class="container">
+    <div class="logo">
+      <a href='/fr/'><h1><img src="../images/logo-white-c73b81f6.png" alt="logo"></h1></a>
+    </div>
+    <h3> Un jour j'ai quitté la finance pour vivre pleinement ma passion pour la programmation sans aucun regret à ce jour! </h3>
+  </div>
+  <div class="down-arrow">
+    <i class="fa fa-arrow-down"></i>
+  </div>
+</section>
+
+
+<section class="intro" id="intro-logo-name">
+  <div class="box">
+    <div class="brand">
+      <div class="brand-logo">
+<a href="http://www.nicolasdotto.com" id="logo" class="js-menu-trigger sliding-panel-button">            <img src="../images/logo-bf8c19f1.png" alt="Logo" />
+</a>        <h1 id="name">Nicolas Dotto</h1>
       </div>
-  </section>
+        <h2 id="tagline">Web developer entre Londres et Paris </h2>
+      <div class="buttons-container-1">
+  <div class="buttons-1">
+    <a class="big-link-button-1" href="/about">About</a>
+    <a class="big-link-button-1" href="/portfolio">Code</a>
+    <a class="big-link-button-1" href="/blog">Blog</a>
+    <a href="" class="big-link-button-1" id="js-fadeInElement-1">
+      <img src="../images/menu-white-8335b183.png" class="js-menu-trigger sliding-panel-button" alt="">
+    </a>
+  </div>
+</div>
 
-  <section class="photoAndMessage">
-    <div id="backgroundImage">
     </div>
+  </div>
+  <!-- use with position relative for section-->
+  <!-- <div class="video-background-overlay"></div> -->
+</section>
 
-    <div id="introductions">
-      <h1>Salut à tous!</h1>
-      <p>Je crée des applications mobiles codées en Java sous Android, mais aussi en Python + Swift pour iOS et même en React Native avec RubyOnRails.</p>
-      <p>
-        Pour plus d'informations n'hésitez pas à lire  <a href='/fr/blog'>mon blog</a> ou regarder mes<a href="/fr/projects"> derniers projets</a>.
-          <!-- <a target="_blank" href="/fr/projects"></a>. -->
-        Pour plus d'infos sur moi <a href="/fr/about">c'est par ici</a>.
-      </p>
-    </div>
-  </section>
-
-<!-- </div> -->
 
 <nav class="js-menu sliding-panel-content">
   <ul>
-    <li><a href="/fr/about">Profil</a></li>
-    <li><a href="/fr/portfolio">Portfolio</a></li>
-    <li><a href="/fr/projects">Projects</a></li>
-    <li><a href="/fr/blog">Blog</a></li>
-    <li><a href="/fr/search">Chercher</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/portfolio">Portfolio</a></li>
+    <li><a href="/projects">Projects</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/search">Search</a></li>
     <li><a href="#contact-me">Contact</a></li>
-    <li><a href="/">Switch to English</a></li>
+    <li><a href="/fr">Switch to French</a></li>
   </ul>
 </nav>
 
 <div class="js-menu-screen sliding-panel-fade-screen"></div>
 
+<section class="photoAndMessage" id="photoAndMessage">
+  <div id="backgroundImage">
+    <div class="video-background-overlay"></div>
+  </div>
+
+  <div id="introductions">
+    <h1>Salut à tous!</h1>
+    <p>Je crée des applications mobiles codées en Java sous Android, mais aussi en Python + Swift pour iOS et même en React Native avec RubyOnRails.</p>
+    <p>
+      Pour plus d'informations n'hésitez pas à lire  <a href="/blog">mon blog</a> ou regarder mes<a href="/projects"> derniers projets</a>.
+      <!-- <a target="_blank" href="/projects"></a>. -->
+      Pour plus d'infos sur moi <a href="/about">c'est par ici</a>.
+    </p>
+  </div>
+  <!-- <div class="video-background-overlay"></div> -->
+</section>
+
 
 <section class="recent-posts" id="recent-posts">
   <div class="posts">
-    <h1><a href="/fr/blog/">Derniers </br>Articles</a></h1>
+    <h1><a href="blog/">Recent </br>Articles</a></h1>
       <div class="article-post">
           <h4 class="article-date">Jul 11</h4>
           <h4 class="article-category">| <a href="/fr/categories/code/">code</a></h4>
@@ -133,10 +152,106 @@
         <button type="submit" value="Send">Send</button>
         <input type="hidden" name="_subject" value="nicolasdotto.com Contact" />
         <input type="text" name="_gotcha" style="display:none" />
-        <input type="hidden" name="_next" value='/fr/thankyou'/>
+        <input type="hidden" name="_next" value="/thankyou" />
     </form>
   </div>
 </section>
+
+<div class="background-overlay" id="background-overlay"></div>
+
+
+<!-- mobile only -->
+
+<div class="animated-navbar-flex" id="animated-navbar">
+  <a href="/" class="logo-flex">
+<div class="animated-logo">
+    <span id="N_logo" class="logo_letter_animation">N</span>
+    <span id="D_hide_logo" class="logo_letter_animation">D</span>
+    <span id="i_logo" class="logo_letter_animation">i</span>
+    <span id="c_logo" class="logo_letter_animation">c</span>
+    <span id="o_logo" class="logo_letter_animation">o</span>
+    <span id="l_logo" class="logo_letter_animation">l</span>
+    <span id="a_logo" class="logo_letter_animation">a</span>
+    <span id="s_logo" class="logo_letter_animation">s</span>
+    <span id="Dotto_logo" class="logo_letter_animation">Dotto</span>
+  </div>
+</a>
+
+  <div class="animated-navigation-links menu-links icons-flex">
+  <span class="links-show hidden-xs">
+      <a href="/" data-caption="Home">
+        <i class="fa fa-home"></i>
+       <!--  <span class="glyphicon glyphicon-home"></span> -->
+      </a>
+      <a href="/fr/about" data-caption="About">
+        <i class="fa fa-id-card"></i>
+        <!-- <span class="glyphicon glyphicon-folder-open"></span> -->
+      </a>
+      <a href="/fr/portfolio" data-caption="Portfolio">
+        <i class="fa fa-briefcase"></i>
+        <!-- <span class="glyphicon glyphicon-send"></span> -->
+      </a>
+
+      <a href="/fr/projects" data-caption="Projects">
+        <i class="fa fa-code-fork"></i>
+      </a>
+      <a href="/fr/blog" data-caption="Blog">
+        <i class="fa fa-rss"></i>
+      </a>
+      <a href="/fr/contact" data-caption="Contact">
+        <i class="fa fa-paper-plane"></i>
+      </a>
+      <a href="/fr/search" data-caption="Search">
+        <i class="fa fa-search"></i>
+      </a>
+      <a id="navEng" href="/" class="language">
+        <img id="imgNavEng" src="http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+
+  </span>
+  &nbsp;
+  <i class="fa fa-bars menu js-menu-trigger sliding-panel-button"></i>
+  <!-- <span class="glyphicon glyphicon-menu-hamburger menu"></span> -->
+</div>
+
+<nav class="js-menu sliding-panel-content">
+  <ul>
+    <li><a href="/ ">Home</a></li>
+    <li><a href="/fr/portfolio">Code</a></li>
+    <li><a href="/fr/projects">Projets</a></li>
+    <li><a href="/fr/contact">Me contacter</a></li>
+    <li><a href="/fr/blog">Blog</a></li>
+    <li><a href="/fr/search">Chercher</a></li>
+    <li><a href="/about">Switch to English</a></li>
+  </ul>
+</nav>
+
+<div class="js-menu-screen sliding-panel-fade-screen"></div>
+
+</div>
+
+<video autoplay loop id="video-background" class="fullscreen-bg-video" muted poster="images/paris.jpeg">
+  <source src="/videos/bwcitystreet.mp4" type="video/mp4">
+</video>
+<div class="wrapper-text-flexbox" id="wrapper-text-flexbox">
+  <div class="fullscreen-bg-content">
+    <div class="welcome-text-intro">
+      <div class="top-bar"></div>
+      <h1>Nicolas Dotto, Web Developer</h1>
+      <h3>La passion pour le web design et la programmation était trop forte.</h3>
+      <h4 class="links">
+      <a href="/fr/about">  Tout sur moi
+</a><a href="/fr/portfolio">  Mes projets
+</a><a href="/fr/blog">  Mon Blog
+</a>
+      </h4>
+      <div class="bottom-bar"></div>
+    </div>
+  </div>
+</div>
+<div class="video-background-overlay" id="video-background-overlay"></div>
+
 
 
   </body>
