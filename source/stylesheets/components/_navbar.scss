@@ -21,12 +21,14 @@
     margin: modular-scale(-5) 0;
     padding: 0;
     &:first-of-type{
-        @include media($mobile-only) {
+        // @include media($mobile-only) {
+        @include media($medium-only) {
           display: none;
         }
     }
     &:last-child {
-        @include media($small) {
+        // @include media($small) {
+        @include media($medium-device) {
           display: none;
         }
     }
@@ -58,12 +60,14 @@
     }
   }
   .logo-button {
-    @include media($mobile-only) {
+    // @include media($mobile-only) {
+    @include media($medium-only) {
       display: none;
     }
   }
   .sliding-panel-button {
-    @include media($small) {
+    // @include media($small) {
+    @include media($medium-device) {
       display: none;
     }
   }
@@ -77,7 +81,7 @@
       transition: color 1s ease 0s;
     }
     .logo-dark {
-      @include media($mobile-only) {
+      @include media($tablet-only) {
         display: none;
       }
     }
@@ -90,12 +94,12 @@
       transition: color 1s ease 0s;
     }
     .logo-white {
-      @include media($mobile-only) {
+      @include media($tablet-only) {
         display: none;
       }
     }
     .logo-dark {
-      @include media($mobile-only) {
+      @include media($tablet-only) {
         display: block;
       }
     }

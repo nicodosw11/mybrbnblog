@@ -81,12 +81,17 @@ body {
 
 #section-intro-video,
 #intro-logo-name,
-.sliding-panel-content,
-.sliding-panel-fade-screen,
 #photoAndMessage,
 #recent-posts,
 #contact-me {
   @include media($medium-screen) {
+    display: none;
+  }
+}
+
+.sliding-panel-content,
+.sliding-panel-fade-screen {
+  @include media($medium-device) {
     display: none;
   }
 }
@@ -110,9 +115,6 @@ section.intro-video {
     }
   }
 }
-
-
-
 
 
 
