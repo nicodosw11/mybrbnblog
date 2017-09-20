@@ -202,7 +202,7 @@ $(document).ready(function() {
     $("#"+accordion_activeTab).show();
     // $("#"+accordion_activeTab).scrollTop(0);
     // $("#section-experience").scrollTop(0);
-    $("#section-experience").animate({ scrollTop: 0 }, "fast");
+    $("#section-skills").animate({ scrollTop: 0 }, "fast");
 
     $(".js-vertical-tab-accordion-heading").removeClass("is-active");
     $(this).addClass("is-active");

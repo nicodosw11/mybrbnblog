@@ -122,7 +122,8 @@ window.onload = function () {
     $('#app-name').html($(this).data('modal-name'));
     var modal_app_url = $(this).attr('data-modal-url');
     var url = document.getElementById('myurl');
-    url.href = modal_app_url;
+    // url.href = modal_app_url;
+    if (url) {url.href = modal_app_url;}
     var modal_app_img = $(this).attr('data-modal-image');
     var img_to_insert = "<img src=/images/" + modal_app_img + ">";
     $('#app-image').html(img_to_insert);

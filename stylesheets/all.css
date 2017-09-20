@@ -3246,7 +3246,23 @@ p a, li a {
   text-decoration: none; }
 
 #introductions p {
-  font-size: 1.59075em; }
+  font-size: 1.375em;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2); }
+  #introductions p a {
+    color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0 1px 0 black; }
+
+#introductions, #hi h1 {
+  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-size: 2.25em !important;
+  font-size: 1.59075em;
+  font-weight: 400;
+  color: #4A4A4A;
+  line-height: 1; }
+  @media screen and (min-width: 64em) {
+    #introductions, #hi h1 {
+      font-size: 1.94425em; } }
 
 code {
   font-family: 'Input Mono', 'monaco', 'Andale Mono', monospace; }
@@ -3379,7 +3395,8 @@ body.index .intro #name, body.fr.fr_index .intro #name {
   font-size: 3em;
   font-size: 2.74917em;
   font-weight: 400;
-  color: #00A69C;
+  color: #ffffff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
   line-height: 1;
   text-transform: uppercase;
   text-align: left;
@@ -3393,15 +3410,15 @@ body.index .intro #name, body.fr.fr_index .intro #name {
 body.index .intro #tagline, body.fr.fr_index .intro #tagline {
   margin: 0 0 1.125em; }
 body.index .intro #tagline, body.fr.fr_index .intro #tagline {
-  font-family: 'freight-big-pro', 'times', 'georgia', serif;
+  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
   font-size: 2.25em;
-  font-size: 2.24932em;
+  font-size: 1.59075em;
   font-weight: 400;
   color: #4A4A4A;
   line-height: 1; }
   @media screen and (min-width: 64em) {
     body.index .intro #tagline, body.fr.fr_index .intro #tagline {
-      font-size: 3.18054em; } }
+      font-size: 1.94425em; } }
 body.index .intro .big-link, body.fr.fr_index .intro .big-link {
   font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
   font-size: 1.59075em;
@@ -3431,6 +3448,7 @@ body.index .intro .big-link, body.fr.fr_index .intro .big-link {
   body.index .intro .big-link-button-1, body.fr.fr_index .intro .big-link-button-1 {
     display: inline-block;
     color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
     text-align: center;
     font-size: 11px;
     font-weight: 600;
@@ -3439,7 +3457,7 @@ body.index .intro .big-link, body.fr.fr_index .intro .big-link {
     text-transform: uppercase;
     text-decoration: none;
     white-space: nowrap;
-    background-color: black;
+    background-color: transparent;
     border-radius: 4px;
     border: 2px solid #fff;
     cursor: pointer; }
@@ -8008,7 +8026,8 @@ body.about.about_index .logo-name-message, body.fr.fr_about.fr_about_index .logo
     font-size: 3em;
     font-size: 2.74917em;
     font-weight: 400;
-    color: #00A69C;
+    color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0 1px 0 black;
     line-height: 1;
     text-transform: uppercase;
     text-align: left;
@@ -8022,15 +8041,15 @@ body.about.about_index .logo-name-message, body.fr.fr_about.fr_about_index .logo
   body.about.about_index .logo-name-message #tagline, body.fr.fr_about.fr_about_index .logo-name-message #tagline {
     margin: 0 0 1.125em; }
   body.about.about_index .logo-name-message #tagline, body.fr.fr_about.fr_about_index .logo-name-message #tagline {
-    font-family: 'freight-big-pro', 'times', 'georgia', serif;
-    font-size: 2.25em !important;
-    font-size: 2.24932em;
+    font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+    font-size: 2.25em;
+    font-size: 1.59075em;
     font-weight: 400;
     color: #4A4A4A;
     line-height: 1; }
     @media screen and (min-width: 64em) {
       body.about.about_index .logo-name-message #tagline, body.fr.fr_about.fr_about_index .logo-name-message #tagline {
-        font-size: 3.18054em; } }
+        font-size: 1.94425em; } }
   body.about.about_index .logo-name-message .big-link, body.fr.fr_about.fr_about_index .logo-name-message .big-link {
     font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
     font-size: 1.59075em;
