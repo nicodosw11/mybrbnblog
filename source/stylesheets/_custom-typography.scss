@@ -152,8 +152,7 @@ p a, li a {
 // }
 
 #introductions p {
-  // font-size: modular-scale(2);
-  font-size: modular-scale(1);
+  font-size: modular-scale(2);
   color: white;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
   // text-shadow: 1px 1px rgba(0, 0, 0, .1);
@@ -163,10 +162,10 @@ p a, li a {
   }
 }
 
-#introductions, #hi h1 {
+#introductions h1 {
   // font-family: 'freight-big-pro', 'times', 'georgia', serif;
   font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
-  font-size: 2.25em !important; //47.25px at desktop size 36px at mobile size
+  font-size: 2.25em; //47.25px at desktop size 36px at mobile size
   // font-size: modular-scale(4);
   font-size: modular-scale(2);
   @include media($large) {
