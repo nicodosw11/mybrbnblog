@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(function() {
     // $("#modal-1").on("change", function() {
-    $("#modal-1, #modal-2, #modal-3, #modal-4, #modal-5, #modal-6, #modal-7 ").on("change", function() {
+    $("#modal-1, #modal-2, #modal-3, #modal-4, #modal-5, #modal-6, #modal-7, #modal-8, #modal-9, #modal-10").on("change", function() {
       if ($(this).is(":checked")) {
         // $("body").addClass("modal-open");
         scrollPosition = $('body').scrollTop();
@@ -12,7 +12,7 @@ $(document).ready(function() {
           height: '100%',
           top : -scrollPosition
         });
-        $('header').css({
+        $('#navbar-about-medium').css({
           display: 'none'
         });
       } else {
@@ -22,7 +22,7 @@ $(document).ready(function() {
           position: '',
           top: ''
         }).scrollTop(scrollPosition);
-        $('header').css({
+        $('#navbar-about-medium').css({
           display: 'block'
         });
       }

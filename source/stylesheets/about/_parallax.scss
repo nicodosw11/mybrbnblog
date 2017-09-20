@@ -18,7 +18,8 @@ $parallax-background2-height: $parallax-window2-height * 2;
   background-color: #2ecc71;
   opacity: 0.7;
   // z-index: -100;
-  z-index: 1 !important;
+  // z-index: 1 !important;
+  z-index: 0;
   }
 }
 
@@ -26,7 +27,8 @@ $parallax-background2-height: $parallax-window2-height * 2;
   color: #9A9A8A;
   padding: 8em 0;
   position: relative;
-  z-index: 9;
+  // z-index: 9;
+  z-index: 1;
 }
 
 .parallax-background {
@@ -72,6 +74,7 @@ $parallax-background2-height: $parallax-window2-height * 2;
   background-color: #2ecc71;
   opacity: 0.7;
   // z-index: -100;
-  z-index: 1 !important;
+  // z-index: 1 !important;
+  z-index: 0;
   }
 }

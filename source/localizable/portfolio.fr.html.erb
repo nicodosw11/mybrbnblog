@@ -10,6 +10,7 @@ layout: portfolio
 
 <%= partial("partials/navbars/navbar-portfolio")%>
 
+<div class="modal-overlay closed" id="modal-overlay"></div>
 <section class="portfolio-cards">
   <% data.apps.category.each do |category| %>
     <h4 class="line-behind"><%= category.name %></h4>
@@ -17,8 +18,8 @@ layout: portfolio
 
       <% category.app.each do |app| %>
 
-        <li class="card-app">
-          <a href="<%= app.url %>">
+        <li class="card-app trigger" data-modal-name="<%= app.name %>" data-modal-image="<%= app.image %>" data-modal-description="<%= app.description %>" data-modal-url="<%= app.url %>">
+          <!-- <a href="<%= app.url %>"> -->
               <div class="card-image img-container">
                 <%= image_tag app.image %>
               </div>
@@ -34,9 +35,10 @@ layout: portfolio
             <!-- <div class="card-description"> -->
               <!-- card.description -->
             <!-- </div> -->
-          </a>
+          <!-- </a> -->
         </li>
       <% end %>
     </ul>
   <% end %>
 </section>
+<%= partial("partials/portfolio/modal-portfolio")%>
