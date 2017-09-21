@@ -28,21 +28,38 @@
       <a href="/search"><i class="fa fa-search icon-link icon-link-search"><p class="tooltip">search</p></i></a>
     </li>
     <li>
+      <% if current_resource.is_a? Middleman::Blog::BlogArticle %>
+      <a id="navFra" href="/blog/fr/<%= "#{current_resource.url.split('/').last(4).join('/')}/" %>" class="language">
+        <img id="imgNavFra" src="http://www.roemheld.de/IT/Data/Images/Address/Frankreich.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+      <% else %>
       <a id="navFra" href="/fr/blog" class="language">
         <img id="imgNavFra" src="http://www.roemheld.de/IT/Data/Images/Address/Frankreich.gif" alt="" class="img-thumbnail icon-small">
         <!-- <span id="lanNavFra">FR</span> -->
       </a>
+      <% end %>
     </li>
     <% else %>
     <li class=<%= "is-active" if page_classes.include? "search" %>>
       <a href="/fr/search"><i class="fa fa-search icon-link icon-link-search"><p class="tooltip">search</p></i></a>
     </li>
     <li>
+      <% if current_resource.is_a? Middleman::Blog::BlogArticle %>
+      <a id="navEng" href="/blog/en/<%= "#{current_resource.url.split('/').last(4).join('/')}/" %>" class="language">
+        <img id="imgNavEng" src="http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif" alt="" class="img-thumbnail icon-small">
+        <!-- <span id="lanNavFra">FR</span> -->
+      </a>
+      <% else %>
       <a id="navEng" href="/blog" class="language">
         <img id="imgNavEng" src="http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif" alt="" class="img-thumbnail icon-small">
         <!-- <span id="lanNavFra">FR</span> -->
       </a>
+      <% end %>
     </li>
+
+
+
     <% end %>
   </ul>
   <!-- responsive mobile only -->
@@ -59,17 +76,25 @@
 <nav class="js-menu sliding-panel-content">
   <ul>
     <% if I18n.locale == I18n.default_locale %>
-    <li><a href="/ ">Home</a></li>
-    <li><a href="/#contact-me">Contact</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/search">Search</a></li>
-    <li><a href="/fr/blog">Switch to French</a></li>
+      <li><a href="/ ">Home</a></li>
+      <li><a href="/#contact-me">Contact</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/search">Search</a></li>
+      <% if current_resource.is_a? Middleman::Blog::BlogArticle %>
+        <li><a href="/blog/fr/<%= "#{current_resource.url.split('/').last(4).join('/')}/" %>">Switch to French</a></li>
+      <% else %>
+        <li><a href="/fr/blog">Switch to French</a></li>
+      <% end %>
     <% else %>
-    <li><a href="/fr/ ">Home</a></li>
-    <li><a href="/fr/#contact-me">Me contacter</a></li>
-    <li><a href="/fr/about">Profil</a></li>
-    <li><a href="/fr/search">Chercher</a></li>
-    <li><a href="/blog">Switch to English</a></li>
+      <li><a href="/fr/ ">Home</a></li>
+      <li><a href="/fr/#contact-me">Me contacter</a></li>
+      <li><a href="/fr/about">Profil</a></li>
+      <li><a href="/fr/search">Chercher</a></li>
+      <% if current_resource.is_a? Middleman::Blog::BlogArticle %>
+        <li><a href="/blog/en/<%= "#{current_resource.url.split('/').last(4).join('/')}/" %>">Switch to English</a></li>
+      <% else %>
+        <li><a href="/blog">Switch to English</a></li>
+      <% end %>
     <% end %>
   </ul>
 </nav>

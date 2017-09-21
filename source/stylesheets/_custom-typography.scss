@@ -1,4 +1,6 @@
-//Using modularscale.com Bases: 1.125 (18px), 1.375 (22px) and ratio of 1.414 (Augmented 4th)
+//Using modularscale.com
+//Bases: 1.125 (18px), 1.375 (22px) and ratio of 1.414 (augmented-fourth)
+// Globally set the base ratio and scale
 $modular-scale-ratio: $augmented-fourth;
 $modular-scale-base: 1.125em 1.375em;
 
@@ -12,8 +14,10 @@ html {
 }
 
 // HEADINGS
+$heading-font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+$base-font-family: 'freight-text-pro', 'times', 'georgia', serif;
 h1 {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: $heading-font-family;
   font-size: modular-scale(4);
   @include media($medium) {
     font-size: modular-scale(6);
@@ -38,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: $heading-font-family;
   font-size: modular-scale(3);
   @include media($medium) {
     font-size: modular-scale(4);
@@ -60,7 +64,7 @@ h2 {
   }
 }
 h3 {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: $heading-font-family;
   font-size: modular-scale(2);
   @include media($medium) {
     font-size: modular-scale(3);
@@ -72,7 +76,7 @@ h3 {
   line-height: 1;
 }
 h4 {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: $heading-font-family;
   font-size: modular-scale(0);
   font-weight: 400;
   &.article-date {
@@ -94,7 +98,7 @@ h4 {
 
 //TEXT
 p, article li {
-  font-family: 'freight-text-pro', 'times', 'georgia', serif;
+  font-family: $base-font-family;
   font-weight: 400;
   font-size: 1.222em;
   @include media($medium) {
@@ -111,7 +115,7 @@ p, article li {
     }
   }
   &.subtitle {
-    font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+    font-family: $heading-font-family;
     font-size: modular-scale(1);
     @include media($medium) {
       font-size: modular-scale(2);
@@ -164,7 +168,7 @@ p a, li a {
 
 #introductions h1 {
   // font-family: 'freight-big-pro', 'times', 'georgia', serif;
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: $heading-font-family;
   font-size: 2.25em; //47.25px at desktop size 36px at mobile size
   // font-size: modular-scale(4);
   font-size: modular-scale(2);
@@ -200,7 +204,7 @@ article ul {
 
 //LINKS
 a.image-attr {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: $heading-font-family;
   text-decoration: none;
   font-size: modular-scale(0);
   color: #5BC0BE;
@@ -210,7 +214,7 @@ a.image-attr {
   color: #333;
 }
 a.read-more {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: $heading-font-family;
   font-size: modular-scale(0);
   text-transform: uppercase;
   text-decoration: none;
@@ -218,7 +222,7 @@ a.read-more {
 }
 
 .nav ul a {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: $heading-font-family;
   font-size: modular-scale(0);
   text-transform: uppercase;
   text-decoration: none;
