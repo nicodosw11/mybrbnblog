@@ -3136,7 +3136,7 @@ html {
   color: rgba(0, 0, 0, 0.8); }
 
 h1 {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: "futura-pt", "futura", "avenir", "helvetica", sans-serif;
   font-size: 2.24932em;
   font-weight: 400;
   line-height: 1; }
@@ -3157,7 +3157,7 @@ h1 {
       font-size: 3.18054em; } }
 
 h2 {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: "futura-pt", "futura", "avenir", "helvetica", sans-serif;
   font-size: 1.94425em;
   margin-top: 1.59075em;
   font-weight: 400;
@@ -3177,7 +3177,7 @@ h2 {
         margin: 0 0 1rem; } }
 
 h3 {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: "futura-pt", "futura", "avenir", "helvetica", sans-serif;
   font-size: 1.59075em;
   font-weight: 400;
   line-height: 1; }
@@ -3189,7 +3189,7 @@ h3 {
       font-size: 2.24932em; } }
 
 h4 {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: "futura-pt", "futura", "avenir", "helvetica", sans-serif;
   font-size: 1.125em;
   font-weight: 400; }
   h4.article-date {
@@ -3206,7 +3206,7 @@ h4 {
       color: #FF4D72; }
 
 p, article li {
-  font-family: 'freight-text-pro', 'times', 'georgia', serif;
+  font-family: "freight-text-pro", "times", "georgia", serif;
   font-weight: 400;
   font-size: 1.222em; }
   @media screen and (min-width: 45.625em) {
@@ -3222,7 +3222,7 @@ p, article li {
       p.article-summary, article li.article-summary {
         margin: 0 0 1rem; } }
   p.subtitle, article li.subtitle {
-    font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+    font-family: "futura-pt", "futura", "avenir", "helvetica", sans-serif;
     font-size: 1.375em;
     font-weight: 400;
     color: #444;
@@ -3254,7 +3254,7 @@ p a, li a {
     text-shadow: 0 1px 0 black; }
 
 #introductions h1 {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: "futura-pt", "futura", "avenir", "helvetica", sans-serif;
   font-size: 2.25em;
   font-size: 1.59075em;
   font-weight: 400;
@@ -3285,7 +3285,7 @@ article ul {
   white-space: nowrap; }
 
 a.image-attr {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: "futura-pt", "futura", "avenir", "helvetica", sans-serif;
   text-decoration: none;
   font-size: 1.125em;
   color: #5BC0BE; }
@@ -3295,14 +3295,14 @@ a.image-attr {
   color: #333; }
 
 a.read-more {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: "futura-pt", "futura", "avenir", "helvetica", sans-serif;
   font-size: 1.125em;
   text-transform: uppercase;
   text-decoration: none;
   color: #5BC0BE; }
 
 .nav ul a {
-  font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
+  font-family: "futura-pt", "futura", "avenir", "helvetica", sans-serif;
   font-size: 1.125em;
   text-transform: uppercase;
   text-decoration: none;

@@ -180,8 +180,14 @@ $(document).ready(function() {
   // });
 
   $(".js-vertical-tab-accordion-heading").click(function(event) {
+    // $("body").scrollTop(0);
     // $("body").animate({ scrollTop: 0 }, "fast");
-    $("#section-skills").animate({ scrollTop: 0 }, "fast");
+
+    var self = this;
+    setTimeout(function() {
+      theOffset = $(self).offset();
+      $('body').animate({ scrollTop: theOffset.top - 40 });
+    }, 310);
 
     // add accordion toggling
 
@@ -204,6 +210,7 @@ $(document).ready(function() {
     $("#"+accordion_activeTab).show();
     // $("#"+accordion_activeTab).scrollTop(0);
     // $("#section-skills").scrollTop(0);
+    // $("#section-skills").animate({ scrollTop: 0 }, "fast");
 
     $(".js-vertical-tab-accordion-heading").removeClass("is-active");
     $(this).addClass("is-active");
