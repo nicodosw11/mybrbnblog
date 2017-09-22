@@ -20,6 +20,10 @@ fr:
   my_recent_articles: "Derniers articles"
   by_year: "Par Année"
   read_more: "Lire"
+  thanks_reading: "Merci d'avoir pris le temps de me lire!"
+  please_contact: "Restons en contact."
+  to_inbox: "Les messages vont directement dans ma boîte."
+  contact_way: "C'est la meilleure manière de me contacter."
 
   # about page
   # sections titles
@@ -122,7 +126,7 @@ fr:
   currencies: "monnaies"
   search: "Rechercher"
   search_for: "Vous cherchez un article?"
-  search_comment: "Si vous cherchez article essayez ici les articles sont référencés."
+  search_comment: "Si vous cherchez un article essayez ici les articles sont référencés."
   search_placeholder: "Ruby"
   no_results: "Pas de résultats"
   one_day: "Un jour j'ai quitté la finance pour vivre pleinement ma passion pour la programmation sans aucun regret à ce jour!"

@@ -20,6 +20,10 @@ en:
   my_recent_articles: "Recent articles"
   by_year: "By Year"
   read_more: "Read more"
+  thanks_reading: "Thank you so much for reading!"
+  please_contact: "Please let's keep in touch."
+  to_inbox: "Messages go directly into my inbox."
+  contact_way: "It is the best way to contact me."
 
   # about page
   # sections titles

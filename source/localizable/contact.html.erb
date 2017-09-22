@@ -16,14 +16,18 @@ lang: en
             <div class="block text-center">
               <div class="top-bar-contact"></div>
               <div class="inline blink text-left">
-                <h1>Thank you so much for reading!</h1>
-                <p>Please let's keep in touch.</p>
+                <h1><%= t(:thanks_reading) %></h1>
+                <p><%= t(:please_contact) %></p>
                 <!-- <p>Messages sent through this contact form go directly into my inbox.</p> -->
-                <p>Messages go directly into my inbox.</p>
-                <p>It is the best way to contact me.<span>|</span></p>
+                <p><%= t(:to_inbox) %></p>
+                <p><%= t(:contact_way) %><span>|</span></p>
               </div>
               <div class="bottom-bar-contact"></div>
-              <%= partial "partials/contact/form" %>
+              <% if I18n.locale == I18n.default_locale %>
+                <%= partial "partials/contact/form" %>
+              <% else %>
+                <%= partial "partials/contact/form-fr" %>
+              <% end %>
             </div>
           </div>
         </div>
