@@ -90,14 +90,30 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
     #name {
       // font-family: 'freight-big-pro', 'times', 'georgia', serif;
       font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
-      font-size: 3em; //63px at desktop size 48px at mobile size
-      font-size: modular-scale(5);
-      @include media($medium) {
-        font-size: modular-scale(6);
+
+      // font-size: 3em; //63px at desktop size 48px at mobile size
+      // // font-size: modular-scale(5);
+      // font-size: modular-scale(4);
+      // @include media($medium) {
+      //   // font-size: modular-scale(6);
+      //   font-size: modular-scale(5);
+      // }
+      // @include media($large) {
+      //   // font-size: modular-scale(7);
+      //   font-size: modular-scale(6);
+      // }
+
+      font-size: modular-scale(3);
+      @include media($tablet) {
+        font-size: modular-scale(4); //35px
       }
-      @include media($large) {
-        font-size: modular-scale(7);
+      @include media($desktop) {
+        font-size: modular-scale(5); //43px
       }
+      @include media($desktop-up) {
+        font-size: modular-scale(6); //50px
+      }
+
       font-weight: 400;
       // color: #00A69C;
       color: rgba(0, 0, 0, 0.75); // option 1
@@ -114,13 +130,26 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
     #tagline {
       // font-family: 'freight-big-pro', 'times', 'georgia', serif;
       font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
-      font-size: 2.25em; //47.25px at desktop size 36px at mobile size
-      // font-size: modular-scale(4);
-      font-size: modular-scale(2);
-      @include media($large) {
-        // font-size: modular-scale(6);
-        font-size: modular-scale(3);
+
+      // font-size: 2.25em; //47.25px at desktop size 36px at mobile size
+      // // font-size: modular-scale(4);
+      // font-size: modular-scale(2);
+      // @include media($large) {
+      //   // font-size: modular-scale(6);
+      //   font-size: modular-scale(3);
+      // }
+
+      font-size: modular-scale(0);
+      @include media($tablet) {
+        font-size: modular-scale(1); //22px
       }
+      @include media($desktop) {
+        font-size: modular-scale(2); //25px
+      }
+      @include media($desktop-up) {
+        font-size: modular-scale(3); //31px
+      }
+
       font-weight: 400;
       color: #4A4A4A;
       line-height: 1;
@@ -191,8 +220,19 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
     }
 
     p {
-      font-size: 1.2em !important;
+      text-align: justify;
+      font-size: 0.75em !important; // 12px
+      @include media($tablet) {
+        font-size: 0.875em !important; // 14px
+      }
+      @include media($desktop) {
+        font-size: 1em !important; // 16px
+      }
+      @include media($desktop-up) {
+        font-size: 1.125em !important; // 18px
+      }
     }
+
     .animated-logo {
       color: #4A4A4A !important;
     }

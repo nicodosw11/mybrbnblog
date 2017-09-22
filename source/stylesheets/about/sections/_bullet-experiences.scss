@@ -15,6 +15,9 @@
   .bullet {
     flex-basis: 20em;
     flex-grow: 1;
+    margin: 0 0.5em;
+    &:first-child { margin-left: 0 !important; }
+    &:last-child { margin-right: 0 !important; }
   }
 
   .bullet-icon {
@@ -27,7 +30,7 @@
   }
 
   .bullet-icon-1 {
-    background: $action-color;
+    background: adjust-hue($action-color, -140%);
   }
 
   .bullet-icon-2 {
@@ -36,7 +39,7 @@
   }
 
   .bullet-icon-3 {
-    background: adjust-hue($action-color, -140%);
+    background: $action-color;
   }
 
   .bullet-content {
@@ -60,6 +63,7 @@
     color: $base-font-color;
     line-height: $base-line-height;
     font-size: 1em;
+    text-align: justify;
   }
 
   img {

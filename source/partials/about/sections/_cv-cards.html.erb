@@ -2,9 +2,9 @@
   <div class="container">
 
     <div class="title">
-      <h2>The Full Picture</h2>
+      <h2><%= t(:full_picture) %></h2>
       <hr class="small">
-      <p>Here it is: market risk analysis and corporate banking.</p>
+      <p><%= t(:here_it_is) %></p>
     </div>
 
     <div class="grid-items">
@@ -15,7 +15,7 @@
         <div class="blurred-area">
           <div class="blur"></div>
           <div class="text-on-blur">
-            <h1>Learning Web Development to become a pro</h1>
+            <h1><%= t(:cv_code_title) %></h1>
             <!-- <p>to become a pro</p> -->
           </div>
         </div>
@@ -25,9 +25,21 @@
       <div class="modal-fade-screen">
         <div class="modal-inner">
           <div class="modal-close" for="modal-1"></div>
-          <h1>Livsty</h1>
+          <h1 style="text-transform: none;">Livsty – redefining the viager system in France</h1>
           <div class="modal-content">
-            <p>Livsty: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+            <p>I have been learning more and more about Ruby on Rails coding a startup project. The final product is a platform where investors can buy shares in advertised properties reversing the cash-flow structure of the viager system in France. Early version: <a target="_blank" href="http://livsty.fr/">Livsty.fr</a> (currently discussing with potential investors).</p>
+            <p>To kick-start my projects I learned Ruby on Rails, HTML, CSS, SQL & JavaScript at <a class="link-to" href="http://www.lewagon.org/en" target="_blank"> <img class="lewagon-picture" src="/images/le_wagon.png" alt="Le Wagon"></a>'s leading coding bootcamp.</p>
+            <div class="modal-inner-content">
+              <h1><%= t(:cv_code_job_title) %></h1>
+              <p class="modal-intro"><%= t(:cv_code_job_function) %></p>
+              <ul>
+                <li><b><i>Back-end development:</i></b> <%= t(:cv_cb_code_task1) %></li>
+                <br>
+                <li><b><i>Front-end development:</i></b> <%= t(:cv_cb_code_task2) %></li>
+                <br>
+                <li><b><i>Rails:</i></b> <%= t(:cv_cb_code_task3) %></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -39,8 +51,8 @@
         <div class="blurred-area">
           <div class="blur"></div>
           <div class="text-on-blur">
-            <h1>Close Brothers, Wimbledon</h1>
-            <p>Credit Analyst</p>
+            <h1><%= t(:cv_cb_title) %></h1>
+            <p><%= t(:cv_cb_field) %></p>
           </div>
         </div>
       </label>
@@ -48,9 +60,19 @@
       <div class="modal-fade-screen">
         <div class="modal-inner">
           <div class="modal-close" for="modal-2"></div>
-          <h1>Close Brothers</h1>
-          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
-          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span><i class="fa fa-calendar"></i> <%= t(:cv_cb_cal) %></span>
+          <div class="modal-inner-content">
+            <h1><%= t(:cv_cb_job_title) %></h1>
+            <p class="modal-intro"><%= t(:cv_cb_job_function) %></p>
+            <ul>
+              <li><%= t(:cv_cb_job_task1) %></li>
+              <br>
+              <li><%= t(:cv_cb_job_task2) %></li>
+              <br>
+              <li><%= t(:cv_cb_job_task3) %></li>
+            </ul>
+            <p class="modal-content-columns"><%= t(:cv_cb_job_contract) %><br><%= t(:cv_cb_job_comment) %></p>
+          </div>
         </div>
       </div>
       <!-- credit analyst -->
@@ -61,8 +83,8 @@
         <div class="blurred-area">
           <div class="blur"></div>
           <div class="text-on-blur">
-            <h1>HSBC, Canary Wharf</h1>
-            <p>Business Analyst</p>
+            <h1><%= t(:cv_hsbc_title) %></h1>
+            <p><%= t(:cv_hsbc_field) %></p>
           </div>
         </div>
       </label>
@@ -70,9 +92,19 @@
       <div class="modal-fade-screen">
         <div class="modal-inner">
           <div class="modal-close" for="modal-3"></div>
-          <h1>HSBC</h1>
-          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
-          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span><i class="fa fa-calendar"></i> <%= t(:cv_hsbc_cal) %></span>
+          <div class="modal-inner-content">
+            <h1><%= t(:cv_hsbc_job_title) %></h1>
+            <p class="modal-intro"><%= t(:cv_hsbc_job_function) %></p>
+            <ul>
+              <li><%= t(:cv_hsbc_job_task1) %></li>
+              <br>
+              <li><%= t(:cv_hsbc_job_task2) %></li>
+              <br>
+              <li><%= t(:cv_hsbc_job_task3) %></li>
+            </ul>
+            <p class="modal-content-columns"><%= t(:cv_hsbc_job_contract) %><br><%= t(:cv_hsbc_job_comment) %></p>
+          </div>
         </div>
       </div>
       <!-- business analyst -->
@@ -83,8 +115,8 @@
         <div class="blurred-area">
           <div class="blur"></div>
           <div class="text-on-blur">
-            <h1>BNP Paribas</h1>
-            <p>Market Risk</p>
+            <h1><%= t(:cv_bnpp_title) %></h1>
+            <p><%= t(:cv_bnpp_field) %></p>
           </div>
         </div>
       </label>
@@ -92,9 +124,19 @@
       <div class="modal-fade-screen">
         <div class="modal-inner">
           <div class="modal-close" for="modal-4"></div>
-          <h1>BNP Paribas</h1>
-          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
-          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span><i class="fa fa-calendar"></i> <%= t(:cv_bnpp_cal) %></span>
+          <div class="modal-inner-content">
+            <h1><%= t(:cv_bnpp_job_title) %></h1>
+            <p class="modal-intro"><%= t(:cv_bnpp_job_function) %></p>
+            <ul>
+              <li><%= t(:cv_bnpp_job_task1) %></li>
+              <br>
+              <li><%= t(:cv_bnpp_job_task2) %></li>
+              <br>
+              <li><%= t(:cv_bnpp_job_task3) %></li>
+            </ul>
+            <p class="modal-content-columns"><%= t(:cv_bnpp_job_contract) %><br><%= t(:cv_bnpp_job_comment) %></p>
+          </div>
         </div>
       </div>
       <!-- risk analyst -->
@@ -105,8 +147,8 @@
         <div class="blurred-area">
           <div class="blur"></div>
           <div class="text-on-blur">
-            <h1>Société Générale</h1>
-            <p>Internship</p>
+            <h1><%= t(:cv_sg_title) %></h1>
+            <p><%= t(:cv_sg_field) %></p>
           </div>
         </div>
       </label>
@@ -114,9 +156,19 @@
       <div class="modal-fade-screen">
         <div class="modal-inner">
           <div class="modal-close" for="modal-5"></div>
-          <h1>Société Générale</h1>
-          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
-          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span><i class="fa fa-calendar"></i> <%= t(:cv_sg_cal) %></span>
+          <div class="modal-inner-content">
+            <h1><%= t(:cv_sg_job_title) %></h1>
+            <p class="modal-intro"><%= t(:cv_sg_job_function) %></p>
+            <ul>
+              <li><%= t(:cv_sg_job_task1) %></li>
+              <br>
+              <li><%= t(:cv_sg_job_task2) %></li>
+              <br>
+              <li><%= t(:cv_sg_job_task3) %></li>
+            </ul>
+            <p class="modal-content-columns"><%= t(:cv_sg_job_contract) %><br><%= t(:cv_sg_job_comment) %></p>
+          </div>
         </div>
       </div>
       <!-- sell-side analyst -->
@@ -136,9 +188,20 @@
       <div class="modal-fade-screen">
         <div class="modal-inner">
           <div class="modal-close" for="modal-6"></div>
-          <h1>Dauphine University</h1>
-          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
-          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span><i class="fa fa-calendar"></i> <%= t(:cv_dauphine_cal) %></span>
+          <div class="modal-inner-content">
+            <h1><%= t(:cv_dauphine_job_title) %></h1>
+            <h4><%= t(:cv_dauphine_job_uni) %></h4>
+            <p class="modal-intro"><%= t(:cv_dauphine_job_function) %></p>
+            <ul>
+              <li><%= t(:cv_dauphine_job_task1) %></li>
+              <br>
+              <li><%= t(:cv_dauphine_job_task2) %></li>
+              <br>
+              <li><%= t(:cv_dauphine_job_task3) %></li>
+            </ul>
+            <p class="modal-content-columns"><%= t(:cv_dauphine_job_contract) %><br><%= t(:cv_dauphine_job_comment) %></p>
+          </div>
         </div>
       </div>
       <!-- masters -->
@@ -158,9 +221,20 @@
       <div class="modal-fade-screen">
         <div class="modal-inner">
           <div class="modal-close" for="modal-7"></div>
-          <h1>LSBU</h1>
-          <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
-          <p class="modal-content-columns">Close Brothers: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+          <span><i class="fa fa-calendar"></i> <%= t(:cv_lsbu_cal) %></span>
+          <div class="modal-inner-content">
+            <h1><%= t(:cv_lsbu_job_title) %></h1>
+            <h4><%= t(:cv_lsbu_job_uni) %></h4>
+            <p class="modal-intro"><%= t(:cv_lsbu_job_function) %></p>
+            <ul>
+              <li><%= t(:cv_lsbu_job_task1) %></li>
+              <br>
+              <li><%= t(:cv_lsbu_job_task2) %></li>
+              <br>
+              <li><%= t(:cv_lsbu_job_task3) %></li>
+            </ul>
+            <p class="modal-content-columns"><%= t(:cv_lsbu_job_contract) %><br><%= t(:cv_lsbu_job_comment) %></p>
+          </div>
         </div>
       </div>
       <!-- undergraduate -->

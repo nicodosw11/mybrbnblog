@@ -187,7 +187,7 @@ Building a two-sided marketplace:
   project_id: 4
   card:
     selector: RubyOnRails Web-apps
-    image: e-commerce.jpg
+    image: e-commerce.jpeg
     text: RubyonRails · HTML5 & CSS3 · JavasScript
   modal:
     title: My first marketplace.
@@ -205,38 +205,38 @@ Building a two-sided marketplace:
       title_1: Title 1
       text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis. Laudantium cumque libero et voluptate numquam voluptatum quod voluptas in, nobis, deserunt odio soluta esse maxime.
       title_2: Title 2
-      image_1: e-commerce.jpg
+      image_1: e-commerce.jpeg
       title_4: Title 3
       sub_4: Sunt ducimus sit eaque eius quibusdam nemo cumque nobis deserunt.
-      image_4: e-commerce.jpg
-      image_5: e-commerce.jpg
-      image_6: e-commerce.jpg
+      image_4: e-commerce.jpeg
+      image_5: e-commerce.jpeg
+      image_6: e-commerce.jpeg
       title_6: Title 6
       sub_6: Possimus hic inventore commodi culpa laborum
-      image_7: e-commerce.jpg
+      image_7: e-commerce.jpeg
       title_7: Title 7
-      image_8: e-commerce.jpg
+      image_8: e-commerce.jpeg
       title_9: Title 9
       sub_9: Officia ipsum sapiente.
-      image_9: e-commerce.jpg
+      image_9: e-commerce.jpeg
       title_10: Title 10
       sub_10: Quidem facilis at quod ratione sunt, sint, nobis aperiam incidunt.
-      image_10: e-commerce.jpg
+      image_10: e-commerce.jpeg
       title_11: Title 11
       sub_11: Sint dolorem nesciunt, atque non! Temporibus eligendi vel laboriosam, beatae magni nostrum.
-      image_11: e-commerce.jpg
+      image_11: e-commerce.jpeg
       title_12: Title 12
       sub_12: Sit eius obcaecati fugit ab voluptatem ex culpa voluptatibus voluptas.
-      image_12: e-commerce.jpg
+      image_12: e-commerce.jpeg
       title_13: Title 13
       sub_13:  Aut consequuntur inventore, vitae eligendi quidem reprehenderit.
-      image_13: e-commerce.jpg
-      image_14: e-commerce.jpg
-      image_15: e-commerce.jpg
-      image_16: e-commerce.jpg
-      image_17: e-commerce.jpg
-      image_18: e-commerce.jpg
-      image_19: e-commerce.jpg
+      image_13: e-commerce.jpeg
+      image_14: e-commerce.jpeg
+      image_15: e-commerce.jpeg
+      image_16: e-commerce.jpeg
+      image_17: e-commerce.jpeg
+      image_18: e-commerce.jpeg
+      image_19: e-commerce.jpeg
 
 Learning CSS3 in deep with a mock circus showpage:
   project_id: 5
@@ -361,7 +361,7 @@ A todo-list with Javascript and Python:
   project_id: 9
   card:
     selector: HTML5-CSS3-JavaScript Python-Node.js
-    image: todo.jpg
+    image: todo.jpeg
     text: HTML5 & CSS3 · JavasScript . Python
   modal:
     title: Todo-list app with JS and Python.
@@ -514,32 +514,8 @@ My first Node.js app:
       title_6: Title 6
       image_6: internet.jpeg
 
-Mobile Delivery App with Python/Swift:
-  project_id: 15
-  card:
-    selector: Python-Nodejs Web-apps Mobile
-    image: map.jpg
-    text: HTML5 & CSS3 · JavasScript . Python . Swift
-  modal:
-    title: My first mobile app.
-    img_banner: navigation1200760.jpeg
-    description:
-      title_left_1: What is it?
-      text_left_1:  An app to learn Swift
-      title_left_2: Categories
-      text_left_2: HTML CSS Ruby Javascript
-      title_middle: Project
-      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
-      title_right: Technology
-      text_right: Middleman
-    body:
-      title_1: Title 1
-      sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
-      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
-      image_1: map.jpg
-
 A multi-user blog with Rails:
-  project_id: 16
+  project_id: 15
   card:
     selector: RubyOnRails Web-apps
     image: multiblog.jpeg
@@ -564,3 +540,54 @@ A multi-user blog with Rails:
       image_2: multiblog.jpeg
       image_3: multiblog.jpeg
       image_4: multiblog.jpeg
+
+A website for small apps:
+  project_id: 16
+  card:
+    selector: RubyOnRails Web-apps
+    image: algo.jpeg
+    text: RubyonRails · HTML5 & CSS3 · JavasScript
+  modal:
+    title: Algorithms with Ruby and JavaScript.
+    img_banner: algo.jpeg
+    description:
+      title_left_1: What is it?
+      text_left_1: Adding small apps I have worked on
+      title_left_2: Categories
+      text_left_2: HTML CSS Ruby Javascript
+      title_middle: Project
+      text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+      title_right: Technology
+      text_right: RubyonRails
+    body:
+      title_1: Title 1
+      sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
+      text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
+      image_1: algo.jpeg
+      image_2: algo.jpeg
+      image_3: algo.jpeg
+      image_4: algo.jpeg
+
+# Mobile Delivery App with Python/Swift:
+#   project_id: 17
+#   card:
+#     selector: Python-Nodejs Web-apps Mobile
+#     image: map.jpg
+#     text: HTML5 & CSS3 · JavasScript . Python . Swift
+#   modal:
+#     title: My first mobile app.
+#     img_banner: navigation1200760.jpeg
+#     description:
+#       title_left_1: What is it?
+#       text_left_1:  An app to learn Swift
+#       title_left_2: Categories
+#       text_left_2: HTML CSS Ruby Javascript
+#       title_middle: Project
+#       text_middle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sed voluptates vero ullam sit pariatur ipsam cupiditate ipsum enim tempore harum consequuntur quo, error neque officia perspiciatis in accusamus ea!
+#       title_right: Technology
+#       text_right: Middleman
+#     body:
+#       title_1: Title 1
+#       sub_1: Quisquam consequatur ratione iure id officia cupiditate nulla
+#       text_1: Totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
+#       image_1: map.jpg

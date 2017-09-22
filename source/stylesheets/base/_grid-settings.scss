@@ -29,10 +29,12 @@ $xlarge: new-breakpoint(min-width $xlarge-screen 12);
 
 
 // Further Breakpoints
+$desktop-up: min-width em(1600);
 $desktop: min-width em(1120);
 $medium-device: min-width em(1000);
 $tablet: min-width em(730);
 $mobile: min-width em(480);
+$desktop-up-only: max-width em(1599);
 $desktop-only: max-width em(1119);
 $medium-only: max-width em(999);
 $tablet-only: max-width em(729);

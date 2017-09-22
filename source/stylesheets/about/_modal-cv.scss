@@ -99,16 +99,41 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
         width: 50%;
       }
 
+      &-content {
+        margin-top: 3em;
+      }
+
       h1 {
-        font-size: 2em;
+        // font-size: 2em;
+        font-size: 1.5em;
         color: #333;
         text-align: left;
         text-transform: capitalize;
       }
-      p {
+      p, li {
         font-size: 1em;
         color: #333;
         line-height: 1.5em;
+      }
+
+      li {
+        font-family: "freight-text-pro", "times", "georgia", serif;
+        font-weight: 400;
+        text-align: left;
+        &:before {
+          content: "\2610";
+          margin-right:5px;
+        }
+        &:hover:before {
+          content: "\2611";
+          margin-right:5px;
+        }
+      }
+
+      span {
+        position: absolute;
+        top: 1.5em;
+        left: 1.5em;
       }
 
       .modal-intro {
@@ -116,6 +141,7 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
       }
       .modal-content-columns {
         color: #333;
+        text-align: justify;
 
         @include media($medium-screen) {
           columns: 2 8em;
