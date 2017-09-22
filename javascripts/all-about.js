@@ -12,9 +12,12 @@ $(document).ready(function() {
           height: '100%',
           top : -scrollPosition
         });
-        $('#navbar-about-medium').css({
-          display: 'none'
-        });
+        // $('#navbar-about-medium, #navbar-about-large').css({
+        //   display: 'none'
+        // });
+        $('#navbar-about-medium, #navbar-about-large').css(
+          "z-index", "0"
+        );
       } else {
         // $("body").removeClass("modal-open");
         $('body').css({
@@ -22,9 +25,12 @@ $(document).ready(function() {
           position: '',
           top: ''
         }).scrollTop(scrollPosition);
-        $('#navbar-about-medium').css({
-          display: 'block'
-        });
+        // $('#navbar-about-medium, #navbar-about-large').css({
+        //   display: 'block'
+        // });
+        $('#navbar-about-medium, #navbar-about-large').css(
+          "z-index", "49"
+        );
       }
     });
 

@@ -5819,19 +5819,36 @@ body.about.about_index .modal-inner, body.fr.fr_about.fr_about_index .modal-inne
   @media screen and (min-width: 64em) {
     body.about.about_index .modal-inner, body.fr.fr_about.fr_about_index .modal-inner {
       width: 50%; } }
+  body.about.about_index .modal-inner-content, body.fr.fr_about.fr_about_index .modal-inner-content {
+    margin-top: 3em; }
   body.about.about_index .modal-inner h1, body.fr.fr_about.fr_about_index .modal-inner h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #333;
     text-align: left;
     text-transform: capitalize; }
-  body.about.about_index .modal-inner p, body.fr.fr_about.fr_about_index .modal-inner p {
+  body.about.about_index .modal-inner p, body.about.about_index .modal-inner li, body.fr.fr_about.fr_about_index .modal-inner p, body.fr.fr_about.fr_about_index .modal-inner li {
     font-size: 1em;
     color: #333;
     line-height: 1.5em; }
+  body.about.about_index .modal-inner li, body.fr.fr_about.fr_about_index .modal-inner li {
+    font-family: "freight-text-pro", "times", "georgia", serif;
+    font-weight: 400;
+    text-align: left; }
+    body.about.about_index .modal-inner li:before, body.fr.fr_about.fr_about_index .modal-inner li:before {
+      content: "\2610";
+      margin-right: 5px; }
+    body.about.about_index .modal-inner li:hover:before, body.fr.fr_about.fr_about_index .modal-inner li:hover:before {
+      content: "\2611";
+      margin-right: 5px; }
+  body.about.about_index .modal-inner span, body.fr.fr_about.fr_about_index .modal-inner span {
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em; }
   body.about.about_index .modal-inner .modal-intro, body.fr.fr_about.fr_about_index .modal-inner .modal-intro {
     margin-bottom: 1em; }
   body.about.about_index .modal-inner .modal-content-columns, body.fr.fr_about.fr_about_index .modal-inner .modal-content-columns {
-    color: #333; }
+    color: #333;
+    text-align: justify; }
     @media screen and (min-width: 45.625em) {
       body.about.about_index .modal-inner .modal-content-columns, body.fr.fr_about.fr_about_index .modal-inner .modal-content-columns {
         -webkit-columns: 2 8em;
@@ -5852,6 +5869,10 @@ body.about.about_index .sliding-panel-content, body.fr.fr_about.fr_about_index .
     border-bottom: 1px solid #208e4e !important; }
   body.about.about_index .sliding-panel-content li a:hover, body.fr.fr_about.fr_about_index .sliding-panel-content li a:hover {
     background-color: #208e4e !important; }
+body.about.about_index .lewagon-picture, body.fr.fr_about.fr_about_index .lewagon-picture {
+  height: 30px;
+  width: auto;
+  vertical-align: middle; }
 body.about.about_index section.features, body.fr.fr_about.fr_about_index section.features {
   padding: 6em 0 3em;
   position: relative;
@@ -6405,7 +6426,12 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
         flex-basis: 20em;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
-            flex-grow: 1; }
+            flex-grow: 1;
+    margin: 0 0.5em; }
+    .bullets .bullet:first-child {
+      margin-left: 0 !important; }
+    .bullets .bullet:last-child {
+      margin-right: 0 !important; }
   .bullets .bullet-icon {
     background: #477DCA;
     border-radius: 50%;
@@ -6414,11 +6440,11 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
     padding: 0.875em;
     width: 3.5em; }
   .bullets .bullet-icon-1 {
-    background: #477DCA; }
+    background: #a9ca47; }
   .bullets .bullet-icon-2 {
     background: #DA4734; }
   .bullets .bullet-icon-3 {
-    background: #a9ca47; }
+    background: #477DCA; }
   .bullets .bullet-content {
     margin-bottom: 2em;
     margin-left: 4.9em; }
@@ -6433,7 +6459,8 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
   .bullets p {
     color: #333;
     line-height: 1.5;
-    font-size: 1em; }
+    font-size: 1em;
+    text-align: justify; }
   .bullets img {
     max-width: 100%; }
 
@@ -8023,8 +8050,7 @@ body.about.about_index .logo-name-message, body.fr.fr_about.fr_about_index .logo
     margin: 0 0 1.125em; }
   body.about.about_index .logo-name-message #name, body.fr.fr_about.fr_about_index .logo-name-message #name {
     font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
-    font-size: 3em;
-    font-size: 2.74917em;
+    font-size: 1.94425em;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.75);
     text-shadow: 0 1px 0 black;
@@ -8034,20 +8060,28 @@ body.about.about_index .logo-name-message, body.fr.fr_about.fr_about_index .logo
     letter-spacing: -0.01em; }
     @media screen and (min-width: 45.625em) {
       body.about.about_index .logo-name-message #name, body.fr.fr_about.fr_about_index .logo-name-message #name {
-        font-size: 3.18054em; } }
-    @media screen and (min-width: 64em) {
+        font-size: 2.24932em; } }
+    @media screen and (min-width: 70em) {
       body.about.about_index .logo-name-message #name, body.fr.fr_about.fr_about_index .logo-name-message #name {
-        font-size: 3.88733em; } }
+        font-size: 2.74917em; } }
+    @media screen and (min-width: 100em) {
+      body.about.about_index .logo-name-message #name, body.fr.fr_about.fr_about_index .logo-name-message #name {
+        font-size: 3.18054em; } }
   body.about.about_index .logo-name-message #tagline, body.fr.fr_about.fr_about_index .logo-name-message #tagline {
     margin: 0 0 1.125em; }
   body.about.about_index .logo-name-message #tagline, body.fr.fr_about.fr_about_index .logo-name-message #tagline {
     font-family: 'futura-pt', 'futura', 'avenir', 'helvetica', sans-serif;
-    font-size: 2.25em;
-    font-size: 1.59075em;
+    font-size: 1.125em;
     font-weight: 400;
     color: #4A4A4A;
     line-height: 1; }
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: 45.625em) {
+      body.about.about_index .logo-name-message #tagline, body.fr.fr_about.fr_about_index .logo-name-message #tagline {
+        font-size: 1.375em; } }
+    @media screen and (min-width: 70em) {
+      body.about.about_index .logo-name-message #tagline, body.fr.fr_about.fr_about_index .logo-name-message #tagline {
+        font-size: 1.59075em; } }
+    @media screen and (min-width: 100em) {
       body.about.about_index .logo-name-message #tagline, body.fr.fr_about.fr_about_index .logo-name-message #tagline {
         font-size: 1.94425em; } }
   body.about.about_index .logo-name-message .big-link, body.fr.fr_about.fr_about_index .logo-name-message .big-link {
@@ -8122,7 +8156,17 @@ body.about.about_index .logo-name-message, body.fr.fr_about.fr_about_index .logo
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
   body.about.about_index .logo-name-message p, body.fr.fr_about.fr_about_index .logo-name-message p {
-    font-size: 1.2em !important; }
+    text-align: justify;
+    font-size: 0.75em !important; }
+    @media screen and (min-width: 45.625em) {
+      body.about.about_index .logo-name-message p, body.fr.fr_about.fr_about_index .logo-name-message p {
+        font-size: 0.875em !important; } }
+    @media screen and (min-width: 70em) {
+      body.about.about_index .logo-name-message p, body.fr.fr_about.fr_about_index .logo-name-message p {
+        font-size: 1em !important; } }
+    @media screen and (min-width: 100em) {
+      body.about.about_index .logo-name-message p, body.fr.fr_about.fr_about_index .logo-name-message p {
+        font-size: 1.125em !important; } }
   body.about.about_index .logo-name-message .animated-logo, body.fr.fr_about.fr_about_index .logo-name-message .animated-logo {
     color: #4A4A4A !important; }
 
