@@ -9,13 +9,17 @@ fr:
   freelance_about: "Web developer entre Londres et Paris"
   build: "Devenir meilleur en programmation jour après jour."
   hello: "Salut à tous!"
-  skills: "Je crée des applications mobiles codées en Java sous Android, mais aussi en Python + Swift pour iOS et même en React Native avec RubyOnRails."
+  # skills: "Je crée des applications mobiles codées en Java sous Android, mais aussi en Python + Swift pour iOS et même en React Native avec RubyOnRails."
+  skills: "Je crée des applications codées en JavaScript, mais aussi en React + RubyOnRails - plus de détails sur mes compétences"
   read_more_in: "Pour plus d'informations n'hésitez pas à lire "
   my_blog: "mon blog"
   checkout: "ou regarder mes"
   recent_projects: "derniers projets"
+  checkout_recent_projects: "Une page est également dédiée à mes"
   more_about_me: "Pour plus d'infos sur moi"
-  here: "c'est par ici"
+  it_is_here: "c'est par ici"
+  here: "ici"
+  or_in_my: "ou dans mon"
   get_in_touch: "Me contacter"
   my_recent_articles: "Derniers articles"
   by_year: "Par Année"
@@ -26,11 +30,41 @@ fr:
   contact_way: "C'est la meilleure manière de me contacter."
 
   # about page
+
+  #intro
+  career_switcher: "Il y a un an je prenais la décision de changer de carrière - quitter le secteur bancaire dans lequel j'ai travaillé les 5 dernières années, pour devenir développeur web et vivre ma passion. Je ne me suis jamais senti aussi épanoui et vivant! Le développement web encourage ma créativité et me stimule intellectuellement - choses que je ne trouvais plus dans mon ancienne carrière."
+  full_y: "Après un an d'apprentissage des concepts de programmation, tant back-end que front-end, je pense être prêt pour ma nouvelle carrière! J'espère que vous apprécierez naviguer sur mon site et surtout n'hésitez pas à"
+  contact_me: "me contacter"
+  further_queries: "pour toute information ou question."
   # sections titles
+  ambitions: "Des objectifs précis et un plan de bataille"
+  reasons: "6 raisons de me recruter!"
+  onboard: "Pourquoi recruter un développeur junior comme moi peut être un atout."
   previous_career: "Avant j'étais dans la banque..."
   three_xp: "3 belles expériences à travers lesquelles j'ai beaucoup appris."
   full_picture: "mon parcours en images"
   here_it_is: "Master à Dauphine, Salle de marchés et Banque de financement et d'investissement."
+
+  #statement
+  junior: "Nicolas Dotto, Developpeur Junior (FullStack)"
+  action_plan: "Mes objectifs et ma feuille de route"
+  after_1: "Fort d'un an de pratique quotidienne du code, je mesure pleinement les étapes à franchir pour devenir un bon web developpeur. D'abord, exceller en JavaScript - le language du web, et également être à l'aise avec un framework tel que React. Ensuite, selon la formule consacrée \"Algorithms + Data Structures = Programs\", nul ne peut prétendre être un bon codeur sans une solide culture algorithmique, laquelle permet dans la vraie vie de résoudre n'importe quel problème en l'articulant programmatiquement."
+  after_2_a: "Après avoir posé les fondations, je voudrais désormais passer un cap. Pour cela, mon plan est de repartir avec JavaScript et de développer plusieurs applications me permettant d'approfondir ma connaissance du language, avec pour chacune un degré supplémentaire de sophistication. Je pourrai ensuite intégrer React dans mon cheminement et coder plusieurs applications qui, de la même manière, renforce ma maîtrise du framework. Une fois ces objectifs remplis, je mettrai à l'oeuvre mon envie de me former \"formellement\" à l'algorithmie dans le cadre d'un cours mêlant théorique et pratique (par exemple"
+  after_2_b: "tout en pratiquant quotidiennement sur des sites comme"
+
+  #features
+  passion: "PASSIONNÉ"
+  passion_for_code: "J'aimais bien la finance mais ma vraie passion c'est la programmation et la création de sites web - je ne peux tout simplement pas m'arrêter!"
+  motivation: "MO-TI-VÉ"
+  motivation_for_code: "Je suis prêt à fournir tous les efforts nécessaires pour satisfaire mes ambitions - peu importent les difficultés, peu importent les distances."
+  experience_banks: "EXPERIMENTÉ"
+  experience_qualities: "5 années d'experience, dans des rôles et des environments différents, ont forgé mon sens du travail en équipe et m'ont appris l'importance de bien communiquer."
+  practice: "La main à la pâte"
+  practice_qualities: "Je me suis confronté seul à la création d'applications qui m'ont déjà familiarisé avec les \"outils\" et concepts fondamentaux du web (HTML5, CSS3, JS, \"RESTful\" et MVC)."
+  cog: "If this then that"
+  cog_qualities: "Un an passé à coder des applications en Ruby et à concevoir des modèles pertinents de bases de données - quoi de mieux pour se lancer dans le grand bain!"
+  geek: "Plus qu'un développeur"
+  geek_qualities: "Fort de mon parcours en banque, je saurai faire preuve de perspicacité afin de voir chaque situation dans son ensemble et en comprendre tous les tenants et aboutissants."
 
   #bullets
   bnpp_job: "Je suis diplomé de l'Université Paris Dauphine (Master 224 Banque Finance - 2011) dans le cadre duquel j'ai réalisé un premier stage professionnel en recherche crédit à la Société Générale (Paris La Défense) en tant qu'analyste sell-side."

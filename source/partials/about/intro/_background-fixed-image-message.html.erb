@@ -10,9 +10,9 @@
         </div>
       </div>
       <h4 class="links">
-      <%= link_to "Objectives", "#section-box"%>
-        <%= link_to "Skills", "#section-skills"%>
-        <%= link_to "Experience", "#section-experience"%>
+      <%= link_to "Objectives", "#objectives"%>
+        <%= link_to "Skills", "#skills"%>
+        <%= link_to "Experience", "#experience"%>
       </h4>
       <div class="down-arrow">
       <a href="#hi" id="down-arrow">
@@ -25,11 +25,21 @@
   <div id="hi">
 
     <h1><%= t(:hello) %></h1>
-    <p><%= t(:skills) %></p>
-    <p>
-      <%= t(:read_more_in) %> <a href="/blog"><%= t(:my_blog) %></a> <%= t(:checkout) %><a href="/projects"> <%= t(:recent_projects) %></a>.
-      <!-- <a target="_blank" href="/projects"></a>. -->
-      <%= t(:more_about_me) %> <a href="/about"><%= t(:here) %></a>.
+<!--     <p>"I create applications for mobiles using Java for Android, Python & Swift for iOS and React Native with RubyOnRails."</p> -->
+
+    <p><%= t(:skills) %> <a href="#skills"><%= t(:here) %></a> <%= t(:or_in_my) %>
+      <% if I18n.locale == I18n.default_locale %>
+        <a href="/blog"> blog</a>.
+      <% else %>
+        <a href="/fr/blog"> blog</a>.
+      <% end%>
+    </p>
+    <p><%= t(:checkout_recent_projects) %>
+      <% if I18n.locale == I18n.default_locale %>
+        <a href="/projects"> <%= t(:recent_projects) %></a>.
+      <% else %>
+        <a href="/fr/projects"> <%= t(:recent_projects) %></a>.
+      <% end %>
     </p>
 
 <!--     <section class="features" id="section-features">

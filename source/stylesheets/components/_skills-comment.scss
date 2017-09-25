@@ -67,21 +67,43 @@
     width: 100%;
 
     h1 {
-      font-size: 1em;
+      font-size: 0.875em !important; // 14px
+      // font-size: 1em;
+      @include media($desktop) {
+        font-size: 1em !important; // 16px
+        // font-size: 1.125em !important; // 18px
+      }
+      @include media($desktop-up) {
+        font-size: 1.125em !important; // 18px
+        // font-size: 1.25em !important; // 20px
+      }
       margin: 0 0 0.5em 0;
     }
 
     p {
       line-height: 1.5em;
       margin-bottom: 0.5em;
-      @include media($mobile-only) {
-        font-size: 0.9em;
+      // @include media($mobile-only) {
+      //   font-size: 0.9em;
+      // }
+      font-size: 0.875em !important; // 14px
+      // @include media($tablet) {
+      //   font-size: 1em !important; // 16px
+      // }
+      @include media($desktop) {
+        font-size: 1em !important; // 16px
+        // font-size: 1.125em !important; // 18px
       }
+      @include media($desktop-up) {
+        font-size: 1.125em !important; // 18px
+        // font-size: 1.25em !important; // 20px
+      }
+      text-align: justify;
     }
 
     p.comment-detail {
       color: $comment-detail-color;
-      font-size: 0.9em;
+      // font-size: 0.9em;
       font-style: italic;
     }
   }

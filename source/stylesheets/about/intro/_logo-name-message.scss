@@ -221,15 +221,16 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
 
     p {
       text-align: justify;
-      font-size: 0.75em !important; // 12px
+      // font-size: 0.75em !important; // 12px
+      font-size: 0.875em !important; // 14px
       @include media($tablet) {
-        font-size: 0.875em !important; // 14px
-      }
-      @include media($desktop) {
         font-size: 1em !important; // 16px
       }
-      @include media($desktop-up) {
+      @include media($desktop) {
         font-size: 1.125em !important; // 18px
+      }
+      @include media($desktop-up) {
+        font-size: 1.25em !important; // 20px
       }
     }
 

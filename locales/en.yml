@@ -8,14 +8,18 @@ en:
   freelance: "Web developer"
   freelance_about: "London-based Web developer"
   build: "Building a career in programming & web development."
-  hello: "Hi there"
-  skills: "I create applications for mobiles using Java for Android, Python & Swift for iOS and React Native with RubyOnRails."
+  hello: "Hi there!"
+  # skills: "I create applications for mobiles using Java for Android, Python & Swift for iOS and React Native with RubyOnRails."
+  skills: "My specialty is creating applications using JavaScript and/or RubyOnRails - more about my skills"
   read_more_in: "Read more in"
   my_blog: "my blog"
   checkout: "or checkout some"
   recent_projects: "recent projects"
+  checkout_recent_projects: "Please also checkout some of my"
   more_about_me: "More about me"
+  it_is_here: "here it is"
   here: "here"
+  or_in_my: "or in my"
   get_in_touch: "Get in touch"
   my_recent_articles: "Recent articles"
   by_year: "By Year"
@@ -26,15 +30,45 @@ en:
   contact_way: "It is the best way to contact me."
 
   # about page
+
+  #intro
+  career_switcher: "A year ago I have made a decision to switch my career - leave the banking industry where I have been working for the past 5 years, and become a web developer to live a life of passion. Since then, nothing else keeps me happier and more awake! Web development is both creative and intellectually stimulating - two things I could no longer find in my previous roles."
+  full_y: "After dedicating the full year to learning programming concepts and different aspects of both back-end and front-end, I believe I have made myself ready for my new career! I hope you will enjoy browsing through my website and please"
+  contact_me: "contact me"
+  further_queries: "if you have any further queries."
   # sections titles
+  ambitions: "Here are a few good things to know about my ambitions."
+  reasons: "6 reasons to hire me!"
+  onboard: "Why you should get me onboard as a junior developer."
   previous_career: "My previous life as a banker"
   three_xp: "My three main experiences and what I liked about them."
   full_picture: "the full picture"
   here_it_is: "here it is: master's degree, market risk analysis and corporate banking."
 
+  #statement
+  junior: "Nicolas Dotto, Junior FullStack Developer"
+  action_plan: "What I want and what my action plan is"
+  after_1: "After a year of intensive practice, I have become aware of what should be my next step in my endeavour to become a strong web developer. First, excellence in Javascript - the language of the browser, and in a framework such as React. Second, Algorithms + Data Structures = Programs, if you want to be serious about programming then you need to develop an extensive knowledge of algorithms to be able to articulate any real-life problem into a programming solution."
+  after_2_a: "After getting the basics right, I am now able to move to the next step. Starting with JavaScript, I am committed to build a strong command of the language by developing a number of applications gradually increasing sophistication. I will then strenghten my understanding of React by integrating this framework into my apps. My next step will be to thoroughly learn about algorithms as part of a formal course (such as"
+  after_2_b: "and implement daily my new knowledge into algorithm exercises such as"
+
+  #features
+  passion: "I found my Passion"
+  passion_for_code: "I love finance but my real passion is for programming and web development - I just can't stop coding!"
+  motivation: "MO-TI-VA-TED"
+  motivation_for_code: "I am ready to go the extra mile to reach my ambitions - whatever it takes and wherever I go."
+  experience_banks: "Experience baby!"
+  experience_qualities: "Over 5 years of experience in different roles and environments - I know the value of team spirit and communication."
+  practice: "Got my hands dirty"
+  practice_qualities: "I have built applications, websites and blogs so I am familiar with web design, RESTful programming and MVC."
+  cog: "If this then that"
+  cog_qualities: "Lots of ruby programming and database design under my belt - not a bad intro to web development!"
+  geek: "Beyond the Geek..."
+  geek_qualities: "Business acumen developed in my previous career will help to see the big picture and connect the dots."
+
   #bullets
   bnpp_job: "I graduated in 2011 with a master's degree in Banking & Finance from Paris Dauphine University then I worked as an intern in credit research sell-side at Société Générale in Paris."
-  bnpp_xp: "I chose to relocate to London where I started my career as a credit manager at BNP Paribas. I enjoyed my time both for the steep learning curve of the products and activities and for the communication and interpersonal skills I have built on the trading floor."
+  bnpp_xp: "I chose to relocate to London where I started my career managing credit limits and exposure for different businesses at BNP Paribas. I enjoyed my time both for the steep learning curve of the products and activities and for the communication and interpersonal skills I have built on the trading floor."
   hsbc_job: "I was part of a Middle Office function in charge of valuing, monitoring and risk managing exposure on a broad range of Rates/FX/equities products covering different markets."
   hsbc_xp: "The position required a strong capacity to manage high volumes of trade data and an ability to prioritise resources among various challenges. That is also where I found my passion for programming while investigating trading systems."
   cb_job: "I assessed the creditworthiness of \"large deals\" such as high-profile commercial and residential developments, wind farms financing and even Barclays Premier League football transfers!"

@@ -5,10 +5,21 @@
         <h1 id="name">Nicolas Dotto</h1>
       </div>
       <h2 id="tagline"><%= t(:freelance_about) %></h2>
-      <p>I am committed to a career in web development and I am determined to succeed whatever it takes. Coming from a different background (banking), I have been told I am being very brave, I like to think I just chose to live a life of passion.</p>
-      <p>What I know now for certain is that I found my passion in programming. Nothing else keeps me happier and more awake. Web development is creative and intellectually stimulating - two things I could no longer find in my previous roles.</p>
-      <!-- <p>I graduated with a master's degree in banking and I worked as an analyst for 4 years. I did a bootcamp to get off to a good start but the truth is that it takes time and practice to become "really good" at it. </p> -->
-      <p>I believe that I have made myself ready for my new career and that I will be now capitalising on the time I spent in buiding apps, websites and blog. I hope you will enjoy my website and that you will find all the information you need if you are interested in me as a junior developer.</p>
+      <p><%= t(:career_switcher) %></p>
+      <p>
+        <%= t(:full_y) %>
+        <% if I18n.locale == I18n.default_locale %>
+          <a href="/contact"><%= t(:contact_me) %></a>
+        <% else %>
+          <a href="/fr/contact"><%= t(:contact_me) %></a>
+        <% end %>
+        <%= t(:further_queries) %>
+      </p>
+
+<!--       <p>I am committed to a career in web development and I am determined to succeed whatever it takes. Coming from a different background (banking), I have been told I am being very brave, I like to think I just chose to live a life of passion.</p> -->
+<!--       <p>What I know now for certain is that I found my passion in programming. Nothing else keeps me happier and more awake. Web development is creative and intellectually stimulating - two things I could no longer find in my previous roles.</p> -->
+<!--       <p>I graduated with a master's degree in banking and I worked as an analyst for 4 years. I did a bootcamp to get off to a good start but the truth is that it takes time and practice to become "really good" at it. </p> -->
+<!--       <p>I believe that I have made myself ready for my new career and that I will be now capitalising on the time I spent in buiding apps, websites and blog. I hope you will enjoy my website and that you will find all the information you need if you are interested in me as a junior developer.</p> -->
 <!--         <a href="" class="big-link menu-button" id="js-fadeInElement">
           <img src="/images/menu-white.png" class="js-menu-trigger sliding-panel-button" alt="">
         </a> -->

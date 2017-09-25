@@ -13,6 +13,32 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
       opacity: 0.5;
       font-size: 1.25em;
       }
+      > h2 {
+        font-size: 1.5em !important; // 24px
+        @include media($tablet) {
+          font-size: 1.75em !important; // 28px
+        }
+        @include media($desktop) {
+          font-size: 2em !important; // 32px
+        }
+        @include media($desktop-up) {
+          font-size: 2.25em !important; // 36px
+        }
+      }
+      > p {
+        color: #717171;
+        // font-size: 0.875em !important; // 14px
+        font-size: 1em !important; // 16px
+        @include media($tablet) {
+          font-size: 1.125em !important; // 18px
+        }
+        @include media($desktop) {
+          font-size: 1.25em !important; // 20px
+        }
+        @include media($desktop-up) {
+          font-size: 1.375em !important; // 22px
+        }
+      }
     }
     .feature-items {
       .feature-item {
@@ -28,12 +54,38 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
         }
         h4 {
           text-transform: uppercase;
-          font-size: 1.3em;
+          // font-size: 1.3em;
           padding-bottom: .5em;
+
+          font-size: modular-scale(0) !important; //18px
+          @include media($medium-device) {
+            font-size: modular-scale(1) !important; //22px
+          }
+          @include media($desktop) {
+            font-size: modular-scale(2) !important; //25px
+          }
+          @include media($desktop-up) {
+            font-size: modular-scale(3) !important; //31px
+          }
         }
+
         p {
           color: gray;
-          font-size: 1.25em;
+          // font-size: 1.25em;
+
+          // text-align: justify;
+          // font-size: 0.75em !important; // 12px
+          font-size: 0.875em !important; // 14px
+          @include media($tablet) {
+            font-size: 1em !important; // 16px
+          }
+          @include media($desktop) {
+            font-size: 1.125em !important; // 18px
+          }
+          @include media($desktop-up) {
+            font-size: 1.25em !important; // 20px
+          }
+
         }
       }
       @media screen and (min-width: 53.75em) {

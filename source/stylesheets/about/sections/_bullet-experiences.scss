@@ -62,8 +62,19 @@
   p {
     color: $base-font-color;
     line-height: $base-line-height;
-    font-size: 1em;
+    // font-size: 1em;
     text-align: justify;
+
+    font-size: 0.875em !important; // 14px
+    @include media($tablet) {
+      font-size: 1em !important; // 16px
+    }
+    @include media($desktop) {
+      font-size: 1.125em !important; // 18px
+    }
+    @include media($desktop-up) {
+      font-size: 1.25em !important; // 20px
+    }
   }
 
   img {
