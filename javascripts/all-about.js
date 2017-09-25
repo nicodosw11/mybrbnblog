@@ -215,8 +215,8 @@ $(document).ready(function() {
     var accordion_activeTab = $(this).attr("rel");
     $("#"+accordion_activeTab).show();
     // $("#"+accordion_activeTab).scrollTop(0);
-    // $("#section-skills").scrollTop(0);
-    // $("#section-skills").animate({ scrollTop: 0 }, "fast");
+    // $("#skills").scrollTop(0);
+    // $("#skills").animate({ scrollTop: 0 }, "fast");
 
     $(".js-vertical-tab-accordion-heading").removeClass("is-active");
     $(this).addClass("is-active");
