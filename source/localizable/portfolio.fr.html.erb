@@ -11,6 +11,17 @@ layout: portfolio
 <%= partial("partials/navbars/navbar-portfolio")%>
 
 <div class="modal-overlay closed" id="modal-overlay"></div>
+
+<section class="cards-intro" id="portfolio-intro">
+  <div class="container">
+    <div class="title">
+      <h2>Portfolio</h2>
+      <hr class="small">
+      <p><%= t(:portfolio_intro_title)  %> <a href="https://github.com/nicodosw11/" target="_blank">GitHub</a> <%= t(:repository)  %> </p>
+    </div>
+  </div>
+</section>
+
 <section class="portfolio-cards">
   <% data.apps.category.each do |category| %>
     <h4 class="line-behind"><%= category.name %></h4>
@@ -20,8 +31,13 @@ layout: portfolio
 
         <li class="card-app trigger" data-modal-name="<%= app.name %>" data-modal-image="<%= app.image %>" data-modal-description="<%= app.description %>" data-modal-url="<%= app.url %>">
           <!-- <a href="<%= app.url %>"> -->
-              <div class="card-image img-container">
+              <div class="card-image img-container ribbon-box">
                 <%= image_tag app.image %>
+
+                <% if app.completion != "done" %>
+                <%= partial("partials/components/ribbon", :locals => { :app => app }) %>
+                <% end %>
+
               </div>
               <div class="card-header">
                 <div>

@@ -9,8 +9,8 @@ fr:
   freelance_about: "Web developer entre Londres et Paris"
   build: "Devenir meilleur en programmation jour après jour."
   hello: "Salut à tous!"
-  # skills: "Je crée des applications mobiles codées en Java sous Android, mais aussi en Python + Swift pour iOS et même en React Native avec RubyOnRails."
-  skills: "Je crée des applications codées en JavaScript, mais aussi en React + RubyOnRails - plus de détails sur mes compétences"
+  skills: "Je crée des applications codées en JavaScript, mais aussi en React + RubyOnRails."
+  skills_more: "Je crée des applications codées en JavaScript, mais aussi en React + RubyOnRails - plus de détails sur mes compétences"
   read_more_in: "Pour plus d'informations n'hésitez pas à lire "
   my_blog: "mon blog"
   checkout: "ou regarder mes"
@@ -53,7 +53,7 @@ fr:
   after_2_b: "tout en pratiquant quotidiennement sur des sites comme"
 
   #features
-  passion: "PASSIONNÉ"
+  passion_call: "PASSIONNÉ"
   passion_for_code: "J'aimais bien la finance mais ma vraie passion c'est la programmation et la création de sites web - je ne peux tout simplement pas m'arrêter!"
   motivation: "MO-TI-VÉ"
   motivation_for_code: "Je suis prêt à fournir tous les efforts nécessaires pour satisfaire mes ambitions - peu importent les difficultés, peu importent les distances."
@@ -65,6 +65,14 @@ fr:
   cog_qualities: "Un an passé à coder des applications en Ruby et à concevoir des modèles pertinents de bases de données - quoi de mieux pour se lancer dans le grand bain!"
   geek: "Plus qu'un développeur"
   geek_qualities: "Fort de mon parcours en banque, je saurai faire preuve de perspicacité afin de voir chaque situation dans son ensemble et en comprendre tous les tenants et aboutissants."
+
+  #skills
+  honest: "Un honnête aperçu de mes compétences"
+  arist: "“Plus j'en sais, plus je sais que je ne sais pas.”"
+
+  #cards
+  first_apps: "Mes premiers chef-d'oeuvres!"
+  hard: "Apprendre à coder demande du temps et de la pratique. Mais petit à petit l'oiseau..."
 
   #bullets
   bnpp_job: "Je suis diplomé de l'Université Paris Dauphine (Master 224 Banque Finance - 2011) dans le cadre duquel j'ai réalisé un premier stage professionnel en recherche crédit à la Société Générale (Paris La Défense) en tant qu'analyste sell-side."
@@ -164,3 +172,16 @@ fr:
   search_placeholder: "Ruby"
   no_results: "Pas de résultats"
   one_day: "Un jour j'ai quitté la finance pour vivre pleinement ma passion pour la programmation sans aucun regret à ce jour!"
+
+  #portfolio
+  portfolio_intro_title: "Vous trouverez ci-dessous quelques-unes des applications de mon compte"
+  repository: ""
+  done: "fini"
+  finishing: "à finir"
+  in_progress: "en cours"
+  just_started: "récent"
+  queued: "en stand-by"
+
+  #projects
+  my_projects: "Mes projets"
+  projects_intro_title: "Présentation des applications que je souhaite développer et que j'ai commencé à coder"

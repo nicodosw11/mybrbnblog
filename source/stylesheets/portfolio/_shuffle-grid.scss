@@ -7,8 +7,8 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     // @include pad(0 default);
     // @include span-columns(12);
     width: 90%;
-    // margin: 0 auto;
-    margin: 105px auto;
+    margin: 0 auto;
+    // margin: 105px auto;
   }
 
   .shuffle-grid {
@@ -18,6 +18,10 @@ body.projects.projects_index, body.fr.fr_projects.fr_projects_index {
     transform-style: preserve-3d;
     box-shadow: 0 0 1px 1px #999;
     transition: all 1s ease;
+
+    @include media($large-screen) {
+      min-height: 35em;
+    }
   }
   .shuffle-grid:after {
     content: '';

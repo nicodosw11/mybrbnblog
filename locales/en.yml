@@ -9,8 +9,8 @@ en:
   freelance_about: "London-based Web developer"
   build: "Building a career in programming & web development."
   hello: "Hi there!"
-  # skills: "I create applications for mobiles using Java for Android, Python & Swift for iOS and React Native with RubyOnRails."
-  skills: "My specialty is creating applications using JavaScript and/or RubyOnRails - more about my skills"
+  skills: "My specialty is creating applications using JavaScript and/or RubyOnRails."
+  skills_more: "My specialty is creating applications using JavaScript and/or RubyOnRails - more about my skills"
   read_more_in: "Read more in"
   my_blog: "my blog"
   checkout: "or checkout some"
@@ -53,7 +53,7 @@ en:
   after_2_b: "and implement daily my new knowledge into algorithm exercises such as"
 
   #features
-  passion: "I found my Passion"
+  passion_call: "I found my Passion"
   passion_for_code: "I love finance but my real passion is for programming and web development - I just can't stop coding!"
   motivation: "MO-TI-VA-TED"
   motivation_for_code: "I am ready to go the extra mile to reach my ambitions - whatever it takes and wherever I go."
@@ -65,6 +65,14 @@ en:
   cog_qualities: "Lots of ruby programming and database design under my belt - not a bad intro to web development!"
   geek: "Beyond the Geek..."
   geek_qualities: "Business acumen developed in my previous career will help to see the big picture and connect the dots."
+
+  #skills
+  honest: "My very honest skills"
+  arist: "“The more you know, the more you know you don’t know.”"
+
+  #cards
+  first_apps: "My first masterpieces!"
+  hard: "Learning to program takes time and practice. But I am getting there..."
 
   #bullets
   bnpp_job: "I graduated in 2011 with a master's degree in Banking & Finance from Paris Dauphine University then I worked as an intern in credit research sell-side at Société Générale in Paris."
@@ -164,3 +172,16 @@ en:
   search_placeholder: "Ruby"
   no_results: "Sorry no results were found"
   one_day: "One day I left finance to live out my real passion for programming and I have never looked back!"
+
+  #portfolio
+  portfolio_intro_title: "Those are some of the applications you will find in my"
+  repository: "repository"
+  done: "done"
+  finishing: "finishing"
+  in_progress: "in progress"
+  just_started: "just started"
+  queued: "queued"
+
+  #projects
+  my_projects: "My projects"
+  projects_intro_title: "Those are the applications that I want to develop and that I have started to code"

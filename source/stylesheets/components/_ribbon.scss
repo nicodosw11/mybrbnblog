@@ -1,0 +1,38 @@
+body.portfolio.portfolio_index, body.fr.fr_portfolio.fr_portfolio_index {
+
+  .ribbon-box {
+    position: relative;
+  }
+
+  .ribbon-wrapper {
+    $action-color: #5BC0BE;
+    $ribbon-background: $action-color;
+    $ribbon-size: 85px;
+
+    @include size($ribbon-size);
+    overflow: hidden;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+
+    .ribbon {
+      background-color: $ribbon-background;
+      box-shadow: 0 0 3px rgba(#000, 0.3);
+      color: #fff;
+      font-size: 0.6em;
+      left: -5px;
+      line-height: 1.8em;
+      padding: 1px 3.5px;
+      position: relative;
+      text-align: center;
+      top: 15px;
+      transform: rotate(45deg);
+      width: 120px;
+      @include media($desktop) {
+        font-size: 0.8em;
+        line-height: 1.5em;
+        padding: 2px 7px;
+      }
+    }
+  }
+}

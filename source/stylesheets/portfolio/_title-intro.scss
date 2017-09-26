@@ -1,0 +1,63 @@
+section.cards-intro {
+  .container {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 .5em;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 3em;
+
+    font-weight: 400;
+    color: #FFFFFF;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    @include media($mobile-only) {
+      color: rgba(0, 0, 0, 0.75);
+      text-shadow: 0 1px 0 black;
+    }
+    hr {
+      border: 1px solid #f2f2f2;
+      margin: 1em auto 1.5em;
+      @include media($mobile-only) {
+        border-top: 1px solid rgba(0, 0, 0, 0.75);
+      }
+      &.small { width: 50px; }
+    }
+    > h2 {
+      font-size: 1.5em !important; // 24px
+      @include media($tablet) {
+        font-size: 1.75em !important; // 28px
+      }
+      @include media($desktop) {
+        font-size: 2em !important; // 32px
+      }
+      @include media($desktop-up) {
+        font-size: 2.25em !important; // 36px
+      }
+    }
+    > p {
+      font-family: 'Satisfy', cursive;
+      // font-size: 0.875em !important; // 14px
+      font-size: 1em !important; // 16px
+      @include media($tablet) {
+        font-size: 1.125em !important; // 18px
+      }
+      @include media($desktop) {
+        font-size: 1.25em !important; // 20px
+      }
+      @include media($desktop-up) {
+        font-size: 1.375em !important; // 22px
+      }
+    }
+    a {
+      color: rgba(0, 0, 0, 0.75);
+      &:hover {
+        color: #2ecc71;
+      }
+    }
+  }
+}

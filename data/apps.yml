@@ -1,75 +1,96 @@
 category:
   - name: Ruby On Rails
     app:
-      - name: Livsty
-        description: An investment platform where investors can invest in a real estate fund
-        image: property.jpeg
-        url: http://livsty.fr/
+      # - name: Livsty
+      #   description: An investment platform where investors can invest in a real estate fund
+      #   image: property.jpeg
+      #   url: http://livsty.fr/
+      #   completion: done
       - name: ProductHunt Clone with React
         description: A producthunt clone where people share the products they like
         image: apps.jpeg
         url: https://github.com/nicodosw11/mini-producthunt
+        completion: finishing
       - name: Algos on Rails
         description: A website built with Foundation framework to work on small apps
         image: algo.jpeg
         url: https://github.com/nicodosw11/algonrails
-  - name: Web apps
-    app:
+        completion: finishing
       - name: Dance2Meet
         description: An app where people share their best moves
         image: dance.jpeg
         url: https://github.com/nicodosw11/shopping-cart_system
+        completion: in_progress
+  - name: Web apps
+    app:
+      # - name: Dance2Meet
+      #   description: An app where people share their best moves
+      #   image: dance.jpeg
+      #   url: https://github.com/nicodosw11/shopping-cart_system
+      #   completion: in_progress
       - name: Authentication + Authorization
         description: Learning how to build an authentication and authorization logic from scratch
         image: key.jpeg
         url: https://github.com/nicodosw11/authentication_system
+        completion: done
       - name: Booking System
         description: An app where people can make a group and book their dance tutors
         image: booking.jpeg
         url: https://github.com/nicodosw11/booking_system
+        completion: in_progress
       - name: Meeting System
         description: An app to meet people while learning how to dance
         image: network.jpeg
         url: https://github.com/nicodosw11/meeting_system
+        completion: in_progress
       - name: My first marketplace
         description: A marketplace for anything
         image: e-commerce.jpeg
         url: https://github.com/nicodosw11/myfirstmartetplace
+        completion: just_started
   - name: HTML5 CSS3 JavaScript
     app:
       - name: nicolasdotto.com
         description: My very first personal website
         image: blog.jpeg
         url: http://www.nicolasdotto.com/
+        completion: done
       - name: Circus HTML CSS JavaScript
         description: A one-page website to learn the main and more advanced concepts of HTML5, CSS3 and vanilla JavaScript
         image: circus.jpeg
         url: https://github.com/nicodosw11/circus
+        completion: finishing
       - name: A simple to-do list with JavaScript
         description: Add/Delete/Mark as complete tasks
         image: todo.jpeg
         url: https://github.com/nicodosw11/todojs
+        completion: finishing
   - name: Python & Java
     app:
       - name: Algorithms
         description: This course covers the essential information that every serious programmer needs to know about algorithms and data structures, with emphasis on applications and scientific performance analysis of Java implementations
         image: bonhomme1200760.jpeg
         url: https://www.coursera.org/learn/algorithms-part1
+        completion: queued
       - name: A todo-list with Javascript and Python
         description: A one-page to-do app built in Python and JavaScript
         image: todos1200760.jpeg
         url: https://github.com/nicodosw11/todopython
+        completion: done
       - name: CodingBat
         description: CodingBat is a free site of live coding problems to build coding skill in Java and Python (example problem). CodingBat is a project by Nick Parlante, a computer science lecturer at Stanford
         image: booking.jpeg
         url: http://codingbat.com/java
+        completion: queued
   - name: My Blogs
     app:
       - name: nicolasdotto.co.uk
         description: A brand new multiblog for me to write about finance
         image: multiblog.jpeg
         url: http://www.nicolasdotto.co.uk/
+        completion: done
       - name: Rails multi-user blog
         description: A multi-user blog with Rails
         image: internet.jpeg
         url: https://github.com/nicodosw11/railsblog
+        completion: in_progress

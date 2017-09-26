@@ -11,6 +11,17 @@ layout: portfolio
 <%= partial("partials/navbars/navbar-projects")%>
 
 <div class="modal-overlay closed" id="modal-overlay"></div>
+
+<section class="cards-intro" id="projects-intro">
+  <div class="container">
+    <div class="title">
+      <h2><%= t(:my_projects) %></h2>
+      <hr class="small">
+      <p><%= t(:projects_intro_title) %></p>
+    </div>
+  </div>
+</section>
+
 <div class="container-gallery">
   <%= partial("partials/portfolio/flex-menu")%>
   <div class="shuffle-grid">
