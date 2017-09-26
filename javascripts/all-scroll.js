@@ -20,6 +20,7 @@ $(document).ready(function() {
       $('body.projects.projects_index, body.fr.fr_projects.fr_projects_index').addClass('padding-top');
       $('body.search.search_index, body.fr.fr_search.fr_search_index').addClass('padding-top');
       $('.device').css('margin-top', 80);
+      $('.cards-intro').css('margin-top', 105);
     }
   });
 });
