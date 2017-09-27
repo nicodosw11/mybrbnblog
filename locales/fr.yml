@@ -192,3 +192,9 @@ fr:
   #projects
   my_projects: "Mes projets"
   projects_intro_title: "Présentation des applications que je souhaite développer et que j'ai commencé à coder"
+
+  #blog
+  template_mode: "Cette page est la maquette de départ que j'ai construite pour débuter."
+  fully_implemented: "Le classement par catégories/tags/calendrier, la traduction anglais/français, la recherche et l'archivage peuvent être utilisés tels quels."
+  dummy_articles: "Les articles jouent un rôle de substitution et ont servi aux tests."
+  make_space: "Ils sont amenés à disparaître pour je l'espère bientôt laisser place à mes vraies idées!"

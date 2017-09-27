@@ -40,7 +40,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam, r
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem reiciendis unde ducimus eligendi, numquam iusto officia iste mollitia! Illo totam rerum molestias corrupti nam dolore cumque labore.<br>
 Illo totam rerum molestias corrupti nam dolore cumque labore, delectus doloribus eum?
 
-## Main Title1
+## Titre principal 1
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.  
 
@@ -51,7 +51,7 @@ Molestiae atque corporis consectetur quo recusandae beatae quibusdam cumque volu
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis tempora, provident voluptates ipsum necessitatibus asperiores optio. 
 
-## Main Title2
+## Titre principal 2
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sequi modi explicabo ipsa beatae recusandae, asperiores veritatis at magni unde ut ea, nostrum eligendi maiores reiciendis pariatur aliquid mollitia quam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam sint modi molestias praesentium atque. Sequi accusantium, unde modi incidunt deserunt adipisci, atque delectus, dolorum numquam fugiat odio distinctio, neque illum. 
 
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sequi modi explic
  
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dignissimos laboriosam hic repellendus voluptatum veritatis, ut nam quibusdam, vitae dolores possimus optio aperiam ratione a praesentium quisquam quis! Rem, neque! 
 
-## Main Title3
+## Titre principal 3
 
 > “…Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora laborum minima aliquid iste dicta hic, delectus voluptatibus accusamus assumenda numquam placeat, excepturi, deserunt laudantium a, labore. Amet totam, reiciendis blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit.” [—Mark Smith](https://nicolasdotto.com/starting-is-hard/)
 

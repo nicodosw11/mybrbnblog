@@ -192,3 +192,9 @@ en:
   #projects
   my_projects: "My projects"
   projects_intro_title: "Those are the applications that I want to develop and that I have started to code"
+
+  #blog
+  template_mode: "Please note this blog is still in template mode."
+  fully_implemented: "Categorization/tags/calendar, english/french translation, searching and archiving have been fully implemented."
+  dummy_articles: "Dummy articles are here only to provide a place for content and test."
+  make_space: "They will hopefully soon disappear to make space for my real ideas!"

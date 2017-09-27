@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero hic, obcaecati 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis reiciendis temporibus ratione repellendus neque cupiditate enim dolores.
 
-## Main Title1
+## Titre principal 1
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ex non id, unde, vel aperiam laboriosam, nostrum similique ratione dolore exercitationem illo corporis nihil recusandae explicabo asperiores atque eum blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores qui nesciunt similique inventore quas fugit minus earum aliquid numquam incidunt unde, velit, rem dolorum, eveniet deserunt nihil illum eos.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident minus consequuntur officia iusto labore libero, sit et explicabo earum. Laudantium quia ullam reiciendis ab, nostrum iste soluta perferendis nulla.
@@ -28,20 +28,20 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita odio itaque r
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores minima natus fugiat nostrum est praesentium dolores veritatis deserunt, atque tempora maxime officiis dolorem nam distinctio, sapiente architecto debitis perferendis tempore.
 
-## Main Title2
+## Titre principal 2
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quo adipisci modi ipsum, ad quae mollitia error quos! Iure voluptatem iusto commodi recusandae, ut et illo fugit est adipisci qui!
 Lorem ipsum dolor sit amet, consectetur adipisicing elit (Lorem [Sublime Text 3](http://www.sublimetext.com) sit [iTerm](https://www.iterm2.com) consectetur).
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius optio, excepturi tenetur et voluptate aspernatur nesciunt facere incidunt vel consequatur tempore, dignissimos iusto. Suscipit atque eligendi maiores cumque, non sed. 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quis recusandae iusto ipsam ratione quasi cupiditate doloribus soluta aperiam velit iure repudiandae nesciunt, repellendus dolores labore dolor, veritatis ullam. Praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, voluptatibus ut non doloribus animi pariatur, obcaecati asperiores eos fugiat, eveniet mollitia ullam consequuntur perspiciatis quo maxime laboriosam, quaerat enim odit. 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
-## Main Title3
+## Titre principal 3
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi, voluptas, quasi, incidunt velit animi, non quas rerum quos porro adipisci eos magnam dignissimos. Numquam, quisquam officiis magni iure eligendi!
 
 *Note: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla praesentium obcaecati soluta repellendus vel placeat, excepturi deleniti possimus. Distinctio numquam unde impedit a doloremque consequatur quos nostrum eius cupiditate [here](https://teamtreehouse.com/library/installing-a-ruby-on-rails-development-environment-in-os-x)*
 
 
-### Subtitle1
+### Sous-titre 1
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 [Here’s a great article](http://railsapps.github.io/xcode-command-line-tools.html) lorem ipsum dolor sit amet.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis reiciendis temporibus ratione repellendus neque cupiditate enim dolores.
@@ -63,7 +63,7 @@ $ xcode-select -p
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
-### Subtitle2
+### Sous-titre 2
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, necessitatibus. Reiciendis a necessitatibus odit. Enim adipisci eaque impedit pariatur tenetur, deleniti sapiente labore sint nihil, obcaecati placeat ut assumenda, culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum molestias possimus aspernatur. Et, quaerat, suscipit! At rem nostrum molestiae saepe quis hic laudantium laboriosam nesciunt voluptas? Possimus debitis velit eligendi.
 Lorem ipsum dolor sit amet: [brew.sh](http://www.brew.sh) lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim adipisci eaque impedit pariatur:
 
@@ -80,7 +80,7 @@ $ brew doctor
 
 Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit...
 
-### Subtitle3
+### Sous-titre 3
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolores blanditiis tenetur possimus eos fugit placeat!
 [Odio](https://nicolasdotto.com/loremipsum1/odio) lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus autem, voluptas reiciendis adipisci amet minima veniam et quod excepturi vero corporis, dolores laborum quos facere, quasi est assumenda distinctio. 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo qui aut eveniet, architecto repellat veniam ex animi atque voluptate incidunt deleniti ratione veritatis at, blanditiis, assumenda beatae tempora illo soluta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti neque error molestias dolore nobis blanditiis soluta voluptate rerum magni quasi, doloremque, quis doloribus fuga, quisquam beatae eaque ipsa explicabo assumenda, [these](http://nicolasdotto.com/blog/loremipsum1-odio/) lorem ipsum [articles](https://nicolasdotto.com/using-rbenv-to-manage-rubies-and-gems) lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi modi alias, quo praesentium possimus minus esse vitae eos a sequi cumque quam sapiente culpa numquam, quos distinctio similique totam ad..
@@ -120,7 +120,7 @@ $ echo 'gem: --no-document' > ~/.gemrc
 
 Lorem ipsum dolor sit amet `$ exit`, amet non voluptatum provident ipsam tempore necessitatibus voluptatem, libero quos, harum sint ad blanditiis, quaerat aspernatur at vero cupiditate alias? Cupiditate, debitis.
 
-### Subtitle4
+### Sous-titre 4
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eveniet ipsum obcaecati in necessitatibus corporis assumenda voluptatum [ruby-lang.org](http://www.ruby-lang.org) hic incidunt repellat animi, similique eum. Porro, nihil `$ rbenv install --list`.
 
 Lorem:
@@ -154,7 +154,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia error id, natus p
 $ gem update --system
 ```
 
-### Subtitle5
+### Sous-titre 5
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quidem illum a voluptatem accusantium delectus, atque voluptas veniam ut. Sequi quisquam.
 Lorem: 
 
