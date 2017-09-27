@@ -5360,6 +5360,61 @@ body.portfolio.portfolio_index .ribbon-wrapper, body.fr.fr_portfolio.fr_portfoli
         line-height: 1.5em;
         padding: 2px 7px; } }
 
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+.ticker-wrap {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-left: 100%;
+  z-index: 1; }
+
+.ticker {
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s; }
+  .ticker__item {
+    display: inline-block;
+    padding: 0 2rem;
+    color: white;
+    font-size: 1.125em; }
+    @media screen and (min-width: 45.625em) {
+      .ticker__item {
+        font-size: 1.375em; } }
+    @media screen and (min-width: 70em) {
+      .ticker__item {
+        font-size: 1.59075em; } }
+    @media screen and (min-width: 100em) {
+      .ticker__item {
+        font-size: 1.94425em; } }
+
 @-webkit-keyframes bounceIn {
   0% {
     opacity: 0.0;
@@ -5972,6 +6027,9 @@ body.about.about_index .container, body.fr.fr_about.fr_about_index .container {
   margin-left: auto;
   margin-right: auto;
   padding: 0 .5em; }
+  @media screen and (min-width: 100em) {
+    body.about.about_index .container, body.fr.fr_about.fr_about_index .container {
+      max-width: 82em; } }
 body.about.about_index .container:after, body.fr.fr_about.fr_about_index .container:after {
   content: "";
   display: table;
@@ -6583,7 +6641,7 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
           justify-content: space-between; }
 
 .card {
-  background-color: #54d98c;
+  background-color: #f6f6f6;
   border: 1px solid gainsboro;
   border-radius: 3px;
   -webkit-box-shadow: 0 2px 4px #e6e6e6;
@@ -6598,7 +6656,7 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
   position: relative;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #fff; }
+  color: #333; }
   .card .card-image {
     background-color: #2ecc71;
     height: 175px;
@@ -6612,7 +6670,7 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
       transition: all 0.2s ease-in-out;
       width: 100%; }
   .card .card-header {
-    background-color: #54d98c;
+    background-color: #f6f6f6;
     border-bottom: 1px solid gainsboro;
     border-radius: 3px 3px 0 0;
     font-weight: bold;
@@ -6626,15 +6684,25 @@ body.projects.projects_index .item img, body.fr.fr_projects.fr_projects_index .i
     padding: 0.75em 0.75em; }
     .card .card-copy p {
       margin: 0 0 0.75em;
-      font-size: 1em; }
+      text-align: justify;
+      font-size: 0.875em !important; }
+      @media screen and (min-width: 45.625em) {
+        .card .card-copy p {
+          font-size: 1em !important; } }
+      @media screen and (min-width: 70em) {
+        .card .card-copy p {
+          font-size: 1.125em !important; } }
+      @media screen and (min-width: 100em) {
+        .card .card-copy p {
+          font-size: 1.25em !important; } }
   .card:focus, .card:hover {
     cursor: pointer; }
     .card:focus img, .card:hover img {
       opacity: 0.7; }
   .card:active {
-    background-color: #54d98c; }
+    background-color: #f6f6f6; }
     .card:active .card-header {
-      background-color: #54d98c; }
+      background-color: #f6f6f6; }
 
 .grid-items:after {
   content: "";

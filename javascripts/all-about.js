@@ -4,7 +4,9 @@ $(document).ready(function() {
     $("#modal-1, #modal-2, #modal-3, #modal-4, #modal-5, #modal-6, #modal-7, #modal-8, #modal-9, #modal-10").on("change", function() {
       if ($(this).is(":checked")) {
         // $("body").addClass("modal-open");
-        scrollPosition = $('body').scrollTop();
+
+        // scrollPosition = $('body').scrollTop();
+        scrollPosition = $(document).scrollTop();
         $('body').css({
           overflow: 'hidden',
           position: 'fixed',
@@ -24,7 +26,10 @@ $(document).ready(function() {
           overflow: '',
           position: '',
           top: ''
-        }).scrollTop(scrollPosition);
+        });
+        // }).scrollTop(scrollPosition);
+
+        $(document).scrollTop(scrollPosition);
         // $('#navbar-about-medium, #navbar-about-large').css({
         //   display: 'block'
         // });
