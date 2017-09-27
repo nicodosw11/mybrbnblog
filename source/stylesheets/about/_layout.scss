@@ -43,6 +43,9 @@ body.about.about_index, body.fr.fr_about.fr_about_index {
     margin-left: auto;
     margin-right: auto;
     padding: 0 .5em;
+    @include media($desktop-up) {
+      max-width: 82em;
+    }
   }
   .container:after {
     content: "";

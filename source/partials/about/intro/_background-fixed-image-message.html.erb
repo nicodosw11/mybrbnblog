@@ -30,17 +30,25 @@
 
     <p><%= t(:skills_more) %> <a href="#skills"><%= t(:here) %></a> <%= t(:or_in_my) %>
       <% if I18n.locale == I18n.default_locale %>
-        <a href="/blog"> blog</a>.
+        <a href="/blog"> blog</a>
       <% else %>
-        <a href="/fr/blog"> blog</a>.
-      <% end%>
+        <a href="/fr/blog"> blog</a>
+      <% end %>
+      <%= t(:template) %>.
     </p>
     <p><%= t(:checkout_recent_projects) %>
       <% if I18n.locale == I18n.default_locale %>
-        <a href="/projects"> <%= t(:recent_projects) %></a>.
+        <a href="/portfolio"> <%= t(:recent_projects) %></a>
       <% else %>
-        <a href="/fr/projects"> <%= t(:recent_projects) %></a>.
+        <a href="/fr/portfolio"> <%= t(:recent_projects) %></a>
       <% end %>
+      <%= t(:together_with) %>
+      <% if I18n.locale == I18n.default_locale %>
+        <a href="/projects"> <%= t(:projects_page) %></a>
+      <% else %>
+        <a href="/fr/projects"> <%= t(:projects_page) %></a>
+      <% end %>
+      <%= t(:started_to_code) %>.
     </p>
 
 <!--     <section class="features" id="section-features">

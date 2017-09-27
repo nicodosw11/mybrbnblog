@@ -13,9 +13,13 @@ fr:
   skills_more: "Je crée des applications codées en JavaScript, mais aussi en React + RubyOnRails - plus de détails sur mes compétences"
   read_more_in: "Pour plus d'informations n'hésitez pas à lire "
   my_blog: "mon blog"
+  template: "(en cours de démarrage)"
   checkout: "ou regarder mes"
-  recent_projects: "derniers projets"
+  recent_projects: "dernières applications"
   checkout_recent_projects: "Une page est également dédiée à mes"
+  together_with: "et une autre"
+  projects_page: "aux derniers projets"
+  started_to_code: "que j'ai commencé à coder (par catégories)"
   more_about_me: "Pour plus d'infos sur moi"
   it_is_here: "c'est par ici"
   here: "ici"
@@ -73,6 +77,9 @@ fr:
   #cards
   first_apps: "Mes premiers chef-d'oeuvres!"
   hard: "Apprendre à coder demande du temps et de la pratique. Mais petit à petit l'oiseau..."
+  app_1: "1. Un site personnel attrayant"
+  app_2: "2. Un blog fonctionnel de partage"
+  app_3: "3. Une application utilisable dans la vraie vie"
 
   #bullets
   bnpp_job: "Je suis diplomé de l'Université Paris Dauphine (Master 224 Banque Finance - 2011) dans le cadre duquel j'ai réalisé un premier stage professionnel en recherche crédit à la Société Générale (Paris La Défense) en tant qu'analyste sell-side."

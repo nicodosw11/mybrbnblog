@@ -10,12 +10,16 @@ en:
   build: "Building a career in programming & web development."
   hello: "Hi there!"
   skills: "My specialty is creating applications using JavaScript and/or RubyOnRails."
-  skills_more: "My specialty is creating applications using JavaScript and/or RubyOnRails - more about my skills"
+  skills_more: "I create and design applications with JavaScript, React and/or RubyOnRails - more about my skills"
   read_more_in: "Read more in"
   my_blog: "my blog"
+  template: "(still in the start-up phase)"
   checkout: "or checkout some"
-  recent_projects: "recent projects"
+  recent_projects: "recent applications"
   checkout_recent_projects: "Please also checkout some of my"
+  together_with: "or"
+  projects_page: "the last projects"
+  started_to_code: "I have started to code (by category)"
   more_about_me: "More about me"
   it_is_here: "here it is"
   here: "here"
@@ -73,6 +77,9 @@ en:
   #cards
   first_apps: "My first masterpieces!"
   hard: "Learning to program takes time and practice. But I am getting there..."
+  app_1: "1. Build a great personal website"
+  app_2: "2. Build a functional blog to share"
+  app_3: "3. Build a real-life app"
 
   #bullets
   bnpp_job: "I graduated in 2011 with a master's degree in Banking & Finance from Paris Dauphine University then I worked as an intern in credit research sell-side at Société Générale in Paris."
