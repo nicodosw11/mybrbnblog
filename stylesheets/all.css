@@ -3145,7 +3145,7 @@ h1 {
       font-size: 3.18054em; } }
   @media screen and (min-width: 64em) {
     h1 {
-      font-size: 4.49728em; } }
+      font-size: 2.74917em; } }
   h1 a {
     text-decoration: none;
     color: inherit; }
@@ -3167,7 +3167,7 @@ h2 {
       font-size: 2.24932em; } }
   @media screen and (min-width: 64em) {
     h2 {
-      font-size: 2.74917em; } }
+      font-size: 1.94425em; } }
   h2.serif {
     font-family: 'freight-text-pro', 'times', 'georgia', serif; }
   h2.article-title {
@@ -3186,7 +3186,7 @@ h3 {
       font-size: 1.94425em; } }
   @media screen and (min-width: 64em) {
     h3 {
-      font-size: 2.24932em; } }
+      font-size: 1.59075em; } }
 
 h4 {
   font-family: "futura-pt", "futura", "avenir", "helvetica", sans-serif;
@@ -3214,7 +3214,7 @@ p, article li {
       font-size: 1.375em; } }
   @media screen and (min-width: 64em) {
     p, article li {
-      font-size: 1.375em;
+      font-size: 1.125em;
       line-height: 1.5; } }
   p.article-summary, article li.article-summary {
     margin: 0 0 .5rem; }
@@ -7576,6 +7576,7 @@ body.portfolio.portfolio_index .card-app, body.fr.fr_portfolio.fr_portfolio_inde
       transition: all 0.2s ease-in-out;
       width: 100%;
       height: auto;
+      min-height: 200px;
       border-radius: 6px 6px 0 0; }
   body.portfolio.portfolio_index .card-app .card-header, body.fr.fr_portfolio.fr_portfolio_index .card-app .card-header {
     -webkit-transition: all 0.2s ease-in-out;

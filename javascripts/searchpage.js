@@ -2,7 +2,7 @@ var lunrIndex = null;
 var lunrData  = null;
 // Download index data
 $.ajax({
-  url: "/search-37220654.json",
+  url: "/search-35cd1b3f.json",
   cache: true,
   method: 'GET',
   success: function(data) {
