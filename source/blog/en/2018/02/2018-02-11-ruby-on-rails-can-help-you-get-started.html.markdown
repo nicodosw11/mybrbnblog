@@ -1,20 +1,20 @@
 ---
-title: Ruby on Rails pour vous aider à démarrer
-date: 2017-07-11 18:14 BST
+title: Ruby on Rails can help you get started
+date: 2018-02-11 18:14 BST
 subtitle: Rem laudantium sed iusto vero accusantium assumenda placeat.
 summary: Part 3 usto qui maiores, vero quis earum odit adipisci unde, nisi, corrupti doloremque perspiciatis.
 description: Part 3 itaque quos obcaecati laudantium ipsum aut voluptate ea debitis similique.
 category: code
 header_image:
 published: true
-lang: fr
+lang: en
 tags: travel, food, ruby
 ---
 
-## Bref recap:
-Lorem ipsum [premier article](http://www.nicolasdotto.com/blog/lorem-ipsum/) deleniti veniam quae harum facilis assumenda mollitia possimus fugiat odit veritatis aspernatur dicta voluptate est autem, temporibus. Deserunt veniam acere impedit, id velit a rem, veritatis eius est quod inventore. Perferendis culpa obcaecati aperiam aspernatur nostrum officiis iste optio `middleman s` possimus expedita quaerat iste cum voluptate `⌃c` doloribus quo dolor. Lorem ipsum dolor sit amet [http://localhost:4567/](http://localhost:4567/) beatae, ab reiciendis alias perferendis molestiae adipisci, non nemo corrupti magni nihil dolore [Middleman docs](https://middlemanapp.com/basics/install/) fa officia laudantium delectus, provident explicabo blanditiis deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, accusantium repudiandae voluptate quisquam animi modi odio illo amet ex cupiditate, totam ab! Velit ullam error ipsam sed corrupti quisquam laudantium. 
+## Quick recap:
+Lorem ipsum [first article](http://www.nicolasdotto.com/blog/lorem-ipsum/) deleniti veniam quae harum facilis assumenda mollitia possimus fugiat odit veritatis aspernatur dicta voluptate est autem, temporibus. Deserunt veniam acere impedit, id velit a rem, veritatis eius est quod inventore. Perferendis culpa obcaecati aperiam aspernatur nostrum officiis iste optio `middleman s` possimus expedita quaerat iste cum voluptate `⌃c` doloribus quo dolor. Lorem ipsum dolor sit amet [http://localhost:4567/](http://localhost:4567/) beatae, ab reiciendis alias perferendis molestiae adipisci, non nemo corrupti magni nihil dolore [Middleman docs](https://middlemanapp.com/basics/install/) fa officia laudantium delectus, provident explicabo blanditiis deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, accusantium repudiandae voluptate quisquam animi modi odio illo amet ex cupiditate, totam ab! Velit ullam error ipsam sed corrupti quisquam laudantium. 
 
-## Titre principal 1 
+## Main Title1
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit accusamus aut reprehenderit commodi molestiae, minima a officia, quidem praesentium pariatur quos placeat, tempore obcaecati similique voluptas! Optio accusamus quod ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit *Middleman Deploy* quibusdam corporis eaque necessitatibus ab atque, ratione temporibus non sapiente accusamus perspiciatis iusto sint nostrum debitis aspernatur beatae quae tenetur dolorem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste consectetur deserunt reprehenderit aut, harum fuga id molestiae ut quos adipisci modi architecto expedita nesciunt recusandae autem accusantium:
 
 [Git for Humans](https://abookapart.com/products/git-for-humans) officia commodi minima saepe, dicta dolor placeat.
@@ -38,10 +38,10 @@ Rerum porro optio cum commodi explicabo. Distinctio ut soluta aperiam, iure '.gi
 
 Illo in facilis omnis soluta aliquid rerum ad ea *.nojekyll* file. Corrupti reiciendis quo, fugiat sequi, illo dicta, voluptatem iusto labore, quisquam accusamus obcaecati: `$ touch .nojekyll`
 
-## Titre principal 2
+## Main Title2
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quisquam velit iure cumque unde recusandae: `username.github.io`. Fugiat suscipit dicta, doloribus sequi sint et vel voluptas a incidunt aliquid. Maxime ipsa dolorum cum ipsam modi tempora adipisci `nicolasdotto.github.io`.
 
-## Titre principal 3
+## Main Title3
 Magni adipisci eius consequuntur qui dolor repellat quod, ab tenetur fugit porro minus molestiae.
 
 Id officia minus fuga odit distinctio veniam rem magni esse:
@@ -56,7 +56,7 @@ Lorem *username* ab quidem dicta officia fugiat. Fugit obcaecati laudantium reic
 $ git push -u origin source
 </code></pre>
 
-## Titre principal 4
+## Main Title4
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil cumque, commodi reprehenderit culpa:
 
 <pre><code class="language-ruby">
@@ -76,6 +76,6 @@ end
 
 Consequuntur tempore officia autem temporibus eius maxime quia quo nihil reiciendis `$ middleman deploy`. Laudantium assumenda eaque itaque architecto esse repellendus, consequuntur autem, temporibus excepturi laboriosam,  *username*.github.io tempora assumenda *username* sed odit ratione.
 
-## Pour conclure
+## Wrap up
 Perferendis dolorum, nam eligendi ea consequatur unde officia omnis quos cupiditate officiis provident quod [Github](https://github.com/nicolasdotto/nicolasdotto.github.io), [email](http://www.nicolasdotto.com#contact) or [Twitter](http://www.twitter.com/nicodosw11).
 

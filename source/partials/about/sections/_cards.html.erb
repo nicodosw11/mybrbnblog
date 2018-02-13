@@ -12,7 +12,7 @@
         <label for="modal-8">
           <div class="card-image">
   <!--         <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png" alt=""> -->
-            <img src="/images/xyz.png" alt="">
+            <img src="/images/xyzblog.png" alt="">
           </div>
         </label>
         <input class="modal-state" id="modal-8" type="checkbox" />
@@ -23,31 +23,6 @@
             <div class="modal-content">
               <p>I learned tremendously from building this website. First I had to go through nearly every important concept of web design: grids, positioning and z-index, opacity/visibility, background images, responsive design and typography, float & flexbox layouts, and the list goes on.</p>
               <p>Second, I add to think about and implement my own JavaScript to build vanilla modals, customized navigation and scrolling behaviour. I also needed to understand how to fit third-party JS plugins into my website for functions such as searching.</p>
-            </div>
-          </div>
-        </div>
-        <div class="card-header">
-          <%= t(:app_1) %>
-        </div>
-        <div class="card-copy">
-          <p>I wanted to build a simple but appealing, easy navigation and fully-detailed personal website for me to explain to the world where I am coming from, what I want to achieve and how I will do it.</p>
-          <p>This website must now be the starting point for everything: it has helped me to think thoroughly through my career choice, what I have learned so far and how to build on it and it will keep track of what I will build in the future.</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <label for="modal-9">
-          <div class="card-image">
-<!--           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-4.png" alt=""> -->
-            <img src="/images/xyzblog.png" alt="">
-          </div>
-        </label>
-        <input class="modal-state" id="modal-9" type="checkbox" />
-        <div class="modal-fade-screen">
-          <div class="modal-inner">
-            <div class="modal-close" for="modal-9"></div>
-            <h1>My Blog</h1>
-            <div class="modal-content">
               <p>Building a blog with Middleman required me to search a lot, first in the documentation, and very often to look for help online so that I could implement both a database for a dual blog and a "localization" system.
               </p>
               <p>Now that translations, tags/categories, search and archive functions are fully implemented, I want the blog to play a pivotal part of my learning and experience that would enable me to become a great developer.</p>
@@ -55,11 +30,40 @@
           </div>
         </div>
         <div class="card-header">
+          <%= t(:app_1) %>
+        </div>
+        <div class="card-copy">
+          <p>Building a personal website has helped me to think thoroughly through my career choice, what I have learned so far and how to build on it and it will keep track of what I will build in the future.</p>
+          <p>I wanted to build a blog in my website and I wanted it to be bilingual. I intend to write posts regularly and to be able to keep up pace with building apps, learning new languages/frameworks and writing about them at the same time.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <label for="modal-9">
+          <div class="card-image">
+<!--           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-4.png" alt=""> -->
+            <img src="/images/dance2meet.png" alt="">
+          </div>
+        </label>
+        <input class="modal-state" id="modal-9" type="checkbox" />
+        <div class="modal-fade-screen">
+          <div class="modal-inner">
+            <div class="modal-close" for="modal-9"></div>
+            <h1>My first e-commerce</h1>
+            <div class="modal-content">
+              <p>In my spare time I am willing to continue to develop my own marketplace for users who want to learn how to dance (or teach others) and meet lots of people at the same time </p>
+              <p>On this platform users should be able to follow what events are on (or organise their own meetup), which routines they will learn or practice and book their participation.</p>
+              <p>The crux of the application is that it is both an e-commerce where you can buy lessons, pay to attend an event or be paid as a tutor, a booking system and an instagram like community where users share their passion for dance.</p>
+              <p>The full GitHub code repository is available <a href="https://github.com/nicodosw11/shopping-cart_system">here</a>.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-header">
           <%= t(:app_2) %>
         </div>
         <div class="card-copy">
-          <p>I also wanted to build a blog and I wanted it to be bilingual. It was a first good approach to understand how to collect and manipulate post-related data outside Rails+PostgreSQL standard framework.</p>
-          <p>Building a blog is a must if you are serious about being a web developer. I intend to write posts regularly and to be able to keep up pace with building apps, learning new things and writing about them at the same time. </p>
+          <p>Then I wanted to go beyond the usual CRUD applications and started to code a "marketplace" where users share and buy the routines they like, organise or book an event to meet and dance.</p>
+          <p>It was the best opportunity for me to think about how to build a shopping cart system and how to implement a marketplace given a specific business logic. Users can add routines to their basket, check their final order and pay with Stripe (test mode).</p>
         </div>
       </div>
 
@@ -76,12 +80,11 @@
             <div class="modal-close" for="modal-10"></div>
             <h1>A real app</h1>
             <div class="modal-content">
-              <p>Building the application I had to go through the whole development process, starting with designing the database, choosing the right models and connections.
-              </p>
-              <p>After implementing the usual CRUD views and controllers, I had to think through how to articulate both authentication and authorization within the application on top of an admin layer.
-              </p>
-              <p>I am still implementing the most interesting part of the application where users can invest into the funds with a call-to-action and a specific back-end logic.
-              </p>
+              <p>Building the application I had to go through the whole development process, starting with designing the database, choosing the right models and connections.</p>
+              <p>After implementing the usual CRUD views and controllers, I had to think through how to articulate both authentication and authorization within the application on top of my own admin layer.</p>
+              <p>Then I built the administrative back-end to add deal-related information to the database and to publish and manage the listing of opportunities shown to the users.</p>
+              <p>I also developed the investment interface and presentation of key investment metrics, implemented the back-end for transactions management and calculation of the metrics.</p>
+              <p>The full GitHub code repository is available <a href="https://github.com/nicodosw11/propertyapp">here</a>.</p>
             </div>
           </div>
         </div>
@@ -89,8 +92,8 @@
           <%= t(:app_3) %>
         </div>
         <div class="card-copy">
-          <p>I finally wanted to go beyond the usual CRUD applications and contribute to a start-up project where I would have to implement a business logic and translate it into code.</p>
-          <p>I met an entrepreneur in London and I contributed to the start-up crowdfunding platform where investors can pledge for shares in mutual funds. Livsty was born. The start-up is now based in Paris and is waiting for more and more investors.</p>
+          <p>Finally I made it! I have built my first MVP as a freelancer. I met an entrepreneur in London whose idea is to redefine the French viager system by reversing the scheme's cash-flow structure.</p>
+          <p>Livsty was born. I coded from scratch a crowdfunding platform where investors can pledge for shares in advertised properties. The start-up is now based in Paris, backed by a start-up accelerator and is waiting for more and more investors.</p>
         </div>
       </div>
     </div>

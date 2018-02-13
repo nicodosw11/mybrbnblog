@@ -77,9 +77,12 @@ en:
   #cards
   first_apps: "My first masterpieces!"
   hard: "Learning to program takes time and practice. But I am getting there..."
-  app_1: "1. Build a great personal website"
-  app_2: "2. Build a functional blog to share"
-  app_3: "3. Build a real-life app"
+  # app_1: "1. Build a great personal website"
+  # app_2: "2. Build a functional blog to share"
+  # app_3: "3. Build a real-life app"
+  app_1: "1. Build my website with a functional blog"
+  app_2: "2. Build a booking + shopping cart system"
+  app_3: "3. Build a real-life app: my first MVP (Livsty)"
 
   #bullets
   bnpp_job: "I graduated in 2011 with a master's degree in Banking & Finance from Paris Dauphine University then I worked as an intern in credit research sell-side at Société Générale in Paris."

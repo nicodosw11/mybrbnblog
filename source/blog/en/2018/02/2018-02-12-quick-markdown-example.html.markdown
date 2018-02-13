@@ -1,6 +1,6 @@
 ---
 title: Quick Markdown Example
-date: 2017-07-12 21:01 BST
+date: 2018-02-12 21:01 BST
 summary: Example Markdown so I can see how my styles look and how the markdown is generated with RedCarpet / Middleman Blog.
 tags: example, formatting, design
 category: code
@@ -33,6 +33,77 @@ You can play around with Markdown on our [live demo page](http://www.markdown-he
 [Horizontal Rule](#horizontal rule)  
 [Line Breaks](#lines)  
 [Youtube videos](#videos) 
+
+Code:
+
+```
+a = 0
+while a < 15:
+    print a,            # Trailing comma supresses auto newline.
+    if a == 10:
+        print "made it to ten!!"
+    a = a + 1
+```
+
+```ruby
+#config.rb
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true,
+               :tables => true,
+               :smartypants => true,
+               :autolink => true,
+               :highlight => true,
+               :with_toc_data => true
+
+activate :syntax
+```
+
+```javascript
+Meteor.publish('userData', function () {
+  return Meteor.users.find();
+});
+console.log('yo');
+```
+
+```javascript
+Meteor.publish('userData', function () {
+  return Meteor.users.find({}, {fields: {profile: 1}});
+});
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```javascript
+Accounts.onCreateUser(function(options, user) {
+  var attachData, email, picture, profileImageUrl, profilePicture, url, service, allEmails, firstEmail;
+  profileImageUrl = undefined;
+  user.profile = user.profile || {};
+
+  //If the google service exists
+  if ((service = user.services) !== undefined ? service.google : undefined) {
+    user.emails = [
+      {
+        address: user.services.google.email,
+        verified: true
+      }
+    ];
+    user.profile.firstName = user.services.google.given_name;
+    user.profile.lastName = user.services.google.family_name;
+    user.profile.avatar = user.services.google.picture;
+  }
+
+  //No avatar defined from Google service? Okay let's get a Gravatar
+  if (!user.profile.avatar) {
+    email = ((allEmails = user.emails) !== undefined ? (firstEmail = allEmails[0]) !== undefined ? firstEmail.address : undefined : undefined) || '';
+    url = Gravatar.imageUrl(Gravatar.hash(email));
+    user.profile = { avatar: url };
+  }
+  return user;
+});
+```
 
 ## Headers
 

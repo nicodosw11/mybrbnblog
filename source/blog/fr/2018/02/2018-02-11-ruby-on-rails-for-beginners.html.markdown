@@ -1,12 +1,12 @@
 ---
-title: Ruby on Rails for Beginners
-date: 2017-07-11 18:12 BST
+title: Ruby on Rails pour les novices
+date: 2018-02-11 18:12 BST
 subtitle: Quisquam consequatur ratione iure id officia cupiditate nulla
 summary: Part 2 nisi maxime eius, vitae commodi explicabo omnis consectetur, ex dolorem? Totam debitis corporis eius.
 description: Part 2 totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
 category: code
 header_image:
-lang: en
+lang: fr
 tags: art, programming, ruby
 ---
 
@@ -20,7 +20,7 @@ Totam quas voluptas unde nulla alias, cumque similique impedit vitae sint:
 [Middleman Docs]        (https://middlemanapp.com/basics/install/) sunt possimus animi illum! Temporibus ipsa adipisci sequi perspiciatis. Animi, ea ut "[Github Pages](https://pages.github.com)" perferendis voluptatibus quia dolor eos possimus facilis. Recusandae.
 Ullam, [lorem ipsum dolor sit amet](http://www.nicolasdotto.com/starting-is-hard/) ea id natus assumenda explicabo blanditiis distinctio odio ducimus iusto quasi amet facilis, aperiam, necessitatibus modi harum eius! Amet, odit, illo.
 
-## Main Title1
+## Titre principal 1
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nemo vero aspernatur nulla commodi voluptates voluptatum illo labore dignissimos:
 
 <pre><code class="language-bash">
@@ -31,7 +31,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, assumenda ap
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti consequuntur debitis architecto fuga tenetur quod officia error, ipsa nesciunt, minima odio, laborum veniam `mkdir` fugit hic nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque aspernatur praesentium similique iusto sed fugit explicabo eligendi, officia, eum tenetur qui ab [Github Pages](https://pages.github.com) lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolorum harum vero similique cumque iste facilis, distinctio ratione excepturi voluptatem voluptate corporis molestias molestiae nostrum blanditiis.
 
-## Main Title2
+## Titre principal 2
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aspernatur modi rem tempora atque quisquam fugit incidunt enim fugiat neque deserunt, voluptatem totam excepturi mollitia ut unde laboriosam eaque ratione. Obcaecati labore suscipit dignissimos, vel nesciunt itaque eius hic laboriosam voluptatibus fugiat? Ipsum voluptates sequi neque architecto quaerat:
 
 <pre><code class="language-bash">
@@ -40,10 +40,10 @@ $ middleman init your_project_name
 
 Lorem ipsum dolor sit amet, 'lorem*quibusdam*ipsum', error nihil labore sunt numquam ratione ducimus dicta, molestiae rerum neque labore `nicolasdotto.github.io`. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ducimus quasi accusantium debitis `--template=blog` lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci molestias tempora animi facilis labore, enim, corrupti est? Id quam dolorem ab, distinctio eveniet consequatur.
 
-## Main Title3
+## Titre principal 3
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, dolore fuga. Rem praesentium quidem necessitatibus hic distinctio officia consequatur quasi maiores dolore sunt inventore, explicabo temporibus nam, dignissimos velit quae.
 
-### Subtitle1
+### Sous-titre 1
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, maiores, ex! Voluptate illo facere, dignissimos autem repellendus consequatur dolor magnam beatae minus? Dolorem eos aut voluptas distinctio non illum id:
 
 - [middleman-blog](https://github.com/middleman/middleman-blog) (lorem ipsum dolor sit amet, consectetur adipisicing elit)
@@ -56,7 +56,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, maiores, ex! Vol
 
 Saepe dolore quasi sunt consectetur quam nemo nulla rerum `gem "name_of_extension"` lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis esse totam enim amet beatae alias nihil ullam quos `$ bundle install`. Iure laboriosam perferendis assumenda, laudantium, ipsum consequuntur qui animi neque error aspernatur necessitatibus, officia. 
 
-### Subtitle2
+### Sous-titre 2
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, officia reprehenderit rerum cupiditate earum magni, iste facere excepturi voluptas, veritatis a nihil aliquid nisi modi tempora consequatur culpa dolore vitae.
 
 Eos laboriosam sit accusantium tenetur iusto est reiciendis:
@@ -87,7 +87,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequuntur pra
 
 Porro alias est exercitationem corporis non nulla [check it out](https://github.com/nicolasdotto/nicolasdotto.github.io/blog/source/config.rb). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptas natus enim, deserunt quaerat aut repellat, voluptatibus consectetur laborum numquam voluptates `relative_links` lorem ipsum `relative_links` dolor sit `directory_indexes`.
 
-## Wrapping up
+## Pour conclure
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam assumenda, sequi vel, esse ipsum. Dignissimos repellat explicabo vero minima qui libero laborum error, esse tenetur architecto exercitationem voluptate.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laborum modi labore ut. Eius aut nobis magni odit, accusantium, numquam obcaecati quia, (voluptates atque omnis) sunt officia rerum facilis explicabo.
 

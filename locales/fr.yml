@@ -77,9 +77,12 @@ fr:
   #cards
   first_apps: "Mes premiers chef-d'oeuvres!"
   hard: "Apprendre à coder demande du temps et de la pratique. Mais petit à petit l'oiseau..."
-  app_1: "1. Un site personnel attrayant"
-  app_2: "2. Un blog fonctionnel de partage"
-  app_3: "3. Une application utilisable dans la vraie vie"
+  # app_1: "1. Un site personnel attrayant"
+  # app_2: "2. Un blog fonctionnel de partage"
+  # app_3: "3. Une application utilisable dans la vraie vie"
+  app_1: "1. Un site personnel avec un blog fonctionnel"
+  app_2: "2. Une application e-commerce + réservations"
+  app_3: "3. Un produit minimum viable clé en main"
 
   #bullets
   bnpp_job: "Je suis diplomé de l'Université Paris Dauphine (Master 224 Banque Finance - 2011) dans le cadre duquel j'ai réalisé un premier stage professionnel en recherche crédit à la Société Générale (Paris La Défense) en tant qu'analyste sell-side."
