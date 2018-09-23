@@ -37,3 +37,28 @@ header {
 .logo {
   height: 35px;
 }
+
+.header-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  // transform: translate(-50%, -50%) // add this + width to center
+}
+
+.heading-primary  {
+  color: #fff;
+  text-transform: uppercase;
+  &-main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 6px;
+  }
+  &-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 15px;
+  }
+
+}
