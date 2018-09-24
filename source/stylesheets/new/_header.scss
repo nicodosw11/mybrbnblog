@@ -26,6 +26,7 @@ header {
   top: 50%;
   left: 50%;
   // transform: translate(-50%, -50%) // add this + width to center
+  text-align: center
 }
 
 .heading-primary  {
@@ -33,6 +34,7 @@ header {
   text-transform: uppercase;
 
   backface-visibility: hidden;
+  margin-bottom: 60px;
 
   &-main {
     display: block;
