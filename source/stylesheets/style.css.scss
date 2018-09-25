@@ -1,31 +1,14 @@
-$color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
-$color-grey-dark: #777;
-$color-white: #fff;
-$color-black: #fff;
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
+@import "new/abstracts/functions";
+@import "new/abstracts/mixins";
+@import "new/abstracts/variables";
+@import "new/base/animations";
+@import "new/base/base";
+@import "new/base/typography";
+@import "new/base/utilities";
+@import "new/components/button";
+@import "new/layout/header";
+@import "new/pages/home";
 
-html {
-  font-size: 62.5%; // 10px/16px; 1rem = 10px
-}
-body {
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 1.6rem; // 16px
-  line-height: 1.7;
-  color: $color-grey-dark;
-  padding: 3rem // 30px
-}
 
-@import "new/header";
-@import "new/buttons";
-@import "new/animations";
+
