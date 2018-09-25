@@ -15,12 +15,12 @@
   transform: translateY(-.1rem);
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
 }
 
-.btn-scaled {
+.btn--scaled {
   &:link, &:visited {
     position: relative
   }
@@ -40,14 +40,14 @@
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
   }
-  &-white {
+  &--white {
     &::after {
       background-color: #fff;
     }
   }
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom .5s ease-out .75s;
   animation-fill-mode: backwards
 }
