@@ -13,12 +13,23 @@
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    &--front{
-      background-color: orangered;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    &--front {
+      background-color: $color-white;
     }
-    &--back{
+    &--back {
       background-color: green;
       transform: rotateY(-180deg);
+      &--orangish{
+        background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+      }
+      &--greenish{
+        background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+      }
+      &--blueish{
+        background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+      }
     }
   }
   &:hover &__side--front {
