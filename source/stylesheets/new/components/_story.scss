@@ -21,7 +21,9 @@
   }
   &__image {
     height: 100%;
-    // transform: translateX(-3rem); // adjust position if needed
+    transform: translateX(-4rem) scale(1.4);
+    transition: all .5s;
+    backface-visibility: hidden;
   }
   &__text {
     transform: skewX(12deg);
@@ -42,5 +44,9 @@
   &:hover &__caption {
     opacity: 1;
     transform: translate(-50%, -50%);
+  }
+  &:hover &__image {
+    transform: translateX(-4rem) scale(1);
+    filter: blur(3px) brightness(80%);
   }
 }
