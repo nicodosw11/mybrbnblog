@@ -6,4 +6,11 @@
   left: 0;
   background-color: rgba($color-black, .8);
   z-index: 11;
+  &__content {
+    height: 50rem;
+    width: 75%;
+    background-color: $color-white;
+    box-shadow: 0 2rem 4rem rgba($color-black, .2);
+    @include absCenter;
+  }
 }
