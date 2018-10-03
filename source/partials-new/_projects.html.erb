@@ -1,4 +1,4 @@
-<section class="section-projects">
+<section class="section-projects" id="projects">
   <div class="u-center-text u-margin-bottom-large">
     <h2 class="heading-secondary">
       My favourite projects
@@ -31,7 +31,7 @@
                 <p class="card__ask-main">Lorem</p>
                 <p class="card__ask-text">Lorem ipsum</p>
               </div>
-              <a href="#" class="btn btn--white btn--scaled btn--scaled--white">Book now!</a>
+              <a href="#popup" class="btn btn--white btn--scaled btn--scaled--white">See more</a>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@
                 <p class="card__ask-main">Lorem</p>
                 <p class="card__ask-text">Lorem ipsum</p>
               </div>
-              <a href="#" class="btn btn--white btn--scaled btn--scaled--white">Book now!</a>
+              <a href="#popup" class="btn btn--white btn--scaled btn--scaled--white">See more</a>
             </div>
           </div>
         </div>
@@ -95,7 +95,7 @@
                 <p class="card__ask-main">Lorem</p>
                 <p class="card__ask-text">Lorem ipsum</p>
               </div>
-              <a href="#" class="btn btn--white btn--scaled btn--scaled--white">Book now!</a>
+              <a href="#popup" class="btn btn--white btn--scaled btn--scaled--white">See more</a>
             </div>
           </div>
         </div>
@@ -107,13 +107,15 @@
   </div>
 </section>
 
-<div class="popup">
+<div class="popup" id="popup">
+  <a href="#projects" class="cancel"></a>
   <div class="popup__content">
     <div class="popup__left">
       <img src="/images/jscode.jpg" alt="" class="popup__img">
       <img src="/images/python.jpg" alt="" class="popup__img">
     </div>
     <div class="popup__right">
+      <a href="#projects" class="popup__close">&times;</a>
       <h2 class="heading-secondary u-margin-bottom-small">Project title</h2>
       <h3 class="heading-tertiary u-margin-bottom-medium">Subtitle &ndash; An interesting comment here</h3>
       <p class="popup__text">
@@ -129,7 +131,8 @@
         esse?
         Magni ad molestias nam officia dolores, illum quibusdam.
       </p>
-      <a href="#" class="btn btn--green btn--scaled btn--scaled--green">Contact me</a>
+      <a href="#contact" class="btn btn--green btn--scaled btn--scaled--green">Contact me</a>
     </div>
   </div>
 </div>
+
