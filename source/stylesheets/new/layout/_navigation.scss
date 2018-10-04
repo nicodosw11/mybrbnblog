@@ -64,11 +64,16 @@
       );
       background-size: 250%;
       transition: all 0.4s;
+      span {
+        margin-right: 1.5rem;
+        display: inline-block;
+      }
     }
     &:hover,
     &:active {
       background-position: 100%;
       color: $color-primary;
+      transform: translateX(1rem);
     }
   }
 }
