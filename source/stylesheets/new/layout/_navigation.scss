@@ -24,6 +24,8 @@
       $color-primary-dark
     );
     z-index: 8;
+
+    transform: scale(80);
   }
   &__nav {
     height: 100vh;
@@ -40,5 +42,15 @@
     transform: translate(-50%, -50%);
     list-style: none;
     text-align: center;
+  }
+  &__item {
+    margin: 1rem;
+  }
+  &__link {
+    font-size: 3rem;
+    font-weight: 300;
+    color: $color-white;
+    text-decoration: none;
+    text-transform: uppercase;
   }
 }
