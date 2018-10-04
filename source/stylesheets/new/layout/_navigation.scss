@@ -1,4 +1,17 @@
 .navigation {
+  &__checkbox {
+    display: none;
+  }
+  &__button {
+    background-color: $color-white;
+    height: 7rem;
+    width: 7rem;
+    position: fixed;
+    top: 6rem;
+    right: 6rem;
+    border-radius: 50%;
+    z-index: 10;
+  }
   &__background {
     height: 6rem;
     width: 6rem;
@@ -10,6 +23,6 @@
       $color-primary-light,
       $color-primary-dark
     );
-    z-index: 11;
+    z-index: 9;
   }
 }
