@@ -5,14 +5,14 @@ subtitle: Rem laudantium sed iusto vero accusantium assumenda placeat.
 summary: Part 3 usto qui maiores, vero quis earum odit adipisci unde, nisi, corrupti doloremque perspiciatis.
 description: Part 3 itaque quos obcaecati laudantium ipsum aut voluptate ea debitis similique.
 category: code
-header_image:
+header_image: parisquai-panorama.jpg
 published: true
 lang: en
 tags: travel, food, ruby
 ---
 
 ## Quick recap:
-Lorem ipsum [first article](http://www.nicolasdotto.com/blog/lorem-ipsum/) deleniti veniam quae harum facilis assumenda mollitia possimus fugiat odit veritatis aspernatur dicta voluptate est autem, temporibus. Deserunt veniam acere impedit, id velit a rem, veritatis eius est quod inventore. Perferendis culpa obcaecati aperiam aspernatur nostrum officiis iste optio `middleman s` possimus expedita quaerat iste cum voluptate `⌃c` doloribus quo dolor. Lorem ipsum dolor sit amet [http://localhost:4567/](http://localhost:4567/) beatae, ab reiciendis alias perferendis molestiae adipisci, non nemo corrupti magni nihil dolore [Middleman docs](https://middlemanapp.com/basics/install/) fa officia laudantium delectus, provident explicabo blanditiis deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, accusantium repudiandae voluptate quisquam animi modi odio illo amet ex cupiditate, totam ab! Velit ullam error ipsam sed corrupti quisquam laudantium. 
+Lorem ipsum [first article](http://www.nicolasdotto.com/blog/lorem-ipsum/) deleniti veniam quae harum facilis assumenda mollitia possimus fugiat odit veritatis aspernatur dicta voluptate est autem, temporibus. Deserunt veniam acere impedit, id velit a rem, veritatis eius est quod inventore. Perferendis culpa obcaecati aperiam aspernatur nostrum officiis iste optio `middleman s` possimus expedita quaerat iste cum voluptate `⌃c` doloribus quo dolor. Lorem ipsum dolor sit amet [http://localhost:4567/](http://localhost:4567/) beatae, ab reiciendis alias perferendis molestiae adipisci, non nemo corrupti magni nihil dolore [Middleman docs](https://middlemanapp.com/basics/install/) fa officia laudantium delectus, provident explicabo blanditiis deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, accusantium repudiandae voluptate quisquam animi modi odio illo amet ex cupiditate, totam ab! Velit ullam error ipsam sed corrupti quisquam laudantium.
 
 ## Main Title1
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit accusamus aut reprehenderit commodi molestiae, minima a officia, quidem praesentium pariatur quos placeat, tempore obcaecati similique voluptas! Optio accusamus quod ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit *Middleman Deploy* quibusdam corporis eaque necessitatibus ab atque, ratione temporibus non sapiente accusamus perspiciatis iusto sint nostrum debitis aspernatur beatae quae tenetur dolorem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste consectetur deserunt reprehenderit aut, harum fuga id molestiae ut quos adipisci modi architecto expedita nesciunt recusandae autem accusantium:

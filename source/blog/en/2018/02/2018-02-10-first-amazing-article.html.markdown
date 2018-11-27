@@ -1,11 +1,11 @@
 ---
 title: First amazing article
 date: 2018-02-10 18:08 BST
-subtitle: Impedit porro eligendi voluptates illo aut illum ducimus ullam laboriosam culpa praesentium optio perferendis tempore eos sit voluptatibus. 
+subtitle: Impedit porro eligendi voluptates illo aut illum ducimus ullam laboriosam culpa praesentium optio perferendis tempore eos sit voluptatibus.
 summary: Eaque architecto vel molestiae labore rem eveniet illo vitae harum est! Doloribus ratione, quidem blanditiis earum voluptatem.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore veniam nesciunt itaque, facilis sunt veritatis iste? Iusto repellendus accusantium, blanditiis adipisci ex, quos atque sequi, eligendi sed eveniet reprehenderit optio..
 category: code
-header_image:
+header_image: parisquai-panorama.jpg
 published: true
 lang: en
 tags: travel, programming, style
@@ -23,16 +23,16 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ex non id, unde, v
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum provident minus consequuntur officia iusto labore libero, sit et explicabo earum. Laudantium quia ullam reiciendis ab, nostrum iste soluta perferendis nulla.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, obcaecati minus repellendus pariatur hic illo assumenda consectetur sunt odit. Numquam itaque, modi quibusdam nesciunt reiciendis quidem delectus dignissimos libero, esse! 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita odio itaque ratione adipisci minus quisquam, quis distinctio suscipit fugit reprehenderit dolor quia impedit perspiciatis, accusantium nam recusandae mollitia ex quod. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, obcaecati minus repellendus pariatur hic illo assumenda consectetur sunt odit. Numquam itaque, modi quibusdam nesciunt reiciendis quidem delectus dignissimos libero, esse!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita odio itaque ratione adipisci minus quisquam, quis distinctio suscipit fugit reprehenderit dolor quia impedit perspiciatis, accusantium nam recusandae mollitia ex quod.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores minima natus fugiat nostrum est praesentium dolores veritatis deserunt, atque tempora maxime officiis dolorem nam distinctio, sapiente architecto debitis perferendis tempore.
 
 ## Main Title2
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quo adipisci modi ipsum, ad quae mollitia error quos! Iure voluptatem iusto commodi recusandae, ut et illo fugit est adipisci qui!
 Lorem ipsum dolor sit amet, consectetur adipisicing elit (Lorem [Sublime Text 3](http://www.sublimetext.com) sit [iTerm](https://www.iterm2.com) consectetur).
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius optio, excepturi tenetur et voluptate aspernatur nesciunt facere incidunt vel consequatur tempore, dignissimos iusto. Suscipit atque eligendi maiores cumque, non sed. 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quis recusandae iusto ipsam ratione quasi cupiditate doloribus soluta aperiam velit iure repudiandae nesciunt, repellendus dolores labore dolor, veritatis ullam. Praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, voluptatibus ut non doloribus animi pariatur, obcaecati asperiores eos fugiat, eveniet mollitia ullam consequuntur perspiciatis quo maxime laboriosam, quaerat enim odit. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius optio, excepturi tenetur et voluptate aspernatur nesciunt facere incidunt vel consequatur tempore, dignissimos iusto. Suscipit atque eligendi maiores cumque, non sed.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quis recusandae iusto ipsam ratione quasi cupiditate doloribus soluta aperiam velit iure repudiandae nesciunt, repellendus dolores labore dolor, veritatis ullam. Praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, voluptatibus ut non doloribus animi pariatur, obcaecati asperiores eos fugiat, eveniet mollitia ullam consequuntur perspiciatis quo maxime laboriosam, quaerat enim odit.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
 ## Main Title3
@@ -42,7 +42,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi, volup
 
 
 ### Subtitle1
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 [Here’s a great article](http://railsapps.github.io/xcode-command-line-tools.html) lorem ipsum dolor sit amet.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis reiciendis temporibus ratione repellendus neque cupiditate enim dolores.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ullam optio, nisi libero itaque voluptate nostrum quaerat.
@@ -82,7 +82,7 @@ Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing 
 
 ### Subtitle3
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolores blanditiis tenetur possimus eos fugit placeat!
-[Odio](https://nicolasdotto.com/loremipsum1/odio) lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus autem, voluptas reiciendis adipisci amet minima veniam et quod excepturi vero corporis, dolores laborum quos facere, quasi est assumenda distinctio. 
+[Odio](https://nicolasdotto.com/loremipsum1/odio) lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus autem, voluptas reiciendis adipisci amet minima veniam et quod excepturi vero corporis, dolores laborum quos facere, quasi est assumenda distinctio.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo qui aut eveniet, architecto repellat veniam ex animi atque voluptate incidunt deleniti ratione veritatis at, blanditiis, assumenda beatae tempora illo soluta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti neque error molestias dolore nobis blanditiis soluta voluptate rerum magni quasi, doloremque, quis doloribus fuga, quisquam beatae eaque ipsa explicabo assumenda, [these](http://nicolasdotto.com/blog/loremipsum1-odio/) lorem ipsum [articles](https://nicolasdotto.com/using-rbenv-to-manage-rubies-and-gems) lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi modi alias, quo praesentium possimus minus esse vitae eos a sequi cumque quam sapiente culpa numquam, quos distinctio similique totam ad..
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate officia, animi incidunt odio dicta commodi harum ipsa laboriosam illum:
@@ -95,17 +95,17 @@ $ brew install rbenv ruby-build rbenv-default-gems rbenv-gem-rehash rbenv-vars
 
 [Rbenv-default-gems](https://nicolasdotto.com/loremipsum1/rbenv-default-gems) lorem ipsum dolor sit amet “delectus expedita hic tempora, nulla quidem, alias mollitia amet distinctio ab adipisci earum illo veritatis.”
 
-[Rbenv-gem-rehash](https://nicolasdotto.com/loremipsum1/rbenv-gem-rehash) lorem ipsum dolor sit amet “omnis dolor qui necessitatibus maiores laborum, accusamus numquam.” Ipsum repellendus maxime culpa facilis. 
+[Rbenv-gem-rehash](https://nicolasdotto.com/loremipsum1/rbenv-gem-rehash) lorem ipsum dolor sit amet “omnis dolor qui necessitatibus maiores laborum, accusamus numquam.” Ipsum repellendus maxime culpa facilis.
 
 [Rbenv-vars](https://nicolasdotto.com/loremipsum1/rbenv-vars) lorem “animi recusandae voluptas, deserunt hic ipsum reprehenderit. Dolor numquam dolores adipisci ex, pariatur blanditiis.”
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas explicabo rerum minima assumenda sit beatae earum at quae, labore:
 
 ```{.language-bash}
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 ```
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit: 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit:
 
 ```{.language-bash}
 $ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' > ~/.profile
@@ -135,20 +135,20 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit:
 $ rbenv global 2.2.2
 $ rbenv rehash
 ```
-Ullam eligendi repellat ducimus quasi quod ipsa commodi: 
+Ullam eligendi repellat ducimus quasi quod ipsa commodi:
 
 ```{.language-bash}
-$ ruby -v 
+$ ruby -v
 ```
 
 consectetur adipisicing elit quia accusantium asperiores
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ab error sapiente unde explicabo quidem, animi.
-Lorem: 
+Lorem:
 
 ```{.language-bash}
 $ brew install wget curl imagemagick
 ```
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia error id, natus perspiciatis? Eaque, sunt repudiandae nostrum libero recusandae facere: 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia error id, natus perspiciatis? Eaque, sunt repudiandae nostrum libero recusandae facere:
 
 ```{.language-bash}
 $ gem update --system
@@ -156,7 +156,7 @@ $ gem update --system
 
 ### Subtitle5
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quidem illum a voluptatem accusantium delectus, atque voluptas veniam ut. Sequi quisquam.
-Lorem: 
+Lorem:
 
 ```{.language-bash}
 $ gem install bundler
@@ -164,7 +164,7 @@ $ gem install bundler
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, voluptas [Rbenv-bundler](https://nicolasdotto.com/lorempisum1/rbenv-bundler) “atque deserunt temporibus. Praesentium necessitatibus, delectus sunt doloremque vero totam ex `rbenv which` eos reprehenderit beatae, facilis impedit quia asperiores excepturi.”
 
-Lorem: 
+Lorem:
 
 ```{.language-bash}
 $ brew install rbenv-bundler

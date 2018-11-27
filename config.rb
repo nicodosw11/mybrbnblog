@@ -20,7 +20,7 @@ activate :blog do |blog|
   blog.sources           = "blog/en/{year}/{month}/{year}-{month}-{day}-{title}.html"
   blog.permalink         = "blog/{lang}/{year}/{month}/{day}/{title}.html"
   blog.default_extension = '.markdown'
-  blog.layout            = 'blog'
+  blog.layout            = 'blog-article-table'
   # blog.tag_template = 'tag.html'
   blog.tag_template      = "blog/en/tag.html"
   blog.taglink           = "en/tags/{tag}.html"
@@ -47,7 +47,7 @@ activate :blog do |blog|
   blog.sources           = "blog/fr/{year}/{month}/{year}-{month}-{day}-{title}.html"
   blog.permalink         = "blog/{lang}/{year}/{month}/{day}/{title}.html"
   blog.default_extension = '.markdown'
-  blog.layout            = "blog"
+  blog.layout            = "blog-article-table"
   blog.calendar_template = "blog/fr/calendar.html"
   blog.year_link         = "fr/{year}.html"
   blog.month_link        = "fr/{year}/{month}.html"
@@ -144,8 +144,8 @@ activate :directory_indexes
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page "/blog/*", layout: "blog"
-page "/fr/blog.html", layout: "blog"
+page "/blog/*", layout: "blog-article-table"
+page "/fr/blog.html", layout: "blog-article-table"
 # page "index.html", layout: false
 # page "/about.html", layout: "blog"
 
@@ -179,6 +179,17 @@ helpers do
     array ||= []
     array = [*array.split(/\s+,\s+/)].compact unless array.is_a? Array
     array.map{|tag| link_to tag, "#{prefix}/tags/#{tag}/" }.join ", "
+  end
+  def nav_link(name, url, options={})
+    options = {
+      class: "",
+      active_if: url,
+      page: current_page.url,
+    }.update options
+      active_url = options.delete(:active_if)
+      active = Regexp === active_url ? current_page.url =~ active_url : current_page.url == active_url
+      options[:class] += " active" if active
+      link_to name, url, options
   end
 end
 

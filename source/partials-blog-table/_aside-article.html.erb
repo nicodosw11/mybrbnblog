@@ -1,0 +1,15 @@
+<b>Posted in <a href="/primary/">Primary</a></b>
+<p><small><i id="reading-time">Reading time: 5 minutes</i></small></p>
+<p><small><i class="icon-python"></i><%= current_article.data['category'] %></small>
+<small><i class="icon-python"></i><time><%=time_ago_in_words(current_article.date)%> ago</time></small>
+<small><i class="icon-python"></i><a href="#" data-disqus-url="" data-disqus-identifier=""></a></small>
+<small><i class="icon-python"></i><a href="#" target="_blank" rel="nofollow">Share on Twitter</a></small>
+<small><i class="icon-python"></i><a href="#" target="_blank" rel="nofollow">Share on Facebook</a></small>
+</p><small>Stay up-to-date with my blog</small>
+<form method="post" action="/subscribe/" id="form-subscribe">
+  <input class="confirm" type="hidden" name="confirm"  />
+  <input class="location" type="hidden" name="location"  />
+  <input class="referrer" type="hidden" name="referrer"  />
+  <input class="subscribe-email" type="email" name="email"  placeholder="Your email address" />
+  <button type="submit">Subscribe</button>
+</form>

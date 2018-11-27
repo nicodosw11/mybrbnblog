@@ -1,0 +1,20 @@
+#up {
+  border-radius: 5px;
+  color: #FFF;
+  padding: 2rem;
+  width: 6.2rem;
+  height: 6.2rem;
+  bottom: -7.2rem;
+  right: 1rem;
+  position: fixed;
+  cursor: pointer;
+  z-index: 999;
+  background: #222;
+  transition: bottom .3s ease;
+  &:hover {
+    background: #00B16A;
+  }
+  &.show {
+    bottom: 1rem;
+  }
+}

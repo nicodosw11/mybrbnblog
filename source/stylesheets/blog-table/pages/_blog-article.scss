@@ -1,0 +1,40 @@
+#article {
+  color: #222; //rgb(34, 34, 34);
+  display: table;
+  width: 100%;
+  //max-width:1070px;
+  max-width: 1320px;
+  margin: 220px auto 100px;
+  //padding: 0 20px;
+  @include respond(tab-port) {
+    display: block;
+    width: auto;
+    max-width: 710px;
+  }
+  .col {
+    display: table-cell;
+    vertical-align: top;
+    @include respond(tab-port) {
+      display: block;
+    }
+    &-content {
+      padding-right: 5rem;
+      & img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: .5rem;
+        margin-bottom: 1rem;
+        border: .5rem solid #E6E6E6; //rgb(230, 230, 230);
+      }
+    }
+    &-sidebar {
+      padding-top: 5.5rem;
+      width: 40rem;
+    }
+  }
+}
+
+// #article article, #article aside {display:table-cell; vertical-align:top}
+// #article article {
+  //padding-right: 50px;
+//}

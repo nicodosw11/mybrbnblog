@@ -1,0 +1,27 @@
+#pagination-previous-next {
+  background: #00b16a; //rgb(0, 177, 106);
+  padding: 9rem 2rem;
+  text-align: center;
+  i {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  a {
+    color: #FFF; //rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .btn {
+    display: inline-block;
+    height: 5rem;
+    width: 30rem;
+    padding: 0 1.2rem;
+    border-radius: 5px;
+    border: 5px solid #fff; //rgb(255, 255, 255);
+    text-transform: uppercase;
+    font: 700 16px/41px "Cabin Condensed";
+    &:hover {
+      color: #00b16a;
+      background: #fff; //rgb(255, 255, 255);
+    }
+  }
+}
