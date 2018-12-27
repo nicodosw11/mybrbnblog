@@ -8,16 +8,16 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Cabin+Condensed:400,700|Patua+One|Pacifico"
     />
-    <%= stylesheet_link_tag "style-blog" %>
+    <%= stylesheet_link_tag "style-flex-table" %>
     <link rel="icon" type="image/gif" href="/images/logo.gif" />
-    <title>New Page</title>
+    <title>Read Article</title>
   </head>
   <body>
     <%= partial "partials-blog-table/navbar" %>
     <%= partial "partials-blog-table/menu" %>
     <main id="main">
       <%= partial "partials-blog-table/avatar" %>
-      <section class="container-article" id="article">
+      <section id="article">
         <article>
           <div class="col col-content">
             <h1><%= current_article.title %></h1>
@@ -32,16 +32,17 @@
     <section id="pagination-previous-next">
       <% if current_article.article_previous %>
       <span class="hide-m">
-        Previous <i class="icon-ruby hide-m"></i>
+        Previous <i class="icon-backward2 hide-m"></i>
         <%= link_to truncate(current_article.article_previous.title, length: 30), current_article.article_previous, class: "btn" %>
       </span>
       <% end %>
       <% if current_article.article_next %>
       <span class="hide-m">
         <%= link_to truncate(current_article.article_next.title, length: 30), current_article.article_next, class: "btn"%>
-        <i class="icon-python hide-m"></i> Next
+        <i class="icon-forward3 hide-m"></i> Next
       </span>
       <% end %>
     </section>
+
   </body>
 </html>

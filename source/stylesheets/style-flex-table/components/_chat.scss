@@ -1,0 +1,74 @@
+.chat {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99;
+  top: 100%;
+  right: -12.7rem;
+  width: 35rem;
+
+  font-size: 1.2rem;
+  background-color: $color-white;
+  @include boxShadowHover;
+  transition: all 0.2s 0.1s;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 1.5rem;
+    transition: all 0.2s;
+
+    &:hover .chat__photo {
+      border: 3px solid $color-primary;
+    }
+
+    &:not(:last-child):hover {
+      background-color: $color-grey-light-1;
+    }
+
+    &:not(:last-child) {
+      @include borderBottomSmall;
+    }
+  }
+
+  &__photo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    box-sizing: content-box;
+    border: 3px solid $color-white;
+    transition: border 0.2s;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+  }
+  &__info {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0.2rem;
+  }
+  &__user-name {
+    font-weight: 600;
+  }
+  &__timestamp {
+    font-size: 1rem;
+    color: $color-primary-dark;
+    margin-left: auto;
+  }
+  &__preview {
+    font-size: 1rem;
+  }
+  &__btn {
+    align-self: center;
+  }
+
+}

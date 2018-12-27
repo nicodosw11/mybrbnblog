@@ -5,14 +5,14 @@ subtitle: Quisquam consequatur ratione iure id officia cupiditate nulla
 summary: Part 2 nisi maxime eius, vitae commodi explicabo omnis consectetur, ex dolorem? Totam debitis corporis eius.
 description: Part 2 totam dicta consequatur, accusamus laborum eius illum a, tempore, ducimus labore hic nobis nemo quibusdam veritatis quis.
 category: code
-header_image:
+header_image: parisquai-panorama.jpg
 lang: fr
 tags: art, programming, ruby
 ---
 
 Lorem ipsum [first article](http://www.nicolasdotto.com/blog/loremipsum/) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quisquam perspiciatis doloribus porro repudiandae ipsum sed quam eius officiis! Accusantium facere, possimus perferendis! Alias maiores veritatis delectus repellendus laboriosam nobis.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsam deleniti quae, animi non odit cupiditate, corrupti ab. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsam deleniti quae, animi non odit cupiditate, corrupti ab.
 
 Lorem ipsum dolor sit amet [this series](http://www.nicolasdotto.com/blog/loremipsum/) lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda nemo iure temporibus ducimus, omnis expedita rem voluptas neque unde molestiae fugit ratione reprehenderit, aspernatur, commodi soluta alias dicta, repudiandae corporis.
 
@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, maiores, ex! Vol
 - [middleman-deploy](https://github.com/middleman-contrib/middleman-deploy) (lorem ipsum eius adipisci officia sint ab magni voluptatem assumenda)
 - [middleman-search\_engine\_sitemap](https://github.com/Aupajo/middleman-search_engine_sitemap) (lorem ipsum voluptate corrupti iure iste voluptatem doloribus)
 
-Saepe dolore quasi sunt consectetur quam nemo nulla rerum `gem "name_of_extension"` lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis esse totam enim amet beatae alias nihil ullam quos `$ bundle install`. Iure laboriosam perferendis assumenda, laudantium, ipsum consequuntur qui animi neque error aspernatur necessitatibus, officia. 
+Saepe dolore quasi sunt consectetur quam nemo nulla rerum `gem "name_of_extension"` lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis esse totam enim amet beatae alias nihil ullam quos `$ bundle install`. Iure laboriosam perferendis assumenda, laudantium, ipsum consequuntur qui animi neque error aspernatur necessitatibus, officia.
 
 ### Sous-titre 2
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, officia reprehenderit rerum cupiditate earum magni, iste facere excepturi voluptas, veritatis a nihil aliquid nisi modi tempora consequatur culpa dolore vitae.
@@ -83,7 +83,7 @@ activate :blog do |blog|
 end
 </pre></code>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequuntur praesentium veniam pariatur, eligendi, voluptate placeat nihil repudiandae autem sit cum eius tempora. Minima illo excepturi numquam consequuntur ipsa, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequuntur praesentium veniam pariatur, eligendi, voluptate placeat nihil repudiandae autem sit cum eius tempora. Minima illo excepturi numquam consequuntur ipsa, cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
 Porro alias est exercitationem corporis non nulla [check it out](https://github.com/nicolasdotto/nicolasdotto.github.io/blog/source/config.rb). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptas natus enim, deserunt quaerat aut repellat, voluptatibus consectetur laborum numquam voluptates `relative_links` lorem ipsum `relative_links` dolor sit `directory_indexes`.
 

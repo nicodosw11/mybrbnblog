@@ -8,12 +8,12 @@
         <p class="article-summary" style="margin: 3rem 0 2rem"><%= article.data['summary'] %></p>
         <% end %>
         <small>
-          <i class="icon-ruby"></i><%= article.data['category'] %>
-          <i class="icon-ethereum"></i><time><%=time_ago_in_words(article.date)%> ago</time>
-          <i class="icon-python"></i><a href="#" class="hide-m" data-disqus-url="#" data-disqus-identifier=""><%= article.tags.size %></a>
+          <i class="icon-attachment"></i><%= article.data['category'] %>
+          <i class="icon-clock"></i><time><%=time_ago_in_words(article.date)%> ago</time>
+          <i class="icon-bubble"></i><a href="#" class="hide-m" data-disqus-url="#" data-disqus-identifier=""><%= article.tags.size %></a>
         </small>
         <div class="tag-labels" style="margin-top: 1rem;">
-          <small><i class="icon-ruby"></i>
+          <small><i class="icon-price-tags"></i>
           <% article.tags.each do |tag| %>
             <%= link_to tag, tag_path(tag), class: "tag-label" %>
           <% end %>

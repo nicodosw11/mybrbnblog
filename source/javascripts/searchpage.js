@@ -15,14 +15,16 @@ $(document).ready(function () {
   var fallbacksearch = $('#fallback-search');
   fallbacksearch.hide();
 
+  // $(".search__input").on("keyup", function() {
   $('input#search').on('keyup', function () {
     // Get query
     var query = $(this).val();
     // Search for it
     var result = lunrIndex.search(query);
     // Output it
-    var searchresults = $('.searchresults');
-    var resultcount = $('#result-count');
+    // var searchresults = $(".suggestions");
+    var searchresults = $(".searchresults");
+    var resultcount = $("#result-count");
     if (result.length === 0) {
       // Hide results
       searchresults.hide();
@@ -30,11 +32,11 @@ $(document).ready(function () {
       if (query.length == 0) {
         fallbacksearch.hide();
       } else {
-        fallbacksearch.show()
+        fallbacksearch.show();
       }
     } else {
       // Show results
-      resultcount.html('results: ' + result.length);
+      resultcount.html("results: " + result.length);
       searchresults.empty();
       for (var item in result) {
         // A result only gives us a reference to a document
@@ -42,8 +44,9 @@ $(document).ready(function () {
         // Using the reference get the document
         var doc = lunrData.docs[ref];
         // Get the section of the site
-        var group = " <span class='badge'>" + doc.group + '</span>';
-        var searchitem = '<a class="list-group-item" href="' + doc.url + '">' + doc.title + group + '</a>';
+        var group = " <span class='badge'>" + doc.group + "</span>";
+        // var searchitem = '<a class="list-group-item" href="' + doc.url + '">' + doc.header_image + doc.description + group + "</a>";
+        var searchitem = '<a class="list-group-item" href="' + doc.url + '">' + doc.title + group + "</a>";
         searchresults.append(searchitem);
       }
       searchresults.show();

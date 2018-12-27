@@ -1,0 +1,252 @@
+body {
+  font: 400 2rem/1 "Cabin Condensed";
+  //color: $color-grey-dark;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+
+#article {
+  a {
+    color: #222;
+    text-decoration: underline;
+    &:hover {
+      color: #00b16a; //rgb(34, 34, 34);
+    }
+  }
+  h1 {
+    font: 400 4.8rem/1.1 "Patua One";
+  }
+  h2 {
+    font: 400 3.6rem/1 "Patua One";
+  }
+  h3 {
+    font: 400 2.4rem/1 "Patua One";
+  }
+  p {
+    line-height: 1.4;
+    //padding: 0;
+  }
+  h1,
+  h2,
+  h3 {
+    margin-top: 5rem;
+  }
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 3rem;
+  }
+  blockquote {
+    padding-left: 3rem;
+    border-left: 0.6rem solid #222; //rgb(34, 34, 34);
+    font-style: italic;
+  }
+  b,
+  small {
+    display: block;
+    font-style: normal;
+    margin-bottom: .9rem;
+    line-height: 1.4;
+  }
+  i:not(#reading-time) {
+    margin-right: .5rem;
+    display: inline-block;
+    font: normal 1.4rem/1 "icomoon";
+    width: 1.28571em;
+    //text-align: center;
+  }
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("/fonts/icomoon.eot?9ibvuc");
+  src: url("/fonts/icomoon.eot?9ibvuc#iefix") format("embedded-opentype"),
+    url("/fonts/icomoon.ttf?9ibvuc") format("truetype"),
+    url("/fonts/icomoon.woff?9ibvuc") format("woff"),
+    url("/fonts/icomoon.svg?9ibvuc#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-javascript:before {
+  content: "\e900";
+  //color: #f7df1e;
+}
+.icon-ethereum:before {
+  content: "\e901";
+}
+.icon-ruby:before {
+  content: "\e902";
+  //color: #cc342d;
+}
+.icon-python:before {
+  content: "\e903";
+  //color: #3776ab;
+}
+.icon-rails:before {
+  content: "\e904";
+  //color: #c00;
+}
+
+.icon-menu1:before {
+  content: "\e907";
+}
+.icon-paper-plane:before {
+  content: "\e905";
+}
+.icon-home3:before {
+  content: "\e906";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-stack:before {
+  content: "\e92e";
+}
+.icon-price-tag:before {
+  content: "\e935";
+}
+.icon-price-tags:before {
+  content: "\e936";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-clock2:before {
+  content: "\e94f";
+}
+.icon-stopwatch:before {
+  content: "\e952";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-bubble2:before {
+  content: "\e96e";
+}
+.icon-spinner:before {
+  content: "\e97a";
+}
+.icon-spinner3:before {
+  content: "\e97c";
+}
+.icon-spinner6:before {
+  content: "\e97f";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-cogs:before {
+  content: "\e995";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-tree:before {
+  content: "\e9bc";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-attachment:before {
+  content: "\e9cd";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+}
+.icon-bookmarks:before {
+  content: "\e9d3";
+}
+.icon-backward2:before {
+  content: "\ea1f";
+}
+.icon-forward3:before {
+  content: "\ea20";
+}
+.icon-first:before {
+  content: "\ea21";
+}
+.icon-last:before {
+  content: "\ea22";
+}
+.icon-previous2:before {
+  content: "\ea23";
+}
+.icon-next2:before {
+  content: "\ea24";
+}
+.icon-arrow-up:before {
+  content: "\ea32";
+}
+.icon-arrow-right:before {
+  content: "\ea34";
+}
+.icon-arrow-down:before {
+  content: "\ea36";
+}
+.icon-arrow-left:before {
+  content: "\ea38";
+}
+.icon-circle-up:before {
+  content: "\ea41";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-rss:before {
+  content: "\ea9b";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-stackoverflow:before {
+  content: "\ead0";
+}
+

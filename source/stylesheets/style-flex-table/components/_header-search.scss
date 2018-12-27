@@ -1,0 +1,90 @@
+.header-search {
+  height: 7rem;
+  background-color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    height: 3.25rem;
+    margin-left: 2rem;
+    width: 3.25rem;
+    //fill: $color-primary-dark;
+    animation: pulsate 4s infinite linear;
+  }
+  .search {
+    flex: 0 0 40%;
+    position: relative; // for use with suggestions
+  }
+  .user-nav {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+
+    position: relative; // for use with chat notifications
+
+    & > * {
+      // icon__box icon__box __user
+      padding: 0 2rem;
+      cursor: pointer;
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      transition: all 0.2s;
+
+      &:hover {
+        background-color: $color-grey-light-2;
+      }
+    }
+
+    // icons
+    &__icon-box {
+      position: relative;
+
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+
+      &:hover > :nth-child(2) {
+        background-color: $color-primary-dark-hover;
+        animation: zoomInAndOut 0.3s ease-in-out;
+      }
+    }
+    &__message-icon:hover .chat {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    // avatar
+    &__icon {
+      height: 2.25rem;
+      width: 2.25rem;
+      fill: $color-grey-dark-2;
+    }
+    &__notification {
+      font-size: 0.8rem;
+      height: 1.75rem;
+      width: 1.75rem;
+      border-radius: 50%;
+      background-color: $color-primary;
+      color: #fff;
+      position: absolute;
+      top: 1.5rem;
+      right: 1.1rem;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__user-photo {
+      height: 3.75rem;
+      border-radius: 50%;
+      margin-right: 1rem;
+    }
+
+    &__settings:hover .settings {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}

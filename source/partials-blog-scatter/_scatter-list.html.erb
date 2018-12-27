@@ -1,0 +1,22 @@
+<section id="section__scatter">
+  <h3>Recent Posts</h3>
+  <div id="scatter-list">
+    <% page_articles.each do |article| %>
+    <article class="blog">
+      <summary>
+        <small>
+          <time><%= article.date.strftime('%b %e, %Y') %></time> —
+          <%= link_to article.data['category'], article, class: "cl-brand" %>
+        </small>
+        <h2><%= link_to article.title, article %></h2>
+      </summary>
+      <div
+        class="label"
+        style="background-image: url('<%= image_path(article.data.header_image)%>');"
+      >
+        <%= link_to "Read article", article, class: "btn bg-cta cl-white" %>
+      </div>
+    </article>
+    <% end %>
+  </div>
+</section>

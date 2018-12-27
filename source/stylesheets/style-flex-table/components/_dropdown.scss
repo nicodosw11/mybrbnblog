@@ -1,0 +1,55 @@
+.settings {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99;
+  top: 100%;
+  right: 0;
+  width: 17rem;
+
+  font-size: 1rem;
+  background-color: $color-white;
+  @include boxShadowHover;
+  transition: all 0.2s 0.1s;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+
+    padding: 1.2rem 1.5rem;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: $color-grey-light-1;
+    }
+    &:not(:last-child) {
+      @include borderBottomSmall;
+    }
+  }
+
+  &__link:link,
+  &__link:visited {
+    flex: 0 0 80%;
+    color: $color-grey-dark-1;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__icon {
+    flex: 0 0 20%;
+    height: 1.75rem;
+    width: 1.75rem;
+    margin-right: 1.5rem;
+    fill: $color-primary-dark;
+  }
+}

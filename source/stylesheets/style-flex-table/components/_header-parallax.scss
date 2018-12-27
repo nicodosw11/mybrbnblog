@@ -1,0 +1,143 @@
+.bg-peas {
+  background: $bg-peas $color-brand;
+  background-attachment: fixed;
+}
+.bg-waves {
+  background: $bg-waves $color-brand;
+  background-attachment: fixed;
+}
+
+// Mobile first
+#header-parallax {
+  color: white;
+  text-align: center;
+  #header-wrapper {
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #header-body {
+      width: 100%;
+      h1 {
+        max-width: 595px;
+        line-height: 1.1;
+        font-weight: bold;
+        margin: -7px auto 18px;
+      }
+      p {
+        max-width: 500px;
+        line-height: 1.3;
+      }
+      p,
+      i {
+        margin: 0 auto 30px;
+      }
+      i { display: block; }
+      .btn {
+        clear: left;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+// @media only screen and (max-width: 439px) {
+@media only screen and (max-width: 27.4375em) {
+  #header-body {
+    h1 {
+      font-size: 2.8rem;
+      line-height: 1.2;
+    }
+    i {
+      display: none;
+    }
+  }
+}
+
+// @media only screen and (min-width: 440px) {
+@media only screen and (min-width: 27.5em) {
+  #header-parallax {
+    #header-wrapper {
+      padding: 100px 50px;
+    }
+  }
+}
+
+/* &headerindex */
+#header.index {
+  overflow: hidden;
+  position: relative;
+}
+
+/* &headerarticle */
+#header-body.article {
+  img {
+    height: 54px;
+    width: 54px;
+    border-radius: 54px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    box-shadow: $box-shadow;
+  }
+  span {
+    text-align: left;
+    align-self: center;
+  }
+  time {
+    float: right;
+  }
+  ul {
+    margin: -12px auto 0;
+  }
+  li {
+    list-style: none;
+    line-height: 1.3;
+  }
+  a {
+    text-decoration: underline;
+  }
+}
+
+// @media only screen and (max-width: 599px) {
+@media only screen and (max-width: 37.4375em) {
+  #header-body.article {
+    h1 {
+      margin-bottom: 31px;
+    }
+    p {
+      display: none;
+    }
+    time {
+      display: none;
+    }
+  }
+}
+// @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
+  #header-body.article {
+    p {
+      display: grid;
+      grid-gap: 0 20px;
+      grid-template-columns: 54px auto;
+    }
+    ul {
+      font-weight: bold;
+    }
+  }
+}
+
+ /* &curve */
+#curve {
+  width: 100%;
+  height: 20px;
+  display: block;
+  margin-top: -20px;
+  position: relative;
+}
+// @media only screen and (min-width: 560px) {
+@media only screen and (min-width: 35em) {
+  #curve {
+    height: 40px;
+    margin-top: -40px;
+  }
+}

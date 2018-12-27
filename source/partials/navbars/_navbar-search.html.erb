@@ -7,18 +7,18 @@
   <% end %>
   <ul>
     <% if I18n.locale == I18n.default_locale %>
-    <li class=<%= "is-active" if page_classes.include? "about" %>><a href="/about"><i class="fa fa-id-card icon-link icon-link-about"><p class="tooltip">about</p></i></a></li>
-    <li class=<%= "is-active" if page_classes.include? "portfolio" %>><a href="/portfolio"><i class="fa fa-briefcase icon-link icon-link-portfolio"><p class="tooltip">code</p></i></a></li>
-    <li class=<%= "is-active" if page_classes.include? "projects" %>><a href="/projects"><i class="fa fa-code-fork icon-link icon-link-projects"><p class="tooltip">projects</p></i></a></li>
-    <li class=<%= "is-active" if page_classes.include? "blog" %>><a href="/blog"><i class="fa fa-rss icon-link icon-link-blog"><p class="tooltip">blog</p></i></a></li>
+    <li class=<%= "is-active" if page_classes.include? "about" %>><a href="/about-me"><i class="fa fa-id-card icon-link icon-link-about"><p class="tooltip">about</p></i></a></li>
+    <li class=<%= "is-active" if page_classes.include? "portfolio" %>><a href="https://github.com/nicodosw11"><i class="fa fa-briefcase icon-link icon-link-portfolio"><p class="tooltip">code</p></i></a></li>
+    <li class=<%= "is-active" if page_classes.include? "projects" %>><a href="https://github.com/nicodosw11"><i class="fa fa-code-fork icon-link icon-link-projects"><p class="tooltip">projects</p></i></a></li>
+    <li class=<%= "is-active" if page_classes.include? "blog" %>><a href="/articles"><i class="fa fa-rss icon-link icon-link-blog"><p class="tooltip">blog</p></i></a></li>
 
     <% else %>
 
-    <li class=<%= "is-active" if page_classes.include? "about" %>><a href="/fr/about"><i class="fa fa-id-card icon-link icon-link-about"><p class="tooltip">profil</p></i></a></li>
-    <li class=<%= "is-active" if page_classes.include? "portfolio" %>><a href="/fr/portfolio"><i class="fa fa-briefcase icon-link icon-link-portfolio"><p class="tooltip">code</p></i></a></li>
-    <li class=<%= "is-active" if page_classes.include? "projects" %>><a href="/fr/projects"><i class="fa fa-code-fork icon-link icon-link-projects"><p class="tooltip">projets</p></i></a></li>
+    <li class=<%= "is-active" if page_classes.include? "about" %>><a href="/fr/about-me"><i class="fa fa-id-card icon-link icon-link-about"><p class="tooltip">profil</p></i></a></li>
+    <li class=<%= "is-active" if page_classes.include? "portfolio" %>><a href="https://github.com/nicodosw11"><i class="fa fa-briefcase icon-link icon-link-portfolio"><p class="tooltip">code</p></i></a></li>
+    <li class=<%= "is-active" if page_classes.include? "projects" %>><a href="https://github.com/nicodosw11"><i class="fa fa-code-fork icon-link icon-link-projects"><p class="tooltip">projets</p></i></a></li>
 
-    <li class=<%= "is-active" if page_classes.include? "blog" %>><a href="/fr/blog"><i class="fa fa-rss icon-link icon-link-blog"><p class="tooltip">blog</p></i></a></li>
+    <li class=<%= "is-active" if page_classes.include? "blog" %>><a href="/fr/articles"><i class="fa fa-rss icon-link icon-link-blog"><p class="tooltip">blog</p></i></a></li>
 
     <% end %>
     <!-- <li><a href="/blog">Blog</a></li> -->
@@ -30,7 +30,7 @@
     </li>
     <li>
       <a id="navFra" href="/fr/search" class="language">
-        <img id="imgNavFra" src="http://www.roemheld.de/IT/Data/Images/Address/Frankreich.gif" alt="" class="img-thumbnail icon-small">
+        <img id="imgNavFra" src="/images/Frankreich.gif" alt="" class="img-thumbnail icon-small">
         <!-- <span id="lanNavFra">FR</span> -->
       </a>
     </li>
@@ -40,7 +40,7 @@
     </li>
     <li>
       <a id="navEng" href="/search" class="language">
-        <img id="imgNavEng" src="http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif" alt="" class="img-thumbnail icon-small">
+        <img id="imgNavEng" src="/images/Grossbritanien.gif" alt="" class="img-thumbnail icon-small">
         <!-- <span id="lanNavFra">FR</span> -->
       </a>
     </li>

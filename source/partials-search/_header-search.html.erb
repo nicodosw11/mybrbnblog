@@ -1,0 +1,32 @@
+<header class="header-search">
+  <%= image_tag('logo.png', alt: "Nicolas Dotto logo", class: "header-search__logo") %>
+  <form action="#" class="search">
+    <input type="text" class="search__input" placeholder="Search articles">
+    <button class="search__button">
+      <svg class="search__icon">
+        <use xlink:href="/images/sprite.svg#icon-magnifying-glass"></use>
+      </svg>
+    </button>
+    <%= partial "partials-search/search-suggestions" %>
+  </form>
+  <nav class="user-nav">
+    <div class="user-nav__icon-box">
+      <svg class="user-nav__icon">
+        <use xlink:href="/images/sprite.svg#icon-bookmark"></use>
+      </svg>
+      <span class="user-nav__notification">7</span>
+    </div>
+    <div class="user-nav__icon-box user-nav__message-icon">
+      <svg class="user-nav__icon">
+        <use xlink:href="/images/sprite.svg#icon-chat"></use>
+      </svg>
+      <span class="user-nav__notification">13</span>
+      <%= partial "partials-search/chat" %>
+    </div>
+    <div class="user-nav__user user-nav__settings">
+      <img src="/images/avatar.jpg" alt="User photo" class="user-nav__user-photo">
+      <span class="user-nav__user-name">Nicolas</span>
+      <%= partial "partials-search/dropdown" %>
+    </div>
+  </nav>
+</header>

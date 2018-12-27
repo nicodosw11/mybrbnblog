@@ -20,7 +20,7 @@ activate :blog do |blog|
   blog.sources           = "blog/en/{year}/{month}/{year}-{month}-{day}-{title}.html"
   blog.permalink         = "blog/{lang}/{year}/{month}/{day}/{title}.html"
   blog.default_extension = '.markdown'
-  blog.layout            = 'blog-article-table'
+  blog.layout            = 'blog-article-scatter' #blog-article-table
   # blog.tag_template = 'tag.html'
   blog.tag_template      = "blog/en/tag.html"
   blog.taglink           = "en/tags/{tag}.html"
@@ -30,7 +30,7 @@ activate :blog do |blog|
   blog.month_link        = "en/{year}/{month}.html"
   # Enable pagination
   blog.paginate = true
-  blog.per_page = 3
+  # blog.per_page = 3
   # blog.page_link = 'page/{num}.html'
   blog.page_link = 'page/{num}'
   blog.custom_collections = {
@@ -47,7 +47,7 @@ activate :blog do |blog|
   blog.sources           = "blog/fr/{year}/{month}/{year}-{month}-{day}-{title}.html"
   blog.permalink         = "blog/{lang}/{year}/{month}/{day}/{title}.html"
   blog.default_extension = '.markdown'
-  blog.layout            = "blog-article-table"
+  blog.layout            = "blog-article-scatter" #blog-article-table
   blog.calendar_template = "blog/fr/calendar.html"
   blog.year_link         = "fr/{year}.html"
   blog.month_link        = "fr/{year}/{month}.html"
@@ -55,7 +55,7 @@ activate :blog do |blog|
   blog.taglink           = "fr/tags/{tag}.html"
   # Enable pagination
   blog.paginate = true
-  blog.per_page = 3
+  # blog.per_page = 3
   # blog.page_link = 'page/{num}.html'
   blog.page_link = 'page/{num}'
   blog.custom_collections = {
@@ -91,6 +91,8 @@ activate :search do |search|
     date:    {index: false, store: true},
     # content: {boost: 50},
     url:     {index: false, store: true}
+    # header_image: {index: false, store: true},
+    # description: {index: false, store: true}
   }
 
   search_skip = ['Articles Tagged', 'Posts by Tag']
@@ -144,8 +146,8 @@ activate :directory_indexes
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page "/blog/*", layout: "blog-article-table"
-page "/fr/blog.html", layout: "blog-article-table"
+# page "/blog/*", layout: "blog-article-table"
+# page "/fr/blog.html", layout: "blog-article-table"
 # page "index.html", layout: false
 # page "/about.html", layout: "blog"
 

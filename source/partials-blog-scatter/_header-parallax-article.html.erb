@@ -1,0 +1,27 @@
+<header id="header-parallax" class="article bg-waves">
+  <div id="header-wrapper" class="article">
+    <div id="header-body" class="article">
+      <h1><%= current_article.title %></h1>
+      <p>
+        <img src="/images/avatar.jpg"
+          alt="Nicolas Dotto">
+        <span>Nicolas Dotto<time>Published on <%= current_article.date.strftime('%b %e, %Y') %></time></span>
+      </p>
+
+      <ul>
+        <li><%= current_article.data.subtitle %></li>
+        <li><%= current_article.data.subtitle %></li>
+        <li><%= current_article.data.subtitle %></li>
+      </ul>
+
+    </div>
+  </div>
+</header>
+<svg id="curve" viewBox="0 0 1440 40" preserveAspectRatio="none">
+  <defs>
+    <path id="a" d="M0,0 L1440,0 L1440,40 L0,40 L0,0 Z M1440,0 L0,0 C240,26.6666667 480,40 720,40 C960,40 1200,26.6666667 1440,0 Z"></path>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#FFFFFF" xlink:href="#a"></use>
+  </g>
+</svg>
