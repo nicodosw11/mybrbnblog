@@ -14,7 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam excepturi dese
 
 ![python.jpg](/images/python.jpg)
 
-```ruby
+<pre><code class="language-ruby">
 #config.rb
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true,
@@ -25,7 +25,7 @@ set :markdown, :fenced_code_blocks => true,
                :with_toc_data => true
 
 activate :syntax
-```
+</code></pre>
 
 | header 1 | header 2 |
 | -------- | -------- |
@@ -37,7 +37,7 @@ activate :syntax
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos numquam, ratione enim incidunt dolores culpa quasi possimus, laboriosam aliquam, minus quibusdam accusantium error dolore similique sint, fugit consectetur explicabo deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repudiandae praesentium ducimus minima quasi beatae odit ut illo voluptas ea recusandae doloribus nemo voluptatibus, omnis error sunt animi! Neque, tempore.
 
-> “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam reprehenderit tenetur fugiat eaque saepe aspernatur, suscipit dolorem, corrupti voluptatum. Odit quaerat, perferendis at consectetur, quia similique ad quam nihil amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat error unde, neque eaque odio, perferendis delectus consequuntur molestiae modi laborum recusandae accusantium atque asperiores praesentium vitae ullam odit facilis deleniti.” [—Max Brown](http://nicolasdotto.com/blog/starting-is-hard)
+> “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam reprehenderit tenetur fugiat eaque saepe aspernatur, suscipit dolorem, corrupti voluptatum. Odit quaerat, perferendis at consectetur, quia similique ad quam nihil amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat error unde, neque eaque odio, perferendis delectus consequuntur molestiae modi laborum recusandae accusantium atque asperiores praesentium vitae ullam odit facilis deleniti.” [— Max Brown](http://nicolasdotto.com/blog/starting-is-hard)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem reiciendis unde ducimus eligendi, numquam iusto officia iste mollitia! Illo totam rerum molestias corrupti nam dolore cumque labore.<br>
 Illo totam rerum molestias corrupti nam dolore cumque labore, delectus doloribus eum?

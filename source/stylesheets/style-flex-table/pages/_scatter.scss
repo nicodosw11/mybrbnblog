@@ -16,7 +16,8 @@
   h3 {
     line-height: 1.3;
   }
-  ul, ol {
+  ul,
+  ol {
     list-style-position: inside;
   }
   p,
@@ -61,15 +62,18 @@
   h6,
   p,
   pre,
+  blockquote,
   div,
   ul,
   ol,
   dl,
   table {
-    max-width: 700px;
+    //max-width: 700px;
+    max-width: 1000px;
   }
   p,
   pre,
+  blockquote,
   div,
   ul,
   ol,
@@ -171,6 +175,7 @@
     p,
     div,
     pre,
+    blockquote,
     ul,
     ol,
     dl,
@@ -190,3 +195,62 @@
     padding: 60px;
   }
 }
+
+// adjustments
+#scatter__article {
+  blockquote {
+    padding-left: 1.125em; //padding-left: 3rem;
+    border-left: 0.6rem solid #00dd9b;
+    font-style: italic;
+    //margin: 0;
+    a {
+      white-space: pre;
+      //word-wrap: break-word;
+    }
+  }
+  pre {
+    font-size: 0.75em;
+    //margin: 1.5em auto;
+  }
+  table {
+    width: 600px; //width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    //margin: 1.06875em 0;
+    table-layout: fixed;
+    tr,
+    td,
+    th {
+      vertical-align: middle;
+    }
+    // tr:nth-child(even) {
+    //   background-color: #efefef;
+    // }
+    // tr:hover {
+    //   background-color: #c3e6e5;
+    // }
+    th,
+    td {
+      //padding: 7px 10px 10px 10px;
+      padding: 1.06875em 0;
+    }
+    th {
+      //text-transform: uppercase;
+      //letter-spacing: 0.1em;
+      //font-size: 90%;
+      border-bottom: 1px solid #b6b6b6;
+      //border-top: 1px solid #999;
+      text-align: left;
+      font-weight: 600;
+    }
+    td {
+      border-bottom: 1px solid #f2f2f2;
+    }
+  }
+  p code {
+    color: #FF4D72;
+    font-size: 0.8em;
+    font-family: 'Input Mono', 'monaco', 'Andale Mono', monospace;
+  }
+}
+

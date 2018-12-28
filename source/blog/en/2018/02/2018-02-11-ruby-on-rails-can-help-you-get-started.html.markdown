@@ -29,7 +29,7 @@ Nobis debitis, laborum, facere sapiente voluptate ex ea veritatis *commit*.
 $ git init
 $ git checkout -b source
 $ git add .
-$ git commit -m'initial commit'
+$ git commit -m 'initial commit'
 </code></pre>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit minima corrupti praesentium ducimus, illum consectetur natus odio possimus beatae inventore ea, quis quisquam ab quo tempore temporibus odit ullam amet.

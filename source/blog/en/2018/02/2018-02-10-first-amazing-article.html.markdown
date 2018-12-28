@@ -57,9 +57,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil est odio rerum o
 
 Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ xcode-select -p
-```
+</code></pre>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
@@ -67,16 +67,16 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, necessitatibus. Reiciendis a necessitatibus odit. Enim adipisci eaque impedit pariatur tenetur, deleniti sapiente labore sint nihil, obcaecati placeat ut assumenda, culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum molestias possimus aspernatur. Et, quaerat, suscipit! At rem nostrum molestiae saepe quis hic laudantium laboriosam nesciunt voluptas? Possimus debitis velit eligendi.
 Lorem ipsum dolor sit amet: [brew.sh](http://www.brew.sh) lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim adipisci eaque impedit pariatur:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+</code></pre>
 
 Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ brew update
 $ brew doctor
-```
+</code></pre>
 
 Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit...
 
@@ -87,9 +87,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo qui aut even
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate officia, animi incidunt odio dicta commodi harum ipsa laboriosam illum:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ brew install rbenv ruby-build rbenv-default-gems rbenv-gem-rehash rbenv-vars
-```
+</code></pre>
 
 [Ruby-build](https://nicolasdotto.com/loremipsum1/ruby-build) lorem ipsum dolor sit amet “consectetur adipisicing elit. Consectetur deleniti, perspiciatis quae magni voluptatibus quasi, doloribus repellendus cupiditate obcaecati minus reprehenderit doloremque vero dolorem.”
 
@@ -101,22 +101,22 @@ $ brew install rbenv ruby-build rbenv-default-gems rbenv-gem-rehash rbenv-vars
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas explicabo rerum minima assumenda sit beatae earum at quae, labore:
 
-```{.language-bash}
+<pre><code class="language-bash">
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-```
+</code></pre>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' > ~/.profile
-```
+</code></pre>
 
 Lorem '.ipsum' dolor sit amet, consectetur adipisicing elit. Maiores tempora magni nemo ipsum modi dolor sit reiciendis minima soluta nesciunt, fuga inventore blanditiis placeat quos ab omnis, ut, fugit dolorum.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente culpa accusantium quia aut, repudiandae odio itaque. Autem quo numquam culpa asperiores corporis eveniet adipisci nemo! Totam eum ea, unde vitae:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ echo 'gem: --no-document' > ~/.gemrc
-```
+</code></pre>
 
 Lorem ipsum dolor sit amet `$ exit`, amet non voluptatum provident ipsam tempore necessitatibus voluptatem, libero quos, harum sint ad blanditiis, quaerat aspernatur at vero cupiditate alias? Cupiditate, debitis.
 
@@ -125,50 +125,50 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eveniet ipsum
 
 Lorem:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ rbenv install 2.2.2
-```
+</code></pre>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ rbenv global 2.2.2
 $ rbenv rehash
-```
+</code></pre>
 Ullam eligendi repellat ducimus quasi quod ipsa commodi:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ ruby -v
-```
+</code></pre>
 
 consectetur adipisicing elit quia accusantium asperiores
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ab error sapiente unde explicabo quidem, animi.
 Lorem:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ brew install wget curl imagemagick
-```
+</code></pre>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia error id, natus perspiciatis? Eaque, sunt repudiandae nostrum libero recusandae facere:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ gem update --system
-```
+</code></pre>
 
 ### Subtitle5
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quidem illum a voluptatem accusantium delectus, atque voluptas veniam ut. Sequi quisquam.
 Lorem:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ gem install bundler
-```
+</code></pre>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, voluptas [Rbenv-bundler](https://nicolasdotto.com/lorempisum1/rbenv-bundler) “atque deserunt temporibus. Praesentium necessitatibus, delectus sunt doloremque vero totam ex `rbenv which` eos reprehenderit beatae, facilis impedit quia asperiores excepturi.”
 
 Lorem:
 
-```{.language-bash}
+<pre><code class="language-bash">
 $ brew install rbenv-bundler
-```
+</code></pre>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet magnam, in, cum iure voluptates rem quisquam. Quam dolorem, repellendus asperiores, sapiente illo maiores et aliquid, ipsa adipisci eos repellat fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nisi, velit eveniet amet illo cupiditate. Sed minima, hic vel dicta provident culpa illo aut. Impedit iste distinctio cumque, inventore fuga.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque distinctio optio molestias excepturi iste ipsum ab fugiat[@nicodosw11](https://twitter.com/nicodosw11).

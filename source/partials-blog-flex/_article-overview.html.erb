@@ -1,0 +1,12 @@
+<div class="overview">
+  <div class="overview__date">
+    <i class="overview__icon-date icon-clock2"></i>
+    <span class="posted-date">Posted on <%= current_article.date.strftime('%b %e, %Y') %></span>
+  </div>
+  <div class="overview__tags">
+    <i class="icon-price-tags"></i>
+    <% current_article.tags.each do |tag| %>
+      <%= link_to tag, tag_path(tag), class: "overview-tag" %>
+    <% end %>
+  </div>
+</div>

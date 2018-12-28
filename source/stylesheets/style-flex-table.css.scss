@@ -6,6 +6,7 @@
 @import "style-flex-table/base/typography";
 @import "style-flex-table/base/utilities";
 @import "style-flex-table/components/animated-header";
+@import "style-flex-table/components/article-overview";
 @import "style-flex-table/components/avatar";
 @import "style-flex-table/components/button";
 @import "style-flex-table/components/chat";
@@ -25,3 +26,4 @@
 @import "style-flex-table/pages/blog-index";
 @import "style-flex-table/pages/scatter";
 @import "style-flex-table/pages/scatter-list";
+@import "style-flex-table/vendors/prism";
