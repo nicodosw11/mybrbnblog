@@ -41,45 +41,43 @@ function setupSearch(lunrData) {
   // user presses a key. We also trigger `keyup()` immediately, in case the user
   // has typed a query before the index download has completed (see .keyup() at
   // the end of this function call).
-  $("#search").bind("keyup", function() {
-    // Every time, we clear the div with class `search-results`.
-    $(".search-results").empty();
+  // $(".search__input")
+  $("#search")
+    .bind("keyup", function() {
+      // Every time, we clear the div with class `search-results`.
+      $(".search-results").empty();
 
-    var query = $(this).val();
+      var query = $(this).val();
 
-    // We only want to search for queries that are more than two characters long.
-    if (query.length <= 2) { return; }
+      // We only want to search for queries that are more than two characters long.
+      if (query.length <= 2) {
+        return;
+      }
 
-    // Peform the search.
-    var results = lunrIndex.search(query)
+      // Peform the search.
+      var results = lunrIndex.search(query);
 
-    // Show 'no results' if the results are empty.
-    if (results.length == 0) {
-      $(".search-results").append('<p id="noresult">No results.</p>');
-    } else {
-      // For each result, execute this anyonymous function.
-      $.each(results, function(index, result) {
-        // Retrieve the page that is represented by the result.
-        page = lunrMap[result.ref];
+      // Show 'no results' if the results are empty.
+      if (results.length == 0) {
+        $(".search-results").append('<p id="noresult">No results.</p>');
+      } else {
+        // For each result, execute this anyonymous function.
+        $.each(results, function(index, result) {
+          // Retrieve the page that is represented by the result.
+          page = lunrMap[result.ref];
 
-        // Extract the date using a regular expression and format according to
-        // the following date format options.
-        var dateOptions = { year: "numeric", month: "long", day: "numeric" };
-        date = new Date(page.date.match(/\d{4}-\d{2}-\d{2}/)).toLocaleDateString("en-US", dateOptions);
+          // Extract the date using a regular expression and format according to
+          // the following date format options.
+          var dateOptions = { year: "numeric", month: "long", day: "numeric" };
+          date = new Date(page.date.match(/\d{4}-\d{2}-\d{2}/)).toLocaleDateString("en-US", dateOptions);
 
-        // Find the `search-results` div and append the following DOM elements.
-        // Ideally this would use Handlebars or some other client-side template
-        // library instead of raw string concatenation.
-        $(".search-results").append(
-          '<div class="result">' +
-            '<a href="' + page.url + '">' +
-              page.title +
-            '</a> &nbsp; ' +
-            '<div class="post-meta">' + date + '</div>' +
-          '</div>'
-        );
-      });
-    }
-  }).keyup();
+          // Find the `search-results` div and append the following DOM elements.
+          // Ideally this would use Handlebars or some other client-side template
+          // library instead of raw string concatenation.
+          $(".search-results").append('<div class="result">' + '<a href="' + page.url + '">' + page.title + "</a> &nbsp; " + '<div class="post-meta">' + date + "</div>" + "</div>");
+        });
+      }
+    })
+    .keyup();
 }
 ;
