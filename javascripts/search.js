@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
   // Download search index and then set up search.
   // jQuery provides nicer syntax for this async download.
   $.ajax({
-    url: '/search-35cd1b3f.json',
+    url: '/search-26178bb3.json',
     cache: true,
     method: 'GET',
     success: function(data) {

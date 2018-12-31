@@ -935,8 +935,8 @@ body {
 
 .header {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.815)), to(rgba(40, 180, 133, 0.795))), url(../images/blockchain-10d18005.jpg);
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.815), rgba(40, 180, 133, 0.795)), url(../images/blockchain-10d18005.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.815)), to(rgba(40, 180, 133, 0.795))), url(../images/blockchain-small-2eb226b6.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.815), rgba(40, 180, 133, 0.795)), url(../images/blockchain-small-2eb226b6.jpg);
   background-size: cover;
   background-position: bottom;
   position: relative; }
