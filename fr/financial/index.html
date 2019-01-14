@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin+Condensed:400,700|Patua+One|Pacifico" >
+  <link href="../../stylesheets/style-flex-table.css" rel="stylesheet" />
+  <link rel="icon" type="image/gif" href="../../images/logo.gif" />
+  <title>Blog articles</title>
+</head>
+<body class="fr fr_financial fr_financial_index">
+  <header class="header-animated">
+  <a href="/" class="signature">Nicolas Dotto</a>
+
+  <nav class="animated-icons-nav menu-links">
+    <span class="links-show">
+      <a href="/" data-caption="Home">
+        <i class="icon-home3"></i>
+      </a>
+      <a href="/about-me" data-caption="About">
+        <i class="icon-profile"></i>
+      </a>
+      <a href="https://github.com/nicodosw11" data-caption="Portfolio">
+        <i class="icon-briefcase"></i>
+      </a>
+      <a href="https://github.com/nicodosw11" data-caption="Projects">
+        <i class="icon-tree"></i>
+      </a>
+      <a href="/articles" data-caption="Blog">
+        <i class="icon-rss"></i>
+      </a>
+      <a href="/contact" data-caption="Contact">
+        <i class="icon-paper-plane"></i>
+      </a>
+      <a href="/search" data-caption="Search">
+        <i class="icon-search"></i>
+      </a>
+      <a href="/fr" id="frflag">
+        <img
+          id=""
+          src="../../images/Frankreich.gif"
+          alt=""
+          class=""
+        />
+      </a>
+    </span>
+    &nbsp;
+    <i class="icon-menu1 menu"></i>
+  </nav>
+</header>
+
+<menu id="menu">
+  <div class=menu-box>
+    <a href="/latest" class="" page="/fr/financial/">Recent</a>
+    <a href="/articles" class="" page="/fr/financial/">Code</a>
+    <a href="/financial" class="" page="/fr/financial/">Finance</a>
+    <a href="/lifestyle" class="" page="/fr/financial/">Lifestyle</a>
+  </div>
+</menu>
+
+
+<main id="main">
+  <section id="avatar">
+  <img src="../../images/avatar-8324a0ff.jpg" alt="Nicolas Dotto" width="130" height="130" class="hide-t" style="-webkit-filter: saturate(110%); filter: saturate(110%)">
+</section>
+
+  <section class="section-articles" id="articles">
+</section>
+
+</main>
+
+<section id="spinner"><i class="icon-cog i-spin"></i></section>
+<section id="up"><i class="icon-circle-up"></i></section>
+
+<script>
+  var timer;
+  var where = 2;
+  var max = parseInt("2");
+  var url = window.location;
+  var up = document.querySelector("#up");
+  var cards = document.querySelector("#articles");
+  var spinner = document.querySelector("#spinner");
+  window.onscroll = function(ev) {
+    setTimeout(function() {
+      if (window.scrollY >= 340) {
+        up.classList.add("show");
+      }
+      if (window.scrollY < 340) {
+        up.className = "";
+      }
+    }, 1000);
+    up.onclick = function() {
+      window.scrollTo(0, 0);
+    };
+    if (cards !== null) {
+      if (where <= max) {
+        if ((window.innerHeight + window.scrollY) <= document.body.offsetHeight) {
+          clearTimeout(timer);
+          timer = setTimeout(function() {
+            var request = new XMLHttpRequest();
+            request.open("GET", url + "/page/" + where);
+            request.onload = function() {
+              var parser = new DOMParser();
+              var doc = parser.parseFromString(request.responseText, "text/html");
+              var divs = doc.querySelectorAll("#articles > div");
+              for (var index = 0; index < divs.length; index++) {
+                cards.appendChild(divs[index]);
+              }
+              where = where + 1;
+            };
+            request.send();
+          }, 1000);
+        }
+      } else {
+        spinner.innerHTML = "<i>—fin—</i>";
+      }
+    }
+  };
+</script>
+
+</body>
+</html>
