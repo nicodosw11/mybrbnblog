@@ -66,6 +66,39 @@ activate :blog do |blog|
   }
 end
 
+activate :blog do |blog|
+  blog.prefix = "finance"
+  blog.name = "finance"
+  blog.permalink = ":title.html"
+  # blog.permalink = ":year/:month/:day/:title.html"
+  blog.sources = ":year-:month-:day-:title.html"
+  blog.taglink = "tags/:tag.html"
+  blog.year_link = ":year.html"
+  # blog.month_link = ":year/:month.html"
+  # blog.day_link = ":year/:month/:day.html"
+  blog.layout = "blog-article-table"
+  # blog.tag_template = "tag.html"
+  # blog.calendar_template = "calendar.html"
+  blog.tag_template = "finance/tag.html"
+  blog.calendar_template = "finance/calendar.html"
+
+  blog.summary_separator = /(READMORE)/
+  blog.summary_length = 250
+  # blog.new_article_template = "source/article-templates/article-template.erb"
+  blog.new_article_template = File.expand_path('../source/article-templates/article-template.erb', __FILE__)
+  blog.default_extension = ".markdown"
+
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = 'page/:num'
+#   # blog.custom_collections = {
+#   #   category: {
+#   #     link: '/categories/{category}',
+#   #     template: '/category.html'
+#   #   }
+#   # }
+end
+
 # # Activate the middleman-search extension and customize it.
 # activate :search do |search|
 #   # I only want to search blog articles, not about/ or books/ or anything.
