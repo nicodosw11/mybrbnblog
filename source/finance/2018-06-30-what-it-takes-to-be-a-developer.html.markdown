@@ -1,6 +1,6 @@
 ---
 title: From finance to programming. What it takes to be a developer
-date: 2017-06-30 10:24 BST
+date: 2018-06-30 10:24 BST
 subtitle: Rem laudantium sed iusto vero accusantium assumenda placeat.
 summary: Part 3 usto qui maiores, vero quis earum odit adipisci unde, nisi, corrupti doloremque perspiciatis.
 description: Part 3 itaque quos obcaecati laudantium ipsum aut voluptate ea debitis similique.

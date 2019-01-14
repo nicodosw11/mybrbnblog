@@ -85,18 +85,48 @@ activate :blog do |blog|
   blog.summary_separator = /(READMORE)/
   blog.summary_length = 250
   # blog.new_article_template = "source/article-templates/article-template.erb"
-  blog.new_article_template = File.expand_path('../source/article-templates/article-template.erb', __FILE__)
+  blog.new_article_template = File.expand_path("../source/article-templates/article-template.erb", __FILE__)
   blog.default_extension = ".markdown"
 
   blog.paginate = true
   blog.per_page = 10
   blog.page_link = 'page/:num'
-#   # blog.custom_collections = {
-#   #   category: {
-#   #     link: '/categories/{category}',
-#   #     template: '/category.html'
-#   #   }
-#   # }
+  # blog.custom_collections = {
+  #   category: {
+  #     link: "finance/categories/{category}.html",
+  #     template: "/finance/category.html"
+  #   }
+  # }
+end
+
+activate :blog do |blog|
+  blog.prefix = "lifestyle"
+  blog.name = "lifestyle"
+  blog.permalink = ":year/:title.html"
+  blog.sources = ":year-:month-:day-:title.html"
+  blog.taglink = "tags/:tag.html"
+  blog.year_link = ":year.html"
+  blog.layout = "blog-article-table"
+  # blog.tag_template = "tag.html"
+  # blog.calendar_template = "calendar.html"
+  blog.tag_template = "lifestyle/tag.html"
+  blog.calendar_template = "lifestyle/calendar.html"
+
+  blog.summary_separator = /(READMORE)/
+  blog.summary_length = 250
+  # blog.new_article_template = "source/article-templates/article-template.erb"
+  blog.new_article_template = File.expand_path("../source/article-templates/article-template.erb", __FILE__)
+  blog.default_extension = ".markdown"
+  # blog.paginate = nil
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = 'page/:num'
+  # blog.custom_collections = {
+  #   category: {
+  #     link: "lifestyle/categories/{category}.html",
+  #     template: "/lifestyle/category.html"
+  #   }
+  # }
 end
 
 # # Activate the middleman-search extension and customize it.
