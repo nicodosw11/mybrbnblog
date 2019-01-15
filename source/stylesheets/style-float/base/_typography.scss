@@ -87,11 +87,11 @@ body {
 
 @font-face {
   font-family: "icomoon";
-  src: url("/fonts/icomoon.eot?322b1i");
-  src: url("/fonts/icomoon.eot?322b1i#iefix") format("embedded-opentype"),
-    url("/fonts/icomoon.ttf?322b1i") format("truetype"),
-    url("/fonts/icomoon.woff?322b1i") format("woff"),
-    url("/fonts/icomoon.svg?322b1i#icomoon") format("svg");
+  src: url("/fonts/brands/icomoon.eot?6kp9r2");
+  src: url("/fonts/brands/icomoon.eot?6kp9r2#iefix") format("embedded-opentype"),
+    url("/fonts/brands/icomoon.ttf?6kp9r2") format("truetype"),
+    url("/fonts/brands/icomoon.woff?6kp9r2") format("woff"),
+    url("/fonts/brands/icomoon.svg?6kp9r2#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -112,25 +112,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-javascript:before {
+.icon-react:before {
   content: "\e900";
-  //color: #f7df1e;
-}
-.icon-ethereum:before {
-  content: "\e901";
-}
-.icon-ruby:before {
-  content: "\e902";
-  //color: #cc342d;
-}
-.icon-python:before {
-  content: "\e903";
-  //color: #3776ab;
+  // color: #61dafb;
 }
 .icon-rails:before {
-  content: "\e904";
-  //color: #c00;
+  content: "\e901";
+  // color: #c00;
 }
-
+.icon-python:before {
+  content: "\e902";
+  // color: #3776ab;
+}
+.icon-ruby:before {
+  content: "\e903";
+  // color: #cc342d;
+}
+.icon-ethereum:before {
+  content: "\e904";
+}
+.icon-javascript:before {
+  content: "\e905";
+  // color: #f7df1e;
+}
 
 
