@@ -188,8 +188,8 @@ body {
 
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon-2c662e2f.eot?322b1i");
-  src: url("../fonts/icomoon-2c662e2f.eot?322b1i#iefix") format("embedded-opentype"), url("../fonts/icomoon-cd086e38.ttf?322b1i") format("truetype"), url("../fonts/icomoon-a118b000.woff?322b1i") format("woff"), url("../fonts/icomoon-66fb1a4f.svg?322b1i#icomoon") format("svg");
+  src: url("../fonts/brands/icomoon-d4a9dced.eot?6kp9r2");
+  src: url("../fonts/brands/icomoon-d4a9dced.eot?6kp9r2#iefix") format("embedded-opentype"), url("../fonts/brands/icomoon-02bef151.ttf?6kp9r2") format("truetype"), url("../fonts/brands/icomoon-8f3d9dbb.woff?6kp9r2") format("woff"), url("../fonts/brands/icomoon-7c1d8d36.svg?6kp9r2#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"],
@@ -206,20 +206,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-javascript:before {
+.icon-react:before {
   content: "\e900"; }
 
-.icon-ethereum:before {
+.icon-rails:before {
   content: "\e901"; }
 
-.icon-ruby:before {
+.icon-python:before {
   content: "\e902"; }
 
-.icon-python:before {
+.icon-ruby:before {
   content: "\e903"; }
 
-.icon-rails:before {
+.icon-ethereum:before {
   content: "\e904"; }
+
+.icon-javascript:before {
+  content: "\e905"; }
 
 .u-center-text {
   text-align: center !important; }
@@ -386,11 +389,11 @@ body {
     border-top-left-radius: .3rem;
     border-top-right-radius: .3rem; }
     .card__picture--orangish {
-      background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url(../images/jscode-ed26860a.jpg);
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../images/jscode-ed26860a.jpg); }
+      background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url(../images/architecture-banks-barclays-9bd6e91e.jpg);
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../images/architecture-banks-barclays-9bd6e91e.jpg); }
     .card__picture--greenish {
-      background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)), url(../images/python-4bbbd2d7.jpg);
-      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../images/python-4bbbd2d7.jpg); }
+      background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)), url(../images/top-view-of-paris-870b150c.jpg);
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../images/top-view-of-paris-870b150c.jpg); }
     .card__picture--blueish {
       background-image: -webkit-gradient(linear, left top, right bottom, from(#2998ff), to(#5643fa)), url(../images/fashion-fa850efa.jpg);
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../images/fashion-fa850efa.jpg); }
@@ -401,7 +404,7 @@ body {
     text-align: right;
     color: #fff;
     position: absolute;
-    top: 12rem;
+    top: 8rem;
     right: 2rem;
     width: 75%; }
   .card__heading-span {
@@ -705,7 +708,7 @@ body {
   .popup__img {
     display: block;
     width: 100%;
-    min-height: 27rem; }
+    min-height: 30rem; }
     @media only screen and (max-width: 56.25em) {
       .popup__img {
         max-width: 50%;
@@ -1103,7 +1106,7 @@ body {
       padding: 20rem 0; } }
 
 .section-features {
-  padding: 20rem 0;
+  padding: 15rem 0 25rem 0;
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.8)), to(rgba(40, 180, 133, 0.8))), url(../images/data-524ef114.jpg);
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../images/data-524ef114.jpg);
   background-size: cover;
@@ -1119,7 +1122,7 @@ body {
 
 .section-projects {
   background-color: #f7f7f7;
-  padding: 25rem 0 15rem 0;
+  padding: 12.5rem 0 15rem 0;
   margin-top: -10rem;
   -webkit-transform: skewY(-5deg);
           transform: skewY(-5deg); }

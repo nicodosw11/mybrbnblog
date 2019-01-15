@@ -85,6 +85,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://www.nicolasdotto.com/lifestyle/2019/starting-is-very-hard/</loc>
+    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://www.nicolasdotto.com/lifestyle/</loc>
     <lastmod>2019-01-14T16:02:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -632,12 +638,6 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/lifestyle/2019/starting-is-hard/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.nicolasdotto.com/lifestyle/2019/starting-is-very-hard/</loc>
     <lastmod>2019-01-14T16:02:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
