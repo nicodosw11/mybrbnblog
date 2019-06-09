@@ -52,3 +52,23 @@ body {
     margin-top: 9rem;
   }
 }
+
+img,
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+img,
+nav,
+small,
+summary {
+  display: block;
+}
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
