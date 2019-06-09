@@ -1,5 +1,5 @@
 // Mobile first
-#nav.scrolled {
+#nav.scrollable {
   height: 64px;
   width: 100%;
   position: fixed;
@@ -8,7 +8,8 @@
   background: $color-dark;
   box-shadow: $box-shadow;
   a {
-    width: 25%;
+    // width: 25%;
+    width: 33.333%;
     color: white;
     float: right;
     height: 100%;
@@ -19,28 +20,25 @@
       background: $color-dark-lightened;
     }
   }
-  .logo img {
-    height: 16px;
-  }
   .blog i {
     margin-right: 0.7rem;
     transform: translateY(1px);
   }
 }
 
-#nav .logo,
-#nav .search,
-#nav .slack span,
-#nav .cart span,
-#nav .cart small:empty {
+#nav.scrollable .logo,
+#nav.scrollable .search,
+#nav.scrollable .slack span,
+#nav.scrollable .cart span,
+#nav.scrollable .cart small:empty {
   display: none;
 }
 
 // @media only screen and (min-width: 440px) {
 @media only screen and (min-width: 27.5em) {
-  #nav.scrolled {
+  #nav.scrollable {
     top: 0;
-    height: 9rem;
+    height: 15rem;
     position: fixed;
     padding: 0 1.5rem;
     box-shadow: none;
@@ -48,8 +46,8 @@
     transition: height 225ms ease;
     outline: 5px solid $color-faint;
     a {
-      font-size: 1.6rem;
-      line-height: 9.2rem;
+      font-size: 1.8rem;
+      line-height: 15.2rem;
       width: auto;
       padding: 0 1.5rem;
       transition: font-size 225ms ease, line-height 225ms ease;
@@ -61,8 +59,8 @@
       float: left;
       transition: all 225ms ease;
       img {
-        // height: 6.5rem;
-        height: 1.6rem;
+        // height: 8.5rem/85px;
+        height: 2.092rem;
         display: inline-block;
         vertical-align: middle;
         transition: all 225ms ease;
@@ -78,23 +76,50 @@
     .cart small {
       display: inline-block;
     }
-
-    .cart,
-    .search {
-      display: none;
+    // .cart,
+    // .search {
+    //   display: none;
+    // }
+    // .cart small {
+    //   height: 1.8rem;
+    //   width: 1.8rem;
+    //   font-weight: bold;
+    //   font-size: 1.1rem;
+    //   line-height: 19px;
+    //   text-indent: -1px;
+    //   margin-left: 1.5rem;
+    //   text-align: center;
+    //   border-radius: 100%;
+    //   transform: translateY(-2px);
+    //   background: $color-dark-lightened;
+    // }
+  }
+  /* &navscrolled */
+  #nav.scrollable.scrolled {
+    height: 9rem;
+    a {
+      font-size: 1.6rem;
+      line-height: 92px;
     }
-    .cart small {
-      height: 1.8rem;
-      width: 1.8rem;
-      font-weight: bold;
-      font-size: 1.1rem;
-      line-height: 19px;
-      text-indent: -1px;
-      margin-left: 1.5rem;
-      text-align: center;
-      border-radius: 100%;
-      transform: translateY(-2px);
-      background: $color-dark-lightened;
+    .logo img {
+      // height: 6.5rem/65px; ofdofogog
+      height: 1.6rem;
     }
+    // .cart small {
+    //   transform: translateY(-2px);
+    // }
   }
 }
+
+// @media only screen and (min-width: 560px) {
+@media only screen and (min-width: 35em) {
+  #nav.scrollable {
+    padding: 0 20px;
+  }
+  // #nav.scrollable.search {
+  //   display: inline-block;
+  // }
+}
+
+
+
