@@ -10,7 +10,9 @@
   <title>Blog posts</title>
 </head>
 <body id="template-body-index">
-  <%= yield %>
+  <main id="scatter">
+    <%= yield %>
+  </main>
   <footer id="footer-manifesto">
     <%= partial "partials-blog-scatter/footer-manifesto" %>
     <%= partial "partials-blog-scatter/footer-links" %>
@@ -22,40 +24,5 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous">
 </script>
-<script>
-  var modal = $("#modal-blog");
-  var modalDiv = modal.find(">div");
-  var modalBlog = $("#modal-blog-content");
-  var revealBlog = $(".show-blog-modal");
-  revealBlog.on("click", function () {
-    modal.addClass("show fadeInOut");
-    modalBlog.addClass("show bounceIn");
-  });
-  modal.on("click", function () {
-    modal.addClass("fadeOutIn");
-    modalDiv.addClass("bounceOut");
-    setTimeout(function () {
-      modal.removeClass("show fadeInOut fadeOutIn");
-      modalDiv.removeClass("show bounceIn bounceOut");
-    }, 300);
-  });
-  modalDiv.on("click", function (e) {
-    e.stopPropagation();
-  });
-</script>
-<script>
-  var nav = $("#nav.scrollable");
-  var windowHeight = document.documentElement.clientHeight; /* &onscroll */
-  $(window).on("scroll", function () {
-    if (window.pageYOffset > 60) {
-      nav.addClass("scrolled");
-
-    }
-    if (window.pageYOffset <= 60) {
-      nav.removeClass("scrolled");
-
-    }
-  });
-</script>
-
+<%= javascript_include_tag  "scatter-modal", "scatter-scrollable" %>
 </html>
