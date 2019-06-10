@@ -15,6 +15,9 @@
 @import "style-flex-table/components/header";
 @import "style-flex-table/components/header-parallax";
 @import "style-flex-table/components/header-search";
+@import "style-flex-table/components/links-footer";
+@import "style-flex-table/components/manifesto";
+@import "style-flex-table/components/manifesto-social";
 @import "style-flex-table/components/menu";
 @import "style-flex-table/components/modal-blog";
 @import "style-flex-table/components/pagination-read";
@@ -23,8 +26,10 @@
 @import "style-flex-table/components/search-suggestions";
 @import "style-flex-table/components/spinner";
 @import "style-flex-table/components/up";
+@import "style-flex-table/layout/section";
 @import "style-flex-table/pages/blog-article";
 @import "style-flex-table/pages/blog-index";
+@import "style-flex-table/pages/footer";
 @import "style-flex-table/pages/scatter";
 @import "style-flex-table/pages/scatter-list";
 @import "style-flex-table/vendors/prism";

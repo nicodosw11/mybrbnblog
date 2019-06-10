@@ -1,0 +1,28 @@
+#manifesto {
+  display: none;
+  position: relative;
+  background: $color-dark;
+  .social {
+    display: none;
+  }
+}
+
+// @media only screen and (min-width: 560px) {
+@media only screen and (min-width: 35em) {
+  #manifesto {
+    display: block;
+    p {
+      max-width: 45rem;
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+// @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
+  #manifesto {
+    p {
+      max-width: 55rem;
+    }
+  }
+}

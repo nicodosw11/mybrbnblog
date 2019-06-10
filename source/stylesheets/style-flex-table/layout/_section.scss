@@ -1,5 +1,5 @@
-#footer__scatter__scatter section {
-  padding: 30px;
+#footer-manifesto section {
+  padding: 3rem;
   text-align: center;
   h3 {
     margin: -2px auto 24px;
@@ -11,19 +11,19 @@
 
 // @media only screen and (min-width: 440px) {
 @media only screen and (min-width: 27.5em) {
-  #footer__scatter section {
-    padding: 50px;
+  #footer-manifesto section {
+    padding: 5rem;
   }
 }
 // @media only screen and (min-width: 768px) {
 @media only screen and (min-width: 48em) {
-  #footer__scatter section {
-    padding: 70px;
+  #footer-manifesto section {
+    padding: 7rem;
   }
 }
 // @media only screen and (min-width: 1024px) {
 @media only screen and (min-width: 64em) {
-  #footer__scatter section {
-    padding: 100px;
+  #footer-manifesto section {
+    padding: 10rem;
   }
 }

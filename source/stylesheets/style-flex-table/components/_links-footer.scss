@@ -1,0 +1,32 @@
+#links-footer {
+  padding: 2.5rem;
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+  background: $color-dark-lightened;
+  a {
+    text-decoration: underline;
+  }
+}
+
+// @media only screen and (max-width: 559px) {
+@media only screen and (max-width: 34.9375em) {
+  #links-footer {
+    background: $color-dark;
+  }
+}
+
+// @media only screen and (max-width: 439px) {
+@media only screen and (max-width: 27.4375em) {
+  #links-footer {
+    margin-bottom: 6.4rem;
+  }
+}
+
+// @media only screen and (max-width: 778px) {
+@media only screen and (max-width: 48.625em) {
+  #links-footer span {
+    display: none;
+  }
+}
+

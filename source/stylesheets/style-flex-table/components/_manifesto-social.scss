@@ -1,0 +1,40 @@
+// @media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 64em) {
+  #manifesto {
+    .social {
+      top: 50px;
+      right: 50px;
+      display: grid;
+      grid-gap: 10px;
+      position: absolute;
+      grid-template-columns: 1fr 1fr;
+      a {
+        width: 64px;
+        height: 64px;
+        display: flex;
+        border-radius: 10px;
+        align-items: center;
+        text-decoration: none;
+        box-sizing: border-box;
+        justify-content: center;
+        background: $color-dark-lightened;
+        &:hover {
+          border: none;
+          animation: 450ms swing;
+        }
+        &.fb:hover {
+          background: $color-facebook;
+        }
+        &.tw:hover {
+          background: $color-twitter;
+        }
+        &.git:hover {
+          background: $color-git;
+        }
+        &.lk:hover {
+          background: $color-linkedin;
+        }
+      }
+    }
+  }
+}
