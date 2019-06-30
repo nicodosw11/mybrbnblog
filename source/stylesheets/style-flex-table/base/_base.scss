@@ -31,11 +31,15 @@ html {
 
 body {
   box-sizing: border-box;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   // padding: 3rem; // 30px
   //@include respond(tab-port) {
   // padding: 0;
   // }
+}
+
+body, html {
+  overflow-x: hidden;
 }
 
 // body#template-body-index, body#template-body-article  {

@@ -3,7 +3,7 @@
     <div id="header-body" class="article">
       <h1><%= current_article.title %></h1>
       <p>
-        <img src="/images/avatar.jpg"
+        <img class="author-avatar" src="/images/avatar.jpg"
           alt="Nicolas Dotto">
         <span>Nicolas Dotto<time>Published on <%= current_article.date.strftime('%b %e, %Y') %></time></span>
       </p>
@@ -13,6 +13,8 @@
         <li><%= current_article.data.subtitle %></li>
         <li><%= current_article.data.subtitle %></li>
       </ul>
+
+      <!-- <img class="round-article-image" src="/images/caffeine-coffee-cup.png" alt="Coffee cup"/> -->
 
     </div>
   </div>

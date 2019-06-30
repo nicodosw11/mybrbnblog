@@ -10,9 +10,9 @@
         <small>
           <i class="icon-attachment"></i><%= article.data['category'] %>
           <i class="icon-clock"></i><time><%=time_ago_in_words(article.date)%> ago</time>
-          <i class="icon-bubble"></i><a href="#" class="hide-m" data-disqus-url="#" data-disqus-identifier=""><%= article.tags.size %></a>
+          <i class="icon-bubble hide-m"></i><a href="#" class="hide-m" data-disqus-url="#" data-disqus-identifier=""><%= article.tags.size %></a>
         </small>
-        <div class="tag-labels" style="margin-top: 1rem;">
+        <div class="tag-labels hide-m" style="margin-top: 1rem;">
           <small><i class="icon-price-tags"></i>
           <% article.tags.each do |tag| %>
             <%= link_to tag, tag_path(tag), class: "tag-label" %>
@@ -20,7 +20,7 @@
           </small>
         </div>
       </div>
-      <div class="article-image hide-t"><% if article.data.header_image %><%= image_tag article.data.header_image, width: "585", height: "340"%><% end %></div>
+      <div class="article-image hide-t"><% if article.data.header_image %><%= image_tag article.data.header_image, class: "articles-image" %><% end %></div>
       <%= link_to "Read now", article, class: "btn" %>
     </div>
   </div>

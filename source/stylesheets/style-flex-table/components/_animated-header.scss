@@ -352,10 +352,18 @@
 }
 
 a.signature {
-  color:#FFF;
+  color: #FFF;
   padding: 0 3rem;
   font: 400 2.4rem/8rem Pacifico;
   &:hover {
     color: #222;
   }
 }
+
+// @media only screen and (max-width: 599px) {
+@media only screen and (max-width: 37.4375em) {
+  a.signature {
+    line-height: 1;
+  }
+}
+

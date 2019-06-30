@@ -14,6 +14,8 @@ tags: travel, programming, style
 Update: Added blog to portfolio website Lorem ipsum dolor sit amet
 http://nicolasdotto.com/blog/
 
+![python.jpg](/images/python.jpg)
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero hic, obcaecati eaque, vero quis similique optio. Officiis, nulla reprehenderit totam, ea cupiditate, delectus iste eum, in debitis quas fuga necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam maiores adipisci eos obcaecati ab inventore ipsum corrupti cupiditate, commodi, perferendis quisquam vero atque, suscipit dicta. Nulla expedita perferendis soluta sit.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis reiciendis temporibus ratione repellendus neque cupiditate enim dolores.

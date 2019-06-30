@@ -13,11 +13,18 @@
     padding: 0 1rem;
     font: 400 1.6rem/8.1rem "Cabin Condensed";
     &:first-child {
-      float:none;
+      float: none;
       font: 400 2.4rem/8rem Pacifico;
     }
     &:hover {
       color: #222;
     }
+  }
+}
+
+// @media only screen and (max-width: 599px) {
+@media only screen and (max-width: 37.4375em) {
+  #header{
+    .hide-t { display: none !important;}
   }
 }

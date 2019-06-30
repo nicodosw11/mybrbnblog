@@ -13,15 +13,22 @@
   .btn {
     display: inline-block;
     height: 5rem;
+    line-height: 4.1rem !important;
     width: 30rem;
     padding: 0 1.2rem;
     border-radius: 5px;
     border: 5px solid #fff; //rgb(255, 255, 255);
     text-transform: uppercase;
-    font: 700 16px/41px "Cabin Condensed";
+    font: 700 1.6rem/4.1rem "Cabin Condensed";
+    word-break: break-all;
     &:hover {
       color: #00b16a;
       background: #fff; //rgb(255, 255, 255);
+    }
+    @include respond(tab-port) {
+      display: block;
+      width: 35rem;
+      margin: 1rem auto 1rem;
     }
   }
 }

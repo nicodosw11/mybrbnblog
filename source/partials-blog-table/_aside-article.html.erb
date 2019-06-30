@@ -1,10 +1,15 @@
-<b>Posted in <a href="/primary/">Primary</a></b>
+<b>Posted in <%= link_to blog.options.name, "#{blog.options.prefix.to_s}" %></b>
 <p><small><i id="reading-time">Reading time: 5 minutes</i></small></p>
-<p><small><i class="icon-python"></i><%= current_article.data['category'] %></small>
-<small><i class="icon-python"></i><time><%=time_ago_in_words(current_article.date)%> ago</time></small>
-<small><i class="icon-python"></i><a href="#" data-disqus-url="" data-disqus-identifier=""></a></small>
-<small><i class="icon-python"></i><a href="#" target="_blank" rel="nofollow">Share on Twitter</a></small>
-<small><i class="icon-python"></i><a href="#" target="_blank" rel="nofollow">Share on Facebook</a></small>
+<small><i class="icon-attachment"></i><%= current_article.data['category'] %></small>
+<small><i class="icon-price-tags"></i>
+<% current_article.tags.each do |tag| %>
+  <%= link_to tag, tag_path(tag) %>
+<% end %>
+</small>
+<small><i class="icon-clock"></i><time><%=time_ago_in_words(current_article.date)%> ago</time></small>
+<small><i class="icon-bubble"></i><a href="#" data-disqus-url="" data-disqus-identifier="">3</a></small>
+<small><i class="icon-twitter"></i><a href="#" target="_blank" rel="nofollow">Share on Twitter</a></small>
+<small><i class="icon-facebook"></i><a href="#" target="_blank" rel="nofollow">Share on Facebook</a></small>
 </p><small>Stay up-to-date with my blog</small>
 <form method="post" action="/subscribe/" id="form-subscribe">
   <input class="confirm" type="hidden" name="confirm"  />

@@ -18,7 +18,7 @@ lang: en
   <!-- Make a combined list of the 15 newest entries, sorted by date -->
   <% combined = [ main_blog_articles[0..15], financial_articles[0..15], lifestyle_articles[0..15] ].flatten.compact.sort_by(&:date).reverse %>
   <!-- Iterate over the 5 latest articles in the combined list -->
-  <section id="section__scatter">
+  <section id="section-scatter">
     <h3>Recent Posts</h3>
     <div id="scatter-list">
       <% combined[0..15].each do |article| %>
