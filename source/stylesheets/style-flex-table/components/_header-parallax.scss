@@ -111,13 +111,40 @@
     #header-wrapper {
       &.index img, &.article img.round-article-image {
         width: 53.8rem;
-        height: 53.4rem;
+        height: 53.8rem;
         display: block;
         right: -5.5rem;
         opacity: 0.90;
         bottom: -20rem;
         position: absolute;
       }
+      .circle-shape-1 {
+        height: 15rem;
+        width: 42rem;
+        // for test purpose
+        // border-radius: 53.8rem 53.8rem 0 0; // half circle
+        // background: purple;
+        // opacity: .2;
+        //
+        float: right;
+        // margin-left: 2rem;
+        -webkit-shape-outside: circle(8em at 40% 70%);
+        shape-outside: circle(8em at 40% 70%);
+      }
+      .circle-shape-2 {
+        height: 26.9rem;
+        width: 53.8rem;
+        // for test purpose
+        // border-radius: 53.8rem 53.8rem 0 0; // half circle
+        // background: purple;
+        // opacity: .2;
+        //
+        float: right;
+        // margin-left: 2rem;
+        -webkit-shape-outside: circle(9em at 55% 70%);
+        shape-outside: circle(9em at 55% 70%);
+      }
+      ul {text-align: left;}
     }
   }
 }
