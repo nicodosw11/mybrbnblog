@@ -15,7 +15,7 @@ gem 'middleman-livereload'
 # Blog extension for Middleman
 # gem 'middleman-blog'
 gem 'middleman-blog', '~> 4.0', '>= 4.0.2'
-gem 'nokogiri'
+gem "nokogiri", ">= 1.10.4"
 
 # Middleman Deploy for quickly deploying build to Github
 # gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'master'
