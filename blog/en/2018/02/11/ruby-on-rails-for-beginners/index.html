@@ -14,24 +14,24 @@
     <title>Read Article</title>
   </head>
   <body id="template-body-article">
-    <nav id="nav" class="scrolled">
-  <a class="logo" rel="logo" href="/">
+    <nav id="nav" class="scrollable">
+  <a class="logo" rel="logo" href="/about-me" target="_blank">
     <img
       src="../../../../../../images/logo-white-c73b81f6.png"
       alt="Nicolas Dotto logo"
     />
   </a>
-  <a class="home" href="/">
+  <a class="home" href="/about-me" target="_blank">
     <i class="icon-home3"></i>
   </a>
-  <a class="search" id="nav-search">
+  <!-- <a class="search" id="nav-search">
     <i class="icon-search"></i>
-  </a>
-  <a class="cart" id="nav-cart">
+  </a> -->
+  <!-- <a class="cart" id="nav-cart">
     <i class="icon-ruby"></i
     ><span>Cart<small id="cart-count">0</small></span
     >
-  </a>
+  </a> -->
   <a
     class="slack"
     href="/about-me"
@@ -52,17 +52,20 @@
     <div id="header-body" class="article">
       <h1>Ruby on Rails for Beginners</h1>
       <p>
-        <img src="../../../../../../images/avatar-8324a0ff.jpg"
+        <img class="author-avatar" src="../../../../../../images/avatar-8324a0ff.jpg"
           alt="Nicolas Dotto">
         <span>Nicolas Dotto<time>Published on Feb 11, 2018</time></span>
       </p>
 
+      <figure>
+        <img class="round-article-image" src="../../../../../../images/caffeine-coffee-cup-6c587827.png" alt="Coffee cup"/>
+      </figure>
+      <div class="circle-shape-1"></div>
       <ul>
         <li>Quisquam consequatur ratione iure id officia cupiditate nulla</li>
         <li>Quisquam consequatur ratione iure id officia cupiditate nulla</li>
         <li>Quisquam consequatur ratione iure id officia cupiditate nulla</li>
       </ul>
-
     </div>
   </div>
 </header>
@@ -198,6 +201,45 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laborum mod
         <i class="icon-forward3 hide-m"></i> Next
       </span>
     </section>
+    <footer id="footer-manifesto">
+      <section id="manifesto">
+  <h3>Manifesto</h3>
+  <p>
+    I made this blog for those curious about coding in Python, Machine Learning, Blockchain,
+    those that don't have time for long tutorials or ridiculous bootcamps, 9-5 commuters with not a minute to spare,
+    or anybody that wants to know more about technologies but feels stumped by a lack of time or structure,
+    and keeps falling into bad habits.<br /><br />
 
+    My blog is designed to educate, inspire, and advise whenever and wherever we are in the world with
+    <strong>Python</strong>,
+    <strong>Machine Learning</strong>, and
+    <strong>Blockchain</strong> through articles aimed at specific financial, data-driven, and interesting topics.<br /><br />&#x1f4aa;<br /><br />
+    ~<a href="//instagram.com/nikolashkaparabolka/" target="_blank">Nicolas Dotto</a>, developer
+  </p>
+  <nav class="social">
+    <a class="tw" href="//twitter.com/nikolashkaparabolka/" target="_blank"><i class="icon-twitter"></i></a>
+    <a class="fb" href="//facebook.com/nikolashkaparabolka/" target="_blank"><i class="icon-facebook"></i></a>
+    <a
+    class="git"
+    href="#"
+    target="_blank"
+    rel="nofollow"
+    ><i class="icon-github"></i>
+    </a>
+    <a class="lk" href="//uk.linkedin.com/in/nicolas-dotto-a6b2a0b2/" target="_blank"><i class="icon-linkedin"></i></a>
+  </nav>
+</section>
+
+      <div id="links-footer">
+  <span>Nicolas Dotto &copy; 2019 — </span><a href="#">Privacy</a>
+</div>
+
+    </footer>
   </body>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  <script src="../../../../../../javascripts/scatter-scrollable.js"></script>
 </html>

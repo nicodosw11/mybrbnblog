@@ -20,13 +20,13 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/blog/en/2018/12/30/second-amazing-article/</loc>
-    <lastmod>2018-12-31T16:36:00+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/blog/en/2018/12/31/last-amazing-article/</loc>
-    <lastmod>2018-12-31T16:36:00+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -56,43 +56,49 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/blog/fr/2018/12/30/second-amazing-article/</loc>
-    <lastmod>2018-12-31T16:36:00+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/blog/fr/2018/12/31/last-amazing-article/</loc>
-    <lastmod>2018-12-31T16:36:01+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/finance/let-s-build-incredible-apps/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/finance/what-it-takes-to-be-a-developer/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/finance/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2020-02-24T11:45:02+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.nicolasdotto.com/lifestyle/2019/starting-is-hard/</loc>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/lifestyle/2019/starting-is-very-hard/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/lifestyle/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -176,13 +182,13 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/financial/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/financial/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -200,13 +206,13 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/latest/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2020-02-24T11:45:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/fr/latest/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2020-02-24T11:45:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -446,7 +452,7 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/latest/page/2/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2020-02-24T11:45:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -560,85 +566,79 @@
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/finance/tags/programming/</loc>
-    <lastmod>2019-01-14T16:08:12+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/finance/tags/python/</loc>
-    <lastmod>2019-01-14T16:08:12+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/finance/tags/ruby/</loc>
-    <lastmod>2019-01-14T16:08:12+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/finance/2018/</loc>
-    <lastmod>2019-01-14T16:07:52+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/finance/2018/06/</loc>
-    <lastmod>2019-01-14T16:07:52+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/finance/2018/06/30/</loc>
-    <lastmod>2019-01-14T16:07:52+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/lifestyle/tags/programming/</loc>
-    <lastmod>2019-01-14T16:08:22+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/lifestyle/tags/python/</loc>
-    <lastmod>2019-01-14T16:08:22+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/lifestyle/tags/mobile/</loc>
-    <lastmod>2019-01-14T16:08:22+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/lifestyle/2019/</loc>
-    <lastmod>2019-01-14T16:09:50+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/lifestyle/2019/01/</loc>
-    <lastmod>2019-01-14T16:09:50+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/lifestyle/2019/01/03/</loc>
-    <lastmod>2019-01-14T16:09:50+00:00</lastmod>
+    <lastmod>2019-05-31T17:32:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.nicolasdotto.com/blog/en/2018/02/10/first-amazing-article/</loc>
-    <lastmod>2018-12-28T18:03:03+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.nicolasdotto.com/lifestyle/2019/starting-is-hard/</loc>
-    <lastmod>2019-01-14T16:02:28+00:00</lastmod>
+    <lastmod>2020-02-24T11:45:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
