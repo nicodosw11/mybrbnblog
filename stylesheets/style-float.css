@@ -129,7 +129,7 @@ body {
   margin-bottom: 6rem; }
   .heading-primary--main {
     display: block;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 400;
     letter-spacing: 0.6rem;
     -webkit-animation-name: moveInLeft;
@@ -188,8 +188,8 @@ body {
 
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/brands/icomoon-d4a9dced.eot?6kp9r2");
-  src: url("../fonts/brands/icomoon-d4a9dced.eot?6kp9r2#iefix") format("embedded-opentype"), url("../fonts/brands/icomoon-02bef151.ttf?6kp9r2") format("truetype"), url("../fonts/brands/icomoon-8f3d9dbb.woff?6kp9r2") format("woff"), url("../fonts/brands/icomoon-7c1d8d36.svg?6kp9r2#icomoon") format("svg");
+  src: url("../fonts/brands/icomoon-5fbc18e9.eot?gr722c");
+  src: url("../fonts/brands/icomoon-5fbc18e9.eot?gr722c#iefix") format("embedded-opentype"), url("../fonts/brands/icomoon-1116dc12.ttf?gr722c") format("truetype"), url("../fonts/brands/icomoon-c85d18ff.woff?gr722c") format("woff"), url("../fonts/brands/icomoon-921354a7.svg?gr722c#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"],
@@ -213,7 +213,8 @@ body {
   content: "\e901"; }
 
 .icon-python:before {
-  content: "\e902"; }
+  content: "\e902";
+  color: #3776ab; }
 
 .icon-ruby:before {
   content: "\e903"; }
@@ -222,7 +223,45 @@ body {
   content: "\e904"; }
 
 .icon-javascript:before {
-  content: "\e905"; }
+  content: "\e905";
+  color: #f7df1e; }
+
+.icon-amazonaws:before {
+  content: "\e906"; }
+
+.icon-apacheairflow:before {
+  content: "\e907";
+  color: #007a88; }
+
+.icon-django:before {
+  content: "\e908"; }
+
+.icon-docker:before {
+  content: "\e909";
+  color: #1488c6; }
+
+.icon-flask:before {
+  content: "\e90a"; }
+
+.icon-kubernetes:before {
+  content: "\e90b";
+  color: #326ce5; }
+
+.icon-mongodb:before {
+  content: "\e90f";
+  color: #47a248; }
+
+.icon-mysql:before {
+  content: "\e90c";
+  color: #4479a1; }
+
+.icon-postgresql:before {
+  content: "\e90d";
+  color: #336791; }
+
+.icon-terraform:before {
+  content: "\e90e";
+  color: #623ce4; }
 
 .u-center-text {
   text-align: center !important; }
@@ -395,8 +434,8 @@ body {
       background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)), url(../images/top-view-of-paris-870b150c.jpg);
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../images/top-view-of-paris-870b150c.jpg); }
     .card__picture--blueish {
-      background-image: -webkit-gradient(linear, left top, right bottom, from(#2998ff), to(#5643fa)), url(../images/fashion-fa850efa.jpg);
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../images/fashion-fa850efa.jpg); }
+      background-image: -webkit-gradient(linear, left top, right bottom, from(#2998ff), to(#5643fa)), url(../images/reuters.jpeg);
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../images/reuters.jpeg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -958,8 +997,8 @@ body {
 
 .header {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.815)), to(rgba(40, 180, 133, 0.795))), url(../images/blockchain-small-2eb226b6.jpg);
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.815), rgba(40, 180, 133, 0.795)), url(../images/blockchain-small-2eb226b6.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.815)), to(rgba(40, 180, 133, 0.795))), url(../images/reutersbw.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.815), rgba(40, 180, 133, 0.795)), url(../images/reutersbw.jpeg);
   background-size: cover;
   background-position: bottom;
   position: relative; }
@@ -1168,6 +1207,7 @@ body {
       padding: 10rem 0; } }
 
 .section-contact {
+  margin-top: -10rem;
   padding: 15rem 0;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485));
   background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
