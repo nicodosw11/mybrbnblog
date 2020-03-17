@@ -15,7 +15,7 @@ body {
 
   &--main {
     display: block;
-    font-size: 6rem; // 60px
+    font-size: 5rem; // 6rem / 60px
     font-weight: 400;
     letter-spacing: 0.6rem; // 6px
 
@@ -87,11 +87,11 @@ body {
 
 @font-face {
   font-family: "icomoon";
-  src: url("/fonts/brands/icomoon.eot?6kp9r2");
-  src: url("/fonts/brands/icomoon.eot?6kp9r2#iefix") format("embedded-opentype"),
-    url("/fonts/brands/icomoon.ttf?6kp9r2") format("truetype"),
-    url("/fonts/brands/icomoon.woff?6kp9r2") format("woff"),
-    url("/fonts/brands/icomoon.svg?6kp9r2#icomoon") format("svg");
+  src: url("/fonts/brands/icomoon.eot?gr722c");
+  src: url("/fonts/brands/icomoon.eot?gr722c#iefix") format("embedded-opentype"),
+    url("/fonts/brands/icomoon.ttf?gr722c") format("truetype"),
+    url("/fonts/brands/icomoon.woff?gr722c") format("woff"),
+    url("/fonts/brands/icomoon.svg?gr722c#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -122,7 +122,7 @@ body {
 }
 .icon-python:before {
   content: "\e902";
-  // color: #3776ab;
+  color: #3776ab;
 }
 .icon-ruby:before {
   content: "\e903";
@@ -133,7 +133,44 @@ body {
 }
 .icon-javascript:before {
   content: "\e905";
-  // color: #f7df1e;
+  color: #f7df1e;
+}
+.icon-amazonaws:before {
+  content: "\e906";
+}
+.icon-apacheairflow:before {
+  content: "\e907";
+  color: #007a88;
+}
+.icon-django:before {
+  content: "\e908";
+}
+.icon-docker:before {
+  content: "\e909";
+  color: #1488c6;
+}
+.icon-flask:before {
+  content: "\e90a";
+}
+.icon-kubernetes:before {
+  content: "\e90b";
+  color: #326ce5;
+}
+.icon-mongodb:before {
+  content: "\e90f";
+  color: #47a248;
+}
+.icon-mysql:before {
+  content: "\e90c";
+  color: #4479a1;
+}
+.icon-postgresql:before {
+  content: "\e90d";
+  color: #336791;
+}
+.icon-terraform:before {
+  content: "\e90e";
+  color: #623ce4;
 }
 
 
