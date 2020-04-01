@@ -1,5 +1,5 @@
 set :site_url, "http://www.nicolasdotto.com"
-set :site_description, "Nicolas Dotto London Based Freelance Web Developer"
+set :site_description, "Nicolas Dotto Python Developer and Business Analyst"
 
 # Search_Engine_Sitemap
 set :url_root, 'http://www.nicolasdotto.com'
