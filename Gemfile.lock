@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/manastech/middleman-search.git
+  remote: https://github.com/manastech/middleman-search.git
   revision: ed9e5254bb554988c755fc40238d9e9f67b20abe
   specs:
     middleman-search (0.10.0)
@@ -15,8 +15,8 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.5.1)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     autoprefixer-rails (7.1.2.3)
       execjs
     backports (3.8.0)
@@ -129,7 +129,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.11.2)
     ptools (1.3.4)
-    public_suffix (2.0.5)
+    public_suffix (5.0.0)
     rack (2.0.8)
     rack-livereload (0.3.16)
       rack
